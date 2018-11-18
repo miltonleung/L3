@@ -1,0 +1,224 @@
+{'name': 'San Francisco, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/san-francisco-software-engineer-salary-SRCH_IL.0,13_IM759_KO14,31.htm'}
+{'name': 'New York City, NY', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/new-york-city-software-engineer-salary-SRCH_IL.0,13_IM615_KO14,31.htm'}
+{'name': 'San Jose, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/san-jose-software-engineer-salary-SRCH_IL.0,8_IM761_KO9,26.htm'}
+{'name': 'Los Angeles, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/los-angeles-software-engineer-salary-SRCH_IL.0,11_IM508_KO12,29.htm'}
+{'name': 'Seattle, WA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/seattle-software-engineer-salary-SRCH_IL.0,7_IM781_KO8,25.htm'}
+{'name': 'Boston, MA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/boston-software-engineer-salary-SRCH_IL.0,6_IM109_KO7,24.htm'}
+{'name': 'Chicago, IL', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/chicago-software-engineer-salary-SRCH_IL.0,7_IM167_KO8,25.htm'}
+{'name': 'Austin, TX', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/austin-software-engineer-salary-SRCH_IL.0,6_IM60_KO7,24.htm'}
+{'name': 'Toronto, ON, Canada', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/toronto-software-engineer-salary-SRCH_IL.0,7_IM976_KO8,25.htm'}
+{'name': 'San Diego, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/san-diego-software-engineer-salary-SRCH_IL.0,9_IM758_KO10,27.htm'}
+{'name': 'Dallas-Fort Worth, TX', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/dallas-software-engineer-salary-SRCH_IL.0,6_IM218_KO7,24.htm'}
+{'name': 'Washington, DC ', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/washington-dc-software-engineer-salary-SRCH_IL.0,13_IM911_KO14,31.htm'}
+{'name': 'Portland, OR', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/portland-software-engineer-salary-SRCH_IL.0,8_IM700_KO9,26.htm'}
+{'name': 'Atlanta, GA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/atlanta-software-engineer-salary-SRCH_IL.0,7_IM52_KO8,25.htm'}
+{'name': 'Denver, CO', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/denver-software-engineer-salary-SRCH_IL.0,6_IM234_KO7,24.htm'}
+{'name': 'Raleigh-Durham, NC', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/raleigh-engineer-salary-SRCH_IL.0,7_IM714_KO8,16.htm'}
+{'name': 'Phoenix, AZ', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/phoenix-software-engineer-salary-SRCH_IL.0,7_IM678_KO8,25.htm'}
+{'name': 'Vancouver, BC, Canada', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/vancouver-software-engineer-salary-SRCH_IL.0,9_IM972_KO10,27.htm'}
+{'name': 'Pittsburgh, PA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/pittsburgh-software-engineer-salary-SRCH_IL.0,10_IM684_KO11,28.htm'}
+{'name': 'Mountain View, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salary/Google-Software-Engineer-Mountain-View-Salaries-EJI_IE9079.0,6_KO7,24_IL.25,38_IC1147431.htm'}
+{'name': 'Houston, TX', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/houston-senior-software-engineer-salary-SRCH_IL.0,7_IM394_KO8,32.htm'}
+{'name': 'Palo Alto, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/palo-alto-software-engineer-salary-SRCH_IL.0,9_IC1147434_KO10,27.htm'}
+{'name': 'Philadelphia, PA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/philadelphia-senior-software-engineer-salary-SRCH_IL.0,12_IM676_KO13,37.htm'}
+{'name': 'Boulder, CO', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/boulder-software-engineer-salary-SRCH_IL.0,7_IM110_KO8,25.htm'}
+{'name': 'Miami-Fort Lauderdale, FL', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/fort-lauderdale-software-engineer-salary-SRCH_IL.0,15_IC1154160_KO16,33.htm'}
+{'name': 'Salt Lake City, UT', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/salt-lake-city-engineer-salary-SRCH_IL.0,14_IM755_KO15,23.htm'}
+{'name': 'San Antonio, TX', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/san-antonio-software-engineer-salary-SRCH_IL.0,11_IM757_KO12,29.htm'}
+{'name': 'Montreal, QC, Canada', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/montreal-software-engineer-salary-SRCH_IL.0,8_IM990_KO9,26.htm'}
+{'name': 'Baltimore, MD', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/baltimore-software-engineer-salary-SRCH_IL.0,9_IM63_KO10,27.htm'}
+{'name': 'Detroit, MI', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/detroit-software-engineer-salary-SRCH_IL.0,7_IM236_KO8,25.htm'}
+{'name': 'Ottawa, ON, Canada', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/ottawa-software-engineer-salary-SRCH_IL.0,6_IM981_KO7,24.htm'}
+{'name': 'Minneapolis-St. Paul, MN', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/minneapolis-engineer-salary-SRCH_IL.0,11_IM567_KO12,20.htm'}
+{'name': 'Santa Barbara, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/santa-barbara-senior-software-engineer-salary-SRCH_IL.0,13_IM766_KO14,38.htm'}
+{'name': 'Columbus, OH', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/columbus-software-engineer-salary-SRCH_IL.0,8_IM196_KO9,26.htm'}
+{'name': 'Charlotte, NC', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/charlotte-software-engineer-salary-SRCH_IL.0,9_IM162_KO10,27.htm'}
+{'name': 'Orlando, FL', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/orlando-software-engineer-salary-SRCH_IL.0,7_IM645_KO8,25.htm'}
+{'name': 'Kitchener, ON, Canada', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/kitchener-software-engineer-salary-SRCH_IL.0,9_IM980_KO10,27.htm'}
+{'name': 'Champaign, IL', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/champaign-software-engineer-salary-SRCH_IL.0,9_IM158_KO10,27.htm'}
+{'name': 'Tampa, FL', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/tampa-software-engineer-salary-SRCH_IL.0,5_IM850_KO6,23.htm'}
+{'name': 'New Orleans, LA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/new-orleans-software-engineer-salary-SRCH_IL.0,11_IM612_KO12,29.htm'}
+{'name': 'Las Vegas, NV', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/las-vegas-software-engineer-salary-SRCH_IL.0,9_IM477_KO10,27.htm'}
+{'name': 'Napa, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/napa-software-engineer-salary-SRCH_IL.0,4_IM602_KO5,22.htm'}
+{'name': 'San Mateo, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/san-mateo-software-engineer-salary-SRCH_IL.0,9_IC1147406_KO10,27.htm'}
+{'name': 'Sacramento, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/sacramento-software-engineer-salary-SRCH_IL.0,10_IM747_KO11,28.htm'}
+{'name': 'Redwood City, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/redwood-city-software-engineer-salary-SRCH_IL.0,12_IC1147394_KO13,30.htm'}
+{'name': 'Trenton, NJ', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/trenton-software-engineer-salary-SRCH_IL.0,7_IM866_KO8,25.htm'}
+{'name': 'Albany, NY', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/albany-software-engineer-salary-SRCH_IL.0,6_IM13_KO7,24.htm'}
+{'name': 'Boise, ID', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/boise-software-engineer-salary-SRCH_IL.0,5_IM104_KO6,23.htm'}
+{'name': 'Provo, UT', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/provo-software-engineer-salary-SRCH_IL.0,5_IM708_KO6,23.htm'}
+{'name': 'Sunnyvale, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/sunnyvale-software-engineer-salary-SRCH_IL.0,9_IC1147442_KO10,27.htm'}
+{'name': 'Omaha, NE', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/omaha-software-engineer-salary-SRCH_IL.0,5_IM640_KO6,23.htm'}
+{'name': 'Hartford, CT', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/hartford-software-engineer-salary-SRCH_IL.0,8_IM372_KO9,26.htm'}
+{'name': 'St. Louis, MO', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/st-louis-software-engineer-salary-SRCH_IL.0,8_IM823_KO9,26.htm'}
+{'name': 'Kansas City, MO', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/kansas-city-software-engineer-salary-SRCH_IL.0,11_IM437_KO12,29.htm'}
+{'name': 'Madison, WI', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/madison-software-engineer-salary-SRCH_IL.0,7_IM518_KO8,25.htm'}
+{'name': 'Milwaukee, WI', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/milwaukee-senior-software-engineer-salary-SRCH_IL.0,9_IM564_KO10,34.htm'}
+{'name': 'Springfield, MA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/springfield-software-engineer-salary-SRCH_IL.0,11_IM817_KO12,29.htm'}
+{'name': 'Coos Bay, OR', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/coos-bay-software-engineer-salary-SRCH_IL.0,8_IM200_KO9,26.htm'}
+{'name': 'Louisville, KY', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/louisville-senior-software-engineer-salary-SRCH_IL.0,10_IM509_KO11,35.htm'}
+{'name': 'Indianapolis, IN', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/indianapolis-software-engineer-salary-SRCH_IL.0,12_IM407_KO13,30.htm'}
+{'name': 'Worcester, MA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/worcester-senior-software-engineer-salary-SRCH_IL.0,9_IM941_KO10,34.htm'}
+{'name': 'Tucson, AZ', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/tucson-software-engineer-salary-SRCH_IL.0,6_IM869_KO7,24.htm'}
+{'name': 'Burlington, VT', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/burlington-software-engineer-salary-SRCH_IL.0,10_IM133_KO11,28.htm'}
+{'name': 'Rochester, NY', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/rochester-software-engineer-salary-SRCH_IL.0,9_IM733_KO10,27.htm'}
+{'name': 'Oklahoma City, OK', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/oklahoma-city-software-engineer-salary-SRCH_IL.0,13_IM637_KO14,31.htm'}
+{'name': 'Buffalo, NY', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/buffalo-software-engineer-salary-SRCH_IL.0,7_IM129_KO8,25.htm'}
+{'name': 'Fort Collins, CO', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/fort-collins-software-engineer-salary-SRCH_IL.0,12_IM306_KO13,30.htm'}
+{'name': 'Santa Monica, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/santa-monica-software-engineer-salary-SRCH_IL.0,12_IC1146873_KO13,30.htm'}
+{'name': 'Ann Arbor, MI', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/ann-arbor-software-engineer-salary-SRCH_IL.0,9_IM37_KO10,27.htm'}
+{'name': 'Manchester, NH', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/manchester-engineer-salary-SRCH_IL.0,10_IM522_KO11,19.htm'}
+{'name': 'Memphis, TN', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/memphis-software-engineer-salary-SRCH_IL.0,7_IM551_KO8,25.htm'}
+{'name': 'Dayton, OH', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/dayton-software-engineer-salary-SRCH_IL.0,6_IM225_KO7,24.htm'}
+{'name': 'Jacksonville, FL', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/jacksonville-software-engineer-salary-SRCH_IL.0,12_IM416_KO13,30.htm'}
+{'name': 'Calgary, AB, Canada', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/calgary-software-engineer-salary-SRCH_IL.0,7_IM970_KO8,25.htm'}
+{'name': 'Santa Cruz, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/santa-cruz-software-engineer-salary-SRCH_IL.0,10_IM767_KO11,28.htm'}
+{'name': 'Cambridge, MA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/cambridge-software-engineer-salary-SRCH_IL.0,9_IC1154545_KO10,27.htm'}
+{'name': 'Ames, IA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/ames-software-engineer-salary-SRCH_IL.0,4_IM30_KO5,22.htm'}
+{'name': 'Raleigh, NC', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/raleigh-software-engineer-salary-SRCH_IL.0,7_IM714_KO8,25.htm'}
+{'name': 'Tallahassee, FL', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/tallahassee-software-engineer-salary-SRCH_IL.0,11_IM848_KO12,29.htm'}
+{'name': 'Santa Fe, NM', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/santa-fe-software-engineer-salary-SRCH_IL.0,8_IM768_KO9,26.htm'}
+{'name': 'Bridgeport, CT', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/bridgeport-software-engineer-salary-SRCH_IL.0,10_IM119_KO11,28.htm'}
+{'name': 'Merced, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/merced-software-engineer-salary-SRCH_IL.0,6_IM553_KO7,24.htm'}
+{'name': 'Wichita, KS', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/wichita-software-engineer-salary-SRCH_IL.0,7_IM927_KO8,25.htm'}
+{'name': 'Kingston, NY', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/kingston-software-engineer-salary-SRCH_IL.0,8_IM450_KO9,26.htm'}
+{'name': 'Albuquerque, NM', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/albuquerque-software-engineer-salary-SRCH_IL.0,11_IM17_KO12,29.htm'}
+{'name': 'Santa Clara, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/santa-clara-software-engineer-salary-SRCH_IL.0,11_IC1147439_KO12,29.htm'}
+{'name': 'Columbus, GA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/columbus-software-engineer-salary-SRCH_IL.0,8_IM192_KO9,26.htm'}
+{'name': 'Halifax, NS, Canada', 'avg_swe_salary': 'https://www.glassdoor.ca/Salaries/halifax-engineer-salary-SRCH_IL.0,7_IM984_KO8,16.htm'}
+{'name': 'Cleveland, OH', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/cleveland-software-engineer-salary-SRCH_IL.0,9_IM179_KO10,27.htm'}
+{'name': 'Hawaiian Islands', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/hawaiian-islands-computer-programmer-salary-SRCH_IL.0,16_IM388_KO17,36.htm'}
+{'name': 'Fayetteville, AR', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/fayetteville-software-engineer-salary-SRCH_IL.0,12_IM294_KO13,30.htm'}
+{'name': 'Des Moines, IA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/des-moines-software-engineer-salary-SRCH_IL.0,10_IM235_KO11,28.htm'}
+{'name': 'Colorado Springs, CO', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/colorado-springs-software-engineer-salary-SRCH_IL.0,16_IM188_KO17,34.htm'}
+{'name': 'El Paso, TX', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/el-paso-senior-software-engineer-salary-SRCH_IL.0,7_IM265_KO8,32.htm'}
+{'name': 'Puerto Rico', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/puerto-rico-software-engineer-salary-SRCH_IL.0,11_IM762_KO12,29.htm'}
+{'name': 'New Haven, CT', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/connecticut-software-engineer-salary-SRCH_IL.0,11_IS2697_KO12,29.htm'}
+{'name': 'Jesup, GA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/jesup-software-engineer-salary-SRCH_IL.0,5_IM427_KO6,23.htm'}
+{'name': 'Providence, RI', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/providence-senior-engineer-salary-SRCH_IL.0,10_IM707_KO11,26.htm'}
+{'name': 'Concord, NH', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/concord-software-engineer-salary-SRCH_IL.0,7_IM197_KO8,25.htm'}
+{'name': 'Brooklyn, NY', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/brooklyn-software-engineer-salary-SRCH_IL.0,8_IC1132200_KO9,26.htm'}
+{'name': 'Riverside, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/riverside-software-engineer-salary-SRCH_IL.0,9_IM727_KO10,27.htm'}
+{'name': 'Sarasota, FL', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/sarasota-software-engineer-salary-SRCH_IL.0,8_IM771_KO9,26.htm'}
+{'name': 'Knoxville, TN', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/knoxville-senior-software-engineer-salary-SRCH_IL.0,9_IM455_KO10,34.htm'}
+{'name': 'Allentown, PA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/allentown-software-engineer-salary-SRCH_IL.0,9_IM23_KO10,27.htm'}
+{'name': 'Richmond, VA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/richmond-software-engineer-salary-SRCH_IL.0,8_IM724_KO9,26.htm'}
+{'name': 'Scranton, PA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/scranton-software-engineer-salary-SRCH_IL.0,8_IM778_KO9,26.htm'}
+{'name': 'Norfolk, VA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/norfolk-engineer-salary-SRCH_IL.0,7_IM896_KO8,16.htm'}
+{'name': 'Birmingham, AL', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/birmingham-software-engineer-salary-SRCH_IL.0,10_IM93_KO11,28.htm'}
+{'name': 'Charleston, SC', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/charleston-software-engineer-salary-SRCH_IL.0,10_IM161_KO11,28.htm'}
+{'name': 'Victoria, BC, Canada', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/victoria-software-engineer-salary-SRCH_IL.0,8_IM973_KO9,26.htm'}
+{'name': 'San Luis Obispo, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/san-luis-obispo-software-engineer-salary-SRCH_IL.0,15_IM763_KO16,33.htm'}
+{'name': 'Cambridge, MD', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/cambridge-software-engineer-salary-SRCH_IL.0,9_IM137_KO10,27.htm'}
+{'name': 'Ukiah, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/ukiah-software-engineer-salary-SRCH_IL.0,5_IM877_KO6,23.htm'}
+{'name': 'Eugene, OR', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/eugene-software-engineer-salary-SRCH_IL.0,6_IM280_KO7,24.htm'}
+{'name': 'Campbell, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/campbell-software-engineer-salary-SRCH_IL.0,8_IC1147420_KO9,26.htm'}
+{'name': 'Yakima, WA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/yakima-software-engineer-salary-SRCH_IL.0,6_IM943_KO7,24.htm'}
+{'name': 'Bozeman, MT', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/bozeman-software-engineer-salary-SRCH_IL.0,7_IM112_KO8,25.htm'}
+{'name': 'Pleasanton, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/pleasanton-software-engineer-salary-SRCH_IL.0,10_IC1147390_KO11,28.htm'}
+{'name': 'Charlottesville, VA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/charlottesville-software-engineer-salary-SRCH_IL.0,15_IM163_KO16,33.htm'}
+{'name': 'Miami, OK', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/miami-software-engineer-salary-SRCH_IL.0,5_IM557_KO6,23.htm'}
+{'name': 'Burbank, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/burbank-software-engineer-salary-SRCH_IL.0,7_IC1146756_KO8,25.htm'}
+{'name': 'San Bruno, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/san-bruno-software-engineer-salary-SRCH_IL.0,9_IC1147399_KO10,27.htm'}
+{'name': 'Irvine, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/irvine-software-engineer-salary-SRCH_IL.0,6_IC1146798_KO7,24.htm'}
+{'name': 'Jonesboro, AR', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/jonesboro-software-engineer-salary-SRCH_IL.0,9_IM430_KO10,27.htm'}
+{'name': 'Büren, Nordrhein-Westfalen (Germany)', 'avg_swe_salary': 'https://www.glassdoor.com/Job/arnsberg-software-engineer-jobs-SRCH_IL.0,8_IC2694440_KO9,26.htm'}
+{'name': 'Weston, FL', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/weston-software-engineer-salary-SRCH_IL.0,6_IC1166236_KO7,24.htm'}
+{'name': 'Needham, MA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/needham-software-engineer-salary-SRCH_IL.0,7_IC1154631_KO8,25.htm'}
+{'name': 'West Hollywood, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/west-hollywood-senior-software-engineer-salary-SRCH_IL.0,14_IC1146909_KO15,39.htm'}
+{'name': 'Daytona Beach, FL', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/daytona-beach-software-engineer-salary-SRCH_IL.0,13_IM232_KO14,31.htm'}
+{'name': 'Fort Wayne, IN', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/fort-wayne-software-engineer-salary-SRCH_IL.0,10_IM316_KO11,28.htm'}
+{'name': 'Bloomington, IL', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/bloomington-software-engineer-salary-SRCH_IL.0,11_IM99_KO12,29.htm'}
+{'name': 'Stockholm, Stockholm (Sweden)', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/stockholm-software-engineer-salary-SRCH_IL.0,9_IM1136_KO10,27.htm'}
+{'name': 'Hawthorne, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/hawthorne-software-engineer-salary-SRCH_IL.0,9_IC1146793_KO10,27.htm'}
+{'name': 'Ottawa, ON', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/ottawa-software-engineer-salary-SRCH_IL.0,6_IM981_KO7,24.htm'}
+{'name': 'Los Gatos, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/los-gatos-software-engineer-salary-SRCH_IL.0,9_IC1147427_KO10,27.htm'}
+{'name': 'Norwalk, CT', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/norwalk-senior-software-engineer-salary-SRCH_IL.0,7_IC1148344_KO8,32.htm'}
+{'name': 'Fort Smith, AR', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/fort-smith-software-engineer-salary-SRCH_IL.0,10_IM313_KO11,28.htm'}
+{'name': 'Copenhagen (Denmark)', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/copenhagen-engineer-salary-SRCH_IL.0,10_IM958_KO11,19.htm'}
+{'name': 'Manchester, England (UK)', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/manchester-software-engineer-salary-SRCH_IL.0,10_IM1044_KO11,28.htm'}
+{'name': 'Montgomery, AL', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/montgomery-software-engineer-salary-SRCH_IL.0,10_IM577_KO11,28.htm'}
+{'name': 'Grand Rapids, MI', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/grand-rapids-software-engineer-salary-SRCH_IL.0,12_IM343_KO13,30.htm'}
+{'name': 'Huntsville, AL', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/huntsville-software-engineer-salary-SRCH_IL.0,10_IM400_KO11,28.htm'}
+{'name': 'Iowa City, IA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/iowa-city-software-engineer-salary-SRCH_IL.0,9_IM409_KO10,27.htm'}
+{'name': 'Harrisburg, PA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/harrisburg-software-engineer-salary-SRCH_IL.0,10_IM369_KO11,28.htm'}
+{'name': 'Cincinnati, OH', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/cincinnati-software-engineer-salary-SRCH_IL.0,10_IM170_KO11,28.htm'}
+{'name': 'Naples, FL', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/naples-software-engineer-salary-SRCH_IL.0,6_IM603_KO7,24.htm'}
+{'name': 'Nashville, TN', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/nashville-software-engineer-salary-SRCH_IL.0,9_IM604_KO10,27.htm'}
+{'name': 'Lexington, KY', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/lexington-software-engineer-salary-SRCH_IL.0,9_IM494_KO10,27.htm'}
+{'name': 'Syracuse, NY', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/syracuse-software-engineer-salary-SRCH_IL.0,8_IM845_KO9,26.htm'}
+{'name': 'Barre, VT', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/barre-software-engineer-salary-SRCH_IL.0,5_IM67_KO6,23.htm'}
+{'name': 'La Crosse, WI', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/la-crosse-software-engineer-salary-SRCH_IL.0,9_IM458_KO10,27.htm'}
+{'name': 'Eureka, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/eureka-software-engineer-salary-SRCH_IL.0,6_IM281_KO7,24.htm'}
+{'name': 'Lakeland, FL', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/lakeland-engineer-salary-SRCH_IL.0,8_IM468_KO9,17.htm'}
+{'name': 'Medford, OR', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/medford-software-engineer-salary-SRCH_IL.0,7_IM550_KO8,25.htm'}
+{'name': 'Tulsa, OK', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/tulsa-software-engineer-salary-SRCH_IL.0,5_IM871_KO6,23.htm'}
+{'name': 'Greensboro, NC', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/greensboro-software-engineer-salary-SRCH_IL.0,10_IM351_KO11,28.htm'}
+{'name': 'Bellevue, WA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/bellevue-software-engineer-salary-SRCH_IL.0,8_IC1150442_KO9,26.htm'}
+{'name': 'Petaluma, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/petaluma-software-engineer-salary-SRCH_IL.0,8_IC1147515_KO9,26.htm'}
+{'name': 'Fargo, ND', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/fargo-senior-software-engineer-salary-SRCH_IL.0,5_IM289_KO6,30.htm'}
+{'name': 'Redmond, WA', 'avg_swe_salary': 'https://www.glassdoor.com/Job/redmond-software-engineer-jobs-SRCH_IL.0,7_IC1150499_KO8,25.htm'}
+{'name': 'Bend, OR', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/bend-software-engineer-salary-SRCH_IL.0,4_IM85_KO5,22.htm'}
+{'name': 'Natick, MA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/natick-software-engineer-salary-SRCH_IL.0,6_IC1154630_KO7,24.htm'}
+{'name': 'Oakland, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/oakland-senior-software-engineer-salary-SRCH_IL.0,7_IC1147380_KO8,32.htm'}
+{'name': 'Lausanne (Switzerland)', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/lausanne-software-engineer-salary-SRCH_IL.0,8_IM1693_KO9,26.htm'}
+{'name': 'Stamford, CT', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/stamford-software-engineer-salary-SRCH_IL.0,8_IC1148355_KO9,26.htm'}
+{'name': 'Salinas, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/salinas-software-engineer-salary-SRCH_IL.0,7_IM752_KO8,25.htm'}
+{'name': 'Reno, NV', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/reno-software-engineer-salary-SRCH_IL.0,4_IM721_KO5,22.htm'}
+{'name': 'Edmonton, AB, Canada', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/edmonton-software-engineer-salary-SRCH_IL.0,8_IM969_KO9,26.htm'}
+{'name': 'Columbia, SC', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/columbia-software-engineer-salary-SRCH_IL.0,8_IM190_KO9,26.htm'}
+{'name': 'Lancaster, PA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/lancaster-software-engineer-salary-SRCH_IL.0,9_IM470_KO10,27.htm'}
+{'name': 'Idaho Falls, ID', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/idaho-falls-software-engineer-salary-SRCH_IL.0,11_IM405_KO12,29.htm'}
+{'name': 'Piedmont, SC', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/piedmont-senior-software-engineer-salary-SRCH_IL.0,8_IC1155203_KO9,33.htm'}
+{'name': 'Holmdel, NJ', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/holmdel-software-engineer-salary-SRCH_IL.0,7_IC1126810_KO8,25.htm'}
+{'name': 'Nottingham, England (UK)', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/nottingham-software-engineer-salary-SRCH_IL.0,10_IM1183_KO11,28.htm'}
+{'name': 'Binghamton, NY', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/binghamton-software-engineer-salary-SRCH_IL.0,10_IM92_KO11,28.htm'}
+{'name': 'Canton, OH', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/canton-software-engineer-salary-SRCH_IL.0,6_IM143_KO7,24.htm'}
+{'name': 'Fredericton, NB, Canada', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/fredericton-software-engineer-salary-SRCH_IL.0,11_IM987_KO12,29.htm'}
+{'name': 'Armonk, NY', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/armonk-software-engineer-salary-SRCH_IL.0,6_IC1132170_KO7,24.htm'}
+{'name': 'Lawrence, KS', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/lawrence-software-engineer-salary-SRCH_IL.0,8_IM480_KO9,26.htm'}
+{'name': 'Baton Rouge, LA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/baton-rouge-engineer-salary-SRCH_IL.0,11_IM72_KO12,20.htm'}
+{'name': 'Rochester, MN', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/rochester-senior-software-engineer-salary-SRCH_IL.0,9_IM732_KO10,34.htm'}
+{'name': 'Lansing, MI', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/lansing-software-engineer-salary-SRCH_IL.0,7_IM472_KO8,25.htm'}
+{'name': 'Lincoln, NE', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/lincoln-senior-software-engineer-salary-SRCH_IL.0,7_IM498_KO8,32.htm'}
+{'name': 'Portland, ME', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/portland-software-engineer-salary-SRCH_IL.0,8_IM700_KO9,26.htm'}
+{'name': 'Monroe, LA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/monroe-software-engineer-salary-SRCH_IL.0,6_IM574_KO7,24.htm'}
+{'name': 'Duluth, MN', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/duluth-software-engineer-salary-SRCH_IL.0,6_IM247_KO7,24.htm'}
+{'name': 'Little Rock, AR', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/little-rock-software-engineer-salary-SRCH_IL.0,11_IM500_KO12,29.htm'}
+{'name': 'Vancouver, BC (Canada)', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/vancouver-software-engineer-salary-SRCH_IL.0,9_IM972_KO10,27.htm'}
+{'name': 'Foster City, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/foster-city-software-engineer-salary-SRCH_IL.0,11_IC1163997_KO12,29.htm'}
+{'name': 'Bakersfield, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/bakersfield-software-engineer-salary-SRCH_IL.0,11_IM62_KO12,29.htm'}
+{'name': 'Bloomington, IN', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/bloomington-software-engineer-salary-SRCH_IL.0,11_IM98_KO12,29.htm'}
+{'name': 'St. George, UT', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/saint-george-software-engineer-salary-SRCH_IL.0,12_IC3724218_KO13,30.htm'}
+{'name': 'Lubbock, TX', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/lubbock-software-engineer-salary-SRCH_IL.0,7_IM510_KO8,25.htm'}
+{'name': 'Kingsport, TN', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/kingsport-engineer-salary-SRCH_IL.0,9_IM449_KO10,18.htm'}
+{'name': 'Scottsdale, AZ', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/scottsdale-software-engineer-salary-SRCH_IL.0,10_IC1133911_KO11,28.htm'}
+{'name': 'Broomfield, CO', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/broomfield-software-engineer-salary-SRCH_IL.0,10_IC1148161_KO11,28.htm'}
+{'name': 'Menlo Park, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/menlo-park-software-engineer-salary-SRCH_IL.0,10_IC1147371_KO11,28.htm'}
+{'name': 'Redlands, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/redlands-software-engineer-salary-SRCH_IL.0,8_IC1147135_KO9,26.htm'}
+{'name': 'Verona, WI', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/verona-software-engineer-salary-SRCH_IL.0,6_IC1133488_KO7,24.htm'}
+{'name': 'Winona, MN', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/winona-software-engineer-salary-SRCH_IL.0,6_IM937_KO7,24.htm'}
+{'name': 'Green Bay, WI', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/green-bay-engineer-salary-SRCH_IL.0,9_IM349_KO10,18.htm'}
+{'name': 'Tempe, AZ', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/tempe-software-engineer-salary-SRCH_IL.0,5_IC1133917_KO6,23.htm'}
+{'name': 'Marina del Rey, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/marina-del-rey-software-engineer-salary-SRCH_IL.0,14_IC1146825_KO15,32.htm'}
+{'name': 'Waltham, MA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/waltham-software-engineer-salary-SRCH_IL.0,7_IC1154703_KO8,25.htm'}
+{'name': 'Leesburg, VA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/leesburg-software-engineer-salary-SRCH_IL.0,8_IC1130376_KO9,26.htm'}
+{'name': 'Akron, OH', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/akron-software-engineer-salary-SRCH_IL.0,5_IM9_KO6,23.htm'}
+{'name': 'York-Hanover, PA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/york-hanover-software-engineer-salary-SRCH_IL.0,12_IM947_KO13,30.htm'}
+{'name': 'St. Cloud, MN', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/st-cloud-senior-software-engineer-salary-SRCH_IL.0,8_IM820_KO9,33.htm'}
+{'name': 'Beaumont, TX', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/beaumont-software-engineer-salary-SRCH_IL.0,8_IM77_KO9,26.htm'}
+{'name': 'Mc Lean, VA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/mc-lean-software-engineer-salary-SRCH_IL.0,7_IC1130384_KO8,25.htm'}
+{'name': 'Macon, GA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/macon-software-engineer-salary-SRCH_IL.0,5_IM515_KO6,23.htm'}
+{'name': 'Amsterdam, NY', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/amsterdam-senior-software-engineer-salary-SRCH_IL.0,9_IM31_KO10,34.htm'}
+{'name': 'Appleton, WI', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/appleton-software-engineer-salary-SRCH_IL.0,8_IM39_KO9,26.htm'}
+{'name': 'East Palo Alto, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/east-palo-alto-software-engineer-salary-SRCH_IL.0,14_IC1164026_KO15,32.htm'}
+{'name': 'Pasadena, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/pasadena-software-engineer-salary-SRCH_IL.0,8_IC1146850_KO9,26.htm'}
+{'name': 'Vejle (Denmark)', 'avg_swe_salary': 'https://www.glassdoor.com/Job/vejle-engineer-jobs-SRCH_IL.0,5_IC2210280_KO6,14.htm'}
+{'name': 'Daniel Island, SC', 'avg_swe_salary': 'https://www.glassdoor.com/Salary/Benefitfocus-Daniel-Island-Salaries-EI_IE122586.0,12_IL.13,26_IC1166699.htm'}
+{'name': 'Kirkland, WA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/kirkland-software-engineer-salary-SRCH_IL.0,8_IC1150472_KO9,26.htm'}
+{'name': 'Sydney (Australia)', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/sydney-software-engineer-salary-SRCH_IL.0,6_IM962_KO7,24.htm'}
+{'name': 'Cupertino, CA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/cupertino-software-engineer-salary-SRCH_IL.0,9_IC1147422_KO10,27.htm'}
+{'name': 'Reston, VA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/reston-software-engineer-salary-SRCH_IL.0,6_IC1130404_KO7,24.htm'}
+{'name': 'Lehi, UT', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/lehi-software-engineer-salary-SRCH_IL.0,4_IC1128238_KO5,22.htm'}
+{'name': 'Summerville, GA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/summerville-software-engineer-salary-SRCH_IL.0,11_IM840_KO12,29.htm'}
+{'name': 'McLean, VA', 'avg_swe_salary': 'https://www.glassdoor.com/Salaries/mclean-software-engineer-salary-SRCH_IL.0,6_IC1158535_KO7,24.htm'}
