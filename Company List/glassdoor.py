@@ -4,7 +4,7 @@ import requests
 import json
 import time
 
-companiesFile = open('companies_test.json')
+companiesFile = open('companies.json')
 companies = json.load(companiesFile)
 
 companiesWithoutUrl = ['Cofense (PhishMe)', 'Facebook', 'Spotify']
@@ -50,7 +50,7 @@ for company, values in companies.items():
 		print("no url found for:" + company)
 		companiesWithoutUrl.append(company)
 
-	with open('companies_test.json', 'w') as outfile:
+	with open('companies.json', 'w') as outfile:
 		print("writing to file...")
 		json.dump(companies, outfile)
 	time.sleep(5)
