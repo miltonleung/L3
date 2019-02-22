@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="description" content="" />
+            <script src="https://www.numbeo.com/common/numbeo_standard.js"></script>
+    <link type="text/css" href="https://www.numbeo.com/common/css/redmond/jquery-ui-1.10.3.custom.min.css" rel="Stylesheet" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.numbeo.com/favicon.ico" />
+    <script src="https://www.numbeo.com/common/js/jquery-1.10.2.min.js"></script>
+    <script src="https://www.numbeo.com/common/js/jquery-ui-1.10.3.custom.min.js"></script>
+   <script src='https://www.google.com/jsapi'></script>
+    <link rel="stylesheet" type="text/css" href="https://www.numbeo.com/common/style.css" />
+    <link rel="stylesheet" type="text/css" href="https://www.numbeo.com/common/style_desktop.css" />
+<script>
+$(document).ready(function(){
+	$("#nav-one li").hover(
+		function(){ $("ul", this).fadeIn("fast"); },
+		function() { }
+	);
+	if (document.all) {
+		$("#nav-one li").hoverClass ("sfHover");
+	}
+});
+$.fn.hoverClass = function(c) {
+	return this.each(function(){
+		$(this).hover(
+			function() { $(this).addClass(c);  },
+			function() { $(this).removeClass(c); }
+		);
+	});
+};
+</script>
+<link rel="stylesheet" type="text/css" href="https://www.numbeo.com/common/css/datatables/dataTables.jqueryui.css"/>
+<link rel="stylesheet" type="text/css" href="https://www.numbeo.com/common/css/datatables/datables_custom.css"/>
+<script src="https://www.numbeo.com/common/js/jquery.dataTables.js"></script>
+<script src="https://www.numbeo.com/common/js/dataTables.jqueryui.js"></script>
+
+  <script>
+
+    function checkControls() {
+
+      enableIfElementsHaveSomeValue("calculate", /* to check */ "itemId", "displayCurrency");
+
+    }
+
+  </script>
+
+<link rel="canonical" href="https://www.numbeo.com/cost-of-living/region_prices_by_city?itemId=105&amp;region=021" />
+  <title>Northern America: Prices by City of Average Monthly Net Salary (After Tax) (Salaries And Financing)</title>
+
+</head>
+
+<body>
+
+<aside><div class="top_ad">
+<div class="innerWidth">
+<div style="display: block; height: 90px; width: 728px; margin: 0 auto;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ad_in_header3 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8993465169534557"
+     data-ad-slot="7618322317"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div>
+</div>
+</div>
+</aside><div class="innerWidth">
+<div class="logo-and-upper-ad">
+<table style="border-spacing: 0px; width: 100%; margin-top: 7px; margin-bottom: 1px;" >
+<tr>
+<td style="padding-top: 0px; padding-bottom: 7px; vertical-align: bottom;">
+<a href="https://www.numbeo.com/cost-of-living/" style="border: 0; text-decoration:none;">
+<img src="https://www.numbeo.com/images/numbeo_icon.svg" style="height: 62px; vertical-align: bottom; border: 0;" alt="" /><img src="https://www.numbeo.com/images/numbeo_text.svg" style="height: 34px; margin-left: 1em; margin-bottom: 8px; vertical-align: bottom; border: 0;" alt="NUMBEO" /></a>
+</td>
+<td style="padding-left:8px; padding-top: 0px; padding-bottom: 0px; vertical-align: middle; width: 680px; text-align: right;" >
+<div style="display: inline-block; width: 100%; margin-top: 10px; margin-bottom: 10px; text-align: right; vertical-align: bottom">
+<nav style="display: inline-block; vertical-align: middle; padding-left: 0.5em;">
+<div class="standard_margin_inlineblock">
+<select name="city_result_switcher" id="city_result_switcher"  onchange="window.location = this.value;" class="result_switcher ">
+<option value="" selected="selected">What are you looking for?</option>
+<option value="https://www.numbeo.com/cost-of-living/">Cost of Living</option>
+<option value="https://www.numbeo.com/crime/">Crime</option>
+<option value="https://www.numbeo.com/climate/">Climate</option>
+<option value="https://www.numbeo.com/food-prices/">Food Prices</option>
+<option value="https://www.numbeo.com/gas-prices/">Gas Prices</option>
+<option value="https://www.numbeo.com/health-care/">Health Care</option>
+<option value="https://www.numbeo.com/pollution/">Pollution</option>
+<option value="https://www.numbeo.com/property-investment/">Property Prices</option>
+<option value="https://www.numbeo.com/quality-of-life/">Quality of Life</option>
+<option value="https://www.numbeo.com/taxi-fare/">Taxi Fare</option>
+<option value="https://www.numbeo.com/traffic/">Traffic</option>
+</select>
+</div>
+</nav>
+<nav style="display: inline-block; vertical-align: middle;">
+<div class="standard_margin_inlineblock" >      <form action="https://www.numbeo.com/common/dispatcher.jsp" method="get" id="menu_dispatch_form"  style="display: inline; padding: 0; margin:0;">
+      <input type="hidden" name="where" value="https://www.numbeo.com/cost-of-living/in/" style="display: inline; padding:0; margin:0;" />
+<input id="city_selector_menu_city_id"  size="27"  type="text" placeholder="Select City" class="city-selector-menu" />
+<input type="hidden" id="menu_city_id" name="city_id"/>
+<input type="hidden" id="name_menu_city_id" name="name_city_id"/>
+      </form>
+</div>
+ <script>
+  jQuery(document).ready(function($) {
+  	jQuery('#city_selector_menu_city_id').autocomplete({
+  	  source: 'https://www.numbeo.com/common/CitySearchJson',
+     minLength: 1,
+     delay: 3,
+     autoFocus: true,
+     select: function(event, ui) {
+         event.preventDefault();
+         $('#city_selector_menu_city_id').val(ui.item.label);
+         $('#menu_city_id').val(ui.item.value);
+jQuery('#menu_dispatch_form').submit();     },
+     focus: function(event, ui) {
+         event.preventDefault();
+     }
+	  })   .keydown(function(e){
+	    if (e.keyCode === 13){
+      if ($('#menu_city_id').val() == '') { 
+        e.preventDefault();
+      }
+      var val = $('#city_selector_menu_city_id').val();
+		   $('#name_menu_city_id').val(val);
+	   }
+  }); // end autocompleter definition
+$('#city_selector_menu_city_id').toggleClass('city-selector-menu');
+$('#city_selector_menu_city_id').toggleClass('city-selector-menu');
+ }); // end document ready 
+</script>
+</nav>
+</div>
+</td>
+</tr>
+</table>
+</div> <!-- logo-and-upper-ad -->
+<div class="dropdown-outer">
+<nav class="before-nav" >
+    <ul id="nav-one" class="nav">
+
+	<li class="dir">
+<a href="https://www.numbeo.com/cost-of-living/">Cost Of Living</a>
+  <ul>
+    <li><a href="https://www.numbeo.com/cost-of-living/">Cost Of Living</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/comparison.jsp">Cost of Living Comparison</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/calculator.jsp">Cost of Living Calculator</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/rankings_current.jsp">Cost Of Living Index (Current)</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/rankings.jsp">Cost Of Living Index</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/rankings_by_country.jsp">Cost Of Living Index By Country</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/estimator_main">Cost of Living Estimator</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/prices_by_city.jsp">Prices By City</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/prices_by_country.jsp">Prices By Country</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/historical-data">Historical Data in a City by Year </a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/historical-prices-by-city">Historical Data in a Year by City</a></li>
+    <li><a href="https://www.numbeo.com/food-prices/">Food Prices</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/basket_of_goods.jsp">Basket of Goods and Services</a></li>
+    <li><a href="https://www.numbeo.com/common/motivation_and_methodology.jsp">Our Motivation and Methodology</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/contribute.jsp">Update Information for Your City</a></li>
+  </ul></li>
+
+	<li class="dir">
+<a href="https://www.numbeo.com/property-investment/">Property Prices</a>
+  <ul>
+    <li><a href="https://www.numbeo.com/property-investment/">Property Prices</a></li>
+    <li><a href="https://www.numbeo.com/property-investment/comparison.jsp">Property Prices Comparison</a></li>
+    <li><a href="https://www.numbeo.com/property-investment/rankings_current.jsp">Property Price Index (Current)</a></li>
+    <li><a href="https://www.numbeo.com/property-investment/rankings.jsp">Property Price Index</a></li>
+    <li><a href="https://www.numbeo.com/property-investment/rankings_by_country.jsp">Property Price Index By Country</a></li>
+   </ul></li>
+
+	<li class="dir">
+<a href="https://www.numbeo.com/crime/">Crime</a>
+  <ul>
+    <li><a href="https://www.numbeo.com/crime/">Crime</a></li>
+    <li><a href="https://www.numbeo.com/crime/comparison.jsp">Crime Comparisons</a></li>
+    <li><a href="https://www.numbeo.com/crime/rankings_current.jsp">Crime Index (Current)</a></li>
+    <li><a href="https://www.numbeo.com/crime/rankings.jsp">Crime Index</a></li>
+    <li><a href="https://www.numbeo.com/crime/rankings_by_country.jsp">Crime Index by Country</a></li>
+  </ul></li>
+
+	<li class="dir">
+<a href="https://www.numbeo.com/health-care/">Health Care</a>
+  <ul>
+    <li><a href="https://www.numbeo.com/health-care/">Health Care</a></li>
+    <li><a href="https://www.numbeo.com/health-care/comparison.jsp">Health Care Comparisons</a></li>
+    <li><a href="https://www.numbeo.com/health-care/rankings_current.jsp">Health Care Index (Current)</a></li>
+    <li><a href="https://www.numbeo.com/health-care/rankings.jsp">Health Care Index</a></li>
+    <li><a href="https://www.numbeo.com/health-care/rankings_by_country.jsp">Health Care Index by Country</a></li>
+  </ul></li>
+
+	<li class="dir">
+<a href="https://www.numbeo.com/pollution/">Pollution</a>
+  <ul>
+    <li><a href="https://www.numbeo.com/pollution/">Pollution</a></li>
+    <li><a href="https://www.numbeo.com/pollution/comparison.jsp">Pollution Comparisons</a></li>
+    <li><a href="https://www.numbeo.com/pollution/rankings_current.jsp">Pollution Index (Current)</a></li>
+    <li><a href="https://www.numbeo.com/pollution/rankings.jsp">Pollution Index</a></li>
+    <li><a href="https://www.numbeo.com/pollution/rankings_by_country.jsp">Pollution Index by Country</a></li>
+  </ul></li>
+
+	<li class="dir">
+<a href="https://www.numbeo.com/traffic/">Traffic</a>
+  <ul>
+     <li><a href="https://www.numbeo.com/traffic/">Traffic</a></li>
+     <li><a href="https://www.numbeo.com/traffic/comparison.jsp">Traffic Comparisons</a></li>
+     <li><a href="https://www.numbeo.com/traffic/rankings_current.jsp">Traffic Index (Current)</a></li>
+     <li><a href="https://www.numbeo.com/traffic/rankings.jsp">Traffic Index</a></li>
+     <li><a href="https://www.numbeo.com/traffic/rankings_by_country.jsp">Traffic Index by Country</a></li>
+  </ul></li>
+
+	<li class="dir">
+<a href="https://www.numbeo.com/quality-of-life/">Quality Of Life</a>
+  <ul>
+    <li><a href="https://www.numbeo.com/quality-of-life/">Quality of Life</a></li>
+    <li><a href="https://www.numbeo.com/quality-of-life/comparison.jsp">Quality of Life Comparisons</a></li>
+    <li><a href="https://www.numbeo.com/quality-of-life/rankings_current.jsp">Quality of Life Index (Current)</a></li>
+    <li><a href="https://www.numbeo.com/quality-of-life/rankings.jsp">Quality of Life Index</a></li>
+    <li><a href="https://www.numbeo.com/quality-of-life/rankings_by_country.jsp">Quality of Life Index by Country</a></li>
+	</ul></li>
+	<li class="dir">
+<a href="#">Travel</a>
+  <ul>
+    <li><a href="https://www.numbeo.com/taxi-fare/">Taxi Fare Calculator</a></li>
+    <li><a href="https://www.numbeo.com/gas-prices/">Gas Prices Calculator</a></li>
+	</ul></li>
+
+
+</ul>
+<br style="clear: both"/>
+</nav>
+</div> <!-- dropdown-outer -->
+ <div class="right-ads-and-info">
+ <div class="right-ads">
+<script async
+src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Small Right 468x60 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8993465169534557"
+     data-ad-slot="7246910313"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+ </div>
+ </div>
+<p>
+<nav itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
+<a href="https://www.numbeo.com/common/" class="discreet_link"><img src="https://www.numbeo.com/images/home.png" class="image_without_border hide_smaller_than_600" alt="home"/></a><span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+<a href="https://www.numbeo.com/cost-of-living/" itemprop="item" class="breadcrumb_link"><span itemprop="name">Cost of Living</span></a><meta itemprop="position" content="1" />
+</span> <span style="font-size: 75%; display: inline-block;">&gt;</span> <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+ <a href="https://www.numbeo.com/cost-of-living/prices_by_city.jsp"  itemprop="item"  class="breadcrumb_link"><span itemprop="name">Prices by City</span></a><meta itemprop="position" content="2" />
+</span> <span style="font-size: 75%; display: inline-block;">&gt;</span> <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+<a href="prices_by_city.jsp?itemId=105"  itemprop="item"  class="breadcrumb_link">
+<span itemprop="name">Average Monthly Net Salary (After Tax) (Salaries And Financing)</span></a><meta itemprop="position" content="3" />
+</span> <span style="font-size: 75%; display: inline-block;">&gt;</span> <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+<a href="region_prices_by_city?itemId=105&amp;regionCode=021"  itemprop="item"  class="breadcrumb_link">
+<span itemprop="name">Northern America</span></a><meta itemprop="position" content="4" />
+</span>
+</nav>
+    <h1> Northern America: Prices by City of Average Monthly Net Salary (After Tax) (Salaries And Financing)</h1>
+<!-- social share start -->
+<aside>
+<table class="social_share " >
+<tr>
+<td class="social-inner" style="height: 100%; overflow-y: hidden; vertical-align: top"> 
+<div style="display: inline-block; height: 24px; max-height: 24px; overflow-y: hidden; min-width: 1px;">
+<div class="fb-like" data-width="24" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+</div>
+</td>
+<td class="social-inner" style="height: 24px; overflow-y: hidden; vertical-align: top" >
+<div style="display: inline-block; max-height: 24px; overflow-y: hidden; min-width: 1px;">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="Numbeo" data-related="mladenadamovic" rel="nofollow">Tweet</a></div>
+</td>
+<td class="social-inner" style="height: 24px; overflow-y: hidden; vertical-align: top" >
+<div style="display: inline-block; max-height: 24px; overflow-y: hidden; min-width: 1px;">
+<div class="g-plusone" data-size="medium" data-annotation="none"></div>
+</div>
+</td>
+</tr>
+</table>
+</aside>
+
+
+<!-- Column 1 start -->
+
+
+<div id="page_container">
+
+
+<div class="fancy_explanation" style="margin-bottom: 0.8em;">
+<a href="https://www.numbeo.com/cost-of-living/city_price_rankings?displayCurrency=USD&amp;itemId=105&amp;regionCode=021">See bar chart of these data</a></div>
+
+<script>
+google.load('visualization', '1', {'packages': ['geochart']});
+ google.setOnLoadCallback(drawMarkersMap105);
+  function drawMarkersMap105() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('number', 'Lat'); // Latitude Value
+        data.addColumn('number', 'Lon'); // Longitude Value
+        data.addColumn('string', 'Name'); // 
+        data.addColumn('number', 'Average Monthly Net Salary (After Tax), Salaries And Financing', 'Value'); // 
+data.addRows([
+[48.7595529, -122.4882249, "Bellingham, WA, United States", 2717.42],
+[37.8043637, -122.2711137, "Oakland, CA, United States", 4655.25],
+[41.2523634, -95.99798829999999, "Omaha, NE, United States", 2756.70],
+[28.5383355, -81.3792365, "Orlando, FL, United States", 3039.90],
+[39.952335, -75.163789, "Philadelphia, PA, United States", 3282.21],
+[33.4483771, -112.0740373, "Phoenix, AZ, United States", 3227.73],
+[40.4406248, -79.9958864, "Pittsburgh, PA, United States", 2777.20],
+[45.5230622, -122.6764816, "Portland, OR, United States", 3421.56],
+[35.7804015, -78.6390779, "Raleigh, NC, United States", 3778.19],
+[39.5296329, -119.8138027, "Reno, NV, United States", 2964.81],
+[38.4404674, -122.7144314, "Santa Rosa, CA, United States", 3624.00],
+[37.542979, -77.469092, "Richmond, VA, United States", 2894.70],
+[33.9533487, -117.3961564, "Riverside, CA, United States", 2978.53],
+[43.1572851, -77.6152141, "Rochester, NY, United States", 1988.92],
+[38.5815719, -121.4943996, "Sacramento, CA, United States", 3727.51],
+[42.6525793, -73.7562317, "Albany, NY, United States", 2673.22],
+[38.6272733, -90.1978889, "Saint Louis, MO, United States", 3078.61],
+[40.7607793, -111.8910474, "Salt Lake City, UT, United States", 3249.73],
+[29.4241219, -98.4936282, "San Antonio, TX, United States", 2850.86],
+[46.8032826, -71.242796, "Quebec City, Canada", 2488.97],
+[32.715738, -117.1610838, "San Diego, CA, United States", 4199.49],
+[37.775206, -122.419209, "San Francisco, CA, United States", 5852.60],
+[37.3382082, -121.8863286, "San Jose, CA, United States", 5853.61],
+[47.6038321, -122.3300624, "Seattle, WA, United States", 4646.86],
+[27.9475216, -82.4584279, "Tampa, FL, United States", 3234.99],
+[51.0486151, -114.0708459, "Calgary, Canada", 3036.22],
+[32.2217429, -110.926479, "Tucson, AZ, United States", 2424.88],
+[36.1539816, -95.992775, "Tulsa, OK, United States", 2472.59],
+[49.283859, -122.791859, "Coquitlam, Canada", 2480.68],
+[53.544389, -113.4909267, "Edmonton, Canada", 2712.73],
+[38.9071923, -77.0368707, "Washington, DC, United States", 4551.48],
+[43.25002080000001, -79.8660914, "Hamilton, Canada", 2510.29],
+[44.648881, -63.575312, "Halifax, Canada", 2129.13],
+[49.8876629, -119.4961612, "Kelowna, Canada", 2418.05],
+[43.4129238, -80.47714719999999, "Kitchener, Canada", 2358.49],
+[42.988097, -81.2460295, "London, Canada", 2194.87],
+[43.5892854, -79.6441646, "Mississauga, Canada", 2786.79],
+[45.4215296, -75.69719309999999, "Ottawa, Canada", 3016.87],
+[50.4452112, -104.6188944, "Regina, Canada", 2325.52],
+[35.0844909, -106.6511367, "Albuquerque, NM, United States", 2556.68],
+[52.1303794, -106.6605124, "Saskatoon, Canada", 2292.49],
+[61.2180556, -149.9002778, "Anchorage, AK, United States", 4021.56],
+[33.7490987, -84.3901849, "Atlanta, GA, United States", 3862.36],
+[30.267153, -97.7430608, "Austin, TX, United States", 3914.89],
+[43.6529206, -79.3849008, "Toronto, Canada", 2531.06],
+[49.2827291, -123.1207375, "Vancouver, Canada", 2409.45],
+[39.2903848, -76.6121893, "Baltimore, MD, United States", 3310.67],
+[48.4286111, -123.3655556, "Victoria, Canada", 2381.55],
+[40.6501038, -73.9495823, "Brooklyn, NY, United States", 3441.83],
+[37.8708789, -122.2728247, "Berkeley, CA, United States", 4300.45],
+[49.8997541, -97.1374937, "Winnipeg, Canada", 2159.93],
+[43.6187102, -116.2146068, "Boise, ID, United States", 2433.81],
+[42.35892, -71.05781, "Boston, MA, United States", 4194.17],
+[42.8864468, -78.8783689, "Buffalo, NY, United States", 2496.53],
+[35.2270869, -80.8431267, "Charlotte, NC, United States", 3756.25],
+[41.8781136, -87.6297982, "Chicago, IL, United States", 3822.27],
+[39.1014537, -84.5124602, "Cincinnati, OH, United States", 2752.40],
+[41.49932, -81.6943605, "Cleveland, OH, United States", 2471.96],
+[38.8338816, -104.8213634, "Colorado Springs, CO, United States", 3222.29],
+[39.962208, -83.000676, "Columbus, OH, United States", 2995.24],
+[32.7761963, -96.7968994, "Dallas, TX, United States", 3882.22],
+[39.7391536, -104.9847034, "Denver, CO, United States", 3612.91],
+[32.753177, -97.3327459, "Fort Worth, TX, United States", 3136.52],
+[36.7477272, -119.7723661, "Fresno, CA, United States", 2315.00],
+[35.6009452, -82.554015, "Asheville, NC, United States", 2430.29],
+[36.1626638, -86.7816016, "Nashville, TN, United States", 3666.89],
+[45.5016889, -73.567256, "Montreal, Canada", 2242.01],
+[42.9633599, -85.6680863, "Grand Rapids, MI, United States", 2610.00],
+[21.3069444, -157.8583333, "Honolulu, HI, United States", 3655.12],
+[29.7604267, -95.3698028, "Houston, TX, United States", 3589.62],
+[39.7683765, -86.1580423, "Indianapolis, IN, United States", 2599.91],
+[30.3321838, -81.655651, "Jacksonville, FL, United States", 3038.41],
+[39.0997265, -94.5785667, "Kansas City, MO, United States", 2966.55],
+[36.1699412, -115.1398296, "Las Vegas, NV, United States", 2993.72],
+[34.7464809, -92.2895948, "Little Rock, AR, United States", 2558.90],
+[34.0522342, -118.2436849, "Los Angeles, CA, United States", 3670.37],
+[38.2542376, -85.759407, "Louisville, KY, United States", 2261.63],
+[43.0730517, -89.4012302, "Madison, WI, United States", 3045.05],
+[35.1495343, -90.0489801, "Memphis, TN, United States", 2664.58],
+[25.7742657, -80.1936589, "Miami, FL, United States", 2669.67],
+[43.0389025, -87.9064736, "Milwaukee, WI, United States", 2447.22],
+[44.9799654, -93.2638361, "Minneapolis, MN, United States", 3519.00],
+[35.9606384, -83.9207392, "Knoxville, TN, United States", 2255.80],
+[40.7127837, -74.0059413, "New York, NY, United States", 4515.71]]);
+
+ var hrefs = [
+'https://www.numbeo.com/cost-of-living/in/Bellingham',
+'https://www.numbeo.com/cost-of-living/in/Oakland',
+'https://www.numbeo.com/cost-of-living/in/Omaha',
+'https://www.numbeo.com/cost-of-living/in/Orlando',
+'https://www.numbeo.com/cost-of-living/in/Philadelphia',
+'https://www.numbeo.com/cost-of-living/in/Phoenix',
+'https://www.numbeo.com/cost-of-living/in/Pittsburgh',
+'https://www.numbeo.com/cost-of-living/in/Portland',
+'https://www.numbeo.com/cost-of-living/in/Raleigh',
+'https://www.numbeo.com/cost-of-living/in/Reno',
+'https://www.numbeo.com/cost-of-living/in/Santa-Rosa',
+'https://www.numbeo.com/cost-of-living/in/Richmond',
+'https://www.numbeo.com/cost-of-living/in/Riverside',
+'https://www.numbeo.com/cost-of-living/in/Rochester',
+'https://www.numbeo.com/cost-of-living/in/Sacramento',
+'https://www.numbeo.com/cost-of-living/in/Albany',
+'https://www.numbeo.com/cost-of-living/in/Saint-Louis',
+'https://www.numbeo.com/cost-of-living/in/Salt-Lake-City',
+'https://www.numbeo.com/cost-of-living/in/San-Antonio',
+'https://www.numbeo.com/cost-of-living/in/Quebec-City',
+'https://www.numbeo.com/cost-of-living/in/San-Diego',
+'https://www.numbeo.com/cost-of-living/in/San-Francisco',
+'https://www.numbeo.com/cost-of-living/in/San-Jose',
+'https://www.numbeo.com/cost-of-living/in/Seattle',
+'https://www.numbeo.com/cost-of-living/in/Tampa',
+'https://www.numbeo.com/cost-of-living/in/Calgary',
+'https://www.numbeo.com/cost-of-living/in/Tucson',
+'https://www.numbeo.com/cost-of-living/in/Tulsa',
+'https://www.numbeo.com/cost-of-living/in/Coquitlam',
+'https://www.numbeo.com/cost-of-living/in/Edmonton',
+'https://www.numbeo.com/cost-of-living/in/Washington',
+'https://www.numbeo.com/cost-of-living/in/Hamilton',
+'https://www.numbeo.com/cost-of-living/in/Halifax',
+'https://www.numbeo.com/cost-of-living/in/Kelowna',
+'https://www.numbeo.com/cost-of-living/in/Kitchener',
+'https://www.numbeo.com/cost-of-living/in/London-Canada',
+'https://www.numbeo.com/cost-of-living/in/Mississauga',
+'https://www.numbeo.com/cost-of-living/in/Ottawa',
+'https://www.numbeo.com/cost-of-living/in/Regina',
+'https://www.numbeo.com/cost-of-living/in/Albuquerque',
+'https://www.numbeo.com/cost-of-living/in/Saskatoon',
+'https://www.numbeo.com/cost-of-living/in/Anchorage',
+'https://www.numbeo.com/cost-of-living/in/Atlanta',
+'https://www.numbeo.com/cost-of-living/in/Austin',
+'https://www.numbeo.com/cost-of-living/in/Toronto',
+'https://www.numbeo.com/cost-of-living/in/Vancouver',
+'https://www.numbeo.com/cost-of-living/in/Baltimore',
+'https://www.numbeo.com/cost-of-living/in/Victoria',
+'https://www.numbeo.com/cost-of-living/in/Brooklyn',
+'https://www.numbeo.com/cost-of-living/in/Berkeley',
+'https://www.numbeo.com/cost-of-living/in/Winnipeg',
+'https://www.numbeo.com/cost-of-living/in/Boise',
+'https://www.numbeo.com/cost-of-living/in/Boston',
+'https://www.numbeo.com/cost-of-living/in/Buffalo',
+'https://www.numbeo.com/cost-of-living/in/Charlotte',
+'https://www.numbeo.com/cost-of-living/in/Chicago',
+'https://www.numbeo.com/cost-of-living/in/Cincinnati',
+'https://www.numbeo.com/cost-of-living/in/Cleveland',
+'https://www.numbeo.com/cost-of-living/in/Colorado-Springs',
+'https://www.numbeo.com/cost-of-living/in/Columbus',
+'https://www.numbeo.com/cost-of-living/in/Dallas',
+'https://www.numbeo.com/cost-of-living/in/Denver',
+'https://www.numbeo.com/cost-of-living/in/Fort-Worth',
+'https://www.numbeo.com/cost-of-living/in/Fresno',
+'https://www.numbeo.com/cost-of-living/in/Asheville',
+'https://www.numbeo.com/cost-of-living/in/Nashville',
+'https://www.numbeo.com/cost-of-living/in/Montreal',
+'https://www.numbeo.com/cost-of-living/in/Grand-Rapids',
+'https://www.numbeo.com/cost-of-living/in/Honolulu',
+'https://www.numbeo.com/cost-of-living/in/Houston',
+'https://www.numbeo.com/cost-of-living/in/Indianapolis',
+'https://www.numbeo.com/cost-of-living/in/Jacksonville',
+'https://www.numbeo.com/cost-of-living/in/Kansas-City',
+'https://www.numbeo.com/cost-of-living/in/Las-Vegas',
+'https://www.numbeo.com/cost-of-living/in/Little-Rock',
+'https://www.numbeo.com/cost-of-living/in/Los-Angeles',
+'https://www.numbeo.com/cost-of-living/in/Louisville',
+'https://www.numbeo.com/cost-of-living/in/Madison',
+'https://www.numbeo.com/cost-of-living/in/Memphis',
+'https://www.numbeo.com/cost-of-living/in/Miami',
+'https://www.numbeo.com/cost-of-living/in/Milwaukee',
+'https://www.numbeo.com/cost-of-living/in/Minneapolis',
+'https://www.numbeo.com/cost-of-living/in/Knoxville',
+'https://www.numbeo.com/cost-of-living/in/New-York' ];
+
+  var options = {
+    region: '021',
+    backgroundColor: '#c4d7f3',
+    enableRegionInteractivity: true,
+    sizeAxis:  {minSize: 6,  maxSize: 6},
+    keepAspectRatio: false,
+    displayMode: 'markers',
+          colorAxis: {  minValue : 1988 , maxValue : 5854, colors: [ '#00FF00', '#FFFF00', '#FF0000'] }
+  };
+  var chart = new google.visualization.GeoChart(document.getElementById('chart_div105'));
+  google.visualization.events.addListener(chart, 'select', function() {
+      var selection = chart.getSelection();
+      var row = selection[0].row;
+      window.location = hrefs[row];
+  });
+  chart.draw(data, options);
+};
+</script>
+<div class="regionChartDivContainer">
+<div id="chart_div105" class="regionChartDiv" ></div>
+<div class="regionChartDivLabel">
+Chart: Average Monthly Net Salary (After Tax), Salaries And Financing</div>
+</div>
+
+
+<form action="region_prices_by_city" method="get" class="standard_margin">
+<input type="hidden" name="itemId" value="105" />
+<input type="hidden" name="region" value="021" />
+Currency:          <select id="displayCurrency" name="displayCurrency" onchange="if (checkSelectedSomeTextNotDashed('displayCurrency')) this.form.submit();">
+             <option value="EUR">EUR</option>
+             <option value="USD" selected="selected">USD</option>
+             <option value="---">---</option>
+             <option value="AED">AED</option>
+             <option value="AFN">AFN</option>
+             <option value="ALL">ALL</option>
+             <option value="AMD">AMD</option>
+             <option value="ANG">ANG</option>
+             <option value="AOA">AOA</option>
+             <option value="ARS">ARS</option>
+             <option value="AUD">AUD</option>
+             <option value="AWG">AWG</option>
+             <option value="AZN">AZN</option>
+             <option value="BAM">BAM</option>
+             <option value="BBD">BBD</option>
+             <option value="BDT">BDT</option>
+             <option value="BGN">BGN</option>
+             <option value="BHD">BHD</option>
+             <option value="BIF">BIF</option>
+             <option value="BMD">BMD</option>
+             <option value="BND">BND</option>
+             <option value="BOB">BOB</option>
+             <option value="BRL">BRL</option>
+             <option value="BSD">BSD</option>
+             <option value="BTC">BTC</option>
+             <option value="BTN">BTN</option>
+             <option value="BWP">BWP</option>
+             <option value="BYN">BYN</option>
+             <option value="BZD">BZD</option>
+             <option value="CAD">CAD</option>
+             <option value="CDF">CDF</option>
+             <option value="CHF">CHF</option>
+             <option value="CLF">CLF</option>
+             <option value="CLP">CLP</option>
+             <option value="CNH">CNH</option>
+             <option value="CNY">CNY</option>
+             <option value="COP">COP</option>
+             <option value="CRC">CRC</option>
+             <option value="CUC">CUC</option>
+             <option value="CVE">CVE</option>
+             <option value="CZK">CZK</option>
+             <option value="DJF">DJF</option>
+             <option value="DKK">DKK</option>
+             <option value="DOP">DOP</option>
+             <option value="DZD">DZD</option>
+             <option value="EGP">EGP</option>
+             <option value="ERN">ERN</option>
+             <option value="EUR">EUR</option>
+             <option value="FJD">FJD</option>
+             <option value="FKP">FKP</option>
+             <option value="GBP">GBP</option>
+             <option value="GEL">GEL</option>
+             <option value="GGP">GGP</option>
+             <option value="GHS">GHS</option>
+             <option value="GIP">GIP</option>
+             <option value="GMD">GMD</option>
+             <option value="GNF">GNF</option>
+             <option value="GTQ">GTQ</option>
+             <option value="GYD">GYD</option>
+             <option value="HKD">HKD</option>
+             <option value="HNL">HNL</option>
+             <option value="HRK">HRK</option>
+             <option value="HTG">HTG</option>
+             <option value="HUF">HUF</option>
+             <option value="IDR">IDR</option>
+             <option value="ILS">ILS</option>
+             <option value="IMP">IMP</option>
+             <option value="INR">INR</option>
+             <option value="IQD">IQD</option>
+             <option value="IRR">IRR</option>
+             <option value="ISK">ISK</option>
+             <option value="JEP">JEP</option>
+             <option value="JMD">JMD</option>
+             <option value="JOD">JOD</option>
+             <option value="JPY">JPY</option>
+             <option value="KES">KES</option>
+             <option value="KGS">KGS</option>
+             <option value="KHR">KHR</option>
+             <option value="KMF">KMF</option>
+             <option value="KPW">KPW</option>
+             <option value="KRW">KRW</option>
+             <option value="KWD">KWD</option>
+             <option value="KYD">KYD</option>
+             <option value="KZT">KZT</option>
+             <option value="LAK">LAK</option>
+             <option value="LBP">LBP</option>
+             <option value="LKR">LKR</option>
+             <option value="LRD">LRD</option>
+             <option value="LSL">LSL</option>
+             <option value="LYD">LYD</option>
+             <option value="MAD">MAD</option>
+             <option value="MDL">MDL</option>
+             <option value="MGA">MGA</option>
+             <option value="MKD">MKD</option>
+             <option value="MNT">MNT</option>
+             <option value="MOP">MOP</option>
+             <option value="MRO">MRO</option>
+             <option value="MRU">MRU</option>
+             <option value="MUR">MUR</option>
+             <option value="MVR">MVR</option>
+             <option value="MWK">MWK</option>
+             <option value="MXN">MXN</option>
+             <option value="MYR">MYR</option>
+             <option value="MZN">MZN</option>
+             <option value="NAD">NAD</option>
+             <option value="NGN">NGN</option>
+             <option value="NIO">NIO</option>
+             <option value="NOK">NOK</option>
+             <option value="NPR">NPR</option>
+             <option value="NZD">NZD</option>
+             <option value="OMR">OMR</option>
+             <option value="PAB">PAB</option>
+             <option value="PEN">PEN</option>
+             <option value="PGK">PGK</option>
+             <option value="PHP">PHP</option>
+             <option value="PKR">PKR</option>
+             <option value="PLN">PLN</option>
+             <option value="PYG">PYG</option>
+             <option value="QAR">QAR</option>
+             <option value="RON">RON</option>
+             <option value="RSD">RSD</option>
+             <option value="RUB">RUB</option>
+             <option value="RWF">RWF</option>
+             <option value="SAR">SAR</option>
+             <option value="SBD">SBD</option>
+             <option value="SCR">SCR</option>
+             <option value="SDG">SDG</option>
+             <option value="SEK">SEK</option>
+             <option value="SGD">SGD</option>
+             <option value="SHP">SHP</option>
+             <option value="SLL">SLL</option>
+             <option value="SOS">SOS</option>
+             <option value="SRD">SRD</option>
+             <option value="STD">STD</option>
+             <option value="STN">STN</option>
+             <option value="SVC">SVC</option>
+             <option value="SYP">SYP</option>
+             <option value="SZL">SZL</option>
+             <option value="THB">THB</option>
+             <option value="TJS">TJS</option>
+             <option value="TMT">TMT</option>
+             <option value="TND">TND</option>
+             <option value="TOP">TOP</option>
+             <option value="TRY">TRY</option>
+             <option value="TTD">TTD</option>
+             <option value="TWD">TWD</option>
+             <option value="TZS">TZS</option>
+             <option value="UAH">UAH</option>
+             <option value="UGX">UGX</option>
+             <option value="USD">USD</option>
+             <option value="UYU">UYU</option>
+             <option value="VES">VES</option>
+             <option value="VND">VND</option>
+             <option value="VUV">VUV</option>
+             <option value="WST">WST</option>
+             <option value="XAF">XAF</option>
+             <option value="XAG">XAG</option>
+             <option value="XAU">XAU</option>
+             <option value="XCD">XCD</option>
+             <option value="XDR">XDR</option>
+             <option value="XOF">XOF</option>
+             <option value="XPD">XPD</option>
+             <option value="XPF">XPF</option>
+             <option value="XPT">XPT</option>
+             <option value="YER">YER</option>
+             <option value="ZAR">ZAR</option>
+             <option value="ZMW">ZMW</option>
+             <option value="ZWL">ZWL</option>
+         </select>
+
+</form>
+
+<div style="max-width: 45em;" class="margin_on_mobile">
+<table id="t2"  class="stripe row-border order-column compact" >
+<thead>
+<tr>
+	<th><div style="font-size: 80%; vertical-align: middle;">Rank</div></th>
+<th><div class="font_in_table_headers">City</div></th><th><div class="font_in_table_headers">Average Monthly Net Salary <br/>(After Tax)</div></th></tr>
+</thead>
+<tbody>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Bellingham">Bellingham, WA, United States</a></td><td style="white-space: nowrap; text-align: right">2717.42</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Oakland">Oakland, CA, United States</a></td><td style="white-space: nowrap; text-align: right">4655.25</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Omaha">Omaha, NE, United States</a></td><td style="white-space: nowrap; text-align: right">2756.70</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Orlando">Orlando, FL, United States</a></td><td style="white-space: nowrap; text-align: right">3039.90</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Philadelphia">Philadelphia, PA, United States</a></td><td style="white-space: nowrap; text-align: right">3282.21</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Phoenix">Phoenix, AZ, United States</a></td><td style="white-space: nowrap; text-align: right">3227.73</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Pittsburgh">Pittsburgh, PA, United States</a></td><td style="white-space: nowrap; text-align: right">2777.20</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Portland">Portland, OR, United States</a></td><td style="white-space: nowrap; text-align: right">3421.56</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Raleigh">Raleigh, NC, United States</a></td><td style="white-space: nowrap; text-align: right">3778.19</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Santa-Rosa">Santa Rosa, CA, United States</a></td><td style="white-space: nowrap; text-align: right">3624.00</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Reno">Reno, NV, United States</a></td><td style="white-space: nowrap; text-align: right">2964.81</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Richmond">Richmond, VA, United States</a></td><td style="white-space: nowrap; text-align: right">2894.70</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Riverside">Riverside, CA, United States</a></td><td style="white-space: nowrap; text-align: right">2978.53</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Rochester">Rochester, NY, United States</a></td><td style="white-space: nowrap; text-align: right">1988.92</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Sacramento">Sacramento, CA, United States</a></td><td style="white-space: nowrap; text-align: right">3727.51</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Saint-Louis">Saint Louis, MO, United States</a></td><td style="white-space: nowrap; text-align: right">3078.61</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Albany">Albany, NY, United States</a></td><td style="white-space: nowrap; text-align: right">2673.22</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Salt-Lake-City">Salt Lake City, UT, United States</a></td><td style="white-space: nowrap; text-align: right">3249.73</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/San-Antonio">San Antonio, TX, United States</a></td><td style="white-space: nowrap; text-align: right">2850.86</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Quebec-City">Quebec City, Canada</a></td><td style="white-space: nowrap; text-align: right">2488.97</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/San-Diego">San Diego, CA, United States</a></td><td style="white-space: nowrap; text-align: right">4199.49</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/San-Francisco">San Francisco, CA, United States</a></td><td style="white-space: nowrap; text-align: right">5852.60</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/San-Jose">San Jose, CA, United States</a></td><td style="white-space: nowrap; text-align: right">5853.61</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Seattle">Seattle, WA, United States</a></td><td style="white-space: nowrap; text-align: right">4646.86</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Tampa">Tampa, FL, United States</a></td><td style="white-space: nowrap; text-align: right">3234.99</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Calgary">Calgary, Canada</a></td><td style="white-space: nowrap; text-align: right">3036.22</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Tucson">Tucson, AZ, United States</a></td><td style="white-space: nowrap; text-align: right">2424.88</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Coquitlam">Coquitlam, Canada</a></td><td style="white-space: nowrap; text-align: right">2480.68</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Tulsa">Tulsa, OK, United States</a></td><td style="white-space: nowrap; text-align: right">2472.59</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Edmonton">Edmonton, Canada</a></td><td style="white-space: nowrap; text-align: right">2712.73</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Washington">Washington, DC, United States</a></td><td style="white-space: nowrap; text-align: right">4551.48</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Hamilton">Hamilton, Canada</a></td><td style="white-space: nowrap; text-align: right">2510.29</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Kelowna">Kelowna, Canada</a></td><td style="white-space: nowrap; text-align: right">2418.05</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Halifax">Halifax, Canada</a></td><td style="white-space: nowrap; text-align: right">2129.13</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Kitchener">Kitchener, Canada</a></td><td style="white-space: nowrap; text-align: right">2358.49</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/London-Canada">London, Canada</a></td><td style="white-space: nowrap; text-align: right">2194.87</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Mississauga">Mississauga, Canada</a></td><td style="white-space: nowrap; text-align: right">2786.79</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Ottawa">Ottawa, Canada</a></td><td style="white-space: nowrap; text-align: right">3016.87</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Regina">Regina, Canada</a></td><td style="white-space: nowrap; text-align: right">2325.52</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Albuquerque">Albuquerque, NM, United States</a></td><td style="white-space: nowrap; text-align: right">2556.68</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Saskatoon">Saskatoon, Canada</a></td><td style="white-space: nowrap; text-align: right">2292.49</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Anchorage">Anchorage, AK, United States</a></td><td style="white-space: nowrap; text-align: right">4021.56</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Atlanta">Atlanta, GA, United States</a></td><td style="white-space: nowrap; text-align: right">3862.36</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Austin">Austin, TX, United States</a></td><td style="white-space: nowrap; text-align: right">3914.89</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Toronto">Toronto, Canada</a></td><td style="white-space: nowrap; text-align: right">2531.06</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Vancouver">Vancouver, Canada</a></td><td style="white-space: nowrap; text-align: right">2409.45</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Baltimore">Baltimore, MD, United States</a></td><td style="white-space: nowrap; text-align: right">3310.67</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Victoria">Victoria, Canada</a></td><td style="white-space: nowrap; text-align: right">2381.55</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Brooklyn">Brooklyn, NY, United States</a></td><td style="white-space: nowrap; text-align: right">3441.83</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Berkeley">Berkeley, CA, United States</a></td><td style="white-space: nowrap; text-align: right">4300.45</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Winnipeg">Winnipeg, Canada</a></td><td style="white-space: nowrap; text-align: right">2159.93</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Boise">Boise, ID, United States</a></td><td style="white-space: nowrap; text-align: right">2433.81</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Boston">Boston, MA, United States</a></td><td style="white-space: nowrap; text-align: right">4194.17</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Buffalo">Buffalo, NY, United States</a></td><td style="white-space: nowrap; text-align: right">2496.53</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Charlotte">Charlotte, NC, United States</a></td><td style="white-space: nowrap; text-align: right">3756.25</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Chicago">Chicago, IL, United States</a></td><td style="white-space: nowrap; text-align: right">3822.27</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Cincinnati">Cincinnati, OH, United States</a></td><td style="white-space: nowrap; text-align: right">2752.40</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Cleveland">Cleveland, OH, United States</a></td><td style="white-space: nowrap; text-align: right">2471.96</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Colorado-Springs">Colorado Springs, CO, United States</a></td><td style="white-space: nowrap; text-align: right">3222.29</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Columbus">Columbus, OH, United States</a></td><td style="white-space: nowrap; text-align: right">2995.24</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Dallas">Dallas, TX, United States</a></td><td style="white-space: nowrap; text-align: right">3882.22</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Denver">Denver, CO, United States</a></td><td style="white-space: nowrap; text-align: right">3612.91</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Fort-Worth">Fort Worth, TX, United States</a></td><td style="white-space: nowrap; text-align: right">3136.52</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Fresno">Fresno, CA, United States</a></td><td style="white-space: nowrap; text-align: right">2315.00</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Asheville">Asheville, NC, United States</a></td><td style="white-space: nowrap; text-align: right">2430.29</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Nashville">Nashville, TN, United States</a></td><td style="white-space: nowrap; text-align: right">3666.89</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Montreal">Montreal, Canada</a></td><td style="white-space: nowrap; text-align: right">2242.01</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Grand-Rapids">Grand Rapids, MI, United States</a></td><td style="white-space: nowrap; text-align: right">2610.00</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Honolulu">Honolulu, HI, United States</a></td><td style="white-space: nowrap; text-align: right">3655.12</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Houston">Houston, TX, United States</a></td><td style="white-space: nowrap; text-align: right">3589.62</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Indianapolis">Indianapolis, IN, United States</a></td><td style="white-space: nowrap; text-align: right">2599.91</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Jacksonville">Jacksonville, FL, United States</a></td><td style="white-space: nowrap; text-align: right">3038.41</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Kansas-City">Kansas City, MO, United States</a></td><td style="white-space: nowrap; text-align: right">2966.55</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Las-Vegas">Las Vegas, NV, United States</a></td><td style="white-space: nowrap; text-align: right">2993.72</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Little-Rock">Little Rock, AR, United States</a></td><td style="white-space: nowrap; text-align: right">2558.90</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Los-Angeles">Los Angeles, CA, United States</a></td><td style="white-space: nowrap; text-align: right">3670.37</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Louisville">Louisville, KY, United States</a></td><td style="white-space: nowrap; text-align: right">2261.63</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Madison">Madison, WI, United States</a></td><td style="white-space: nowrap; text-align: right">3045.05</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Memphis">Memphis, TN, United States</a></td><td style="white-space: nowrap; text-align: right">2664.58</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Miami">Miami, FL, United States</a></td><td style="white-space: nowrap; text-align: right">2669.67</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Milwaukee">Milwaukee, WI, United States</a></td><td style="white-space: nowrap; text-align: right">2447.22</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Minneapolis">Minneapolis, MN, United States</a></td><td style="white-space: nowrap; text-align: right">3519.00</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Knoxville">Knoxville, TN, United States</a></td><td style="white-space: nowrap; text-align: right">2255.80</td></tr>
+<tr><td></td>
+<td style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/New-York">New York, NY, United States</a></td><td style="white-space: nowrap; text-align: right">4515.71</td></tr>
+</tbody>
+</table>
+</div> <!-- max div for tables -->
+
+    <script>
+  $(document).ready(function() {
+    var t_t2 = $('#t2').DataTable({
+  'columnDefs': [ {
+      'searchable': false,
+      'orderable': false,
+      'targets': 0
+  } ],
+        'paging': false,
+        'order': [[ 2, "desc" ]]
+,    });
+    t_t2.on( 'order.dt search.dt', function () {
+        t_t2.column(0, {search:'applied', order:'applied'}).nodes().each( function (cell, i) {
+            cell.innerHTML = i+1;
+        } );
+    } ).draw();
+  });
+</script>
+
+</div>
+
+<!-- numbeo_bottom_30 -->
+<div class="standard_margin">
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8993465169534557"
+     data-ad-slot="9804259112"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+
+<!-- Column 1 end -->
+
+<div id="fb-root"></div>
+<div class="footer_content">
+<a href="https://www.numbeo.com/common/about.jsp">About</a><span class="footer_separator"></span>
+<a href="https://www.numbeo.com/common/in_the_news.jsp">In the News</a><span class="footer_separator"></span>
+<a href="https://www.numbeo.com/common/join_community.jsp">Newsletter</a><span class="footer_separator"></span>
+<a href="https://www.numbeo.com/common/api.jsp" rel="nofollow">API</a><p>
+<span style="font-style: italic">
+Copyright &copy; 2009-2018 Numbeo. Your use of this service is subject to our 
+<a href="https://www.numbeo.com/common/terms_of_use.jsp">Terms of Use</a> and 
+<a href="https://www.numbeo.com/common/privacy.jsp">Privacy Policy</a>
+</span></p>
+</div>
+</div> <!-- end of innerWidth --> 
+
+<script src="https://apis.google.com/js/platform.js" async defer></script>  <script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=182369865155656";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10969791-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+    </body>
+</html>
+
+
+

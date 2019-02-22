@@ -1,0 +1,1796 @@
+{
+  "San Francisco, CA": {
+    "name": "San Francisco, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/san-francisco-software-engineer-salary-SRCH_IL.0,13_IM759_KO14,31.htm",
+    "avg_swe_salary": "$137,000",
+    "average_salary": 5916.75,
+    "url": "https://www.numbeo.com/cost-of-living/in/San-Francisco?displayCurrency=USD",
+    "cost_of_living_index": 92.21,
+    "rent_index": 107.52,
+    "groceries_index": 94.84,
+    "average_rent": 3365.0
+  },
+  "New York City, NY": {
+    "name": "New York City, NY",
+    "salary_page": "https://www.glassdoor.com/Salaries/new-york-city-software-engineer-salary-SRCH_IL.0,13_IM615_KO14,31.htm",
+    "avg_swe_salary": "$117,197",
+    "average_salary": 4470.14,
+    "url": "https://www.numbeo.com/cost-of-living/in/New-York?displayCurrency=USD",
+    "cost_of_living_index": 100.0,
+    "rent_index": 100.0,
+    "groceries_index": 100.0,
+    "average_rent": 3112.75
+  },
+  "San Jose, CA": {
+    "name": "San Jose, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/san-jose-software-engineer-salary-SRCH_IL.0,8_IM761_KO9,26.htm",
+    "avg_swe_salary": "$137,734",
+    "average_salary": 5937.61,
+    "url": "https://www.numbeo.com/cost-of-living/in/San-Jose?displayCurrency=USD",
+    "cost_of_living_index": 77.42,
+    "rent_index": 78.7,
+    "groceries_index": 73.9,
+    "average_rent": 2480.62
+  },
+  "Los Angeles, CA": {
+    "name": "Los Angeles, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/los-angeles-software-engineer-salary-SRCH_IL.0,11_IM508_KO12,29.htm",
+    "avg_swe_salary": "$110,706",
+    "average_salary": 3730.04,
+    "url": "https://www.numbeo.com/cost-of-living/in/Los-Angeles?displayCurrency=USD",
+    "cost_of_living_index": 79.47,
+    "rent_index": 70.76,
+    "groceries_index": 75.88,
+    "average_rent": 2105.48
+  },
+  "Seattle, WA": {
+    "name": "Seattle, WA",
+    "salary_page": "https://www.glassdoor.com/Salaries/seattle-software-engineer-salary-SRCH_IL.0,7_IM781_KO8,25.htm",
+    "avg_swe_salary": "$126,913",
+    "average_salary": 4692.97,
+    "url": "https://www.numbeo.com/cost-of-living/in/Seattle?displayCurrency=USD",
+    "cost_of_living_index": 84.75,
+    "rent_index": 64.01,
+    "groceries_index": 82.42,
+    "average_rent": 1978.09
+  },
+  "Boston, MA": {
+    "name": "Boston, MA",
+    "salary_page": "https://www.glassdoor.com/Salaries/boston-software-engineer-salary-SRCH_IL.0,6_IM109_KO7,24.htm",
+    "avg_swe_salary": "$108,541",
+    "average_salary": 4292.1,
+    "url": "https://www.numbeo.com/cost-of-living/in/Boston?displayCurrency=USD",
+    "cost_of_living_index": 83.25,
+    "rent_index": 74.63,
+    "groceries_index": 83.35,
+    "average_rent": 2421.6
+  },
+  "Chicago, IL": {
+    "name": "Chicago, IL",
+    "salary_page": "https://www.glassdoor.com/Salaries/chicago-software-engineer-salary-SRCH_IL.0,7_IM167_KO8,25.htm",
+    "avg_swe_salary": "$97,227",
+    "average_salary": 3921.28,
+    "url": "https://www.numbeo.com/cost-of-living/in/Chicago?displayCurrency=USD",
+    "cost_of_living_index": 78.59,
+    "rent_index": 52.22,
+    "groceries_index": 74.45,
+    "average_rent": 1702.18
+  },
+  "Austin, TX": {
+    "name": "Austin, TX",
+    "salary_page": "https://www.glassdoor.com/Salaries/austin-software-engineer-salary-SRCH_IL.0,6_IM60_KO7,24.htm",
+    "avg_swe_salary": "$97,880",
+    "average_salary": 3854.13,
+    "url": "https://www.numbeo.com/cost-of-living/in/Austin?displayCurrency=USD",
+    "cost_of_living_index": 70.92,
+    "rent_index": 49.73,
+    "groceries_index": 68.96,
+    "average_rent": 1675.36
+  },
+  "Toronto, ON, Canada": {
+    "name": "Toronto, ON, Canada",
+    "salary_page": "https://www.glassdoor.com/Salaries/toronto-software-engineer-salary-SRCH_IL.0,7_IM976_KO8,25.htm",
+    "avg_swe_salary": "CA$75K",
+    "average_salary": 2498.82,
+    "url": "https://www.numbeo.com/cost-of-living/in/Toronto?displayCurrency=USD",
+    "cost_of_living_index": 80.04,
+    "rent_index": 47.48,
+    "groceries_index": 79.21,
+    "average_rent": 1474.37
+  },
+  "San Diego, CA": {
+    "name": "San Diego, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/san-diego-software-engineer-salary-SRCH_IL.0,9_IM758_KO10,27.htm",
+    "avg_swe_salary": "$112,146",
+    "average_salary": 4148.75,
+    "url": "https://www.numbeo.com/cost-of-living/in/San-Diego?displayCurrency=USD",
+    "cost_of_living_index": 72.86,
+    "rent_index": 61.75,
+    "groceries_index": 66.07,
+    "average_rent": 1906.3
+  },
+  "Dallas-Fort Worth, TX": {
+    "name": "Dallas-Fort Worth, TX",
+    "salary_page": "https://www.glassdoor.com/Salaries/dallas-software-engineer-salary-SRCH_IL.0,6_IM218_KO7,24.htm",
+    "avg_swe_salary": "$96,277",
+    "average_salary": 3951.11,
+    "url": "https://www.numbeo.com/cost-of-living/in/Dallas?displayCurrency=USD",
+    "cost_of_living_index": 67.07,
+    "rent_index": 43.85,
+    "groceries_index": 62.5,
+    "average_rent": 1325.57
+  },
+  "Washington, DC": {
+    "name": "Washington, DC",
+    "salary_page": "https://www.glassdoor.com/Salaries/washington-dc-software-engineer-salary-SRCH_IL.0,13_IM911_KO14,31.htm",
+    "avg_swe_salary": "$108,069",
+    "average_salary": 4601.43,
+    "url": "https://www.numbeo.com/cost-of-living/in/Washington?displayCurrency=USD",
+    "cost_of_living_index": 92.95,
+    "rent_index": 71.98,
+    "groceries_index": 99.73,
+    "average_rent": 2241.02
+  },
+  "Portland, OR": {
+    "name": "Portland, OR",
+    "salary_page": "https://www.glassdoor.com/Salaries/portland-software-engineer-salary-SRCH_IL.0,8_IM700_KO9,26.htm",
+    "avg_swe_salary": "$104,193",
+    "average_salary": 3525.27,
+    "url": "https://www.numbeo.com/cost-of-living/in/Portland?displayCurrency=USD",
+    "cost_of_living_index": 75.18,
+    "rent_index": 49.5,
+    "groceries_index": 72.74,
+    "average_rent": 1552.95
+  },
+  "Atlanta, GA": {
+    "name": "Atlanta, GA",
+    "salary_page": "https://www.glassdoor.com/Salaries/atlanta-software-engineer-salary-SRCH_IL.0,7_IM52_KO8,25.htm",
+    "avg_swe_salary": "$93,677",
+    "average_salary": 3876.54,
+    "url": "https://www.numbeo.com/cost-of-living/in/Atlanta?displayCurrency=USD",
+    "cost_of_living_index": 72.28,
+    "rent_index": 46.39,
+    "groceries_index": 68.46,
+    "average_rent": 1489.32
+  },
+  "Denver, CO": {
+    "name": "Denver, CO",
+    "salary_page": "https://www.glassdoor.com/Salaries/denver-software-engineer-salary-SRCH_IL.0,6_IM234_KO7,24.htm",
+    "avg_swe_salary": "$98,477",
+    "average_salary": 3591.83,
+    "url": "https://www.numbeo.com/cost-of-living/in/Denver?displayCurrency=USD",
+    "cost_of_living_index": 70.53,
+    "rent_index": 52.25,
+    "groceries_index": 66.87,
+    "average_rent": 1631.72
+  },
+  "Raleigh-Durham, NC": {
+    "name": "Raleigh-Durham, NC",
+    "salary_page": "https://www.glassdoor.com/Salaries/raleigh-engineer-salary-SRCH_IL.0,7_IM714_KO8,16.htm",
+    "avg_swe_salary": "$89,672",
+    "average_salary": 3875.74,
+    "url": "https://www.numbeo.com/cost-of-living/in/Raleigh?displayCurrency=USD",
+    "cost_of_living_index": 70.33,
+    "rent_index": 36.0,
+    "groceries_index": 75.95,
+    "average_rent": 1227.22
+  },
+  "Phoenix, AZ": {
+    "name": "Phoenix, AZ",
+    "salary_page": "https://www.glassdoor.com/Salaries/phoenix-software-engineer-salary-SRCH_IL.0,7_IM678_KO8,25.htm",
+    "avg_swe_salary": "$95,777",
+    "average_salary": 3201.92,
+    "url": "https://www.numbeo.com/cost-of-living/in/Phoenix?displayCurrency=USD",
+    "cost_of_living_index": 65.6,
+    "rent_index": 34.74,
+    "groceries_index": 61.3,
+    "average_rent": 1187.7
+  },
+  "Vancouver, BC, Canada": {
+    "name": "Vancouver, BC, Canada",
+    "salary_page": "https://www.glassdoor.com/Salaries/vancouver-software-engineer-salary-SRCH_IL.0,9_IM972_KO10,27.htm",
+    "avg_swe_salary": "CA$72K",
+    "average_salary": 2364.69,
+    "url": "https://www.numbeo.com/cost-of-living/in/Vancouver?displayCurrency=USD",
+    "cost_of_living_index": 68.4,
+    "rent_index": 47.35,
+    "groceries_index": 66.25,
+    "average_rent": 1405.58
+  },
+  "Pittsburgh, PA": {
+    "name": "Pittsburgh, PA",
+    "salary_page": "https://www.glassdoor.com/Salaries/pittsburgh-software-engineer-salary-SRCH_IL.0,10_IM684_KO11,28.htm",
+    "avg_swe_salary": "$96,159",
+    "average_salary": 2777.2,
+    "url": "https://www.numbeo.com/cost-of-living/in/Pittsburgh?displayCurrency=USD",
+    "cost_of_living_index": 75.79,
+    "rent_index": 36.92,
+    "groceries_index": 73.48,
+    "average_rent": 1154.43
+  },
+  "Mountain View, CA": {
+    "name": "Mountain View, CA",
+    "salary_page": "https://www.glassdoor.com/Salary/Google-Software-Engineer-Mountain-View-Salaries-EJI_IE9079.0,6_KO7,24_IL.25,38_IC1147431.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Mountain-View?displayCurrency=USD",
+    "average_rent": 3166.67,
+    "average_salary": 6290.09
+  },
+  "Houston, TX": {
+    "name": "Houston, TX",
+    "salary_page": "https://www.glassdoor.com/Salaries/houston-senior-software-engineer-salary-SRCH_IL.0,7_IM394_KO8,32.htm",
+    "avg_swe_salary": "$115,461",
+    "average_salary": 3617.77,
+    "url": "https://www.numbeo.com/cost-of-living/in/Houston?displayCurrency=USD",
+    "cost_of_living_index": 64.11,
+    "rent_index": 43.32,
+    "groceries_index": 57.81,
+    "average_rent": 1356.63
+  },
+  "Palo Alto, CA": {
+    "name": "Palo Alto, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/palo-alto-software-engineer-salary-SRCH_IL.0,9_IC1147434_KO10,27.htm",
+    "avg_swe_salary": "$137,734",
+    "url": "https://www.numbeo.com/cost-of-living/in/Palo-Alto?displayCurrency=USD",
+    "average_rent": 2926.6,
+    "average_salary": 5522.3
+  },
+  "Philadelphia, PA": {
+    "name": "Philadelphia, PA",
+    "salary_page": "https://www.glassdoor.com/Salaries/philadelphia-senior-software-engineer-salary-SRCH_IL.0,12_IM676_KO13,37.htm",
+    "avg_swe_salary": "$114,078",
+    "average_salary": 3358.4,
+    "url": "https://www.numbeo.com/cost-of-living/in/Philadelphia?displayCurrency=USD",
+    "cost_of_living_index": 80.57,
+    "rent_index": 45.43,
+    "groceries_index": 80.92,
+    "average_rent": 1526.81
+  },
+  "Boulder, CO": {
+    "name": "Boulder, CO",
+    "salary_page": "https://www.glassdoor.com/Salaries/boulder-software-engineer-salary-SRCH_IL.0,7_IM110_KO8,25.htm",
+    "avg_swe_salary": "$107,861",
+    "url": "https://www.numbeo.com/cost-of-living/in/Boulder?displayCurrency=USD",
+    "average_rent": 1528.57,
+    "average_salary": 3368.15
+  },
+  "Miami-Fort Lauderdale, FL": {
+    "name": "Miami-Fort Lauderdale, FL",
+    "salary_page": "https://www.glassdoor.com/Salaries/fort-lauderdale-software-engineer-salary-SRCH_IL.0,15_IC1154160_KO16,33.htm",
+    "avg_swe_salary": "$93,267",
+    "average_salary": 2707.51,
+    "url": "https://www.numbeo.com/cost-of-living/in/Miami?displayCurrency=USD",
+    "cost_of_living_index": 81.08,
+    "rent_index": 57.48,
+    "groceries_index": 80.11,
+    "average_rent": 1857.23
+  },
+  "Salt Lake City, UT": {
+    "name": "Salt Lake City, UT",
+    "salary_page": "https://www.glassdoor.com/Salaries/salt-lake-city-engineer-salary-SRCH_IL.0,14_IM755_KO15,23.htm",
+    "avg_swe_salary": "$82,353",
+    "average_salary": 3273.62,
+    "url": "https://www.numbeo.com/cost-of-living/in/Salt-Lake-City?displayCurrency=USD",
+    "cost_of_living_index": 64.01,
+    "rent_index": 36.38,
+    "groceries_index": 60.43,
+    "average_rent": 1173.9
+  },
+  "San Antonio, TX": {
+    "name": "San Antonio, TX",
+    "salary_page": "https://www.glassdoor.com/Salaries/san-antonio-software-engineer-salary-SRCH_IL.0,11_IM757_KO12,29.htm",
+    "avg_swe_salary": "$92,720",
+    "average_salary": 2893.71,
+    "url": "https://www.numbeo.com/cost-of-living/in/San-Antonio?displayCurrency=USD",
+    "cost_of_living_index": 62.42,
+    "rent_index": 33.08,
+    "groceries_index": 60.04,
+    "average_rent": 1030.67
+  },
+  "Montreal, QC, Canada": {
+    "name": "Montreal, QC, Canada",
+    "salary_page": "https://www.glassdoor.com/Salaries/montreal-software-engineer-salary-SRCH_IL.0,8_IM990_KO9,26.htm",
+    "avg_swe_salary": "CA$66K",
+    "average_salary": 2183.99,
+    "url": "https://www.numbeo.com/cost-of-living/in/Montreal?displayCurrency=USD",
+    "cost_of_living_index": 62.16,
+    "rent_index": 24.01,
+    "groceries_index": 61.5,
+    "average_rent": 755.98
+  },
+  "Baltimore, MD": {
+    "name": "Baltimore, MD",
+    "salary_page": "https://www.glassdoor.com/Salaries/baltimore-software-engineer-salary-SRCH_IL.0,9_IM63_KO10,27.htm",
+    "avg_swe_salary": "$103,805",
+    "average_salary": 3299.1,
+    "url": "https://www.numbeo.com/cost-of-living/in/Baltimore?displayCurrency=USD",
+    "cost_of_living_index": 74.94,
+    "rent_index": 40.97,
+    "groceries_index": 71.67,
+    "average_rent": 1336.12
+  },
+  "Detroit, MI": {
+    "name": "Detroit, MI",
+    "salary_page": "https://www.glassdoor.com/Salaries/detroit-software-engineer-salary-SRCH_IL.0,7_IM236_KO8,25.htm",
+    "avg_swe_salary": "$88,874",
+    "average_salary": 2145.12,
+    "url": "https://www.numbeo.com/cost-of-living/in/Detroit?displayCurrency=USD",
+    "cost_of_living_index": 60.35,
+    "rent_index": 34.21,
+    "groceries_index": 57.62,
+    "average_rent": 1119.29
+  },
+  "Ottawa, ON, Canada": {
+    "name": "Ottawa, ON, Canada",
+    "salary_page": "https://www.glassdoor.com/Salaries/ottawa-software-engineer-salary-SRCH_IL.0,6_IM981_KO7,24.htm",
+    "avg_swe_salary": "CA$74K",
+    "average_salary": 2835.62,
+    "url": "https://www.numbeo.com/cost-of-living/in/Ottawa?displayCurrency=USD",
+    "cost_of_living_index": 64.94,
+    "rent_index": 29.82,
+    "groceries_index": 60.32,
+    "average_rent": 947.74
+  },
+  "Minneapolis-St. Paul, MN": {
+    "name": "Minneapolis-St. Paul, MN",
+    "salary_page": "https://www.glassdoor.com/Salaries/minneapolis-engineer-salary-SRCH_IL.0,11_IM567_KO12,20.htm",
+    "avg_swe_salary": "$85,652",
+    "average_salary": 3529.69,
+    "url": "https://www.numbeo.com/cost-of-living/in/Minneapolis?displayCurrency=USD",
+    "cost_of_living_index": 74.97,
+    "rent_index": 46.66,
+    "groceries_index": 70.39,
+    "average_rent": 1420.87
+  },
+  "Santa Barbara, CA": {
+    "name": "Santa Barbara, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/santa-barbara-senior-software-engineer-salary-SRCH_IL.0,13_IM766_KO14,38.htm",
+    "avg_swe_salary": "$134,532",
+    "url": "https://www.numbeo.com/cost-of-living/in/Santa-Barbara?displayCurrency=USD",
+    "average_rent": 1802.94,
+    "average_salary": 3805.8
+  },
+  "Columbus, OH": {
+    "name": "Columbus, OH",
+    "salary_page": "https://www.glassdoor.com/Salaries/columbus-software-engineer-salary-SRCH_IL.0,8_IM196_KO9,26.htm",
+    "avg_swe_salary": "$87,216",
+    "average_salary": 2947.4,
+    "url": "https://www.numbeo.com/cost-of-living/in/Columbus?displayCurrency=USD",
+    "cost_of_living_index": 66.18,
+    "rent_index": 35.44,
+    "groceries_index": 60.15,
+    "average_rent": 1153.46
+  },
+  "Charlotte, NC": {
+    "name": "Charlotte, NC",
+    "salary_page": "https://www.glassdoor.com/Salaries/charlotte-software-engineer-salary-SRCH_IL.0,9_IM162_KO10,27.htm",
+    "avg_swe_salary": "$89,314",
+    "average_salary": 3864.41,
+    "url": "https://www.numbeo.com/cost-of-living/in/Charlotte?displayCurrency=USD",
+    "cost_of_living_index": 75.0,
+    "rent_index": 40.96,
+    "groceries_index": 72.36,
+    "average_rent": 1385.18
+  },
+  "Orlando, FL": {
+    "name": "Orlando, FL",
+    "salary_page": "https://www.glassdoor.com/Salaries/orlando-software-engineer-salary-SRCH_IL.0,7_IM645_KO8,25.htm",
+    "avg_swe_salary": "$86,761",
+    "average_salary": 2884.83,
+    "url": "https://www.numbeo.com/cost-of-living/in/Orlando?displayCurrency=USD",
+    "cost_of_living_index": 67.64,
+    "rent_index": 39.66,
+    "groceries_index": 65.93,
+    "average_rent": 1303.72
+  },
+  "Kitchener, ON, Canada": {
+    "name": "Kitchener, ON, Canada",
+    "salary_page": "https://www.glassdoor.com/Salaries/kitchener-software-engineer-salary-SRCH_IL.0,9_IM980_KO10,27.htm",
+    "average_salary": 2305.97,
+    "url": "https://www.numbeo.com/cost-of-living/in/Kitchener?displayCurrency=USD",
+    "cost_of_living_index": 58.63,
+    "rent_index": 26.11,
+    "groceries_index": 52.2,
+    "average_rent": 776.53
+  },
+  "Champaign, IL": {
+    "name": "Champaign, IL",
+    "salary_page": "https://www.glassdoor.com/Salaries/champaign-software-engineer-salary-SRCH_IL.0,9_IM158_KO10,27.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Champaign?displayCurrency=USD",
+    "average_rent": 766.67,
+    "average_salary": 2506.08
+  },
+  "Tampa, FL": {
+    "name": "Tampa, FL",
+    "salary_page": "https://www.glassdoor.com/Salaries/tampa-software-engineer-salary-SRCH_IL.0,5_IM850_KO6,23.htm",
+    "avg_swe_salary": "$86,845",
+    "average_salary": 3175.55,
+    "url": "https://www.numbeo.com/cost-of-living/in/Tampa?displayCurrency=USD",
+    "cost_of_living_index": 69.24,
+    "rent_index": 39.56,
+    "groceries_index": 68.15,
+    "average_rent": 1326.1
+  },
+  "New Orleans, LA": {
+    "name": "New Orleans, LA",
+    "salary_page": "https://www.glassdoor.com/Salaries/new-orleans-software-engineer-salary-SRCH_IL.0,11_IM612_KO12,29.htm",
+    "avg_swe_salary": "$88,808",
+    "url": "https://www.numbeo.com/cost-of-living/in/New-Orleans?displayCurrency=USD",
+    "average_rent": 1394.71,
+    "average_salary": 2465.31
+  },
+  "Las Vegas, NV": {
+    "name": "Las Vegas, NV",
+    "salary_page": "https://www.glassdoor.com/Salaries/las-vegas-software-engineer-salary-SRCH_IL.0,9_IM477_KO10,27.htm",
+    "avg_swe_salary": "$91,603",
+    "average_salary": 2993.72,
+    "url": "https://www.numbeo.com/cost-of-living/in/Las-Vegas?displayCurrency=USD",
+    "cost_of_living_index": 67.58,
+    "rent_index": 30.12,
+    "groceries_index": 61.85,
+    "average_rent": 927.56
+  },
+  "Napa, CA": {
+    "name": "Napa, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/napa-software-engineer-salary-SRCH_IL.0,4_IM602_KO5,22.htm",
+    "avg_swe_salary": "$114,698"
+  },
+  "San Mateo, CA": {
+    "name": "San Mateo, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/san-mateo-software-engineer-salary-SRCH_IL.0,9_IC1147406_KO10,27.htm",
+    "avg_swe_salary": "$137,000",
+    "url": "https://www.numbeo.com/cost-of-living/in/San-Mateo?displayCurrency=USD",
+    "average_rent": 2750.0,
+    "average_salary": 5419.78
+  },
+  "Sacramento, CA": {
+    "name": "Sacramento, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/sacramento-software-engineer-salary-SRCH_IL.0,10_IM747_KO11,28.htm",
+    "avg_swe_salary": "$104,756",
+    "average_salary": 3715.67,
+    "url": "https://www.numbeo.com/cost-of-living/in/Sacramento?displayCurrency=USD",
+    "cost_of_living_index": 78.2,
+    "rent_index": 44.78,
+    "groceries_index": 74.75,
+    "average_rent": 1475.62
+  },
+  "Redwood City, CA": {
+    "name": "Redwood City, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/redwood-city-software-engineer-salary-SRCH_IL.0,12_IC1147394_KO13,30.htm",
+    "avg_swe_salary": "$137,000"
+  },
+  "Trenton, NJ": {
+    "name": "Trenton, NJ",
+    "salary_page": "https://www.glassdoor.com/Salaries/trenton-software-engineer-salary-SRCH_IL.0,7_IM866_KO8,25.htm",
+    "avg_swe_salary": "$99,532",
+    "url": "https://www.numbeo.com/cost-of-living/in/Trenton?displayCurrency=USD",
+    "average_rent": 600.0,
+    "average_salary": 1631.67
+  },
+  "Albany, NY": {
+    "name": "Albany, NY",
+    "salary_page": "https://www.glassdoor.com/Salaries/albany-software-engineer-salary-SRCH_IL.0,6_IM13_KO7,24.htm",
+    "avg_swe_salary": "$86,649",
+    "average_salary": 2658.21,
+    "url": "https://www.numbeo.com/cost-of-living/in/Albany?displayCurrency=USD",
+    "cost_of_living_index": 77.02,
+    "rent_index": 30.99,
+    "groceries_index": 77.62,
+    "average_rent": 959.62
+  },
+  "Boise, ID": {
+    "name": "Boise, ID",
+    "salary_page": "https://www.glassdoor.com/Salaries/boise-software-engineer-salary-SRCH_IL.0,5_IM104_KO6,23.htm",
+    "avg_swe_salary": "$89,024",
+    "average_salary": 2433.81,
+    "url": "https://www.numbeo.com/cost-of-living/in/Boise?displayCurrency=USD",
+    "cost_of_living_index": 58.37,
+    "rent_index": 30.75,
+    "groceries_index": 51.77,
+    "average_rent": 963.0
+  },
+  "Provo, UT": {
+    "name": "Provo, UT",
+    "salary_page": "https://www.glassdoor.com/Salaries/provo-software-engineer-salary-SRCH_IL.0,5_IM708_KO6,23.htm",
+    "avg_swe_salary": "$95,786"
+  },
+  "Sunnyvale, CA": {
+    "name": "Sunnyvale, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/sunnyvale-software-engineer-salary-SRCH_IL.0,9_IC1147442_KO10,27.htm",
+    "avg_swe_salary": "$137,734",
+    "url": "https://www.numbeo.com/cost-of-living/in/Sunnyvale?displayCurrency=USD",
+    "average_rent": 2754.71,
+    "average_salary": 6247.6
+  },
+  "Omaha, NE": {
+    "name": "Omaha, NE",
+    "salary_page": "https://www.glassdoor.com/Salaries/omaha-software-engineer-salary-SRCH_IL.0,5_IM640_KO6,23.htm",
+    "avg_swe_salary": "$87,443",
+    "url": "https://www.numbeo.com/cost-of-living/in/Omaha?displayCurrency=USD",
+    "average_rent": 929.73,
+    "average_salary": 2756.7
+  },
+  "Hartford, CT": {
+    "name": "Hartford, CT",
+    "salary_page": "https://www.glassdoor.com/Salaries/hartford-software-engineer-salary-SRCH_IL.0,8_IM372_KO9,26.htm",
+    "avg_swe_salary": "$88,437",
+    "url": "https://www.numbeo.com/cost-of-living/in/Hartford?displayCurrency=USD",
+    "average_rent": 1193.75,
+    "average_salary": 2372.24
+  },
+  "St. Louis, MO": {
+    "name": "St. Louis, MO",
+    "salary_page": "https://www.glassdoor.com/Salaries/st-louis-software-engineer-salary-SRCH_IL.0,8_IM823_KO9,26.htm",
+    "avg_swe_salary": "$90,970"
+  },
+  "Kansas City, MO": {
+    "name": "Kansas City, MO",
+    "salary_page": "https://www.glassdoor.com/Salaries/kansas-city-software-engineer-salary-SRCH_IL.0,11_IM437_KO12,29.htm",
+    "avg_swe_salary": "$85,243",
+    "average_salary": 3055.1,
+    "url": "https://www.numbeo.com/cost-of-living/in/Kansas-City?displayCurrency=USD",
+    "cost_of_living_index": 69.1,
+    "rent_index": 30.04,
+    "groceries_index": 63.52,
+    "average_rent": 1011.54
+  },
+  "Madison, WI": {
+    "name": "Madison, WI",
+    "salary_page": "https://www.glassdoor.com/Salaries/madison-software-engineer-salary-SRCH_IL.0,7_IM518_KO8,25.htm",
+    "avg_swe_salary": "$101,613",
+    "average_salary": 3045.05,
+    "url": "https://www.numbeo.com/cost-of-living/in/Madison?displayCurrency=USD",
+    "cost_of_living_index": 63.59,
+    "rent_index": 36.4,
+    "groceries_index": 58.62,
+    "average_rent": 1163.28
+  },
+  "Milwaukee, WI": {
+    "name": "Milwaukee, WI",
+    "salary_page": "https://www.glassdoor.com/Salaries/milwaukee-senior-software-engineer-salary-SRCH_IL.0,9_IM564_KO10,34.htm",
+    "avg_swe_salary": "$102,514",
+    "average_salary": 2455.29,
+    "url": "https://www.numbeo.com/cost-of-living/in/Milwaukee?displayCurrency=USD",
+    "cost_of_living_index": 71.0,
+    "rent_index": 36.04,
+    "groceries_index": 67.96,
+    "average_rent": 1070.88
+  },
+  "Springfield, MA": {
+    "name": "Springfield, MA",
+    "salary_page": "https://www.glassdoor.com/Salaries/springfield-software-engineer-salary-SRCH_IL.0,11_IM817_KO12,29.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Springfield?displayCurrency=USD",
+    "average_rent": 620.62,
+    "average_salary": 1810.87
+  },
+  "Coos Bay, OR": {
+    "name": "Coos Bay, OR",
+    "salary_page": "https://www.glassdoor.com/Salaries/coos-bay-software-engineer-salary-SRCH_IL.0,8_IM200_KO9,26.htm",
+    "avg_swe_salary": "$86,727"
+  },
+  "Louisville, KY": {
+    "name": "Louisville, KY",
+    "salary_page": "https://www.glassdoor.com/Salaries/louisville-senior-software-engineer-salary-SRCH_IL.0,10_IM509_KO11,35.htm",
+    "avg_swe_salary": "$98,214",
+    "average_salary": 2389.3,
+    "url": "https://www.numbeo.com/cost-of-living/in/Louisville?displayCurrency=USD",
+    "cost_of_living_index": 65.03,
+    "rent_index": 26.6,
+    "groceries_index": 58.87,
+    "average_rent": 810.32
+  },
+  "Indianapolis, IN": {
+    "name": "Indianapolis, IN",
+    "salary_page": "https://www.glassdoor.com/Salaries/indianapolis-software-engineer-salary-SRCH_IL.0,12_IM407_KO13,30.htm",
+    "avg_swe_salary": "$88,254",
+    "average_salary": 2599.91,
+    "url": "https://www.numbeo.com/cost-of-living/in/Indianapolis?displayCurrency=USD",
+    "cost_of_living_index": 67.35,
+    "rent_index": 32.37,
+    "groceries_index": 63.63,
+    "average_rent": 1155.45
+  },
+  "Worcester, MA": {
+    "name": "Worcester, MA",
+    "salary_page": "https://www.glassdoor.com/Salaries/worcester-senior-software-engineer-salary-SRCH_IL.0,9_IM941_KO10,34.htm",
+    "avg_swe_salary": "$120,631",
+    "url": "https://www.numbeo.com/cost-of-living/in/Worcester?displayCurrency=USD",
+    "average_rent": 992.86,
+    "average_salary": 2533.0
+  },
+  "Tucson, AZ": {
+    "name": "Tucson, AZ",
+    "salary_page": "https://www.glassdoor.com/Salaries/tucson-software-engineer-salary-SRCH_IL.0,6_IM869_KO7,24.htm",
+    "average_salary": 2415.51,
+    "url": "https://www.numbeo.com/cost-of-living/in/Tucson?displayCurrency=USD",
+    "cost_of_living_index": 68.96,
+    "rent_index": 24.23,
+    "groceries_index": 58.54,
+    "average_rent": 693.24
+  },
+  "Burlington, VT": {
+    "name": "Burlington, VT",
+    "salary_page": "https://www.glassdoor.com/Salaries/burlington-software-engineer-salary-SRCH_IL.0,10_IM133_KO11,28.htm",
+    "avg_swe_salary": "$83,566",
+    "url": "https://www.numbeo.com/cost-of-living/in/Burlington?displayCurrency=USD",
+    "average_rent": 1233.93,
+    "average_salary": 2125.0
+  },
+  "Rochester, NY": {
+    "name": "Rochester, NY",
+    "salary_page": "https://www.glassdoor.com/Salaries/rochester-software-engineer-salary-SRCH_IL.0,9_IM733_KO10,27.htm",
+    "avg_swe_salary": "$84,158",
+    "average_salary": 1988.92,
+    "url": "https://www.numbeo.com/cost-of-living/in/Rochester?displayCurrency=USD",
+    "cost_of_living_index": 75.57,
+    "rent_index": 31.13,
+    "groceries_index": 80.66,
+    "average_rent": 880.75
+  },
+  "Oklahoma City, OK": {
+    "name": "Oklahoma City, OK",
+    "salary_page": "https://www.glassdoor.com/Salaries/oklahoma-city-software-engineer-salary-SRCH_IL.0,13_IM637_KO14,31.htm",
+    "avg_swe_salary": "$84,144",
+    "url": "https://www.numbeo.com/cost-of-living/in/Oklahoma-City?displayCurrency=USD",
+    "average_rent": 857.06,
+    "average_salary": 2575.2
+  },
+  "Buffalo, NY": {
+    "name": "Buffalo, NY",
+    "salary_page": "https://www.glassdoor.com/Salaries/buffalo-software-engineer-salary-SRCH_IL.0,7_IM129_KO8,25.htm",
+    "avg_swe_salary": "$77,379",
+    "average_salary": 2496.53,
+    "url": "https://www.numbeo.com/cost-of-living/in/Buffalo?displayCurrency=USD",
+    "cost_of_living_index": 71.26,
+    "rent_index": 28.47,
+    "groceries_index": 64.65,
+    "average_rent": 987.22
+  },
+  "Fort Collins, CO": {
+    "name": "Fort Collins, CO",
+    "salary_page": "https://www.glassdoor.com/Salaries/fort-collins-software-engineer-salary-SRCH_IL.0,12_IM306_KO13,30.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Fort-Collins?displayCurrency=USD",
+    "average_rent": 1223.12,
+    "average_salary": 2912.25
+  },
+  "Santa Monica, CA": {
+    "name": "Santa Monica, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/santa-monica-software-engineer-salary-SRCH_IL.0,12_IC1146873_KO13,30.htm",
+    "avg_swe_salary": "$110,706",
+    "url": "https://www.numbeo.com/cost-of-living/in/Santa-Monica?displayCurrency=USD",
+    "average_rent": 2519.07,
+    "average_salary": 4916.75
+  },
+  "Ann Arbor, MI": {
+    "name": "Ann Arbor, MI",
+    "salary_page": "https://www.glassdoor.com/Salaries/ann-arbor-software-engineer-salary-SRCH_IL.0,9_IM37_KO10,27.htm",
+    "avg_swe_salary": "$87,146",
+    "url": "https://www.numbeo.com/cost-of-living/in/Ann-Arbor?displayCurrency=USD",
+    "average_rent": 1409.09,
+    "average_salary": 3303.53
+  },
+  "Manchester, NH": {
+    "name": "Manchester, NH",
+    "salary_page": "https://www.glassdoor.com/Salaries/manchester-engineer-salary-SRCH_IL.0,10_IM522_KO11,19.htm",
+    "avg_swe_salary": "$82,040",
+    "url": "https://www.numbeo.com/cost-of-living/in/Manchester?displayCurrency=USD",
+    "average_rent": 943.03,
+    "average_salary": 2127.2
+  },
+  "Memphis, TN": {
+    "name": "Memphis, TN",
+    "salary_page": "https://www.glassdoor.com/Salaries/memphis-software-engineer-salary-SRCH_IL.0,7_IM551_KO8,25.htm",
+    "avg_swe_salary": "$83,763",
+    "average_salary": 2705.19,
+    "url": "https://www.numbeo.com/cost-of-living/in/Memphis?displayCurrency=USD",
+    "cost_of_living_index": 65.93,
+    "rent_index": 26.03,
+    "groceries_index": 60.39,
+    "average_rent": 902.5
+  },
+  "Dayton, OH": {
+    "name": "Dayton, OH",
+    "salary_page": "https://www.glassdoor.com/Salaries/dayton-software-engineer-salary-SRCH_IL.0,6_IM225_KO7,24.htm",
+    "avg_swe_salary": "$83,209",
+    "url": "https://www.numbeo.com/cost-of-living/in/Dayton?displayCurrency=USD",
+    "average_rent": 792.27,
+    "average_salary": 1712.18
+  },
+  "Jacksonville, FL": {
+    "name": "Jacksonville, FL",
+    "salary_page": "https://www.glassdoor.com/Salaries/jacksonville-software-engineer-salary-SRCH_IL.0,12_IM416_KO13,30.htm",
+    "avg_swe_salary": "$89,061",
+    "average_salary": 3038.41,
+    "url": "https://www.numbeo.com/cost-of-living/in/Jacksonville?displayCurrency=USD",
+    "cost_of_living_index": 69.56,
+    "rent_index": 30.83,
+    "groceries_index": 69.57,
+    "average_rent": 1016.58
+  },
+  "Calgary, AB, Canada": {
+    "name": "Calgary, AB, Canada",
+    "salary_page": "https://www.glassdoor.com/Salaries/calgary-software-engineer-salary-SRCH_IL.0,7_IM970_KO8,25.htm",
+    "avg_swe_salary": "CA$77K",
+    "average_salary": 2952.57,
+    "url": "https://www.numbeo.com/cost-of-living/in/Calgary?displayCurrency=USD",
+    "cost_of_living_index": 67.92,
+    "rent_index": 29.94,
+    "groceries_index": 63.54,
+    "average_rent": 934.41
+  },
+  "Santa Cruz, CA": {
+    "name": "Santa Cruz, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/santa-cruz-software-engineer-salary-SRCH_IL.0,10_IM767_KO11,28.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Santa-Cruz?displayCurrency=USD",
+    "average_rent": 2250.0,
+    "average_salary": 4900.0
+  },
+  "Cambridge, MA": {
+    "name": "Cambridge, MA",
+    "salary_page": "https://www.glassdoor.com/Salaries/cambridge-software-engineer-salary-SRCH_IL.0,9_IC1154545_KO10,27.htm",
+    "avg_swe_salary": "$108,541",
+    "url": "https://www.numbeo.com/cost-of-living/in/Cambridge?displayCurrency=USD",
+    "average_rent": 1298.88,
+    "average_salary": 2422.95
+  },
+  "Ames, IA": {
+    "name": "Ames, IA",
+    "salary_page": "https://www.glassdoor.com/Salaries/ames-software-engineer-salary-SRCH_IL.0,4_IM30_KO5,22.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Ames?displayCurrency=USD",
+    "average_rent": 767.86,
+    "average_salary": 1912.78
+  },
+  "Raleigh, NC": {
+    "name": "Raleigh, NC",
+    "salary_page": "https://www.glassdoor.com/Salaries/raleigh-software-engineer-salary-SRCH_IL.0,7_IM714_KO8,25.htm",
+    "avg_swe_salary": "$96,173",
+    "average_salary": 3875.74,
+    "url": "https://www.numbeo.com/cost-of-living/in/Raleigh?displayCurrency=USD",
+    "cost_of_living_index": 70.33,
+    "rent_index": 36.0,
+    "groceries_index": 75.95,
+    "average_rent": 1227.22
+  },
+  "Tallahassee, FL": {
+    "name": "Tallahassee, FL",
+    "salary_page": "https://www.glassdoor.com/Salaries/tallahassee-software-engineer-salary-SRCH_IL.0,11_IM848_KO12,29.htm",
+    "avg_swe_salary": "$78,726",
+    "url": "https://www.numbeo.com/cost-of-living/in/Tallahassee?displayCurrency=USD",
+    "average_rent": 771.43,
+    "average_salary": 2619.24
+  },
+  "Santa Fe, NM": {
+    "name": "Santa Fe, NM",
+    "salary_page": "https://www.glassdoor.com/Salaries/santa-fe-software-engineer-salary-SRCH_IL.0,8_IM768_KO9,26.htm",
+    "avg_swe_salary": "$98,748",
+    "url": "https://www.numbeo.com/cost-of-living/in/Santa-Fe?displayCurrency=USD",
+    "average_rent": 1162.5,
+    "average_salary": 2813.03
+  },
+  "Bridgeport, CT": {
+    "name": "Bridgeport, CT",
+    "salary_page": "https://www.glassdoor.com/Salaries/bridgeport-software-engineer-salary-SRCH_IL.0,10_IM119_KO11,28.htm",
+    "avg_swe_salary": "$110,579"
+  },
+  "Merced, CA": {
+    "name": "Merced, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/merced-software-engineer-salary-SRCH_IL.0,6_IM553_KO7,24.htm"
+  },
+  "Wichita, KS": {
+    "name": "Wichita, KS",
+    "salary_page": "https://www.glassdoor.com/Salaries/wichita-software-engineer-salary-SRCH_IL.0,7_IM927_KO8,25.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Wichita?displayCurrency=USD",
+    "average_rent": 733.33,
+    "average_salary": 2524.29
+  },
+  "Kingston, NY": {
+    "name": "Kingston, NY",
+    "salary_page": "https://www.glassdoor.com/Salaries/kingston-software-engineer-salary-SRCH_IL.0,8_IM450_KO9,26.htm",
+    "avg_swe_salary": "$98,542",
+    "url": "https://www.numbeo.com/cost-of-living/in/Kingston?displayCurrency=USD",
+    "average_rent": 955.77,
+    "average_salary": 2248.12
+  },
+  "Albuquerque, NM": {
+    "name": "Albuquerque, NM",
+    "salary_page": "https://www.glassdoor.com/Salaries/albuquerque-software-engineer-salary-SRCH_IL.0,11_IM17_KO12,29.htm",
+    "avg_swe_salary": "$86,391",
+    "average_salary": 2556.68,
+    "url": "https://www.numbeo.com/cost-of-living/in/Albuquerque?displayCurrency=USD",
+    "cost_of_living_index": 64.46,
+    "rent_index": 27.46,
+    "groceries_index": 65.14,
+    "average_rent": 836.47
+  },
+  "Santa Clara, CA": {
+    "name": "Santa Clara, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/santa-clara-software-engineer-salary-SRCH_IL.0,11_IC1147439_KO12,29.htm",
+    "avg_swe_salary": "$137,734"
+  },
+  "Columbus, GA": {
+    "name": "Columbus, GA",
+    "salary_page": "https://www.glassdoor.com/Salaries/columbus-software-engineer-salary-SRCH_IL.0,8_IM192_KO9,26.htm",
+    "avg_swe_salary": "$94,657",
+    "average_salary": 2947.4,
+    "url": "https://www.numbeo.com/cost-of-living/in/Columbus?displayCurrency=USD",
+    "cost_of_living_index": 66.18,
+    "rent_index": 35.44,
+    "groceries_index": 60.15,
+    "average_rent": 1153.46
+  },
+  "Halifax, NS, Canada": {
+    "name": "Halifax, NS, Canada",
+    "salary_page": "https://www.glassdoor.ca/Salaries/halifax-engineer-salary-SRCH_IL.0,7_IM984_KO8,16.htm",
+    "average_salary": 2095.26,
+    "url": "https://www.numbeo.com/cost-of-living/in/Halifax?displayCurrency=USD",
+    "cost_of_living_index": 68.83,
+    "rent_index": 26.42,
+    "groceries_index": 72.22,
+    "average_rent": 835.44
+  },
+  "Cleveland, OH": {
+    "name": "Cleveland, OH",
+    "salary_page": "https://www.glassdoor.com/Salaries/cleveland-software-engineer-salary-SRCH_IL.0,9_IM179_KO10,27.htm",
+    "avg_swe_salary": "$80,152",
+    "average_salary": 2523.52,
+    "url": "https://www.numbeo.com/cost-of-living/in/Cleveland?displayCurrency=USD",
+    "cost_of_living_index": 70.57,
+    "rent_index": 28.46,
+    "groceries_index": 65.12,
+    "average_rent": 916.5
+  },
+  "Hawaiian Islands": {
+    "name": "Hawaiian Islands",
+    "salary_page": "https://www.glassdoor.com/Salaries/hawaiian-islands-computer-programmer-salary-SRCH_IL.0,16_IM388_KO17,36.htm",
+    "avg_swe_salary": "$77,466"
+  },
+  "Fayetteville, AR": {
+    "name": "Fayetteville, AR",
+    "salary_page": "https://www.glassdoor.com/Salaries/fayetteville-software-engineer-salary-SRCH_IL.0,12_IM294_KO13,30.htm",
+    "avg_swe_salary": "$76,289",
+    "url": "https://www.numbeo.com/cost-of-living/in/Fayetteville?displayCurrency=USD",
+    "average_rent": 735.0,
+    "average_salary": 2220.0
+  },
+  "Des Moines, IA": {
+    "name": "Des Moines, IA",
+    "salary_page": "https://www.glassdoor.com/Salaries/des-moines-software-engineer-salary-SRCH_IL.0,10_IM235_KO11,28.htm",
+    "avg_swe_salary": "$90,328",
+    "url": "https://www.numbeo.com/cost-of-living/in/Des-Moines?displayCurrency=USD",
+    "average_rent": 975.0,
+    "average_salary": 2649.39
+  },
+  "Colorado Springs, CO": {
+    "name": "Colorado Springs, CO",
+    "salary_page": "https://www.glassdoor.com/Salaries/colorado-springs-software-engineer-salary-SRCH_IL.0,16_IM188_KO17,34.htm",
+    "avg_swe_salary": "$98,763",
+    "average_salary": 3176.47,
+    "url": "https://www.numbeo.com/cost-of-living/in/Colorado-Springs?displayCurrency=USD",
+    "average_rent": 1040.89
+  },
+  "El Paso, TX": {
+    "name": "El Paso, TX",
+    "salary_page": "https://www.glassdoor.com/Salaries/el-paso-senior-software-engineer-salary-SRCH_IL.0,7_IM265_KO8,32.htm",
+    "avg_swe_salary": "$69,927",
+    "url": "https://www.numbeo.com/cost-of-living/in/El-Paso?displayCurrency=USD",
+    "average_rent": 648.46,
+    "average_salary": 2306.06
+  },
+  "Puerto Rico": {
+    "name": "Puerto Rico",
+    "salary_page": "https://www.glassdoor.com/Salaries/puerto-rico-software-engineer-salary-SRCH_IL.0,11_IM762_KO12,29.htm",
+    "avg_swe_salary": "$59,390"
+  },
+  "New Haven, CT": {
+    "name": "New Haven, CT",
+    "salary_page": "https://www.glassdoor.com/Salaries/connecticut-software-engineer-salary-SRCH_IL.0,11_IS2697_KO12,29.htm",
+    "avg_swe_salary": "$115,462",
+    "url": "https://www.numbeo.com/cost-of-living/in/New-Haven?displayCurrency=USD",
+    "average_rent": 1939.36,
+    "average_salary": 2616.82
+  },
+  "Jesup, GA": {
+    "name": "Jesup, GA",
+    "salary_page": "https://www.glassdoor.com/Salaries/jesup-software-engineer-salary-SRCH_IL.0,5_IM427_KO6,23.htm"
+  },
+  "Providence, RI": {
+    "name": "Providence, RI",
+    "salary_page": "https://www.glassdoor.com/Salaries/providence-senior-engineer-salary-SRCH_IL.0,10_IM707_KO11,26.htm",
+    "avg_swe_salary": "$97,919",
+    "url": "https://www.numbeo.com/cost-of-living/in/Providence?displayCurrency=USD",
+    "average_rent": 1431.94,
+    "average_salary": 2471.35
+  },
+  "Concord, NH": {
+    "name": "Concord, NH",
+    "salary_page": "https://www.glassdoor.com/Salaries/concord-software-engineer-salary-SRCH_IL.0,7_IM197_KO8,25.htm",
+    "avg_swe_salary": "$92,593",
+    "url": "https://www.numbeo.com/cost-of-living/in/Concord?displayCurrency=USD",
+    "average_rent": 925.0,
+    "average_salary": 2888.89
+  },
+  "Brooklyn, NY": {
+    "name": "Brooklyn, NY",
+    "salary_page": "https://www.glassdoor.com/Salaries/brooklyn-software-engineer-salary-SRCH_IL.0,8_IC1132200_KO9,26.htm",
+    "avg_swe_salary": "$117,197",
+    "average_salary": 3359.04,
+    "url": "https://www.numbeo.com/cost-of-living/in/Brooklyn?displayCurrency=USD",
+    "cost_of_living_index": 90.88,
+    "rent_index": 80.2,
+    "groceries_index": 87.76,
+    "average_rent": 2550.03
+  },
+  "Riverside, CA": {
+    "name": "Riverside, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/riverside-software-engineer-salary-SRCH_IL.0,9_IM727_KO10,27.htm",
+    "avg_swe_salary": "$103,204",
+    "average_salary": 3031.14,
+    "url": "https://www.numbeo.com/cost-of-living/in/Riverside?displayCurrency=USD",
+    "average_rent": 1368.75
+  },
+  "Sarasota, FL": {
+    "name": "Sarasota, FL",
+    "salary_page": "https://www.glassdoor.com/Salaries/sarasota-software-engineer-salary-SRCH_IL.0,8_IM771_KO9,26.htm",
+    "avg_swe_salary": "$91,231",
+    "url": "https://www.numbeo.com/cost-of-living/in/Sarasota?displayCurrency=USD",
+    "average_rent": 1522.73,
+    "average_salary": 2908.33
+  },
+  "Knoxville, TN": {
+    "name": "Knoxville, TN",
+    "salary_page": "https://www.glassdoor.com/Salaries/knoxville-senior-software-engineer-salary-SRCH_IL.0,9_IM455_KO10,34.htm",
+    "avg_swe_salary": "$107,821",
+    "average_salary": 2255.8,
+    "url": "https://www.numbeo.com/cost-of-living/in/Knoxville?displayCurrency=USD",
+    "cost_of_living_index": 64.32,
+    "rent_index": 28.93,
+    "groceries_index": 67.81,
+    "average_rent": 918.18
+  },
+  "Allentown, PA": {
+    "name": "Allentown, PA",
+    "salary_page": "https://www.glassdoor.com/Salaries/allentown-software-engineer-salary-SRCH_IL.0,9_IM23_KO10,27.htm",
+    "avg_swe_salary": "$99,237",
+    "url": "https://www.numbeo.com/cost-of-living/in/Allentown?displayCurrency=USD",
+    "average_rent": 690.0,
+    "average_salary": 2151.92
+  },
+  "Richmond, VA": {
+    "name": "Richmond, VA",
+    "salary_page": "https://www.glassdoor.com/Salaries/richmond-software-engineer-salary-SRCH_IL.0,8_IM724_KO9,26.htm",
+    "avg_swe_salary": "$95,738",
+    "average_salary": 2894.7,
+    "url": "https://www.numbeo.com/cost-of-living/in/Richmond?displayCurrency=USD",
+    "cost_of_living_index": 65.67,
+    "rent_index": 34.4,
+    "groceries_index": 64.35,
+    "average_rent": 1180.7
+  },
+  "Scranton, PA": {
+    "name": "Scranton, PA",
+    "salary_page": "https://www.glassdoor.com/Salaries/scranton-software-engineer-salary-SRCH_IL.0,8_IM778_KO9,26.htm",
+    "avg_swe_salary": "$79,047",
+    "url": "https://www.numbeo.com/cost-of-living/in/Scranton?displayCurrency=USD",
+    "average_rent": 630.0,
+    "average_salary": 2057.13
+  },
+  "Norfolk, VA": {
+    "name": "Norfolk, VA",
+    "salary_page": "https://www.glassdoor.com/Salaries/norfolk-engineer-salary-SRCH_IL.0,7_IM896_KO8,16.htm",
+    "avg_swe_salary": "$78,217",
+    "url": "https://www.numbeo.com/cost-of-living/in/Norfolk?displayCurrency=USD",
+    "average_rent": 1244.88,
+    "average_salary": 2915.58
+  },
+  "Birmingham, AL": {
+    "name": "Birmingham, AL",
+    "salary_page": "https://www.glassdoor.com/Salaries/birmingham-software-engineer-salary-SRCH_IL.0,10_IM93_KO11,28.htm",
+    "avg_swe_salary": "$81,752",
+    "url": "https://www.numbeo.com/cost-of-living/in/Birmingham?displayCurrency=USD",
+    "average_rent": 951.28,
+    "average_salary": 2006.82
+  },
+  "Charleston, SC": {
+    "name": "Charleston, SC",
+    "salary_page": "https://www.glassdoor.com/Salaries/charleston-software-engineer-salary-SRCH_IL.0,10_IM161_KO11,28.htm",
+    "avg_swe_salary": "$85,582",
+    "url": "https://www.numbeo.com/cost-of-living/in/Charleston?displayCurrency=USD",
+    "average_rent": 1423.41,
+    "average_salary": 3107.29
+  },
+  "Victoria, BC, Canada": {
+    "name": "Victoria, BC, Canada",
+    "salary_page": "https://www.glassdoor.com/Salaries/victoria-software-engineer-salary-SRCH_IL.0,8_IM973_KO9,26.htm",
+    "average_salary": 2341.95,
+    "url": "https://www.numbeo.com/cost-of-living/in/Victoria?displayCurrency=USD",
+    "cost_of_living_index": 66.21,
+    "rent_index": 36.48,
+    "groceries_index": 66.73,
+    "average_rent": 1044.19
+  },
+  "San Luis Obispo, CA": {
+    "name": "San Luis Obispo, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/san-luis-obispo-software-engineer-salary-SRCH_IL.0,15_IM763_KO16,33.htm",
+    "avg_swe_salary": "$88,593",
+    "url": "https://www.numbeo.com/cost-of-living/in/San-Luis-Obispo?displayCurrency=USD",
+    "average_rent": 1590.0,
+    "average_salary": 3138.25
+  },
+  "Cambridge, MD": {
+    "name": "Cambridge, MD",
+    "salary_page": "https://www.glassdoor.com/Salaries/cambridge-software-engineer-salary-SRCH_IL.0,9_IM137_KO10,27.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Cambridge?displayCurrency=USD",
+    "average_rent": 1298.88,
+    "average_salary": 2422.95
+  },
+  "Ukiah, CA": {
+    "name": "Ukiah, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/ukiah-software-engineer-salary-SRCH_IL.0,5_IM877_KO6,23.htm"
+  },
+  "Eugene, OR": {
+    "name": "Eugene, OR",
+    "salary_page": "https://www.glassdoor.com/Salaries/eugene-software-engineer-salary-SRCH_IL.0,6_IM280_KO7,24.htm",
+    "avg_swe_salary": "$83,819",
+    "url": "https://www.numbeo.com/cost-of-living/in/Eugene?displayCurrency=USD",
+    "average_rent": 890.62,
+    "average_salary": 2213.42
+  },
+  "Campbell, CA": {
+    "name": "Campbell, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/campbell-software-engineer-salary-SRCH_IL.0,8_IC1147420_KO9,26.htm",
+    "avg_swe_salary": "$137,734"
+  },
+  "Yakima, WA": {
+    "name": "Yakima, WA",
+    "salary_page": "https://www.glassdoor.com/Salaries/yakima-software-engineer-salary-SRCH_IL.0,6_IM943_KO7,24.htm",
+    "avg_swe_salary": "$98,549",
+    "url": "https://www.numbeo.com/cost-of-living/in/Yakima?displayCurrency=USD",
+    "average_rent": 775.0,
+    "average_salary": 2378.7
+  },
+  "Bozeman, MT": {
+    "name": "Bozeman, MT",
+    "salary_page": "https://www.glassdoor.com/Salaries/bozeman-software-engineer-salary-SRCH_IL.0,7_IM112_KO8,25.htm",
+    "avg_swe_salary": "$84,793",
+    "url": "https://www.numbeo.com/cost-of-living/in/Bozeman?displayCurrency=USD",
+    "average_rent": 1000.0,
+    "average_salary": 2400.0
+  },
+  "Pleasanton, CA": {
+    "name": "Pleasanton, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/pleasanton-software-engineer-salary-SRCH_IL.0,10_IC1147390_KO11,28.htm",
+    "avg_swe_salary": "$137,000",
+    "url": "https://www.numbeo.com/cost-of-living/in/Pleasanton?displayCurrency=USD",
+    "average_rent": 2370.0,
+    "average_salary": 5185.36
+  },
+  "Charlottesville, VA": {
+    "name": "Charlottesville, VA",
+    "salary_page": "https://www.glassdoor.com/Salaries/charlottesville-software-engineer-salary-SRCH_IL.0,15_IM163_KO16,33.htm",
+    "avg_swe_salary": "$87,274",
+    "url": "https://www.numbeo.com/cost-of-living/in/Charlottesville?displayCurrency=USD",
+    "average_rent": 1258.33,
+    "average_salary": 3133.33
+  },
+  "Miami, OK": {
+    "name": "Miami, OK",
+    "salary_page": "https://www.glassdoor.com/Salaries/miami-software-engineer-salary-SRCH_IL.0,5_IM557_KO6,23.htm",
+    "average_salary": 2707.51,
+    "url": "https://www.numbeo.com/cost-of-living/in/Miami?displayCurrency=USD",
+    "cost_of_living_index": 81.08,
+    "rent_index": 57.48,
+    "groceries_index": 80.11,
+    "average_rent": 1857.23
+  },
+  "Burbank, CA": {
+    "name": "Burbank, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/burbank-software-engineer-salary-SRCH_IL.0,7_IC1146756_KO8,25.htm",
+    "avg_swe_salary": "$110,706"
+  },
+  "San Bruno, CA": {
+    "name": "San Bruno, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/san-bruno-software-engineer-salary-SRCH_IL.0,9_IC1147399_KO10,27.htm",
+    "avg_swe_salary": "$137,000"
+  },
+  "Irvine, CA": {
+    "name": "Irvine, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/irvine-software-engineer-salary-SRCH_IL.0,6_IC1146798_KO7,24.htm",
+    "avg_swe_salary": "$110,706",
+    "url": "https://www.numbeo.com/cost-of-living/in/Irvine?displayCurrency=USD",
+    "average_rent": 2009.07,
+    "average_salary": 4405.98
+  },
+  "Jonesboro, AR": {
+    "name": "Jonesboro, AR",
+    "salary_page": "https://www.glassdoor.com/Salaries/jonesboro-software-engineer-salary-SRCH_IL.0,9_IM430_KO10,27.htm",
+    "avg_swe_salary": "$90,141",
+    "url": "https://www.numbeo.com/cost-of-living/in/Jonesboro?displayCurrency=USD",
+    "average_rent": 691.67,
+    "average_salary": 2025.33
+  },
+  "B\u00fcren, Nordrhein-Westfalen (Germany)": {
+    "name": "B\u00fcren, Nordrhein-Westfalen (Germany)",
+    "salary_page": "https://www.glassdoor.com/Job/arnsberg-software-engineer-jobs-SRCH_IL.0,8_IC2694440_KO9,26.htm"
+  },
+  "Weston, FL": {
+    "name": "Weston, FL",
+    "salary_page": "https://www.glassdoor.com/Salaries/weston-software-engineer-salary-SRCH_IL.0,6_IC1166236_KO7,24.htm",
+    "avg_swe_salary": "$93,267"
+  },
+  "Needham, MA": {
+    "name": "Needham, MA",
+    "salary_page": "https://www.glassdoor.com/Salaries/needham-software-engineer-salary-SRCH_IL.0,7_IC1154631_KO8,25.htm",
+    "avg_swe_salary": "$108,541"
+  },
+  "West Hollywood, CA": {
+    "name": "West Hollywood, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/west-hollywood-senior-software-engineer-salary-SRCH_IL.0,14_IC1146909_KO15,39.htm",
+    "avg_swe_salary": "$128,865"
+  },
+  "Daytona Beach, FL": {
+    "name": "Daytona Beach, FL",
+    "salary_page": "https://www.glassdoor.com/Salaries/daytona-beach-software-engineer-salary-SRCH_IL.0,13_IM232_KO14,31.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Daytona-Beach?displayCurrency=USD",
+    "average_rent": 844.29,
+    "average_salary": 1858.77
+  },
+  "Fort Wayne, IN": {
+    "name": "Fort Wayne, IN",
+    "salary_page": "https://www.glassdoor.com/Salaries/fort-wayne-software-engineer-salary-SRCH_IL.0,10_IM316_KO11,28.htm",
+    "avg_swe_salary": "$85,694",
+    "url": "https://www.numbeo.com/cost-of-living/in/Fort-Wayne?displayCurrency=USD",
+    "average_rent": 687.5,
+    "average_salary": 2327.0
+  },
+  "Bloomington, IL": {
+    "name": "Bloomington, IL",
+    "salary_page": "https://www.glassdoor.com/Salaries/bloomington-software-engineer-salary-SRCH_IL.0,11_IM99_KO12,29.htm",
+    "avg_swe_salary": "$84,509",
+    "url": "https://www.numbeo.com/cost-of-living/in/Bloomington?displayCurrency=USD",
+    "average_rent": 968.55,
+    "average_salary": 1822.77
+  },
+  "Stockholm, Stockholm (Sweden)": {
+    "name": "Stockholm, Stockholm (Sweden)",
+    "salary_page": "https://www.glassdoor.com/Salaries/stockholm-software-engineer-salary-SRCH_IL.0,9_IM1136_KO10,27.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Stockholm?displayCurrency=USD",
+    "average_rent": 1337.58,
+    "average_salary": 2830.0
+  },
+  "Hawthorne, CA": {
+    "name": "Hawthorne, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/hawthorne-software-engineer-salary-SRCH_IL.0,9_IC1146793_KO10,27.htm",
+    "avg_swe_salary": "$110,706"
+  },
+  "Ottawa, ON": {
+    "name": "Ottawa, ON",
+    "salary_page": "https://www.glassdoor.com/Salaries/ottawa-software-engineer-salary-SRCH_IL.0,6_IM981_KO7,24.htm",
+    "avg_swe_salary": "CA$74K",
+    "average_salary": 2835.62,
+    "url": "https://www.numbeo.com/cost-of-living/in/Ottawa?displayCurrency=USD",
+    "cost_of_living_index": 64.94,
+    "rent_index": 29.82,
+    "groceries_index": 60.32,
+    "average_rent": 947.74
+  },
+  "Los Gatos, CA": {
+    "name": "Los Gatos, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/los-gatos-software-engineer-salary-SRCH_IL.0,9_IC1147427_KO10,27.htm",
+    "avg_swe_salary": "$137,734"
+  },
+  "Norwalk, CT": {
+    "name": "Norwalk, CT",
+    "salary_page": "https://www.glassdoor.com/Salaries/norwalk-senior-software-engineer-salary-SRCH_IL.0,7_IC1148344_KO8,32.htm",
+    "avg_swe_salary": "$132,477",
+    "url": "https://www.numbeo.com/cost-of-living/in/Norwalk?displayCurrency=USD",
+    "average_rent": 1880.0,
+    "average_salary": 4317.0
+  },
+  "Fort Smith, AR": {
+    "name": "Fort Smith, AR",
+    "salary_page": "https://www.glassdoor.com/Salaries/fort-smith-software-engineer-salary-SRCH_IL.0,10_IM313_KO11,28.htm",
+    "avg_swe_salary": "$88,427"
+  },
+  "Copenhagen (Denmark)": {
+    "name": "Copenhagen (Denmark)",
+    "salary_page": "https://www.glassdoor.com/Salaries/copenhagen-engineer-salary-SRCH_IL.0,10_IM958_KO11,19.htm"
+  },
+  "Manchester, England (UK)": {
+    "name": "Manchester, England (UK)",
+    "salary_page": "https://www.glassdoor.com/Salaries/manchester-software-engineer-salary-SRCH_IL.0,10_IM1044_KO11,28.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Manchester?displayCurrency=USD",
+    "average_rent": 943.03,
+    "average_salary": 2127.2
+  },
+  "Montgomery, AL": {
+    "name": "Montgomery, AL",
+    "salary_page": "https://www.glassdoor.com/Salaries/montgomery-software-engineer-salary-SRCH_IL.0,10_IM577_KO11,28.htm",
+    "avg_swe_salary": "$90,829",
+    "url": "https://www.numbeo.com/cost-of-living/in/Montgomery?displayCurrency=USD",
+    "average_rent": 1116.67,
+    "average_salary": 2469.92
+  },
+  "Grand Rapids, MI": {
+    "name": "Grand Rapids, MI",
+    "salary_page": "https://www.glassdoor.com/Salaries/grand-rapids-software-engineer-salary-SRCH_IL.0,12_IM343_KO13,30.htm",
+    "avg_swe_salary": "$85,375",
+    "url": "https://www.numbeo.com/cost-of-living/in/Grand-Rapids?displayCurrency=USD",
+    "average_rent": 1195.0,
+    "average_salary": 2583.28
+  },
+  "Huntsville, AL": {
+    "name": "Huntsville, AL",
+    "salary_page": "https://www.glassdoor.com/Salaries/huntsville-software-engineer-salary-SRCH_IL.0,10_IM400_KO11,28.htm",
+    "avg_swe_salary": "$90,005",
+    "url": "https://www.numbeo.com/cost-of-living/in/Huntsville?displayCurrency=USD",
+    "average_rent": 821.9,
+    "average_salary": 3331.02
+  },
+  "Iowa City, IA": {
+    "name": "Iowa City, IA",
+    "salary_page": "https://www.glassdoor.com/Salaries/iowa-city-software-engineer-salary-SRCH_IL.0,9_IM409_KO10,27.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Iowa-City?displayCurrency=USD",
+    "average_rent": 843.89,
+    "average_salary": 2279.79
+  },
+  "Harrisburg, PA": {
+    "name": "Harrisburg, PA",
+    "salary_page": "https://www.glassdoor.com/Salaries/harrisburg-software-engineer-salary-SRCH_IL.0,10_IM369_KO11,28.htm",
+    "avg_swe_salary": "$90,711",
+    "url": "https://www.numbeo.com/cost-of-living/in/Harrisburg?displayCurrency=USD",
+    "average_rent": 750.0,
+    "average_salary": 3090.33
+  },
+  "Cincinnati, OH": {
+    "name": "Cincinnati, OH",
+    "salary_page": "https://www.glassdoor.com/Salaries/cincinnati-software-engineer-salary-SRCH_IL.0,10_IM170_KO11,28.htm",
+    "avg_swe_salary": "$86,528",
+    "average_salary": 2752.4,
+    "url": "https://www.numbeo.com/cost-of-living/in/Cincinnati?displayCurrency=USD",
+    "cost_of_living_index": 63.88,
+    "rent_index": 31.82,
+    "groceries_index": 61.85,
+    "average_rent": 997.95
+  },
+  "Naples, FL": {
+    "name": "Naples, FL",
+    "salary_page": "https://www.glassdoor.com/Salaries/naples-software-engineer-salary-SRCH_IL.0,6_IM603_KO7,24.htm",
+    "avg_swe_salary": "$85,847",
+    "url": "https://www.numbeo.com/cost-of-living/in/Naples?displayCurrency=USD",
+    "average_rent": 590.05,
+    "average_salary": 1211.24
+  },
+  "Nashville, TN": {
+    "name": "Nashville, TN",
+    "salary_page": "https://www.glassdoor.com/Salaries/nashville-software-engineer-salary-SRCH_IL.0,9_IM604_KO10,27.htm",
+    "avg_swe_salary": "$87,788",
+    "average_salary": 3521.03,
+    "url": "https://www.numbeo.com/cost-of-living/in/Nashville?displayCurrency=USD",
+    "cost_of_living_index": 67.92,
+    "rent_index": 47.97,
+    "groceries_index": 64.24,
+    "average_rent": 1532.3
+  },
+  "Lexington, KY": {
+    "name": "Lexington, KY",
+    "salary_page": "https://www.glassdoor.com/Salaries/lexington-software-engineer-salary-SRCH_IL.0,9_IM494_KO10,27.htm",
+    "avg_swe_salary": "$85,543",
+    "url": "https://www.numbeo.com/cost-of-living/in/Lexington?displayCurrency=USD",
+    "average_rent": 861.9,
+    "average_salary": 2680.67
+  },
+  "Syracuse, NY": {
+    "name": "Syracuse, NY",
+    "salary_page": "https://www.glassdoor.com/Salaries/syracuse-software-engineer-salary-SRCH_IL.0,8_IM845_KO9,26.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Syracuse?displayCurrency=USD",
+    "average_rent": 1111.11,
+    "average_salary": 2068.73
+  },
+  "Barre, VT": {
+    "name": "Barre, VT",
+    "salary_page": "https://www.glassdoor.com/Salaries/barre-software-engineer-salary-SRCH_IL.0,5_IM67_KO6,23.htm",
+    "avg_swe_salary": "$104,427"
+  },
+  "La Crosse, WI": {
+    "name": "La Crosse, WI",
+    "salary_page": "https://www.glassdoor.com/Salaries/la-crosse-software-engineer-salary-SRCH_IL.0,9_IM458_KO10,27.htm"
+  },
+  "Eureka, CA": {
+    "name": "Eureka, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/eureka-software-engineer-salary-SRCH_IL.0,6_IM281_KO7,24.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Eureka?displayCurrency=USD",
+    "average_rent": 833.33,
+    "average_salary": 4000.0
+  },
+  "Lakeland, FL": {
+    "name": "Lakeland, FL",
+    "salary_page": "https://www.glassdoor.com/Salaries/lakeland-engineer-salary-SRCH_IL.0,8_IM468_KO9,17.htm",
+    "avg_swe_salary": "$78,520",
+    "url": "https://www.numbeo.com/cost-of-living/in/Lakeland?displayCurrency=USD",
+    "average_rent": 849.83,
+    "average_salary": 2758.21
+  },
+  "Medford, OR": {
+    "name": "Medford, OR",
+    "salary_page": "https://www.glassdoor.com/Salaries/medford-software-engineer-salary-SRCH_IL.0,7_IM550_KO8,25.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Medford?displayCurrency=USD",
+    "average_rent": 807.0,
+    "average_salary": 2302.75
+  },
+  "Tulsa, OK": {
+    "name": "Tulsa, OK",
+    "salary_page": "https://www.glassdoor.com/Salaries/tulsa-software-engineer-salary-SRCH_IL.0,5_IM871_KO6,23.htm",
+    "avg_swe_salary": "$75,063",
+    "average_salary": 2472.59,
+    "url": "https://www.numbeo.com/cost-of-living/in/Tulsa?displayCurrency=USD",
+    "cost_of_living_index": 63.21,
+    "rent_index": 26.53,
+    "groceries_index": 63.41,
+    "average_rent": 830.0
+  },
+  "Greensboro, NC": {
+    "name": "Greensboro, NC",
+    "salary_page": "https://www.glassdoor.com/Salaries/greensboro-software-engineer-salary-SRCH_IL.0,10_IM351_KO11,28.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Greensboro?displayCurrency=USD",
+    "average_rent": 808.33,
+    "average_salary": 2676.46
+  },
+  "Bellevue, WA": {
+    "name": "Bellevue, WA",
+    "salary_page": "https://www.glassdoor.com/Salaries/bellevue-software-engineer-salary-SRCH_IL.0,8_IC1150442_KO9,26.htm",
+    "avg_swe_salary": "$126,913",
+    "url": "https://www.numbeo.com/cost-of-living/in/Bellevue?displayCurrency=USD",
+    "average_rent": 1986.36,
+    "average_salary": 5779.29
+  },
+  "Petaluma, CA": {
+    "name": "Petaluma, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/petaluma-software-engineer-salary-SRCH_IL.0,8_IC1147515_KO9,26.htm",
+    "avg_swe_salary": "$114,698"
+  },
+  "Fargo, ND": {
+    "name": "Fargo, ND",
+    "salary_page": "https://www.glassdoor.com/Salaries/fargo-senior-software-engineer-salary-SRCH_IL.0,5_IM289_KO6,30.htm",
+    "avg_swe_salary": "$98,729",
+    "url": "https://www.numbeo.com/cost-of-living/in/Fargo?displayCurrency=USD",
+    "average_rent": 659.38,
+    "average_salary": 2981.47
+  },
+  "Redmond, WA": {
+    "name": "Redmond, WA",
+    "salary_page": "https://www.glassdoor.com/Job/redmond-software-engineer-jobs-SRCH_IL.0,7_IC1150499_KO8,25.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Redmond?displayCurrency=USD",
+    "average_rent": 1873.67,
+    "average_salary": 4000.0
+  },
+  "Bend, OR": {
+    "name": "Bend, OR",
+    "salary_page": "https://www.glassdoor.com/Salaries/bend-software-engineer-salary-SRCH_IL.0,4_IM85_KO5,22.htm",
+    "avg_swe_salary": "$92,392",
+    "url": "https://www.numbeo.com/cost-of-living/in/Bend?displayCurrency=USD",
+    "average_rent": 1137.5,
+    "average_salary": 2954.42
+  },
+  "Natick, MA": {
+    "name": "Natick, MA",
+    "salary_page": "https://www.glassdoor.com/Salaries/natick-software-engineer-salary-SRCH_IL.0,6_IC1154630_KO7,24.htm",
+    "avg_swe_salary": "$108,541"
+  },
+  "Oakland, CA": {
+    "name": "Oakland, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/oakland-senior-software-engineer-salary-SRCH_IL.0,7_IC1147380_KO8,32.htm",
+    "avg_swe_salary": "$157,429",
+    "average_salary": 4853.4,
+    "url": "https://www.numbeo.com/cost-of-living/in/Oakland?displayCurrency=USD",
+    "cost_of_living_index": 83.47,
+    "rent_index": 75.99,
+    "groceries_index": 84.45,
+    "average_rent": 2449.0
+  },
+  "Lausanne (Switzerland)": {
+    "name": "Lausanne (Switzerland)",
+    "salary_page": "https://www.glassdoor.com/Salaries/lausanne-software-engineer-salary-SRCH_IL.0,8_IM1693_KO9,26.htm"
+  },
+  "Stamford, CT": {
+    "name": "Stamford, CT",
+    "salary_page": "https://www.glassdoor.com/Salaries/stamford-software-engineer-salary-SRCH_IL.0,8_IC1148355_KO9,26.htm",
+    "avg_swe_salary": "$110,579",
+    "url": "https://www.numbeo.com/cost-of-living/in/Stamford?displayCurrency=USD",
+    "average_rent": 2036.0,
+    "average_salary": 4518.62
+  },
+  "Salinas, CA": {
+    "name": "Salinas, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/salinas-software-engineer-salary-SRCH_IL.0,7_IM752_KO8,25.htm",
+    "avg_swe_salary": "$111,011"
+  },
+  "Reno, NV": {
+    "name": "Reno, NV",
+    "salary_page": "https://www.glassdoor.com/Salaries/reno-software-engineer-salary-SRCH_IL.0,4_IM721_KO5,22.htm",
+    "avg_swe_salary": "$85,839",
+    "average_salary": 3006.14,
+    "url": "https://www.numbeo.com/cost-of-living/in/Reno?displayCurrency=USD",
+    "cost_of_living_index": 61.69,
+    "rent_index": 37.74,
+    "groceries_index": 56.45,
+    "average_rent": 1133.33
+  },
+  "Edmonton, AB, Canada": {
+    "name": "Edmonton, AB, Canada",
+    "salary_page": "https://www.glassdoor.com/Salaries/edmonton-software-engineer-salary-SRCH_IL.0,8_IM969_KO9,26.htm",
+    "average_salary": 2629.99,
+    "url": "https://www.numbeo.com/cost-of-living/in/Edmonton?displayCurrency=USD",
+    "cost_of_living_index": 65.09,
+    "rent_index": 27.74,
+    "groceries_index": 62.35,
+    "average_rent": 902.91
+  },
+  "Columbia, SC": {
+    "name": "Columbia, SC",
+    "salary_page": "https://www.glassdoor.com/Salaries/columbia-software-engineer-salary-SRCH_IL.0,8_IM190_KO9,26.htm",
+    "avg_swe_salary": "$86,658",
+    "url": "https://www.numbeo.com/cost-of-living/in/Columbia?displayCurrency=USD",
+    "average_rent": 885.75,
+    "average_salary": 2578.14
+  },
+  "Lancaster, PA": {
+    "name": "Lancaster, PA",
+    "salary_page": "https://www.glassdoor.com/Salaries/lancaster-software-engineer-salary-SRCH_IL.0,9_IM470_KO10,27.htm",
+    "avg_swe_salary": "$82,502",
+    "url": "https://www.numbeo.com/cost-of-living/in/Lancaster?displayCurrency=USD",
+    "average_rent": 674.95,
+    "average_salary": 2085.52
+  },
+  "Idaho Falls, ID": {
+    "name": "Idaho Falls, ID",
+    "salary_page": "https://www.glassdoor.com/Salaries/idaho-falls-software-engineer-salary-SRCH_IL.0,11_IM405_KO12,29.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Idaho-Falls?displayCurrency=USD",
+    "average_rent": 600.0,
+    "average_salary": 2633.33
+  },
+  "Piedmont, SC": {
+    "name": "Piedmont, SC",
+    "salary_page": "https://www.glassdoor.com/Salaries/piedmont-senior-software-engineer-salary-SRCH_IL.0,8_IC1155203_KO9,33.htm",
+    "avg_swe_salary": "$96,342"
+  },
+  "Holmdel, NJ": {
+    "name": "Holmdel, NJ",
+    "salary_page": "https://www.glassdoor.com/Salaries/holmdel-software-engineer-salary-SRCH_IL.0,7_IC1126810_KO8,25.htm",
+    "avg_swe_salary": "$117,197"
+  },
+  "Nottingham, England (UK)": {
+    "name": "Nottingham, England (UK)",
+    "salary_page": "https://www.glassdoor.com/Salaries/nottingham-software-engineer-salary-SRCH_IL.0,10_IM1183_KO11,28.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Nottingham?displayCurrency=USD",
+    "average_rent": 732.35,
+    "average_salary": 1870.18
+  },
+  "Binghamton, NY": {
+    "name": "Binghamton, NY",
+    "salary_page": "https://www.glassdoor.com/Salaries/binghamton-software-engineer-salary-SRCH_IL.0,10_IM92_KO11,28.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Binghamton?displayCurrency=USD",
+    "average_rent": 730.0,
+    "average_salary": 2999.56
+  },
+  "Canton, OH": {
+    "name": "Canton, OH",
+    "salary_page": "https://www.glassdoor.com/Salaries/canton-software-engineer-salary-SRCH_IL.0,6_IM143_KO7,24.htm",
+    "avg_swe_salary": "$80,759",
+    "url": "https://www.numbeo.com/cost-of-living/in/Canton?displayCurrency=USD",
+    "average_rent": 1000.0,
+    "average_salary": 1910.73
+  },
+  "Fredericton, NB, Canada": {
+    "name": "Fredericton, NB, Canada",
+    "salary_page": "https://www.glassdoor.com/Salaries/fredericton-software-engineer-salary-SRCH_IL.0,11_IM987_KO12,29.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Fredericton?displayCurrency=USD",
+    "average_rent": 551.05,
+    "average_salary": 1950.28
+  },
+  "Armonk, NY": {
+    "name": "Armonk, NY",
+    "salary_page": "https://www.glassdoor.com/Salaries/armonk-software-engineer-salary-SRCH_IL.0,6_IC1132170_KO7,24.htm",
+    "avg_swe_salary": "$117,197"
+  },
+  "Lawrence, KS": {
+    "name": "Lawrence, KS",
+    "salary_page": "https://www.glassdoor.com/Salaries/lawrence-software-engineer-salary-SRCH_IL.0,8_IM480_KO9,26.htm",
+    "avg_swe_salary": "$89,371",
+    "url": "https://www.numbeo.com/cost-of-living/in/Lawrence?displayCurrency=USD",
+    "average_rent": 775.0,
+    "average_salary": 2770.18
+  },
+  "Baton Rouge, LA": {
+    "name": "Baton Rouge, LA",
+    "salary_page": "https://www.glassdoor.com/Salaries/baton-rouge-engineer-salary-SRCH_IL.0,11_IM72_KO12,20.htm",
+    "avg_swe_salary": "$98,077",
+    "url": "https://www.numbeo.com/cost-of-living/in/Baton-Rouge?displayCurrency=USD",
+    "average_rent": 907.08,
+    "average_salary": 2083.07
+  },
+  "Rochester, MN": {
+    "name": "Rochester, MN",
+    "salary_page": "https://www.glassdoor.com/Salaries/rochester-senior-software-engineer-salary-SRCH_IL.0,9_IM732_KO10,34.htm",
+    "avg_swe_salary": "$105,095",
+    "average_salary": 1988.92,
+    "url": "https://www.numbeo.com/cost-of-living/in/Rochester?displayCurrency=USD",
+    "cost_of_living_index": 75.57,
+    "rent_index": 31.13,
+    "groceries_index": 80.66,
+    "average_rent": 880.75
+  },
+  "Lansing, MI": {
+    "name": "Lansing, MI",
+    "salary_page": "https://www.glassdoor.com/Salaries/lansing-software-engineer-salary-SRCH_IL.0,7_IM472_KO8,25.htm",
+    "avg_swe_salary": "$87,004",
+    "url": "https://www.numbeo.com/cost-of-living/in/Lansing?displayCurrency=USD",
+    "average_rent": 750.0,
+    "average_salary": 2385.0
+  },
+  "Lincoln, NE": {
+    "name": "Lincoln, NE",
+    "salary_page": "https://www.glassdoor.com/Salaries/lincoln-senior-software-engineer-salary-SRCH_IL.0,7_IM498_KO8,32.htm",
+    "avg_swe_salary": "$86,088",
+    "url": "https://www.numbeo.com/cost-of-living/in/Lincoln?displayCurrency=USD",
+    "average_rent": 753.12,
+    "average_salary": 2459.23
+  },
+  "Portland, ME": {
+    "name": "Portland, ME",
+    "salary_page": "https://www.glassdoor.com/Salaries/portland-software-engineer-salary-SRCH_IL.0,8_IM700_KO9,26.htm",
+    "avg_swe_salary": "$104,193",
+    "average_salary": 3525.27,
+    "url": "https://www.numbeo.com/cost-of-living/in/Portland?displayCurrency=USD",
+    "cost_of_living_index": 75.18,
+    "rent_index": 49.5,
+    "groceries_index": 72.74,
+    "average_rent": 1552.95
+  },
+  "Monroe, LA": {
+    "name": "Monroe, LA",
+    "salary_page": "https://www.glassdoor.com/Salaries/monroe-software-engineer-salary-SRCH_IL.0,6_IM574_KO7,24.htm",
+    "avg_swe_salary": "$86,138"
+  },
+  "Duluth, MN": {
+    "name": "Duluth, MN",
+    "salary_page": "https://www.glassdoor.com/Salaries/duluth-software-engineer-salary-SRCH_IL.0,6_IM247_KO7,24.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Duluth?displayCurrency=USD",
+    "average_rent": 846.33,
+    "average_salary": 2526.73
+  },
+  "Little Rock, AR": {
+    "name": "Little Rock, AR",
+    "salary_page": "https://www.glassdoor.com/Salaries/little-rock-software-engineer-salary-SRCH_IL.0,11_IM500_KO12,29.htm",
+    "avg_swe_salary": "$68,148",
+    "average_salary": 2588.67,
+    "url": "https://www.numbeo.com/cost-of-living/in/Little-Rock?displayCurrency=USD",
+    "cost_of_living_index": 61.13,
+    "rent_index": 25.39,
+    "groceries_index": 57.28,
+    "average_rent": 797.92
+  },
+  "Vancouver, BC (Canada)": {
+    "name": "Vancouver, BC (Canada)",
+    "salary_page": "https://www.glassdoor.com/Salaries/vancouver-software-engineer-salary-SRCH_IL.0,9_IM972_KO10,27.htm",
+    "avg_swe_salary": "CA$72K",
+    "average_salary": 2364.69,
+    "url": "https://www.numbeo.com/cost-of-living/in/Vancouver?displayCurrency=USD",
+    "cost_of_living_index": 68.4,
+    "rent_index": 47.35,
+    "groceries_index": 66.25,
+    "average_rent": 1405.58
+  },
+  "Foster City, CA": {
+    "name": "Foster City, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/foster-city-software-engineer-salary-SRCH_IL.0,11_IC1163997_KO12,29.htm",
+    "avg_swe_salary": "$137,000"
+  },
+  "Bakersfield, CA": {
+    "name": "Bakersfield, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/bakersfield-software-engineer-salary-SRCH_IL.0,11_IM62_KO12,29.htm",
+    "avg_swe_salary": "$87,488",
+    "url": "https://www.numbeo.com/cost-of-living/in/Bakersfield?displayCurrency=USD",
+    "average_rent": 910.0,
+    "average_salary": 3139.38
+  },
+  "Bloomington, IN": {
+    "name": "Bloomington, IN",
+    "salary_page": "https://www.glassdoor.com/Salaries/bloomington-software-engineer-salary-SRCH_IL.0,11_IM98_KO12,29.htm",
+    "avg_swe_salary": "$79,423",
+    "url": "https://www.numbeo.com/cost-of-living/in/Bloomington?displayCurrency=USD",
+    "average_rent": 968.55,
+    "average_salary": 1822.77
+  },
+  "St. George, UT": {
+    "name": "St. George, UT",
+    "salary_page": "https://www.glassdoor.com/Salaries/saint-george-software-engineer-salary-SRCH_IL.0,12_IC3724218_KO13,30.htm"
+  },
+  "Lubbock, TX": {
+    "name": "Lubbock, TX",
+    "salary_page": "https://www.glassdoor.com/Salaries/lubbock-software-engineer-salary-SRCH_IL.0,7_IM510_KO8,25.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Lubbock?displayCurrency=USD",
+    "average_rent": 671.88,
+    "average_salary": 2461.06
+  },
+  "Kingsport, TN": {
+    "name": "Kingsport, TN",
+    "salary_page": "https://www.glassdoor.com/Salaries/kingsport-engineer-salary-SRCH_IL.0,9_IM449_KO10,18.htm",
+    "avg_swe_salary": "$86,349"
+  },
+  "Scottsdale, AZ": {
+    "name": "Scottsdale, AZ",
+    "salary_page": "https://www.glassdoor.com/Salaries/scottsdale-software-engineer-salary-SRCH_IL.0,10_IC1133911_KO11,28.htm",
+    "avg_swe_salary": "$95,777",
+    "url": "https://www.numbeo.com/cost-of-living/in/Scottsdale?displayCurrency=USD",
+    "average_rent": 1245.61,
+    "average_salary": 3342.0
+  },
+  "Broomfield, CO": {
+    "name": "Broomfield, CO",
+    "salary_page": "https://www.glassdoor.com/Salaries/broomfield-software-engineer-salary-SRCH_IL.0,10_IC1148161_KO11,28.htm",
+    "avg_swe_salary": "$98,477"
+  },
+  "Menlo Park, CA": {
+    "name": "Menlo Park, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/menlo-park-software-engineer-salary-SRCH_IL.0,10_IC1147371_KO11,28.htm",
+    "avg_swe_salary": "$137,000"
+  },
+  "Redlands, CA": {
+    "name": "Redlands, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/redlands-software-engineer-salary-SRCH_IL.0,8_IC1147135_KO9,26.htm",
+    "avg_swe_salary": "$103,204"
+  },
+  "Verona, WI": {
+    "name": "Verona, WI",
+    "salary_page": "https://www.glassdoor.com/Salaries/verona-software-engineer-salary-SRCH_IL.0,6_IC1133488_KO7,24.htm",
+    "avg_swe_salary": "$101,613",
+    "url": "https://www.numbeo.com/cost-of-living/in/Verona?displayCurrency=USD",
+    "average_rent": 797.37,
+    "average_salary": 1571.96
+  },
+  "Winona, MN": {
+    "name": "Winona, MN",
+    "salary_page": "https://www.glassdoor.com/Salaries/winona-software-engineer-salary-SRCH_IL.0,6_IM937_KO7,24.htm",
+    "avg_swe_salary": "$92,190"
+  },
+  "Green Bay, WI": {
+    "name": "Green Bay, WI",
+    "salary_page": "https://www.glassdoor.com/Salaries/green-bay-engineer-salary-SRCH_IL.0,9_IM349_KO10,18.htm",
+    "avg_swe_salary": "$77,322",
+    "url": "https://www.numbeo.com/cost-of-living/in/Green-Bay?displayCurrency=USD",
+    "average_rent": 806.25,
+    "average_salary": 2590.58
+  },
+  "Tempe, AZ": {
+    "name": "Tempe, AZ",
+    "salary_page": "https://www.glassdoor.com/Salaries/tempe-software-engineer-salary-SRCH_IL.0,5_IC1133917_KO6,23.htm",
+    "avg_swe_salary": "$95,777",
+    "url": "https://www.numbeo.com/cost-of-living/in/Tempe?displayCurrency=USD",
+    "average_rent": 968.0,
+    "average_salary": 2861.02
+  },
+  "Marina del Rey, CA": {
+    "name": "Marina del Rey, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/marina-del-rey-software-engineer-salary-SRCH_IL.0,14_IC1146825_KO15,32.htm",
+    "avg_swe_salary": "$110,706"
+  },
+  "Waltham, MA": {
+    "name": "Waltham, MA",
+    "salary_page": "https://www.glassdoor.com/Salaries/waltham-software-engineer-salary-SRCH_IL.0,7_IC1154703_KO8,25.htm",
+    "avg_swe_salary": "$108,541"
+  },
+  "Leesburg, VA": {
+    "name": "Leesburg, VA",
+    "salary_page": "https://www.glassdoor.com/Salaries/leesburg-software-engineer-salary-SRCH_IL.0,8_IC1130376_KO9,26.htm",
+    "avg_swe_salary": "$108,069"
+  },
+  "Akron, OH": {
+    "name": "Akron, OH",
+    "salary_page": "https://www.glassdoor.com/Salaries/akron-software-engineer-salary-SRCH_IL.0,5_IM9_KO6,23.htm",
+    "avg_swe_salary": "$85,202",
+    "url": "https://www.numbeo.com/cost-of-living/in/Akron?displayCurrency=USD",
+    "average_rent": 669.0,
+    "average_salary": 2082.5
+  },
+  "York-Hanover, PA": {
+    "name": "York-Hanover, PA",
+    "salary_page": "https://www.glassdoor.com/Salaries/york-hanover-software-engineer-salary-SRCH_IL.0,12_IM947_KO13,30.htm",
+    "avg_swe_salary": "$94,491",
+    "average_salary": 4470.14,
+    "url": "https://www.numbeo.com/cost-of-living/in/New-York?displayCurrency=USD",
+    "cost_of_living_index": 100.0,
+    "rent_index": 100.0,
+    "groceries_index": 100.0,
+    "average_rent": 3112.75
+  },
+  "St. Cloud, MN": {
+    "name": "St. Cloud, MN",
+    "salary_page": "https://www.glassdoor.com/Salaries/st-cloud-senior-software-engineer-salary-SRCH_IL.0,8_IM820_KO9,33.htm"
+  },
+  "Beaumont, TX": {
+    "name": "Beaumont, TX",
+    "salary_page": "https://www.glassdoor.com/Salaries/beaumont-software-engineer-salary-SRCH_IL.0,8_IM77_KO9,26.htm"
+  },
+  "Mc Lean, VA": {
+    "name": "Mc Lean, VA",
+    "salary_page": "https://www.glassdoor.com/Salaries/mc-lean-software-engineer-salary-SRCH_IL.0,7_IC1130384_KO8,25.htm",
+    "avg_swe_salary": "$108,069"
+  },
+  "Macon, GA": {
+    "name": "Macon, GA",
+    "salary_page": "https://www.glassdoor.com/Salaries/macon-software-engineer-salary-SRCH_IL.0,5_IM515_KO6,23.htm",
+    "avg_swe_salary": "$90,907"
+  },
+  "Amsterdam, NY": {
+    "name": "Amsterdam, NY",
+    "salary_page": "https://www.glassdoor.com/Salaries/amsterdam-senior-software-engineer-salary-SRCH_IL.0,9_IM31_KO10,34.htm",
+    "url": "https://www.numbeo.com/cost-of-living/in/Amsterdam?displayCurrency=USD",
+    "average_rent": 1742.64,
+    "average_salary": 2928.1
+  },
+  "Appleton, WI": {
+    "name": "Appleton, WI",
+    "salary_page": "https://www.glassdoor.com/Salaries/appleton-software-engineer-salary-SRCH_IL.0,8_IM39_KO9,26.htm",
+    "avg_swe_salary": "$93,430",
+    "url": "https://www.numbeo.com/cost-of-living/in/Appleton?displayCurrency=USD",
+    "average_rent": 533.33,
+    "average_salary": 2864.73
+  },
+  "East Palo Alto, CA": {
+    "name": "East Palo Alto, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/east-palo-alto-software-engineer-salary-SRCH_IL.0,14_IC1164026_KO15,32.htm",
+    "avg_swe_salary": "$137,734"
+  },
+  "Pasadena, CA": {
+    "name": "Pasadena, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/pasadena-software-engineer-salary-SRCH_IL.0,8_IC1146850_KO9,26.htm",
+    "avg_swe_salary": "$110,706",
+    "url": "https://www.numbeo.com/cost-of-living/in/Pasadena?displayCurrency=USD",
+    "average_rent": 1928.57,
+    "average_salary": 4230.0
+  },
+  "Vejle (Denmark)": {
+    "name": "Vejle (Denmark)",
+    "salary_page": "https://www.glassdoor.com/Job/vejle-engineer-jobs-SRCH_IL.0,5_IC2210280_KO6,14.htm"
+  },
+  "Daniel Island, SC": {
+    "name": "Daniel Island, SC",
+    "salary_page": "https://www.glassdoor.com/Salary/Benefitfocus-Daniel-Island-Salaries-EI_IE122586.0,12_IL.13,26_IC1166699.htm"
+  },
+  "Kirkland, WA": {
+    "name": "Kirkland, WA",
+    "salary_page": "https://www.glassdoor.com/Salaries/kirkland-software-engineer-salary-SRCH_IL.0,8_IC1150472_KO9,26.htm",
+    "avg_swe_salary": "$126,913"
+  },
+  "Sydney (Australia)": {
+    "name": "Sydney (Australia)",
+    "salary_page": "https://www.glassdoor.com/Salaries/sydney-software-engineer-salary-SRCH_IL.0,6_IM962_KO7,24.htm",
+    "avg_swe_salary": "A$85,000"
+  },
+  "Cupertino, CA": {
+    "name": "Cupertino, CA",
+    "salary_page": "https://www.glassdoor.com/Salaries/cupertino-software-engineer-salary-SRCH_IL.0,9_IC1147422_KO10,27.htm",
+    "avg_swe_salary": "$137,734"
+  },
+  "Reston, VA": {
+    "name": "Reston, VA",
+    "salary_page": "https://www.glassdoor.com/Salaries/reston-software-engineer-salary-SRCH_IL.0,6_IC1130404_KO7,24.htm",
+    "avg_swe_salary": "$108,069",
+    "url": "https://www.numbeo.com/cost-of-living/in/Reston?displayCurrency=USD",
+    "average_rent": 2106.0,
+    "average_salary": 4655.83
+  },
+  "Lehi, UT": {
+    "name": "Lehi, UT",
+    "salary_page": "https://www.glassdoor.com/Salaries/lehi-software-engineer-salary-SRCH_IL.0,4_IC1128238_KO5,22.htm",
+    "avg_swe_salary": "$95,786"
+  },
+  "Summerville, GA": {
+    "name": "Summerville, GA",
+    "salary_page": "https://www.glassdoor.com/Salaries/summerville-software-engineer-salary-SRCH_IL.0,11_IM840_KO12,29.htm"
+  },
+  "McLean, VA": {
+    "name": "McLean, VA",
+    "salary_page": "https://www.glassdoor.com/Salaries/mclean-software-engineer-salary-SRCH_IL.0,6_IC1158535_KO7,24.htm",
+    "avg_swe_salary": "$108,069"
+  }
+}
