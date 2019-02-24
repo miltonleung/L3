@@ -10,12 +10,15 @@ import Foundation
 
 struct Location {
   let name: String
-  let averageRent: Double
-  let averageSalary: Double
-  let averageDevSalary: Double
+  let averageDevSalary: String
   let latitude: Double
   let longitude: Double
   let sizeIndex: Int
   let glassdoorURL: URL
-  let numbeoURL: URL
+  let averageMonthlyRent: Double?
+  let averageMonthlySalary: Double?
+  let costOfLivingIndex: Double?
+  let rentIndex: Double?
+  let groceriesIndex: Double?
+  let numbeoURL: URL?
 }

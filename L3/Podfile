@@ -6,11 +6,11 @@ target 'L3' do
   use_frameworks!
 
   # Pods for L3
+  pod 'Mapbox-iOS-SDK', '~> 4.8'
 
   target 'L3Tests' do
     inherit! :search_paths
     # Pods for testing
-    pod 'Mapbox-iOS-SDK', '~> 4.8'
   end
 
   target 'L3UITests' do
