@@ -26,19 +26,19 @@ final class PulseColors {
   private var currentColor = 0
 
   private var colors = [
-    PulseColors.red,
-    PulseColors.teal,
-    PulseColors.lightBlue,
-    PulseColors.blue,
-    PulseColors.ultramarine,
-    PulseColors.green,
-    PulseColors.orange,
-    PulseColors.yellow,
-    PulseColors.purple,
-    PulseColors.magenta
+    ("red", PulseColors.red),
+    ("teal", PulseColors.teal),
+    ("lightBlue", PulseColors.lightBlue),
+    ("blue", PulseColors.blue),
+    ("ultramarine", PulseColors.ultramarine),
+    ("green", PulseColors.green),
+    ("orange", PulseColors.orange),
+    ("yellow", PulseColors.yellow),
+    ("purple", PulseColors.purple),
+    ("magenta", PulseColors.magenta)
   ]
 
-  func getNextColor(reset: Bool = false) -> PulseColor {
+  func getNextColor(reset: Bool = false) -> (String, PulseColor) {
     if reset {
       currentColor = 0
       return colors[currentColor]
