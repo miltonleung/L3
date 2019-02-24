@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		00BB217065136279224752EA /* Pods_L3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC0EA9F9180B079AB022AEC /* Pods_L3.framework */; };
 		409233D95A7AD26CE989606A /* Pods_L3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51E0EF7A980BB863A1A2093 /* Pods_L3UITests.framework */; };
+		523AC29722221A66007F23C0 /* DatasetLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523AC29622221A66007F23C0 /* DatasetLoader.swift */; };
+		523AC29A22221A9E007F23C0 /* master_locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 523AC29922221A9E007F23C0 /* master_locations.json */; };
+		523AC29D22221B5B007F23C0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523AC29C22221B5B007F23C0 /* Location.swift */; };
 		5277D5AF221E766000464E64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277D5AE221E766000464E64 /* AppDelegate.swift */; };
 		5277D5B1221E766000464E64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277D5B0221E766000464E64 /* ViewController.swift */; };
 		5277D5B4221E766000464E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5277D5B2221E766000464E64 /* Main.storyboard */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		523AC29622221A66007F23C0 /* DatasetLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasetLoader.swift; sourceTree = "<group>"; };
+		523AC29922221A9E007F23C0 /* master_locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = master_locations.json; sourceTree = "<group>"; };
+		523AC29C22221B5B007F23C0 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		5277D5AB221E766000464E64 /* L3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = L3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5277D5AE221E766000464E64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5277D5B0221E766000464E64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +108,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		523AC29822221A74007F23C0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				523AC29622221A66007F23C0 /* DatasetLoader.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		523AC29B22221AA5007F23C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5277D5B5221E766200464E64 /* Assets.xcassets */,
+				523AC29922221A9E007F23C0 /* master_locations.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		5277D5A2221E766000464E64 = {
 			isa = PBXGroup;
 			children = (
@@ -130,8 +153,10 @@
 				5277D5AE221E766000464E64 /* AppDelegate.swift */,
 				5277D5B0221E766000464E64 /* ViewController.swift */,
 				5277D5B2221E766000464E64 /* Main.storyboard */,
-				5277D5B5221E766200464E64 /* Assets.xcassets */,
 				5277D5B7221E766200464E64 /* LaunchScreen.storyboard */,
+				523AC29C22221B5B007F23C0 /* Location.swift */,
+				523AC29822221A74007F23C0 /* Services */,
+				523AC29B22221AA5007F23C0 /* Resources */,
 				5277D5BA221E766200464E64 /* Info.plist */,
 			);
 			path = L3;
@@ -273,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523AC29A22221A9E007F23C0 /* master_locations.json in Resources */,
 				5277D5B9221E766200464E64 /* LaunchScreen.storyboard in Resources */,
 				5277D5B6221E766200464E64 /* Assets.xcassets in Resources */,
 				5277D5B4221E766000464E64 /* Main.storyboard in Resources */,
@@ -395,6 +421,8 @@
 			files = (
 				5277D5B1221E766000464E64 /* ViewController.swift in Sources */,
 				5277D5AF221E766000464E64 /* AppDelegate.swift in Sources */,
+				523AC29D22221B5B007F23C0 /* Location.swift in Sources */,
+				523AC29722221A66007F23C0 /* DatasetLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
