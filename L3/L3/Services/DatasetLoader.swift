@@ -9,7 +9,7 @@
 import Foundation
 
 final class DatasetLoader {
-  lazy var locations: [Location] = {
+  private lazy var locations: [Location] = {
     guard let url = Bundle.main.url(forResource: "master_locations", withExtension: "json") else { return [] }
     do {
       let data = try Data(contentsOf: url)
@@ -22,4 +22,37 @@ final class DatasetLoader {
       return []
     }
   }()
+
+  private lazy var sortedLocationsDevSalary: [Location] = {
+    return locations.sorted(by: { $0.averageDevSalary > $1.averageDevSalary })
+  }()
+
+  private lazy var sortedLocationsRent: [Location] = {
+    var unavailable: [Location] = []
+
+    var sortedLocations = locations
+      .filter { location in
+        if location.averageMonthlyRent != nil {
+          return true
+        }
+        unavailable.append(location)
+        return false
+      }.sorted(by: { lhs, rhs in
+        guard let lhsRent = lhs.averageMonthlyRent, let rhsRent = rhs.averageMonthlyRent else { return true }
+        return lhsRent > rhsRent
+      })
+
+    return sortedLocations + unavailable
+  }()
+
+  func sortedLocations(by sortType: LocationSort = .sizeIndex) -> [Location] {
+    switch sortType {
+    case .sizeIndex:
+      return locations
+    case .averageDevSalary:
+      return sortedLocationsDevSalary
+    case .averageMonthlyRent:
+      return sortedLocationsRent
+    }
+  }
 }

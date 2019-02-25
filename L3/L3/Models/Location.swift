@@ -8,9 +8,13 @@
 
 import Foundation
 
+enum LocationSort {
+  case sizeIndex, averageDevSalary, averageMonthlyRent
+}
+
 struct Location {
   let name: String
-  let averageDevSalary: String
+  let averageDevSalary: Double
   let latitude: Double
   let longitude: Double
   let sizeIndex: Int
@@ -21,4 +25,11 @@ struct Location {
   let rentIndex: Double?
   let groceriesIndex: Double?
   let numbeoURL: URL?
+}
+
+extension Location {
+  var averageSalary: Double? {
+    guard let averageMonthlySalary = averageMonthlySalary else { return nil }
+    return averageMonthlySalary * 12
+  }
 }

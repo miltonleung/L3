@@ -24,6 +24,7 @@ final class ViewController: UIViewController {
 
   var mapView: MGLMapView?
   var locations: [Location] = []
+  var locationSort: LocationSort = .averageDevSalary
   var maxValue: Double = 0
 
   let datasetLoader = DatasetLoader()
@@ -56,8 +57,10 @@ final class ViewController: UIViewController {
   }
 
   private func fetchLocations() {
-    self.locations = datasetLoader.locations
-    self.maxValue = Double(locations.first?.sizeIndex ?? 0)
+    self.locations = datasetLoader.sortedLocations(by: locationSort)
+    self.maxValue = calculateMaxValue(location: locations.first)
+
+//    print(locations.filter { $0.averageDevSalary/maxValue >= 0.85 }.count)
   }
 
   private func addCoordinates() {
@@ -98,6 +101,44 @@ final class ViewController: UIViewController {
   }
 }
 
+// MARK: Location Sort Methods
+extension ViewController {
+  func calculateMaxValue(location: Location?) -> Double {
+    switch locationSort {
+    case .sizeIndex:
+      return Double(location?.sizeIndex ?? 0)
+    case .averageDevSalary:
+      return location?.averageDevSalary ?? 0
+    case .averageMonthlyRent:
+      return location?.averageMonthlyRent ?? 0
+    }
+  }
+
+  func sizeIsDot(location: Location) -> Bool {
+    switch locationSort {
+    case .sizeIndex:
+      return Double(location.sizeIndex) / maxValue < 0.10
+    case .averageDevSalary:
+      return location.averageDevSalary / maxValue < 0.85
+    case .averageMonthlyRent:
+      guard let monthlyRent = location.averageMonthlyRent else { return true }
+      return monthlyRent / maxValue  < 0.10
+    }
+  }
+
+  func calculatePulseRelativeSize(location: Location) -> Double {
+    switch locationSort {
+    case .sizeIndex:
+      return sqrt(Double(location.sizeIndex)) / sqrt(maxValue)
+    case .averageDevSalary:
+      return location.averageDevSalary / maxValue
+    case .averageMonthlyRent:
+      guard let monthlyRent = location.averageMonthlyRent else { return 0 }
+      return sqrt(monthlyRent) / sqrt(maxValue)
+    }
+  }
+}
+
 // MARK: IBActions
 extension ViewController {
   @objc func mapViewTapped(sender: UIGestureRecognizer) {
@@ -135,11 +176,8 @@ extension ViewController: MGLMapViewDelegate {
     else { return nil }
 
     let (identifier, nextColor) = pulseColors.getNextColor()
-//    let (dot, pulse1, pulse2) = createMarkerViews(color: nextColor)
 
-
-    let relativeSize = Double(markerLocation.sizeIndex) / maxValue
-    if relativeSize < 0.10 {
+    if sizeIsDot(location: markerLocation) {
       if let annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) {
         return annotationView
       } else {
@@ -159,7 +197,7 @@ extension ViewController: MGLMapViewDelegate {
       annotationView.addSubview(pulse2)
       annotationView.addSubview(dot)
 
-      let pulseRelativeSize = sqrt(Double(markerLocation.sizeIndex)) / sqrt(maxValue)
+      let pulseRelativeSize = calculatePulseRelativeSize(location: markerLocation)
       let transform = CGAffineTransform(scaleX: CGFloat(Constants.maximumRadarScale * pulseRelativeSize), y: CGFloat(Constants.maximumRadarScale * pulseRelativeSize))
 
       UIView.animate(withDuration: Constants.pulseDuration, delay: 0, options: [.repeat, .curveEaseOut], animations: {

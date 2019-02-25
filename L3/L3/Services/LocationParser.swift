@@ -12,7 +12,7 @@ final class LocationParser {
   func parse(from json: JSON) -> Location? {
     guard
       let name = json["name"] as? String,
-      let averageDevSalary = json["avg_swe_salary"] as? String,
+      let averageDevSalary = json["avg_swe_salary_usd"] as? Double,
       let coordinates = json["coordinates"] as? JSON,
       let latitude = coordinates["lat"] as? Double,
       let longitude = coordinates["long"] as? Double,
@@ -48,17 +48,17 @@ final class LocationParser {
 
 
     return Location(name: name,
-             averageDevSalary: averageDevSalary,
-             latitude: latitude,
-             longitude: longitude,
-             sizeIndex: sizeIndex,
-             glassdoorURL: glassdoorURL,
-             averageMonthlyRent: averageMonthlyRent,
-             averageMonthlySalary: averageMonthlySalary,
-             costOfLivingIndex: costOfLivingIndex,
-             rentIndex: rentIndex,
-             groceriesIndex: groceriesIndex,
-             numbeoURL: numbeoURL)
+                    averageDevSalary: averageDevSalary,
+                    latitude: latitude,
+                    longitude: longitude,
+                    sizeIndex: sizeIndex,
+                    glassdoorURL: glassdoorURL,
+                    averageMonthlyRent: averageMonthlyRent,
+                    averageMonthlySalary: averageMonthlySalary,
+                    costOfLivingIndex: costOfLivingIndex,
+                    rentIndex: rentIndex,
+                    groceriesIndex: groceriesIndex,
+                    numbeoURL: numbeoURL)
   }}
 
 final class LocationsParser {
