@@ -11,7 +11,6 @@
 		523AC29D22221B5B007F23C0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523AC29C22221B5B007F23C0 /* Location.swift */; };
 		5277D5AF221E766000464E64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277D5AE221E766000464E64 /* AppDelegate.swift */; };
 		5277D5B1221E766000464E64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277D5B0221E766000464E64 /* ViewController.swift */; };
-		5277D5B4221E766000464E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5277D5B2221E766000464E64 /* Main.storyboard */; };
 		5277D5B6221E766200464E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5277D5B5221E766200464E64 /* Assets.xcassets */; };
 		5277D5B9221E766200464E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5277D5B7221E766200464E64 /* LaunchScreen.storyboard */; };
 		5277D5C4221E766200464E64 /* L3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277D5C3221E766200464E64 /* L3Tests.swift */; };
@@ -20,6 +19,12 @@
 		5277D5E12222273400464E64 /* LocationParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277D5E02222273400464E64 /* LocationParser.swift */; };
 		5277D5E322222B6300464E64 /* master_locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 5277D5E222222B6300464E64 /* master_locations.json */; };
 		5277D5E5222257DE00464E64 /* PulseColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277D5E4222257DE00464E64 /* PulseColors.swift */; };
+		5277D6222228621000464E64 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277D6212228621000464E64 /* Coordinator.swift */; };
+		5277D6252228624000464E64 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277D6242228624000464E64 /* AppCoordinator.swift */; };
+		5277D628222862EA00464E64 /* ContentCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277D627222862EA00464E64 /* ContentCoordinator.swift */; };
+		5277D62C2228648B00464E64 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277D6292228648B00464E64 /* MapViewController.swift */; };
+		5277D62D2228648B00464E64 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277D62A2228648B00464E64 /* MapViewModel.swift */; };
+		5277D62E2228648B00464E64 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5277D62B2228648B00464E64 /* MapViewController.xib */; };
 		7CE4E450A3C04E8E453487A5 /* Pods_L3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1BFD0EE2094DC064DE0CFCB /* Pods_L3Tests.framework */; };
 		8B69B7635AE8702018FB9391 /* Pods_L3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15578F7122411A9EB77640A /* Pods_L3UITests.framework */; };
 		E44037C5F6E5D413DDC6A349 /* Pods_L3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3A5D282D8C083F124C5DC4 /* Pods_L3.framework */; };
@@ -49,7 +54,6 @@
 		5277D5AB221E766000464E64 /* L3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = L3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5277D5AE221E766000464E64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5277D5B0221E766000464E64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5277D5B3221E766000464E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5277D5B5221E766200464E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5277D5B8221E766200464E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5277D5BA221E766200464E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,6 +67,12 @@
 		5277D5E02222273400464E64 /* LocationParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationParser.swift; sourceTree = "<group>"; };
 		5277D5E222222B6300464E64 /* master_locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = master_locations.json; path = ../../../master_locations.json; sourceTree = "<group>"; };
 		5277D5E4222257DE00464E64 /* PulseColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseColors.swift; sourceTree = "<group>"; };
+		5277D6212228621000464E64 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		5277D6242228624000464E64 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		5277D627222862EA00464E64 /* ContentCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCoordinator.swift; sourceTree = "<group>"; };
+		5277D6292228648B00464E64 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5277D62A2228648B00464E64 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		5277D62B2228648B00464E64 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 		5D9748D800289A94D8A3AA9D /* Pods-L3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-L3UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-L3UITests/Pods-L3UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E5C48AC3B3BF6D4869DACEC /* Pods-L3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-L3.release.xcconfig"; path = "Pods/Target Support Files/Pods-L3/Pods-L3.release.xcconfig"; sourceTree = "<group>"; };
 		9D6FCC55E327EFA27013F2C6 /* Pods-L3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-L3UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-L3UITests/Pods-L3UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -160,11 +170,13 @@
 			children = (
 				5277D5AE221E766000464E64 /* AppDelegate.swift */,
 				5277D5B0221E766000464E64 /* ViewController.swift */,
-				5277D5B2221E766000464E64 /* Main.storyboard */,
 				5277D5B7221E766200464E64 /* LaunchScreen.storyboard */,
+				5277D62F2228649300464E64 /* Modules */,
+				5277D6262228624300464E64 /* Coordinators */,
 				5277D5E6222257E200464E64 /* Styling */,
 				5277D5DD2222254C00464E64 /* Models */,
 				523AC29822221A74007F23C0 /* Services */,
+				5277D6232228622500464E64 /* Protocols */,
 				523AC29B22221AA5007F23C0 /* Resources */,
 				5277D5BA221E766200464E64 /* Info.plist */,
 			);
@@ -203,6 +215,41 @@
 				5277D5E4222257DE00464E64 /* PulseColors.swift */,
 			);
 			path = Styling;
+			sourceTree = "<group>";
+		};
+		5277D6232228622500464E64 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				5277D6212228621000464E64 /* Coordinator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		5277D6262228624300464E64 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				5277D6242228624000464E64 /* AppCoordinator.swift */,
+				5277D627222862EA00464E64 /* ContentCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		5277D62F2228649300464E64 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5277D6302228649E00464E64 /* Map */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5277D6302228649E00464E64 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				5277D6292228648B00464E64 /* MapViewController.swift */,
+				5277D62A2228648B00464E64 /* MapViewModel.swift */,
+				5277D62B2228648B00464E64 /* MapViewController.xib */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 		6F293F96303C486EB80E7168 /* Frameworks */ = {
@@ -326,7 +373,7 @@
 				5277D5E322222B6300464E64 /* master_locations.json in Resources */,
 				5277D5B9221E766200464E64 /* LaunchScreen.storyboard in Resources */,
 				5277D5B6221E766200464E64 /* Assets.xcassets in Resources */,
-				5277D5B4221E766000464E64 /* Main.storyboard in Resources */,
+				5277D62E2228648B00464E64 /* MapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,13 +491,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5277D62C2228648B00464E64 /* MapViewController.swift in Sources */,
+				5277D6222228621000464E64 /* Coordinator.swift in Sources */,
 				5277D5B1221E766000464E64 /* ViewController.swift in Sources */,
+				5277D628222862EA00464E64 /* ContentCoordinator.swift in Sources */,
 				5277D5DF222226AF00464E64 /* DataManager.swift in Sources */,
 				5277D5AF221E766000464E64 /* AppDelegate.swift in Sources */,
 				5277D5E12222273400464E64 /* LocationParser.swift in Sources */,
 				523AC29D22221B5B007F23C0 /* Location.swift in Sources */,
+				5277D6252228624000464E64 /* AppCoordinator.swift in Sources */,
 				523AC29722221A66007F23C0 /* DatasetLoader.swift in Sources */,
 				5277D5E5222257DE00464E64 /* PulseColors.swift in Sources */,
+				5277D62D2228648B00464E64 /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,14 +538,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5277D5B2221E766000464E64 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5277D5B3221E766000464E64 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5277D5B7221E766200464E64 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
