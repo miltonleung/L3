@@ -6,9 +6,12 @@
 //  Copyright (c) 2019 ms. All rights reserved.
 //
 
+import UIKit
+
 protocol MapViewModel {
   var locations: [Location] { get }
   var locationSort: LocationSort { get }
+  var panelCoordinator: PanelCoordinator { get }
 
   func fetchLocations()
 
@@ -17,7 +20,7 @@ protocol MapViewModel {
 
 final class MapViewModelImpl {
   let datasetLoader = DatasetLoader()
-
+  let panelCoordinator: PanelCoordinator
 
   var locations: [Location] = [] {
     didSet {
@@ -25,7 +28,11 @@ final class MapViewModelImpl {
     }
   }
 
-  var locationSort: LocationSort = .averageDevSalary
+  var locationSort: LocationSort = .sizeIndex
+
+  init() {
+    self.panelCoordinator = PanelCoordinator(navigationController: UINavigationController())
+  }
 
   // Coordinator Handlers
 
@@ -41,3 +48,6 @@ extension MapViewModelImpl: MapViewModel {
   }
 }
 
+extension MapViewModelImpl: PanelCoordinatorDelegate {
+
+}

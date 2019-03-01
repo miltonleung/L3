@@ -22,6 +22,8 @@ final class MapViewController: UIViewController {
     static let pulseDuration: TimeInterval = 2.5
   }
 
+  @IBOutlet weak var panelModelView: UIView!
+  
   let pulseColors = PulseColors()
   
   var mapView: MGLMapView?
@@ -42,6 +44,7 @@ final class MapViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     setupMap()
+    setupPanel()
     configure()
     viewModel.fetchLocations()
   }
@@ -56,13 +59,21 @@ final class MapViewController: UIViewController {
     mapView.minimumZoomLevel = Constants.minimumZoomLevel
     mapView.delegate = self
     self.mapView = mapView
-    view.addSubview(mapView)
+    view.insertSubview(mapView, at: 0)//(mapView)
 
     let singleTap = UITapGestureRecognizer(target: self, action: #selector(self.mapViewTapped(sender:)))
     for recognizer in mapView.gestureRecognizers! where recognizer is UITapGestureRecognizer {
       singleTap.require(toFail: recognizer)
     }
     mapView.addGestureRecognizer(singleTap)
+  }
+
+  func setupPanel() {
+    let navigationController = viewModel.panelCoordinator.navigationController
+    addChild(navigationController)
+    navigationController.view.frame = panelModelView.bounds
+    panelModelView.addSubview(navigationController.view)
+    navigationController.didMove(toParent: self)
   }
 
   func configure() {
