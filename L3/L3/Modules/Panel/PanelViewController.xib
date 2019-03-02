@@ -41,6 +41,9 @@
                                 <constraint firstAttribute="height" constant="56" id="MjI-Zr-HoZ"/>
                             </constraints>
                             <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="exploreButtonTapped" destination="-1" eventType="touchUpInside" id="dJQ-pj-Z7E"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gkQ-8M-cjq">
                             <rect key="frame" x="179" y="66" width="104" height="32"/>
@@ -76,7 +79,7 @@
                             </connections>
                         </button>
                     </subviews>
-                    <color key="backgroundColor" red="0.94509803920000002" green="0.3921568627" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="241" id="5eA-d4-cx0"/>
                         <constraint firstItem="OGI-s5-8di" firstAttribute="top" secondItem="Bwr-wa-xnh" secondAttribute="bottom" constant="10" id="8fe-m4-gXG"/>

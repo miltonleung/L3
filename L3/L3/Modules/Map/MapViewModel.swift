@@ -30,6 +30,7 @@ final class MapViewModelImpl {
   }
 
   var locationFilter: LocationFilter = .sizeIndex
+  var currentLocation: Int = 0
 
   init() {
     self.panelCoordinator = PanelCoordinator(navigationController: UINavigationController())
@@ -57,5 +58,11 @@ extension MapViewModelImpl: PanelCoordinatorDelegate {
   func locationFilterChanged(filter: LocationFilter) {
     self.locationFilter = filter
     self.locations = datasetLoader.sortedLocations(by: locationFilter)
+  }
+
+  func exploreTapped() {
+    guard currentLocation + 1 <= locations.count else { return }
+
+    panelCoordinator.showCity(location: locations[currentLocation], rank: currentLocation + 1)
   }
 }

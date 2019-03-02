@@ -60,7 +60,7 @@ final class MapViewController: UIViewController {
     mapView.minimumZoomLevel = Constants.minimumZoomLevel
     mapView.delegate = self
     self.mapView = mapView
-    view.insertSubview(mapView, at: 0)//(mapView)
+    view.insertSubview(mapView, at: 0)
 
     let singleTap = UITapGestureRecognizer(target: self, action: #selector(self.mapViewTapped(sender:)))
     for recognizer in mapView.gestureRecognizers! where recognizer is UITapGestureRecognizer {

@@ -16,6 +16,7 @@ protocol PanelViewModel {
   func locationFilterTapped(filter: LocationFilter)
 
   var onLocationFilterTapped: ((LocationFilter) -> Void)? { get set }
+  var onExploreButtonTapped: (() -> Void)? { get set }
 }
 
 final class PanelViewModelImpl {
@@ -31,6 +32,7 @@ final class PanelViewModelImpl {
 
   // Coordinator Handlers
   var onLocationFilterTapped: ((LocationFilter) -> Void)?
+  var onExploreButtonTapped: (() -> Void)?
 
   // View Controller Handlers
 }

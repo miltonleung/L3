@@ -14,6 +14,24 @@
 		525F6632222A06420020FC65 /* CircularStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 525F6630222A061F0020FC65 /* CircularStd-Book.otf */; };
 		525F6633222A06420020FC65 /* CircularStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 525F662E222A061F0020FC65 /* CircularStd-Medium.otf */; };
 		525F6635222A21B80020FC65 /* PassthroughNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F6634222A21B80020FC65 /* PassthroughNavigationController.swift */; };
+		525F6639222A40A20020FC65 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F6636222A40A20020FC65 /* CityViewController.swift */; };
+		525F663A222A40A20020FC65 /* CityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F6637222A40A20020FC65 /* CityViewModel.swift */; };
+		525F663B222A40A20020FC65 /* CityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525F6638222A40A20020FC65 /* CityViewController.xib */; };
+		525F6640222A44E20020FC65 /* CityHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F663D222A44E20020FC65 /* CityHeaderCell.swift */; };
+		525F6641222A44E20020FC65 /* CityHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F663E222A44E20020FC65 /* CityHeaderViewModel.swift */; };
+		525F6642222A44E20020FC65 /* CityHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525F663F222A44E20020FC65 /* CityHeaderCell.xib */; };
+		525F6645222A46980020FC65 /* UITableView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F6644222A46980020FC65 /* UITableView+Nib.swift */; };
+		525F664A222A50270020FC65 /* CityImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F6647222A50260020FC65 /* CityImageCell.swift */; };
+		525F664B222A50270020FC65 /* CityImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F6648222A50260020FC65 /* CityImageViewModel.swift */; };
+		525F664C222A50270020FC65 /* CityImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525F6649222A50260020FC65 /* CityImageCell.xib */; };
+		525F6651222A63B90020FC65 /* CityStatisticsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F664E222A63B90020FC65 /* CityStatisticsCell.swift */; };
+		525F6652222A63B90020FC65 /* CityStatisticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F664F222A63B90020FC65 /* CityStatisticsViewModel.swift */; };
+		525F6653222A63B90020FC65 /* CityStatisticsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525F6650222A63B90020FC65 /* CityStatisticsCell.xib */; };
+		525F6658222A68BC0020FC65 /* StatisticCollectionCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F6655222A68BC0020FC65 /* StatisticCollectionCellViewModel.swift */; };
+		525F6659222A68BC0020FC65 /* StatisticCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F6656222A68BC0020FC65 /* StatisticCollectionCell.swift */; };
+		525F665A222A68BC0020FC65 /* StatisticCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525F6657222A68BC0020FC65 /* StatisticCollectionCell.xib */; };
+		525F665D222A6C550020FC65 /* Int+Commas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F665C222A6C550020FC65 /* Int+Commas.swift */; };
+		525F665F222A73A00020FC65 /* UICollectionView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F665E222A73A00020FC65 /* UICollectionView+Nib.swift */; };
 		5277D5AF221E766000464E64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277D5AE221E766000464E64 /* AppDelegate.swift */; };
 		5277D5B6221E766200464E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5277D5B5221E766200464E64 /* Assets.xcassets */; };
 		5277D5B9221E766200464E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5277D5B7221E766200464E64 /* LaunchScreen.storyboard */; };
@@ -64,6 +82,24 @@
 		525F662F222A061F0020FC65 /* CircularStd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Bold.otf"; sourceTree = "<group>"; };
 		525F6630222A061F0020FC65 /* CircularStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Book.otf"; sourceTree = "<group>"; };
 		525F6634222A21B80020FC65 /* PassthroughNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughNavigationController.swift; sourceTree = "<group>"; };
+		525F6636222A40A20020FC65 /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
+		525F6637222A40A20020FC65 /* CityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewModel.swift; sourceTree = "<group>"; };
+		525F6638222A40A20020FC65 /* CityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CityViewController.xib; sourceTree = "<group>"; };
+		525F663D222A44E20020FC65 /* CityHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityHeaderCell.swift; sourceTree = "<group>"; };
+		525F663E222A44E20020FC65 /* CityHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityHeaderViewModel.swift; sourceTree = "<group>"; };
+		525F663F222A44E20020FC65 /* CityHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CityHeaderCell.xib; sourceTree = "<group>"; };
+		525F6644222A46980020FC65 /* UITableView+Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Nib.swift"; sourceTree = "<group>"; };
+		525F6647222A50260020FC65 /* CityImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityImageCell.swift; sourceTree = "<group>"; };
+		525F6648222A50260020FC65 /* CityImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityImageViewModel.swift; sourceTree = "<group>"; };
+		525F6649222A50260020FC65 /* CityImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CityImageCell.xib; sourceTree = "<group>"; };
+		525F664E222A63B90020FC65 /* CityStatisticsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityStatisticsCell.swift; sourceTree = "<group>"; };
+		525F664F222A63B90020FC65 /* CityStatisticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityStatisticsViewModel.swift; sourceTree = "<group>"; };
+		525F6650222A63B90020FC65 /* CityStatisticsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CityStatisticsCell.xib; sourceTree = "<group>"; };
+		525F6655222A68BC0020FC65 /* StatisticCollectionCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticCollectionCellViewModel.swift; sourceTree = "<group>"; };
+		525F6656222A68BC0020FC65 /* StatisticCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticCollectionCell.swift; sourceTree = "<group>"; };
+		525F6657222A68BC0020FC65 /* StatisticCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatisticCollectionCell.xib; sourceTree = "<group>"; };
+		525F665C222A6C550020FC65 /* Int+Commas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Commas.swift"; sourceTree = "<group>"; };
+		525F665E222A73A00020FC65 /* UICollectionView+Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Nib.swift"; sourceTree = "<group>"; };
 		5277D5AB221E766000464E64 /* L3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = L3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5277D5AE221E766000464E64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5277D5B5221E766200464E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -162,6 +198,70 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		525F663C222A40AA0020FC65 /* City */ = {
+			isa = PBXGroup;
+			children = (
+				525F6636222A40A20020FC65 /* CityViewController.swift */,
+				525F6637222A40A20020FC65 /* CityViewModel.swift */,
+				525F6638222A40A20020FC65 /* CityViewController.xib */,
+				525F6643222A44ED0020FC65 /* CityHeader */,
+				525F664D222A502C0020FC65 /* CityImage */,
+				525F6654222A63C30020FC65 /* CityStatistics */,
+			);
+			path = City;
+			sourceTree = "<group>";
+		};
+		525F6643222A44ED0020FC65 /* CityHeader */ = {
+			isa = PBXGroup;
+			children = (
+				525F663D222A44E20020FC65 /* CityHeaderCell.swift */,
+				525F663E222A44E20020FC65 /* CityHeaderViewModel.swift */,
+				525F663F222A44E20020FC65 /* CityHeaderCell.xib */,
+			);
+			path = CityHeader;
+			sourceTree = "<group>";
+		};
+		525F6646222A46A40020FC65 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				525F6644222A46980020FC65 /* UITableView+Nib.swift */,
+				525F665E222A73A00020FC65 /* UICollectionView+Nib.swift */,
+				525F665C222A6C550020FC65 /* Int+Commas.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		525F664D222A502C0020FC65 /* CityImage */ = {
+			isa = PBXGroup;
+			children = (
+				525F6647222A50260020FC65 /* CityImageCell.swift */,
+				525F6648222A50260020FC65 /* CityImageViewModel.swift */,
+				525F6649222A50260020FC65 /* CityImageCell.xib */,
+			);
+			path = CityImage;
+			sourceTree = "<group>";
+		};
+		525F6654222A63C30020FC65 /* CityStatistics */ = {
+			isa = PBXGroup;
+			children = (
+				525F664E222A63B90020FC65 /* CityStatisticsCell.swift */,
+				525F664F222A63B90020FC65 /* CityStatisticsViewModel.swift */,
+				525F6650222A63B90020FC65 /* CityStatisticsCell.xib */,
+				525F665B222A68CD0020FC65 /* StatisticCollection */,
+			);
+			path = CityStatistics;
+			sourceTree = "<group>";
+		};
+		525F665B222A68CD0020FC65 /* StatisticCollection */ = {
+			isa = PBXGroup;
+			children = (
+				525F6655222A68BC0020FC65 /* StatisticCollectionCellViewModel.swift */,
+				525F6656222A68BC0020FC65 /* StatisticCollectionCell.swift */,
+				525F6657222A68BC0020FC65 /* StatisticCollectionCell.xib */,
+			);
+			path = StatisticCollection;
+			sourceTree = "<group>";
+		};
 		5277D5A2221E766000464E64 = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +292,7 @@
 				5277D5E6222257E200464E64 /* Styling */,
 				5277D5DD2222254C00464E64 /* Models */,
 				523AC29822221A74007F23C0 /* Services */,
+				525F6646222A46A40020FC65 /* Extensions */,
 				5277D6232228622500464E64 /* Protocols */,
 				523AC29B22221AA5007F23C0 /* Resources */,
 				5277D5AE221E766000464E64 /* AppDelegate.swift */,
@@ -259,6 +360,7 @@
 			children = (
 				5277D6302228649E00464E64 /* Map */,
 				5288B1942229233100B4F874 /* Panel */,
+				525F663C222A40AA0020FC65 /* City */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -406,10 +508,15 @@
 				525F6631222A06420020FC65 /* CircularStd-Bold.otf in Resources */,
 				5277D5B9221E766200464E64 /* LaunchScreen.storyboard in Resources */,
 				525F6633222A06420020FC65 /* CircularStd-Medium.otf in Resources */,
+				525F664C222A50270020FC65 /* CityImageCell.xib in Resources */,
 				525F6632222A06420020FC65 /* CircularStd-Book.otf in Resources */,
 				5277D5B6221E766200464E64 /* Assets.xcassets in Resources */,
+				525F6653222A63B90020FC65 /* CityStatisticsCell.xib in Resources */,
+				525F663B222A40A20020FC65 /* CityViewController.xib in Resources */,
+				525F665A222A68BC0020FC65 /* StatisticCollectionCell.xib in Resources */,
 				5277D62E2228648B00464E64 /* MapViewController.xib in Resources */,
 				5288B1912228C5D300B4F874 /* PanelViewController.xib in Resources */,
+				525F6642222A44E20020FC65 /* CityHeaderCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +613,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-L3/Pods-L3-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
 				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
 			);
@@ -514,6 +622,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
 				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
 			);
@@ -529,13 +638,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525F6659222A68BC0020FC65 /* StatisticCollectionCell.swift in Sources */,
 				5277D62C2228648B00464E64 /* MapViewController.swift in Sources */,
 				5277D6222228621000464E64 /* Coordinator.swift in Sources */,
+				525F664A222A50270020FC65 /* CityImageCell.swift in Sources */,
+				525F6652222A63B90020FC65 /* CityStatisticsViewModel.swift in Sources */,
+				525F665D222A6C550020FC65 /* Int+Commas.swift in Sources */,
 				525F662D222A05CE0020FC65 /* Font.swift in Sources */,
+				525F6640222A44E20020FC65 /* CityHeaderCell.swift in Sources */,
 				5277D628222862EA00464E64 /* ContentCoordinator.swift in Sources */,
+				525F6658222A68BC0020FC65 /* StatisticCollectionCellViewModel.swift in Sources */,
 				5277D5DF222226AF00464E64 /* DataManager.swift in Sources */,
+				525F6651222A63B90020FC65 /* CityStatisticsCell.swift in Sources */,
 				5277D5AF221E766000464E64 /* AppDelegate.swift in Sources */,
+				525F664B222A50270020FC65 /* CityImageViewModel.swift in Sources */,
 				5277D5E12222273400464E64 /* LocationParser.swift in Sources */,
+				525F663A222A40A20020FC65 /* CityViewModel.swift in Sources */,
+				525F6645222A46980020FC65 /* UITableView+Nib.swift in Sources */,
 				523AC29D22221B5B007F23C0 /* Location.swift in Sources */,
 				5288B1932228D07700B4F874 /* PanelCoordinator.swift in Sources */,
 				5277D6252228624000464E64 /* AppCoordinator.swift in Sources */,
@@ -544,7 +663,10 @@
 				525F6635222A21B80020FC65 /* PassthroughNavigationController.swift in Sources */,
 				5288B1902228C5D300B4F874 /* PanelViewModel.swift in Sources */,
 				5277D62D2228648B00464E64 /* MapViewModel.swift in Sources */,
+				525F6639222A40A20020FC65 /* CityViewController.swift in Sources */,
+				525F6641222A44E20020FC65 /* CityHeaderViewModel.swift in Sources */,
 				5288B18F2228C5D300B4F874 /* PanelViewController.swift in Sources */,
+				525F665F222A73A00020FC65 /* UICollectionView+Nib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

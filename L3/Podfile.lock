@@ -2,14 +2,17 @@ PODS:
   - ChameleonFramework/Default (2.1.0)
   - ChameleonFramework/Swift (2.1.0):
     - ChameleonFramework/Default
+  - Kingfisher (5.1.1)
   - Mapbox-iOS-SDK (4.8.0)
 
 DEPENDENCIES:
   - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - Kingfisher (~> 5.0)
   - Mapbox-iOS-SDK (~> 4.8)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Kingfisher
     - Mapbox-iOS-SDK
 
 EXTERNAL SOURCES:
@@ -23,8 +26,9 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Kingfisher: 2558186963e5be42d98c5b110ccb3130148b77e4
   Mapbox-iOS-SDK: 864bc732a20c183d87f04923295e988b504453d9
 
-PODFILE CHECKSUM: 7fa1edac3072010cd9bc10d5879b20a61593d03b
+PODFILE CHECKSUM: 1916ceb5b01719367e7b271c04010a32db7d9a59
 
 COCOAPODS: 1.5.3

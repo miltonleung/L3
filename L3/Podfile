@@ -8,6 +8,7 @@ target 'L3' do
   # Pods for L3
   pod 'Mapbox-iOS-SDK', '~> 4.8'
   pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
+  pod 'Kingfisher', '~> 5.0'
 
   target 'L3Tests' do
     inherit! :search_paths

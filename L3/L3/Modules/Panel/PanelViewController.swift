@@ -113,4 +113,8 @@ extension PanelViewController {
     unselectAllButtons()
     selectButton(button: monthlyRentButton)
   }
+
+  @IBAction private func exploreButtonTapped() {
+    viewModel.onExploreButtonTapped?()
+  }
 }

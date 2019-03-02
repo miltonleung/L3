@@ -10,6 +10,7 @@ import UIKit
 
 protocol PanelCoordinatorDelegate: class {
   func locationFilterChanged(filter: LocationFilter)
+  func exploreTapped()
 }
 
 final class PanelCoordinator: Coordinator {
@@ -23,6 +24,7 @@ final class PanelCoordinator: Coordinator {
   func start() {
     let viewModel = PanelViewModelImpl()
     viewModel.onLocationFilterTapped = delegate?.locationFilterChanged(filter:)
+    viewModel.onExploreButtonTapped = delegate?.exploreTapped
     let panelVC = PanelViewController(viewModel: viewModel)
 
     navigationController.viewControllers = [panelVC]
@@ -30,4 +32,20 @@ final class PanelCoordinator: Coordinator {
     navigationController.isNavigationBarHidden = true
   }
 }
+// MARK: View Controller Instantiations
+extension PanelCoordinator {
+  func instantiateCity(location: Location, rank: Int) -> CityViewController {
+    let viewModel = CityViewModelImpl(location: location, rank: rank)
+    let vc = CityViewController(viewModel: viewModel)
 
+    return vc
+  }
+}
+
+// MARK: Routing
+extension PanelCoordinator {
+  func showCity(location: Location, rank: Int) {
+    let vc = instantiateCity(location: location, rank: rank)
+    navigationController.pushViewController(vc, animated: true)
+  }
+}
