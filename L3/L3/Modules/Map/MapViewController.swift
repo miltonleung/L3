@@ -108,13 +108,17 @@ final class MapViewController: UIViewController {
     dot.layer.borderWidth = 1
     dot.layer.borderColor = color.dotBorder
     dot.layer.backgroundColor = color.dotBackground
+    dot.layer.shouldRasterize = true
+    dot.layer.rasterizationScale = UIScreen.main.scale
 
     func createPulse() -> UIView {
       let pulse = UIView(frame: CGRect(x: 0, y: 0, width: 10, height: 10))
-      pulse.layer.cornerRadius = 5
+      pulse.layer.cornerRadius = pulse.frame.height / 2
       pulse.layer.borderWidth = 1
       pulse.layer.borderColor = color.pulseBorder
       pulse.layer.backgroundColor = color.pulseBackground
+      pulse.layer.shouldRasterize = true
+      pulse.layer.rasterizationScale = UIScreen.main.scale * 12
 
       return pulse
     }
