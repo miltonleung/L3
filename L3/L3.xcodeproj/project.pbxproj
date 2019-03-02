@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		523AC29722221A66007F23C0 /* DatasetLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523AC29622221A66007F23C0 /* DatasetLoader.swift */; };
 		523AC29D22221B5B007F23C0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523AC29C22221B5B007F23C0 /* Location.swift */; };
+		525F662D222A05CE0020FC65 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F662C222A05CE0020FC65 /* Font.swift */; };
+		525F6631222A06420020FC65 /* CircularStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 525F662F222A061F0020FC65 /* CircularStd-Bold.otf */; };
+		525F6632222A06420020FC65 /* CircularStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 525F6630222A061F0020FC65 /* CircularStd-Book.otf */; };
+		525F6633222A06420020FC65 /* CircularStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 525F662E222A061F0020FC65 /* CircularStd-Medium.otf */; };
 		5277D5AF221E766000464E64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277D5AE221E766000464E64 /* AppDelegate.swift */; };
 		5277D5B6221E766200464E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5277D5B5221E766200464E64 /* Assets.xcassets */; };
 		5277D5B9221E766200464E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5277D5B7221E766200464E64 /* LaunchScreen.storyboard */; };
@@ -54,6 +58,10 @@
 		2B581217E685FE8D31FC0D30 /* Pods-L3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-L3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-L3/Pods-L3.debug.xcconfig"; sourceTree = "<group>"; };
 		523AC29622221A66007F23C0 /* DatasetLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasetLoader.swift; sourceTree = "<group>"; };
 		523AC29C22221B5B007F23C0 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		525F662C222A05CE0020FC65 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		525F662E222A061F0020FC65 /* CircularStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Medium.otf"; sourceTree = "<group>"; };
+		525F662F222A061F0020FC65 /* CircularStd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Bold.otf"; sourceTree = "<group>"; };
+		525F6630222A061F0020FC65 /* CircularStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Book.otf"; sourceTree = "<group>"; };
 		5277D5AB221E766000464E64 /* L3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = L3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5277D5AE221E766000464E64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5277D5B5221E766200464E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -143,6 +151,9 @@
 		523AC29B22221AA5007F23C0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				525F662F222A061F0020FC65 /* CircularStd-Bold.otf */,
+				525F6630222A061F0020FC65 /* CircularStd-Book.otf */,
+				525F662E222A061F0020FC65 /* CircularStd-Medium.otf */,
 				5277D5B5221E766200464E64 /* Assets.xcassets */,
 				5277D5E222222B6300464E64 /* master_locations.json */,
 			);
@@ -218,6 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				5277D5E4222257DE00464E64 /* PulseColors.swift */,
+				525F662C222A05CE0020FC65 /* Font.swift */,
 			);
 			path = Styling;
 			sourceTree = "<group>";
@@ -388,7 +400,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5277D5E322222B6300464E64 /* master_locations.json in Resources */,
+				525F6631222A06420020FC65 /* CircularStd-Bold.otf in Resources */,
 				5277D5B9221E766200464E64 /* LaunchScreen.storyboard in Resources */,
+				525F6633222A06420020FC65 /* CircularStd-Medium.otf in Resources */,
+				525F6632222A06420020FC65 /* CircularStd-Book.otf in Resources */,
 				5277D5B6221E766200464E64 /* Assets.xcassets in Resources */,
 				5277D62E2228648B00464E64 /* MapViewController.xib in Resources */,
 				5288B1912228C5D300B4F874 /* PanelViewController.xib in Resources */,
@@ -511,6 +526,7 @@
 			files = (
 				5277D62C2228648B00464E64 /* MapViewController.swift in Sources */,
 				5277D6222228621000464E64 /* Coordinator.swift in Sources */,
+				525F662D222A05CE0020FC65 /* Font.swift in Sources */,
 				5277D628222862EA00464E64 /* ContentCoordinator.swift in Sources */,
 				5277D5DF222226AF00464E64 /* DataManager.swift in Sources */,
 				5277D5AF221E766000464E64 /* AppDelegate.swift in Sources */,
