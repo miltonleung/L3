@@ -10,9 +10,10 @@ import UIKit
 
 protocol MapViewModel {
   var locations: [Location] { get }
-  var locationSort: LocationSort { get }
+  var locationFilter: LocationFilter { get }
   var panelCoordinator: PanelCoordinator { get }
 
+  func setCoordinatorDelegate()
   func fetchLocations()
 
   var onLocationsUpdated: (() -> Void)? { get set }
@@ -28,7 +29,7 @@ final class MapViewModelImpl {
     }
   }
 
-  var locationSort: LocationSort = .sizeIndex
+  var locationFilter: LocationFilter = .sizeIndex
 
   init() {
     self.panelCoordinator = PanelCoordinator(navigationController: UINavigationController())
@@ -42,12 +43,19 @@ final class MapViewModelImpl {
 }
 
 extension MapViewModelImpl: MapViewModel {
+  func setCoordinatorDelegate() {
+    self.panelCoordinator.delegate = self
+  }
+
   func fetchLocations() {
-    self.locations = datasetLoader.sortedLocations(by: locationSort)
+    self.locations = datasetLoader.sortedLocations(by: locationFilter)
       //    print(locations.filter { $0.averageDevSalary/maxValue >= 0.85 }
   }
 }
 
 extension MapViewModelImpl: PanelCoordinatorDelegate {
-
+  func locationFilterChanged(filter: LocationFilter) {
+    self.locationFilter = filter
+    self.locations = datasetLoader.sortedLocations(by: locationFilter)
+  }
 }

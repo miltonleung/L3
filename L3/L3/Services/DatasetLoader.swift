@@ -45,7 +45,7 @@ final class DatasetLoader {
     return sortedLocations + unavailable
   }()
 
-  func sortedLocations(by sortType: LocationSort = .sizeIndex) -> [Location] {
+  func sortedLocations(by sortType: LocationFilter = .sizeIndex) -> [Location] {
     switch sortType {
     case .sizeIndex:
       return locations

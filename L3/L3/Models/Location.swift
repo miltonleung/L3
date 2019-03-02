@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum LocationSort {
+enum LocationFilter {
   case sizeIndex, averageDevSalary, averageMonthlyRent
 }
 

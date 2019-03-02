@@ -9,7 +9,7 @@
 import UIKit
 
 protocol PanelCoordinatorDelegate: class {
-  
+  func locationFilterChanged(filter: LocationFilter)
 }
 
 final class PanelCoordinator: Coordinator {
@@ -21,11 +21,13 @@ final class PanelCoordinator: Coordinator {
   }
 
   func start() {
-    let panelViewModel = PanelViewModelImpl()
-    let panelVC = PanelViewController(viewModel: panelViewModel)
+    let viewModel = PanelViewModelImpl()
+    viewModel.onLocationFilterTapped = delegate?.locationFilterChanged(filter:)
+    let panelVC = PanelViewController(viewModel: viewModel)
 
     navigationController.viewControllers = [panelVC]
     navigationController.setNavigationBarHidden(true, animated: false)
+    navigationController.isNavigationBarHidden = true
   }
 }
 

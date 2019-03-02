@@ -1,16 +1,30 @@
 PODS:
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
   - Mapbox-iOS-SDK (4.8.0)
 
 DEPENDENCIES:
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
   - Mapbox-iOS-SDK (~> 4.8)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Mapbox-iOS-SDK
 
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
 SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   Mapbox-iOS-SDK: 864bc732a20c183d87f04923295e988b504453d9
 
-PODFILE CHECKSUM: 413ffa52a0193d2e77a604c6acac85429e544781
+PODFILE CHECKSUM: 7fa1edac3072010cd9bc10d5879b20a61593d03b
 
 COCOAPODS: 1.5.3

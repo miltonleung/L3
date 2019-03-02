@@ -13,6 +13,7 @@
 		525F6631222A06420020FC65 /* CircularStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 525F662F222A061F0020FC65 /* CircularStd-Bold.otf */; };
 		525F6632222A06420020FC65 /* CircularStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 525F6630222A061F0020FC65 /* CircularStd-Book.otf */; };
 		525F6633222A06420020FC65 /* CircularStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 525F662E222A061F0020FC65 /* CircularStd-Medium.otf */; };
+		525F6635222A21B80020FC65 /* PassthroughNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F6634222A21B80020FC65 /* PassthroughNavigationController.swift */; };
 		5277D5AF221E766000464E64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277D5AE221E766000464E64 /* AppDelegate.swift */; };
 		5277D5B6221E766200464E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5277D5B5221E766200464E64 /* Assets.xcassets */; };
 		5277D5B9221E766200464E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5277D5B7221E766200464E64 /* LaunchScreen.storyboard */; };
@@ -62,6 +63,7 @@
 		525F662E222A061F0020FC65 /* CircularStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Medium.otf"; sourceTree = "<group>"; };
 		525F662F222A061F0020FC65 /* CircularStd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Bold.otf"; sourceTree = "<group>"; };
 		525F6630222A061F0020FC65 /* CircularStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Book.otf"; sourceTree = "<group>"; };
+		525F6634222A21B80020FC65 /* PassthroughNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughNavigationController.swift; sourceTree = "<group>"; };
 		5277D5AB221E766000464E64 /* L3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = L3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5277D5AE221E766000464E64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5277D5B5221E766200464E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -267,6 +269,7 @@
 				5277D6292228648B00464E64 /* MapViewController.swift */,
 				5277D62A2228648B00464E64 /* MapViewModel.swift */,
 				5277D62B2228648B00464E64 /* MapViewController.xib */,
+				525F6634222A21B80020FC65 /* PassthroughNavigationController.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -502,6 +505,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-L3/Pods-L3-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
 				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
 				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
 			);
@@ -509,6 +513,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
 				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
 			);
@@ -536,6 +541,7 @@
 				5277D6252228624000464E64 /* AppCoordinator.swift in Sources */,
 				523AC29722221A66007F23C0 /* DatasetLoader.swift in Sources */,
 				5277D5E5222257DE00464E64 /* PulseColors.swift in Sources */,
+				525F6635222A21B80020FC65 /* PassthroughNavigationController.swift in Sources */,
 				5288B1902228C5D300B4F874 /* PanelViewModel.swift in Sources */,
 				5277D62D2228648B00464E64 /* MapViewModel.swift in Sources */,
 				5288B18F2228C5D300B4F874 /* PanelViewController.swift in Sources */,

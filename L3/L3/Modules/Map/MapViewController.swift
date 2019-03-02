@@ -22,8 +22,8 @@ final class MapViewController: UIViewController {
     static let pulseDuration: TimeInterval = 2.5
   }
 
-  @IBOutlet weak var panelModelView: UIView!
-  
+  @IBOutlet weak var panelModelView: PassthroughContainerView!
+
   let pulseColors = PulseColors()
   
   var mapView: MGLMapView?
@@ -34,6 +34,7 @@ final class MapViewController: UIViewController {
 
   init(viewModel: MapViewModel) {
     self.viewModel = viewModel
+    viewModel.setCoordinatorDelegate()
     super.init(nibName: nil, bundle: nil)
   }
 
@@ -70,6 +71,7 @@ final class MapViewController: UIViewController {
 
   func setupPanel() {
     let navigationController = viewModel.panelCoordinator.navigationController
+    viewModel.panelCoordinator.start()
     addChild(navigationController)
     navigationController.view.frame = panelModelView.bounds
     panelModelView.addSubview(navigationController.view)
@@ -92,6 +94,7 @@ final class MapViewController: UIViewController {
       return annotation
     }
 
+    mapView.removeAnnotations(mapView.annotations ?? [])
     mapView.addAnnotations(annotations)
   }
 
@@ -123,7 +126,7 @@ final class MapViewController: UIViewController {
 // MARK: Location Sort Methods
 extension MapViewController {
   func calculateMaxValue(location: Location?) -> Double {
-    switch viewModel.locationSort {
+    switch viewModel.locationFilter {
     case .sizeIndex:
       return Double(location?.sizeIndex ?? 0)
     case .averageDevSalary:
@@ -134,19 +137,19 @@ extension MapViewController {
   }
 
   func sizeIsDot(location: Location) -> Bool {
-    switch viewModel.locationSort {
+    switch viewModel.locationFilter {
     case .sizeIndex:
       return Double(location.sizeIndex) / maxValue < 0.10
     case .averageDevSalary:
       return location.averageDevSalary / maxValue < 0.85
     case .averageMonthlyRent:
       guard let monthlyRent = location.averageMonthlyRent else { return true }
-      return monthlyRent / maxValue  < 0.10
+      return monthlyRent / maxValue  < 0.60
     }
   }
 
   func calculatePulseRelativeSize(location: Location) -> Double {
-    switch viewModel.locationSort {
+    switch viewModel.locationFilter {
     case .sizeIndex:
       return sqrt(Double(location.sizeIndex)) / sqrt(maxValue)
     case .averageDevSalary:
