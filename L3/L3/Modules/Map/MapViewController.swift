@@ -20,6 +20,9 @@ final class MapViewController: UIViewController {
     static let minimumZoomLevel: Double = 3
     static let maximumRadarScale: Double = 12
     static let pulseDuration: TimeInterval = 2.5
+    static let cityViewingDistance: Double = 18265
+    static let startingViewingDistance: Double = 9351822
+    static let rightContentInset: CGFloat = 332
   }
 
   @IBOutlet weak var panelModelView: PassthroughContainerView!
@@ -28,7 +31,7 @@ final class MapViewController: UIViewController {
   
   var mapView: MGLMapView?
   fileprivate var maxValue: Double = 0
-
+  fileprivate var attributionButtonFrame: CGRect = .zero
 
   var viewModel: MapViewModel
 
@@ -44,9 +47,9 @@ final class MapViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+    configure()
     setupMap()
     setupPanel()
-    configure()
     viewModel.fetchLocations()
   }
 
@@ -54,10 +57,14 @@ final class MapViewController: UIViewController {
     let url = URL(string: "mapbox://styles/miltonleung/cjse5srx71w1w1fpjejnfabhd")
     let mapView = MGLMapView(frame: view.bounds, styleURL: url)
     mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-    mapView.setCenter(CLLocationCoordinate2D(latitude: Constants.startingCoordinate.lat, longitude: Constants.startingCoordinate.long), zoomLevel: Constants.minimumZoomLevel, animated: false)
+
+    let camera = MGLMapCamera(lookingAtCenter: CLLocationCoordinate2D(latitude: Constants.startingCoordinate.lat, longitude: Constants.startingCoordinate.long), acrossDistance: Constants.startingViewingDistance, pitch: 0, heading: 0)
+    mapView.setCamera(camera, withDuration: 0, animationTimingFunction: nil, edgePadding: UIEdgeInsets(top: 0, left: 0, bottom: 0, right: -Constants.rightContentInset))
+
     mapView.allowsTilting = false
     mapView.maximumZoomLevel = Constants.maximumZoomLevel
     mapView.minimumZoomLevel = Constants.minimumZoomLevel
+
     mapView.delegate = self
     self.mapView = mapView
     view.insertSubview(mapView, at: 0)
@@ -79,7 +86,10 @@ final class MapViewController: UIViewController {
   }
 
   func configure() {
+    attributionButtonFrame = CGRect(x: view.frame.width - 30, y: view.frame.height - 30, width: 22, height: 22)
+
     viewModel.onLocationsUpdated = updateMapCoordinates
+    viewModel.onCameraChange = moveCamera(to:)
   }
 
   private func updateMapCoordinates() {
@@ -124,6 +134,11 @@ final class MapViewController: UIViewController {
     }
 
     return (dot, createPulse(), createPulse())
+  }
+
+  func moveCamera(to location: Location) {
+    let camera = MGLMapCamera(lookingAtCenter: CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude), acrossDistance: Constants.cityViewingDistance, pitch: 0, heading: 0)
+    mapView?.fly(to: camera, completionHandler: nil)
   }
 }
 
@@ -258,6 +273,13 @@ extension MapViewController: MGLMapViewDelegate {
 
     print(markerLocation)
   }
+
+  func mapView(_ mapView: MGLMapView, regionDidChangeWith reason: MGLCameraChangeReason, animated: Bool) {
+    if reason == .programmatic {
+      mapView.setContentInset(UIEdgeInsets(top: 0, left: 0, bottom: 0, right: panelModelView.frame.width - 20), animated: animated)
+      if mapView.attributionButton.frame != attributionButtonFrame {
+        mapView.attributionButton.frame = attributionButtonFrame
+      }
+    }
+  }
 }
-
-

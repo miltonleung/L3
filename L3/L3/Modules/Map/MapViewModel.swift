@@ -17,6 +17,8 @@ protocol MapViewModel {
   func fetchLocations()
 
   var onLocationsUpdated: (() -> Void)? { get set }
+  var onCameraChange: ((Location) -> Void)? { get set }
+
 }
 
 final class MapViewModelImpl {
@@ -41,6 +43,7 @@ final class MapViewModelImpl {
 
   // View Controller Handlers
   var onLocationsUpdated: (() -> Void)?
+  var onCameraChange: ((Location) -> Void)?
 }
 
 extension MapViewModelImpl: MapViewModel {
@@ -61,8 +64,18 @@ extension MapViewModelImpl: PanelCoordinatorDelegate {
   }
 
   func exploreTapped() {
-    guard currentLocation + 1 <= locations.count else { return }
+    currentLocation = 0
+    nextCity()
+  }
 
-    panelCoordinator.showCity(location: locations[currentLocation], rank: currentLocation + 1)
+  func actionTapped() {
+    guard currentLocation + 1 <= locations.count else { return }
+    currentLocation += 1
+    nextCity()
+  }
+
+  private func nextCity() {
+    panelCoordinator.showCity(location: locations[currentLocation], rank: currentLocation + 1, isLast: currentLocation == locations.count - 1)
+    onCameraChange?(locations[currentLocation])
   }
 }

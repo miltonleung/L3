@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		523AC29722221A66007F23C0 /* DatasetLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523AC29622221A66007F23C0 /* DatasetLoader.swift */; };
 		523AC29D22221B5B007F23C0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523AC29C22221B5B007F23C0 /* Location.swift */; };
+		524A47BD222B4D8C00E00291 /* CityActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A47BA222B4D8C00E00291 /* CityActionCell.swift */; };
+		524A47BE222B4D8C00E00291 /* CityActionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A47BB222B4D8C00E00291 /* CityActionViewModel.swift */; };
+		524A47BF222B4D8C00E00291 /* CityActionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524A47BC222B4D8C00E00291 /* CityActionCell.xib */; };
 		525F662D222A05CE0020FC65 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F662C222A05CE0020FC65 /* Font.swift */; };
 		525F6631222A06420020FC65 /* CircularStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 525F662F222A061F0020FC65 /* CircularStd-Bold.otf */; };
 		525F6632222A06420020FC65 /* CircularStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 525F6630222A061F0020FC65 /* CircularStd-Book.otf */; };
@@ -77,6 +80,9 @@
 		2B581217E685FE8D31FC0D30 /* Pods-L3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-L3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-L3/Pods-L3.debug.xcconfig"; sourceTree = "<group>"; };
 		523AC29622221A66007F23C0 /* DatasetLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasetLoader.swift; sourceTree = "<group>"; };
 		523AC29C22221B5B007F23C0 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		524A47BA222B4D8C00E00291 /* CityActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityActionCell.swift; sourceTree = "<group>"; };
+		524A47BB222B4D8C00E00291 /* CityActionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityActionViewModel.swift; sourceTree = "<group>"; };
+		524A47BC222B4D8C00E00291 /* CityActionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CityActionCell.xib; sourceTree = "<group>"; };
 		525F662C222A05CE0020FC65 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		525F662E222A061F0020FC65 /* CircularStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Medium.otf"; sourceTree = "<group>"; };
 		525F662F222A061F0020FC65 /* CircularStd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Bold.otf"; sourceTree = "<group>"; };
@@ -198,6 +204,16 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		524A47B9222B4D5E00E00291 /* CityAction */ = {
+			isa = PBXGroup;
+			children = (
+				524A47BA222B4D8C00E00291 /* CityActionCell.swift */,
+				524A47BB222B4D8C00E00291 /* CityActionViewModel.swift */,
+				524A47BC222B4D8C00E00291 /* CityActionCell.xib */,
+			);
+			path = CityAction;
+			sourceTree = "<group>";
+		};
 		525F663C222A40AA0020FC65 /* City */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +223,7 @@
 				525F6643222A44ED0020FC65 /* CityHeader */,
 				525F664D222A502C0020FC65 /* CityImage */,
 				525F6654222A63C30020FC65 /* CityStatistics */,
+				524A47B9222B4D5E00E00291 /* CityAction */,
 			);
 			path = City;
 			sourceTree = "<group>";
@@ -506,6 +523,7 @@
 			files = (
 				5277D5E322222B6300464E64 /* master_locations.json in Resources */,
 				525F6631222A06420020FC65 /* CircularStd-Bold.otf in Resources */,
+				524A47BF222B4D8C00E00291 /* CityActionCell.xib in Resources */,
 				5277D5B9221E766200464E64 /* LaunchScreen.storyboard in Resources */,
 				525F6633222A06420020FC65 /* CircularStd-Medium.otf in Resources */,
 				525F664C222A50270020FC65 /* CityImageCell.xib in Resources */,
@@ -648,6 +666,7 @@
 				525F6640222A44E20020FC65 /* CityHeaderCell.swift in Sources */,
 				5277D628222862EA00464E64 /* ContentCoordinator.swift in Sources */,
 				525F6658222A68BC0020FC65 /* StatisticCollectionCellViewModel.swift in Sources */,
+				524A47BD222B4D8C00E00291 /* CityActionCell.swift in Sources */,
 				5277D5DF222226AF00464E64 /* DataManager.swift in Sources */,
 				525F6651222A63B90020FC65 /* CityStatisticsCell.swift in Sources */,
 				5277D5AF221E766000464E64 /* AppDelegate.swift in Sources */,
@@ -667,6 +686,7 @@
 				525F6641222A44E20020FC65 /* CityHeaderViewModel.swift in Sources */,
 				5288B18F2228C5D300B4F874 /* PanelViewController.swift in Sources */,
 				525F665F222A73A00020FC65 /* UICollectionView+Nib.swift in Sources */,
+				524A47BE222B4D8C00E00291 /* CityActionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,6 +11,7 @@ import UIKit
 protocol PanelCoordinatorDelegate: class {
   func locationFilterChanged(filter: LocationFilter)
   func exploreTapped()
+  func actionTapped()
 }
 
 final class PanelCoordinator: Coordinator {
@@ -34,8 +35,15 @@ final class PanelCoordinator: Coordinator {
 }
 // MARK: View Controller Instantiations
 extension PanelCoordinator {
-  func instantiateCity(location: Location, rank: Int) -> CityViewController {
-    let viewModel = CityViewModelImpl(location: location, rank: rank)
+  func instantiateCity(location: Location, rank: Int, isLast: Bool) -> CityViewController {
+    let viewModel = CityViewModelImpl(location: location, rank: rank, isLast: isLast)
+    viewModel.onActionTapped = { [weak self] in
+      if isLast {
+        self?.navigationController.popToRootViewController(animated: true)
+      } else {
+        self?.delegate?.actionTapped()
+      }
+    }
     let vc = CityViewController(viewModel: viewModel)
 
     return vc
@@ -44,8 +52,8 @@ extension PanelCoordinator {
 
 // MARK: Routing
 extension PanelCoordinator {
-  func showCity(location: Location, rank: Int) {
-    let vc = instantiateCity(location: location, rank: rank)
+  func showCity(location: Location, rank: Int, isLast: Bool) {
+    let vc = instantiateCity(location: location, rank: rank, isLast: isLast)
     navigationController.pushViewController(vc, animated: true)
   }
 }

@@ -12,19 +12,22 @@ protocol CityViewModel {
   var cityHeaderCellViewModel: CityHeaderCellViewModel { get }
   var cityImageCellViewModel: CityImageCellViewModel { get }
   var cityStatisticsCellViewModel: CityStatisticsCellViewModel { get }
+  var cityActionCellViewModel: CityActionCellViewModel { get }
 }
 
 final class CityViewModelImpl {
   fileprivate let location: Location
   fileprivate let rank: Int
+  fileprivate let isLast: Bool
 
-  init(location: Location, rank: Int) {
+  init(location: Location, rank: Int, isLast: Bool) {
     self.location = location
     self.rank = rank
+    self.isLast = isLast
   }
 
   // Coordinator Handlers
-
+  var onActionTapped: (() -> Void)?
 
   // View Controller Handlers
 
@@ -45,5 +48,11 @@ extension CityViewModelImpl: CityViewModel {
 
   var cityStatisticsCellViewModel: CityStatisticsCellViewModel {
     return CityStatisticsCellViewModelImpl(statistics: location.statistics)
+  }
+
+  var cityActionCellViewModel: CityActionCellViewModel {
+    let viewModel = CityActionCellViewModelImpl(isLast: isLast)
+    viewModel.onActionButtonTapped = onActionTapped
+    return viewModel
   }
 }

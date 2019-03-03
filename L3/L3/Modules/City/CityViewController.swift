@@ -15,6 +15,7 @@ final class CityViewController: UIViewController {
     didSet {
       tableView.register(CityHeaderCell.self)
       tableView.register(CityStatisticsCell.self)
+      tableView.register(CityActionCell.self)
     }
   }
 
@@ -68,9 +69,9 @@ final class CityViewController: UIViewController {
 
 extension CityViewController: UITableViewDataSource {
   enum Section: Int {
-    case header, statistics, company, action
+    case header, statistics, action, company//company, action
 
-    static let count = 2
+    static let count = 3
   }
 
   func numberOfSections(in tableView: UITableView) -> Int {
@@ -98,7 +99,11 @@ extension CityViewController: UITableViewDataSource {
 
       return cell
     case .company: fatalError()
-    case .action: fatalError()
+    case .action:
+      guard let cell = tableView.dequeueReusableCell(withIdentifier: "CityActionCell", for: indexPath) as? CityActionCell else { fatalError() }
+      cell.configure(viewModel: viewModel.cityActionCellViewModel)
+
+      return cell
     }
   }
 
@@ -133,7 +138,7 @@ extension CityViewController: UITableViewDelegate {
     case .company:
       return 0
     case .action:
-      return 0
+      return 89
     }
   }
 
