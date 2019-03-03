@@ -27,6 +27,9 @@ final class CityImageCell: UITableViewCell {
   func applyStyling() {
     backgroundColor = .clear
     selectionStyle = .none
-    cityImageView.contentMode = .scaleAspectFit
+    
+    cityImageView.contentMode = .scaleAspectFill
+    cityImageView.layer.cornerRadius = 5
+    cityImageView.layer.masksToBounds = true
   }
 }

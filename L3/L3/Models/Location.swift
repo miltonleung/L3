@@ -45,6 +45,7 @@ struct Location {
   let rentIndex: Double?
   let groceriesIndex: Double?
   let numbeoURL: URL?
+  let imageURL: URL?
 }
 
 extension Location {

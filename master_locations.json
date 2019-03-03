@@ -14,7 +14,8 @@
       "long": -122.4192363
     },
     "sizeIndex": 63500,
-    "avg_swe_salary_usd": 126069.0
+    "avg_swe_salary_usd": 126069.0,
+    "photo_url": "https://images.unsplash.com/photo-1515474477699-918a9df124dd?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "New York City, NY",
@@ -31,7 +32,8 @@
       "long": -73.9871558
     },
     "sizeIndex": 42500,
-    "avg_swe_salary_usd": 107197.0
+    "avg_swe_salary_usd": 107197.0,
+    "photo_url": "https://images.unsplash.com/photo-1546436836-07a91091f160?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "San Jose, CA",
@@ -48,7 +50,8 @@
       "long": -121.8905833
     },
     "sizeIndex": 38500,
-    "avg_swe_salary_usd": 124904.0
+    "avg_swe_salary_usd": 124904.0,
+    "photo_url": "https://images.unsplash.com/photo-1526940839067-9b35a6326d93?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Los Angeles, CA",
@@ -65,7 +68,8 @@
       "long": -118.2427669
     },
     "sizeIndex": 25000,
-    "avg_swe_salary_usd": 100614.0
+    "avg_swe_salary_usd": 100614.0,
+    "photo_url": "https://images.unsplash.com/photo-1460647927807-8e664765c97c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Seattle, WA",
@@ -82,7 +86,8 @@
       "long": -122.3300624
     },
     "sizeIndex": 25500,
-    "avg_swe_salary_usd": 116494.0
+    "avg_swe_salary_usd": 116494.0,
+    "photo_url": "https://images.unsplash.com/photo-1516901632977-d141a38d469b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Boston, MA",
@@ -99,7 +104,8 @@
       "long": -71.0582912
     },
     "sizeIndex": 21000,
-    "avg_swe_salary_usd": 98968.0
+    "avg_swe_salary_usd": 98968.0,
+    "photo_url": "https://images.unsplash.com/photo-1542044246340-eae85c8879ce?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Chicago, IL",
@@ -116,7 +122,8 @@
       "long": -87.6244212
     },
     "sizeIndex": 17000,
-    "avg_swe_salary_usd": 89818.0
+    "avg_swe_salary_usd": 89818.0,
+    "photo_url": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Austin, TX",
@@ -133,7 +140,8 @@
       "long": -97.7436995
     },
     "sizeIndex": 15500,
-    "avg_swe_salary_usd": 89651.0
+    "avg_swe_salary_usd": 89651.0,
+    "photo_url": "https://images.unsplash.com/photo-1530089711124-9ca31fb9e863?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Toronto, ON, Canada",
@@ -150,7 +158,8 @@
       "long": -79.387207
     },
     "sizeIndex": 14000,
-    "avg_swe_salary_usd": 57131.25
+    "avg_swe_salary_usd": 57131.25,
+    "photo_url": "https://images.unsplash.com/photo-1486325212027-8081e485255e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "San Diego, CA",
@@ -167,7 +176,8 @@
       "long": -117.1627714
     },
     "sizeIndex": 11000,
-    "avg_swe_salary_usd": 101316.0
+    "avg_swe_salary_usd": 101316.0,
+    "photo_url": "https://images.unsplash.com/photo-1473091096523-8340f5a646d1?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Dallas-Fort Worth, TX",
@@ -184,7 +194,8 @@
       "long": -97.1735626
     },
     "sizeIndex": 10000,
-    "avg_swe_salary_usd": 88019.0
+    "avg_swe_salary_usd": 88019.0,
+    "photo_url": "https://images.unsplash.com/photo-1493473979663-6882c94009d9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Washington, DC",
@@ -201,7 +212,8 @@
       "long": -77.0365625
     },
     "sizeIndex": 10000,
-    "avg_swe_salary_usd": 98900.0
+    "avg_swe_salary_usd": 98900.0,
+    "photo_url": "https://images.unsplash.com/photo-1545690546-8bb3627a906c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Portland, OR",
@@ -218,7 +230,8 @@
       "long": -122.6741949
     },
     "sizeIndex": 10000,
-    "avg_swe_salary_usd": 95273.0
+    "avg_swe_salary_usd": 95273.0,
+    "photo_url": "https://images.unsplash.com/photo-1436505743955-a98c0d3eb1a8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Atlanta, GA",
@@ -235,7 +248,8 @@
       "long": -84.3901849
     },
     "sizeIndex": 9500,
-    "avg_swe_salary_usd": 86416.0
+    "avg_swe_salary_usd": 86416.0,
+    "photo_url": "https://images.unsplash.com/photo-1537461539538-ac0062db1365?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Denver, CO",
@@ -252,12 +266,13 @@
       "long": -104.9848623
     },
     "sizeIndex": 9000,
-    "avg_swe_salary_usd": 90451.0
+    "avg_swe_salary_usd": 90451.0,
+    "photo_url": "https://images.unsplash.com/photo-1519424187720-db6d0fc5a5d2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Raleigh-Durham, NC",
-    "salary_page": "https://www.glassdoor.com/Salaries/raleigh-engineer-salary-SRCH_IL.0,7_IM714_KO8,16.htm",
-    "avg_swe_salary": "$79,550",
+    "salary_page": "https://www.glassdoor.com/Salaries/raleigh-software-engineer-salary-SRCH_IL.0,7_IM714_KO8,25.htm",
+    "avg_swe_salary": "$88,076",
     "average_salary": 3875.74,
     "url": "https://www.numbeo.com/cost-of-living/in/Raleigh?displayCurrency=USD",
     "cost_of_living_index": 70.33,
@@ -268,8 +283,8 @@
       "lat": 35.9166869,
       "long": -78.7905698
     },
-    "sizeIndex": 8500,
-    "avg_swe_salary_usd": 79550.0
+    "sizeIndex": 9500,
+    "avg_swe_salary_usd": 88076.0
   },
   {
     "name": "Phoenix, AZ",
@@ -286,7 +301,8 @@
       "long": -112.0773456
     },
     "sizeIndex": 8000,
-    "avg_swe_salary_usd": 87958.0
+    "avg_swe_salary_usd": 87958.0,
+    "photo_url": "https://images.unsplash.com/photo-1540187276237-38134940f524?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Vancouver, BC, Canada",
@@ -303,7 +319,8 @@
       "long": -123.1139529
     },
     "sizeIndex": 7500,
-    "avg_swe_salary_usd": 54846.0
+    "avg_swe_salary_usd": 54846.0,
+    "photo_url": "https://images.unsplash.com/uploads/1413142012358a3b38d01/316f8e75?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Pittsburgh, PA",
@@ -320,7 +337,8 @@
       "long": -79.9900861
     },
     "sizeIndex": 6500,
-    "avg_swe_salary_usd": 87307.0
+    "avg_swe_salary_usd": 87307.0,
+    "photo_url": "https://images.unsplash.com/photo-1535639019828-5afcac8f8a32?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Mountain View, CA",
@@ -365,7 +383,8 @@
       "long": -122.1619289
     },
     "sizeIndex": 6000,
-    "avg_swe_salary_usd": 124904.0
+    "avg_swe_salary_usd": 124904.0,
+    "photo_url": "https://images.unsplash.com/photo-1508302882073-8af6be4c6688?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Philadelphia, PA",
@@ -382,7 +401,8 @@
       "long": -75.1635755
     },
     "sizeIndex": 5500,
-    "avg_swe_salary_usd": 89127.0
+    "avg_swe_salary_usd": 89127.0,
+    "photo_url": "https://images.unsplash.com/photo-1530331624384-37783567c6db?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Boulder, CO",
@@ -430,7 +450,8 @@
       "long": -111.8904308
     },
     "sizeIndex": 4500,
-    "avg_swe_salary_usd": 72885.0
+    "avg_swe_salary_usd": 72885.0,
+    "photo_url": "https://images.unsplash.com/photo-1548218650-3a3e68e69595?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "San Antonio, TX",
@@ -447,7 +468,8 @@
       "long": -98.4951405
     },
     "sizeIndex": 4000,
-    "avg_swe_salary_usd": 84880.0
+    "avg_swe_salary_usd": 84880.0,
+    "photo_url": "https://images.unsplash.com/photo-1514510249063-e0faf6c6ec0c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Montreal, QC, Canada",
@@ -464,7 +486,8 @@
       "long": -73.6103642
     },
     "sizeIndex": 4000,
-    "avg_swe_salary_usd": 50275.5
+    "avg_swe_salary_usd": 50275.5,
+    "photo_url": "https://images.unsplash.com/photo-1470181942237-78ce33fec141?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Baltimore, MD",
@@ -481,7 +504,8 @@
       "long": -76.610759
     },
     "sizeIndex": 4000,
-    "avg_swe_salary_usd": 95004.0
+    "avg_swe_salary_usd": 95004.0,
+    "photo_url": "https://images.unsplash.com/photo-1550697278-27dc9ab1f9c6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Detroit, MI",
@@ -498,7 +522,8 @@
       "long": -83.0466403
     },
     "sizeIndex": 4000,
-    "avg_swe_salary_usd": 81358.0
+    "avg_swe_salary_usd": 81358.0,
+    "photo_url": "https://images.unsplash.com/photo-1463414689943-2aca18b2242b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Ottawa, ON, Canada",
@@ -515,7 +540,8 @@
       "long": -75.690308
     },
     "sizeIndex": 4000,
-    "avg_swe_salary_usd": 56369.5
+    "avg_swe_salary_usd": 56369.5,
+    "photo_url": "https://images.unsplash.com/photo-1528947120591-c0bf5c1e63fa?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Minneapolis-St. Paul, MN",
@@ -532,7 +558,8 @@
       "long": -93.2654692
     },
     "sizeIndex": 3500,
-    "avg_swe_salary_usd": 75583.0
+    "avg_swe_salary_usd": 75583.0,
+    "photo_url": "https://images.unsplash.com/photo-1528991191763-275f9418709f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Santa Barbara, CA",
@@ -546,7 +573,8 @@
       "long": -119.7026673
     },
     "sizeIndex": 3500,
-    "avg_swe_salary_usd": 102651.0
+    "avg_swe_salary_usd": 102651.0,
+    "photo_url": "https://images.unsplash.com/photo-1528306048128-aac9e3eb058d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Columbus, OH",
@@ -563,7 +591,8 @@
       "long": -83.0007065
     },
     "sizeIndex": 3500,
-    "avg_swe_salary_usd": 80758.0
+    "avg_swe_salary_usd": 80758.0,
+    "photo_url": "https://images.unsplash.com/photo-1547082812-0ff4e66d25a7?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Charlotte, NC",
@@ -580,7 +609,8 @@
       "long": -80.8431268
     },
     "sizeIndex": 3500,
-    "avg_swe_salary_usd": 82834.0
+    "avg_swe_salary_usd": 82834.0,
+    "photo_url": "https://images.unsplash.com/photo-1523844203081-56a85e95590c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Orlando, FL",
@@ -597,7 +627,8 @@
       "long": -81.3790388
     },
     "sizeIndex": 3000,
-    "avg_swe_salary_usd": 79734.0
+    "avg_swe_salary_usd": 79734.0,
+    "photo_url": "https://images.unsplash.com/photo-1485824119360-27e61739eac7?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Kitchener, ON, Canada",
@@ -612,7 +643,8 @@
       "lat": 43.453168,
       "long": -80.494423
     },
-    "sizeIndex": 3000
+    "sizeIndex": 3000,
+    "photo_url": "https://images.unsplash.com/photo-1466032454009-878beeedbb3e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Champaign, IL",
@@ -643,7 +675,8 @@
       "long": -82.458444
     },
     "sizeIndex": 3000,
-    "avg_swe_salary_usd": 80461.0
+    "avg_swe_salary_usd": 80461.0,
+    "photo_url": "https://images.unsplash.com/photo-1469282311538-c8b591f67d2e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "New Orleans, LA",
@@ -657,7 +690,8 @@
       "long": -90.0701156
     },
     "sizeIndex": 3000,
-    "avg_swe_salary_usd": 80675.0
+    "avg_swe_salary_usd": 80675.0,
+    "photo_url": "https://images.unsplash.com/photo-1427694012323-fb5e8b0c165b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Las Vegas, NV",
@@ -674,7 +708,8 @@
       "long": -115.149225
     },
     "sizeIndex": 3000,
-    "avg_swe_salary_usd": 83340.0
+    "avg_swe_salary_usd": 83340.0,
+    "photo_url": "https://images.unsplash.com/photo-1508768022758-cb7384c00335?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Napa, CA",
@@ -685,7 +720,8 @@
       "long": -122.2855293
     },
     "sizeIndex": 3000,
-    "avg_swe_salary_usd": 103992.0
+    "avg_swe_salary_usd": 103992.0,
+    "photo_url": "https://images.unsplash.com/photo-1438129420065-60526e1a0fd8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "San Mateo, CA",
@@ -716,7 +752,8 @@
       "long": -121.4943996
     },
     "sizeIndex": 2500,
-    "avg_swe_salary_usd": 95820.0
+    "avg_swe_salary_usd": 95820.0,
+    "photo_url": "https://images.unsplash.com/photo-1514924962298-4bdf5aef1133?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Redwood City, CA",
@@ -814,7 +851,8 @@
       "long": -95.9378732
     },
     "sizeIndex": 2000,
-    "avg_swe_salary_usd": 80173.0
+    "avg_swe_salary_usd": 80173.0,
+    "photo_url": "https://images.unsplash.com/photo-1497450204135-267e19b67e07?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Hartford, CT",
@@ -839,7 +877,8 @@
       "long": -90.1994097
     },
     "sizeIndex": 2000,
-    "avg_swe_salary_usd": 84903.0
+    "avg_swe_salary_usd": 84903.0,
+    "photo_url": "https://images.unsplash.com/photo-1514893011-72dfa15bd29c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Kansas City, MO",
@@ -856,7 +895,8 @@
       "long": -94.5781416
     },
     "sizeIndex": 2000,
-    "avg_swe_salary_usd": 77675.0
+    "avg_swe_salary_usd": 77675.0,
+    "photo_url": "https://images.unsplash.com/photo-1540923948035-76f571d72f85?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Madison, WI",
@@ -890,7 +930,8 @@
       "long": -87.922497
     },
     "sizeIndex": 2000,
-    "avg_swe_salary_usd": 77967.0
+    "avg_swe_salary_usd": 77967.0,
+    "photo_url": "https://images.unsplash.com/photo-1528428895274-6e8f1f4c7f05?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Springfield, MA",
@@ -915,7 +956,8 @@
       "long": -124.2174553
     },
     "sizeIndex": 2000,
-    "avg_swe_salary_usd": 78645.0
+    "avg_swe_salary_usd": 78645.0,
+    "photo_url": "https://images.unsplash.com/photo-1539113656948-b3225dbe8022?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Louisville, KY",
@@ -932,7 +974,8 @@
       "long": -85.759407
     },
     "sizeIndex": 2000,
-    "avg_swe_salary_usd": 76127.0
+    "avg_swe_salary_usd": 76127.0,
+    "photo_url": "https://images.unsplash.com/photo-1508950996138-7d3ec1e478c6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Indianapolis, IN",
@@ -949,7 +992,8 @@
       "long": -86.1583502
     },
     "sizeIndex": 2000,
-    "avg_swe_salary_usd": 80744.0
+    "avg_swe_salary_usd": 80744.0,
+    "photo_url": "https://images.unsplash.com/photo-1547959655-403993f8967d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Worcester, MA",
@@ -980,7 +1024,8 @@
     },
     "sizeIndex": 1500,
     "avg_swe_salary": "$79,788",
-    "avg_swe_salary_usd": 79788.0
+    "avg_swe_salary_usd": 79788.0,
+    "photo_url": "https://images.unsplash.com/photo-1532295039064-229629db1073?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Burlington, VT",
@@ -1011,7 +1056,8 @@
       "long": -77.615214
     },
     "sizeIndex": 1500,
-    "avg_swe_salary_usd": 79215.0
+    "avg_swe_salary_usd": 79215.0,
+    "photo_url": "https://images.unsplash.com/photo-1515988414697-4a5d1cac3f2e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Oklahoma City, OK",
@@ -1025,7 +1071,8 @@
       "long": -97.5170536
     },
     "sizeIndex": 1500,
-    "avg_swe_salary_usd": 76970.0
+    "avg_swe_salary_usd": 76970.0,
+    "photo_url": "https://images.unsplash.com/photo-1519876217051-4449feb0b589?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Buffalo, NY",
@@ -1056,7 +1103,8 @@
     },
     "sizeIndex": 1500,
     "avg_swe_salary": "$88,654",
-    "avg_swe_salary_usd": 88654.0
+    "avg_swe_salary_usd": 88654.0,
+    "photo_url": "https://images.unsplash.com/photo-1451774274055-572a3d080b4c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Santa Monica, CA",
@@ -1070,7 +1118,8 @@
       "long": -118.4965129
     },
     "sizeIndex": 1500,
-    "avg_swe_salary_usd": 100614.0
+    "avg_swe_salary_usd": 100614.0,
+    "photo_url": "https://images.unsplash.com/photo-1495316015364-f6f10111b63e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Ann Arbor, MI",
@@ -1115,7 +1164,8 @@
       "long": -90.0516285
     },
     "sizeIndex": 1500,
-    "avg_swe_salary_usd": 76739.0
+    "avg_swe_salary_usd": 76739.0,
+    "photo_url": "https://images.unsplash.com/photo-1543372742-e08542e25f8b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Dayton, OH",
@@ -1129,7 +1179,8 @@
       "long": -84.1916069
     },
     "sizeIndex": 1500,
-    "avg_swe_salary_usd": 75976.0
+    "avg_swe_salary_usd": 75976.0,
+    "photo_url": "https://images.unsplash.com/photo-1459886705398-99aa5d313fbb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Jacksonville, FL",
@@ -1163,7 +1214,8 @@
       "long": -114.049868485806
     },
     "sizeIndex": 1500,
-    "avg_swe_salary_usd": 58654.75
+    "avg_swe_salary_usd": 58654.75,
+    "photo_url": "https://images.unsplash.com/photo-1526940839067-9b35a6326d93?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Santa Cruz, CA",
@@ -1177,7 +1229,8 @@
     },
     "sizeIndex": 1500,
     "avg_swe_salary": "$103,112",
-    "avg_swe_salary_usd": 103112.0
+    "avg_swe_salary_usd": 103112.0,
+    "photo_url": "https://images.unsplash.com/photo-1526940839067-9b35a6326d93?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Cambridge, MA",
@@ -1208,23 +1261,6 @@
     "avg_swe_salary_usd": 76010.0
   },
   {
-    "name": "Raleigh, NC",
-    "salary_page": "https://www.glassdoor.com/Salaries/raleigh-software-engineer-salary-SRCH_IL.0,7_IM714_KO8,25.htm",
-    "avg_swe_salary": "$88,076",
-    "average_salary": 3875.74,
-    "url": "https://www.numbeo.com/cost-of-living/in/Raleigh?displayCurrency=USD",
-    "cost_of_living_index": 70.33,
-    "rent_index": 36.0,
-    "groceries_index": 75.95,
-    "average_rent": 1227.22,
-    "coordinates": {
-      "lat": 35.7803977,
-      "long": -78.6390989
-    },
-    "sizeIndex": 1000,
-    "avg_swe_salary_usd": 88076.0
-  },
-  {
     "name": "Tallahassee, FL",
     "salary_page": "https://www.glassdoor.com/Salaries/tallahassee-software-engineer-salary-SRCH_IL.0,11_IM848_KO12,29.htm",
     "avg_swe_salary": "$73,009",
@@ -1236,7 +1272,8 @@
       "long": -84.2809332
     },
     "sizeIndex": 1000,
-    "avg_swe_salary_usd": 73009.0
+    "avg_swe_salary_usd": 73009.0,
+    "photo_url": "https://images.unsplash.com/photo-1526940839067-9b35a6326d93?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Santa Fe, NM",
@@ -1317,7 +1354,8 @@
       "long": -106.6509851
     },
     "sizeIndex": 1000,
-    "avg_swe_salary_usd": 78968.0
+    "avg_swe_salary_usd": 78968.0,
+    "photo_url": "https://images.unsplash.com/photo-1526940839067-9b35a6326d93?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Santa Clara, CA",
@@ -1388,7 +1426,8 @@
       "long": -155.448698303485
     },
     "sizeIndex": 1000,
-    "avg_swe_salary_usd": 68635.0
+    "avg_swe_salary_usd": 68635.0,
+    "photo_url": "https://images.unsplash.com/photo-1526940839067-9b35a6326d93?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Fayetteville, AR",
@@ -1525,7 +1564,8 @@
       "long": -73.9495823
     },
     "sizeIndex": 1000,
-    "avg_swe_salary_usd": 107197.0
+    "avg_swe_salary_usd": 107197.0,
+    "photo_url": "https://images.unsplash.com/photo-1526940839067-9b35a6326d93?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ"
   },
   {
     "name": "Riverside, CA",

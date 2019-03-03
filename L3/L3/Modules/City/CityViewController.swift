@@ -14,6 +14,7 @@ final class CityViewController: UIViewController {
   @IBOutlet weak var tableView: UITableView! {
     didSet {
       tableView.register(CityHeaderCell.self)
+      tableView.register(CityImageCell.self)
       tableView.register(CityStatisticsCell.self)
       tableView.register(CityActionCell.self)
     }
@@ -111,7 +112,7 @@ extension CityViewController: UITableViewDataSource {
     guard let section = Section(rawValue: section) else { fatalError() }
     switch section {
     case .header:
-      return 1
+      return viewModel.isImageAvailable ? 2 : 1
     case .statistics:
       return 1
     case .company:

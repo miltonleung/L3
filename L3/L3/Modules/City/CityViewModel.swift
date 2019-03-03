@@ -8,6 +8,7 @@
 
 protocol CityViewModel {
   var numberOfStatistics: Int { get }
+  var isImageAvailable: Bool { get }
 
   var cityHeaderCellViewModel: CityHeaderCellViewModel { get }
   var cityImageCellViewModel: CityImageCellViewModel { get }
@@ -38,12 +39,16 @@ extension CityViewModelImpl: CityViewModel {
     return location.statistics.count
   }
 
+  var isImageAvailable: Bool {
+    return location.imageURL != nil
+  }
+
   var cityHeaderCellViewModel: CityHeaderCellViewModel {
     return CityHeaderCellViewModelImpl(rank: rank, cityName: location.name)
   }
 
   var cityImageCellViewModel: CityImageCellViewModel {
-    return CityImageCellViewModelImpl(imageURL: nil)
+    return CityImageCellViewModelImpl(imageURL: location.imageURL)
   }
 
   var cityStatisticsCellViewModel: CityStatisticsCellViewModel {

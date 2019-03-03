@@ -21,6 +21,11 @@ final class LocationParser {
       let glassdoorURL = URL(string: glassdoorURLString)
       else { return nil }
 
+    var imageURL: URL? = nil
+    if let imageURLString = json["photo_url"] as? String {
+      imageURL = URL(string: imageURLString)
+    }
+
     var numbeoURL: URL? = nil
     var averageMonthlySalary: Double? = nil
     var averageMonthlyRent: Double? = nil
@@ -58,7 +63,8 @@ final class LocationParser {
                     costOfLivingIndex: costOfLivingIndex,
                     rentIndex: rentIndex,
                     groceriesIndex: groceriesIndex,
-                    numbeoURL: numbeoURL)
+                    numbeoURL: numbeoURL,
+                    imageURL: imageURL)
   }}
 
 final class LocationsParser {
