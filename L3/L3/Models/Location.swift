@@ -32,7 +32,7 @@ enum Statistic {
   }
 }
 
-struct Location {
+struct Location: Equatable {
   let name: String
   let averageDevSalary: Double
   let latitude: Double

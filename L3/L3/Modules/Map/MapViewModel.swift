@@ -15,6 +15,7 @@ protocol MapViewModel {
 
   func setCoordinatorDelegate()
   func fetchLocations()
+  func locationTapped(location: Location)
 
   var onLocationsUpdated: (() -> Void)? { get set }
   var onCameraChange: ((Location) -> Void)? { get set }
@@ -54,6 +55,12 @@ extension MapViewModelImpl: MapViewModel {
   func fetchLocations() {
     self.locations = datasetLoader.sortedLocations(by: locationFilter)
       //    print(locations.filter { $0.averageDevSalary/maxValue >= 0.85 }
+  }
+
+  func locationTapped(location: Location) {
+    guard let index = locations.firstIndex(where: { $0 == location }) else { return }
+    currentLocation = index
+    nextCity()
   }
 }
 

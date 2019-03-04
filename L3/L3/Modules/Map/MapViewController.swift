@@ -202,8 +202,9 @@ extension MapViewController {
       let closestAnnotations = possibleAnnotations.sorted(by: {
         return CLLocation(latitude: $0.coordinate.latitude, longitude: $0.coordinate.longitude).distance(from: touchLocation) < CLLocation(latitude: $1.coordinate.latitude, longitude: $1.coordinate.longitude).distance(from: touchLocation)
       })
-      if let selectedAnnotations = closestAnnotations.first {
-        print(selectedAnnotations.location)
+      if let selectedAnnotations = closestAnnotations.first, let location = selectedAnnotations.location {
+        moveCamera(to: location)
+        viewModel.locationTapped(location: location)
       }
     }
   }
