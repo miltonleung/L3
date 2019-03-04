@@ -1,8 +1,5 @@
 {
     "A9": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-A9-com-EI_IE132664.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/A9-com-Salaries-E132664.htm",
         "locations": [
@@ -33,14 +30,9 @@
                 ]
             }
         },
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500
     },
     "Addepar": {
-        "loc": [
-            "CA",
-            " NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Addepar-EI_IE423990.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Addepar-Salaries-E423990.htm",
         "locations": [
@@ -48,7 +40,6 @@
             "Mountain View, CA",
             "New York City, NY"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -87,9 +78,6 @@
         }
     },
     "Airbnb": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Airbnb-EI_IE391850.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Airbnb-Salaries-E391850.htm",
         "locations": [
@@ -99,7 +87,6 @@
             "San Francisco, CA",
             "Los Angeles, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
@@ -160,15 +147,11 @@
         }
     },
     "Airware": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Airware-EI_IE698564.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Airware-Salaries-E698564.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -185,9 +168,6 @@
         }
     },
     "Akamai": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Akamai-EI_IE9219.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Akamai-Salaries-E9219.htm",
         "locations": [
@@ -201,7 +181,6 @@
             "Los Angeles, CA",
             "San Diego, CA"
         ],
-        "sizeDescription": "5001 to 10000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Cambridge, MA": {
@@ -316,15 +295,11 @@
         }
     },
     "Akuna Capital": {
-        "loc": [
-            "IL"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-AKUNA-CAPITAL-EI_IE608116.11,24.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/AKUNA-CAPITAL-Salaries-E608116.htm",
         "locations": [
             "Chicago, IL"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
@@ -341,11 +316,6 @@
         }
     },
     "Alarm": {
-        "loc": [
-            "CO",
-            " MA",
-            " VA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Alarm-com-EI_IE268820.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Alarm-com-Salaries-E268820.htm",
         "locations": [
@@ -355,7 +325,6 @@
             "Denver, CO",
             "Provo, UT"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "McLean, VA": {
@@ -391,18 +360,6 @@
         }
     },
     "Amazon": {
-        "loc": [
-            "AZ",
-            " CA",
-            " CO",
-            " MA",
-            " NJ",
-            " NY",
-            " OR",
-            " TX",
-            " WA",
-            " WI"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Amazon-EI_IE6036.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Amazon-Salaries-E6036.htm",
         "locations": [
@@ -435,7 +392,6 @@
             "Vancouver, BC, Canada",
             "Los Angeles, CA"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Charlotte, NC": {
@@ -725,11 +681,6 @@
         }
     },
     "American Express": {
-        "loc": [
-            "AZ",
-            " FL",
-            " NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-American-Express-EI_IE35.11,27.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/American-Express-Salaries-E35.htm",
         "locations": [
@@ -744,7 +695,6 @@
             "New York, NY",
             "Phoenix, AZ"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Salt Lake City, UT": {
@@ -835,9 +785,6 @@
         }
     },
     "Ancestry": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Ancestry-EI_IE243532.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Ancestry-Salaries-E243532.htm",
         "locations": [
@@ -845,7 +792,6 @@
             "Provo, UT",
             "San Francisco, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Lehi, UT": {
@@ -884,9 +830,6 @@
         }
     },
     "AppDynamics": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-AppDynamics-EI_IE319551.11,22.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/AppDynamics-Salaries-E319551.htm",
         "locations": [
@@ -894,7 +837,6 @@
             "Seattle, WA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -938,9 +880,6 @@
         }
     },
     "AppFolio": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-AppFolio-EI_IE225531.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/AppFolio-Salaries-E225531.htm",
         "locations": [
@@ -949,7 +888,6 @@
             "Dallas-Fort Worth, TX",
             "San Diego, CA"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
@@ -999,11 +937,6 @@
         }
     },
     "AppNexus": {
-        "loc": [
-            "CO",
-            " NY",
-            " OR"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-AppNexus-EI_IE347870.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/AppNexus-Salaries-E347870.htm",
         "locations": [
@@ -1013,7 +946,6 @@
             "Denver, CO",
             "Boulder, CO"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
@@ -1063,16 +995,12 @@
         }
     },
     "Appian": {
-        "loc": [
-            "VA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Appian-EI_IE27819.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Appian-Salaries-E27819.htm",
         "locations": [
             "Reston, VA",
             "Washington, DC "
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Reston, VA": {
@@ -1089,9 +1017,6 @@
         }
     },
     "Apple": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Apple-EI_IE1138.11,16.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Apple-Salaries-E1138.htm",
         "locations": [
@@ -1115,7 +1040,6 @@
             "Atlanta, GA",
             "Austin, TX"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Charlotte, NC": {
@@ -1295,16 +1219,12 @@
         }
     },
     "Asana": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Asana-EI_IE567443.11,16.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Asana-Salaries-E567443.htm",
         "locations": [
             "San Francisco, CA",
             "New York City, NY"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -1332,10 +1252,6 @@
         }
     },
     "Atlassian": {
-        "loc": [
-            "CA",
-            " TX"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Atlassian-EI_IE115699.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Atlassian-Salaries-E115699.htm",
         "locations": [
@@ -1346,7 +1262,6 @@
             "San Francisco, CA",
             "Austin, TX"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -1411,12 +1326,6 @@
         }
     },
     "BNY Mellon": {
-        "loc": [
-            "NJ",
-            " NY",
-            " PA",
-            " TN"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-BNY-Mellon-EI_IE78.11,21.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/BNY-Mellon-Salaries-E78.htm",
         "locations": [
@@ -1425,7 +1334,6 @@
             "New York City, NY",
             "Boston, MA"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Pittsburgh, PA": {
@@ -1457,10 +1365,6 @@
         }
     },
     "Bank of America": {
-        "loc": [
-            "NC",
-            " NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Bank-of-America-EI_IE8874.11,26.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Bank-of-America-Salaries-E8874.htm",
         "locations": [
@@ -1482,7 +1386,6 @@
             "Austin, TX",
             "San Diego, CA"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Charlotte, NC": {
@@ -1673,16 +1576,12 @@
         }
     },
     "Betterment": {
-        "loc": [
-            "NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Betterment-EI_IE817462.11,21.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Betterment-Salaries-E817462.htm",
         "locations": [
             "New York, NY",
             "New York City, NY"
         ],
-        "sizeDescription": "1 to 50 employees",
         "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
@@ -1699,16 +1598,12 @@
         }
     },
     "BitTitan": {
-        "loc": [
-            "WA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-BitTitan-EI_IE630074.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/BitTitan-Salaries-E630074.htm",
         "locations": [
             "Kirkland, WA",
             "Seattle, WA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "Kirkland, WA": {
@@ -1736,9 +1631,6 @@
         }
     },
     "Blackbaud": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Blackbaud-EI_IE15863.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Blackbaud-Salaries-E15863.htm",
         "locations": [
@@ -1751,7 +1643,6 @@
             "Austin, TX",
             "San Diego, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Daniel Island, SC": {
@@ -1838,15 +1729,11 @@
         }
     },
     "Blend": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Blend-EI_IE1316013.11,16.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Blend-Salaries-E1316013.htm",
         "locations": [
             "Vejle (Denmark)"
         ],
-        "sizeDescription": "1 to 50 employees",
         "sizeUpper": 500,
         "addresses": {
             "Vejle (Denmark)": {
@@ -1856,9 +1743,6 @@
         }
     },
     "Bloomberg": {
-        "loc": [
-            "NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Bloomberg-L-P-EI_IE3096.11,24.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Bloomberg-L-P-Salaries-E3096.htm",
         "locations": [
@@ -1868,7 +1752,6 @@
             "New York, NY",
             "Los Angeles, CA"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Albany, NY": {
@@ -1897,9 +1780,6 @@
         }
     },
     "Bluebeam": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Bluebeam-EI_IE642659.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Bluebeam-Salaries-E642659.htm",
         "locations": [
@@ -1907,7 +1787,6 @@
             "Los Angeles, CA",
             "Dallas-Fort Worth, TX"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "Pasadena, CA": {
@@ -1951,15 +1830,11 @@
         }
     },
     "Boomerang": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Boomerang-EI_IE265116.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Boomerang-Salaries-E265116.htm",
         "locations": [
             "East Palo Alto, CA"
         ],
-        "sizeDescription": "1 to 50 employees",
         "sizeUpper": 500,
         "addresses": {
             "East Palo Alto, CA": {
@@ -1976,9 +1851,6 @@
         }
     },
     "Box": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Box-EI_IE254092.11,14.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Box-Salaries-E254092.htm",
         "locations": [
@@ -1986,7 +1858,6 @@
             "San Jose, CA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Redwood City, CA": {
@@ -2025,9 +1896,6 @@
         }
     },
     "Braintree": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Braintree-EI_IE424728.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Braintree-Salaries-E424728.htm",
         "locations": [
@@ -2035,7 +1903,6 @@
             "San Francisco, CA",
             "Austin, TX"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
@@ -2074,9 +1941,6 @@
         }
     },
     "Broadway Technology": {
-        "loc": [
-            "NY"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Broadway-Technology-EI_IE280111.11,30.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Broadway-Technology-Salaries-E280111.htm",
         "locations": [
@@ -2084,7 +1948,6 @@
             "Austin, TX",
             "New York City, NY"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "Austin, TX": {
@@ -2112,15 +1975,11 @@
         }
     },
     "BuildZoom": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-BuildZoom-EI_IE1080962.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/BuildZoom-Salaries-E1080962.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -2137,10 +1996,6 @@
         }
     },
     "CBS Interactive": {
-        "loc": [
-            "CA",
-            " NY"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-CBS-Interactive-EI_IE40687.11,26.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/CBS-Interactive-Salaries-E40687.htm",
         "locations": [
@@ -2155,7 +2010,6 @@
             "Atlanta, GA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
@@ -2239,15 +2093,11 @@
         }
     },
     "Cadre": {
-        "loc": [
-            "NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Cadre-Services-EI_IE428214.11,25.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Cadre-Services-Salaries-E428214.htm",
         "locations": [
             "Appleton, WI"
         ],
-        "sizeDescription": "Unknown",
         "sizeUpper": 500,
         "addresses": {
             "Appleton, WI": {
@@ -2264,12 +2114,6 @@
         }
     },
     "Capital One": {
-        "loc": [
-            "DE",
-            " NY",
-            " TX",
-            " VA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Capital-One-EI_IE3736.11,22.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Capital-One-Salaries-E3736.htm",
         "locations": [
@@ -2296,7 +2140,6 @@
             "Philadelphia, PA",
             "St. Cloud, MN"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Birmingham, AL": {
@@ -2478,12 +2321,6 @@
         }
     },
     "Cisco": {
-        "loc": [
-            "CA",
-            " MA",
-            " NC",
-            " TX"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Cisco-Systems-EI_IE1425.11,24.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Cisco-Systems-Salaries-E1425.htm",
         "locations": [
@@ -2523,7 +2360,6 @@
             "Los Angeles, CA",
             "Atlanta, GA"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Dallas-Fort Worth, TX": {
@@ -2963,15 +2799,11 @@
         }
     },
     "Classy": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Classy-EI_IE814067.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Classy-Salaries-E814067.htm",
         "locations": [
             "San Diego, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Diego, CA": {
@@ -2988,15 +2820,11 @@
         }
     },
     "ClearSlide": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-ClearSlide-EI_IE455829.11,21.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/ClearSlide-Salaries-E455829.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -3013,15 +2841,11 @@
         }
     },
     "Cofense (PhishMe)": {
-        "loc": [
-            "VA"
-        ],
         "url": "https://www.glassdoor.com/Overview/Working-at-Cofense-EI_IE2059011.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Cofense-Salaries-E2059011.htm",
         "locations": [
             "Leesburg, VA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "Leesburg, VA": {
@@ -3031,16 +2855,12 @@
         }
     },
     "Cogo": {
-        "loc": [
-            "MA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Cogo-Labs-EI_IE640096.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Cogo-Labs-Salaries-E640096.htm",
         "locations": [
             "Cambridge, MA",
             "Boston, MA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "Cambridge, MA": {
@@ -3068,9 +2888,6 @@
         }
     },
     "Constant Contact": {
-        "loc": [
-            "MA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Constant-Contact-EI_IE22312.11,27.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Constant-Contact-Salaries-E22312.htm",
         "locations": [
@@ -3079,7 +2896,6 @@
             "New York City, NY",
             "Boston, MA"
         ],
-        "sizeDescription": "Unknown",
         "sizeUpper": 500,
         "addresses": {
             "Waltham, MA": {
@@ -3122,9 +2938,6 @@
         }
     },
     "Credit Sesame": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Credit-Sesame-EI_IE975582.11,24.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Credit-Sesame-Salaries-E975582.htm",
         "locations": [
@@ -3132,7 +2945,6 @@
             "San Francisco, CA",
             "Mountain View, CA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -3171,15 +2983,11 @@
         }
     },
     "Cruise": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Cruise-EI_IE977351.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Cruise-Salaries-E977351.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -3201,16 +3009,12 @@
         }
     },
     "Cumulus Networks": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Cumulus-Networks-EI_IE826371.11,27.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Cumulus-Networks-Salaries-E826371.htm",
         "locations": [
             "San Jose, CA",
             "Mountain View, CA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -3238,29 +3042,21 @@
         }
     },
     "DE Shaw": {
-        "loc": [
-            "NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-D-E-Shaw-and-Co-Investment-Firm-EI_IE29290.11,42.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/D-E-Shaw-and-Co-Investment-Firm-Salaries-E29290.htm",
         "locations": [
             "New York, NY"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {}
     },
     "Datadog": {
-        "loc": [
-            "NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Datadog-EI_IE762009.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Datadog-Salaries-E762009.htm",
         "locations": [
             "New York, NY",
             "New York City, NY"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
@@ -3277,16 +3073,12 @@
         }
     },
     "DeepMap": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-DeepMap-EI_IE1980571.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/DeepMap-Salaries-E1980571.htm",
         "locations": [
             "Palo Alto, CA",
             "San Jose, CA"
         ],
-        "sizeDescription": "1 to 50 employees",
         "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
@@ -3314,17 +3106,12 @@
         }
     },
     "Delphix": {
-        "loc": [
-            "CA",
-            " MA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Delphix-EI_IE300100.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Delphix-Salaries-E300100.htm",
         "locations": [
             "Redwood City, CA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "Redwood City, CA": {
@@ -3352,9 +3139,6 @@
         }
     },
     "DigitalOcean": {
-        "loc": [
-            "NY"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-DigitalOcean-EI_IE823482.11,23.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/DigitalOcean-Salaries-E823482.htm",
         "locations": [
@@ -3364,7 +3148,6 @@
             "Denver, CO",
             "Los Angeles, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
@@ -3393,16 +3176,11 @@
         }
     },
     "Docker": {
-        "loc": [
-            "CA",
-            " WA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Docker-EI_IE1089506.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Docker-Salaries-E1089506.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -3419,16 +3197,12 @@
         }
     },
     "Dollar Shave Club": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Dollar-Shave-Club-EI_IE840235.11,28.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Dollar-Shave-Club-Salaries-E840235.htm",
         "locations": [
             "Los Angeles, CA",
             "Marina del Rey, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
@@ -3456,16 +3230,12 @@
         }
     },
     "Drive.ai": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-drive-ai-EI_IE1339202.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/drive-ai-Salaries-E1339202.htm",
         "locations": [
             "San Jose, CA",
             "Mountain View, CA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -3493,16 +3263,12 @@
         }
     },
     "DriveTime": {
-        "loc": [
-            "AZ"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-DriveTime-Automotive-Group-EI_IE6031.11,37.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/DriveTime-Automotive-Group-Salaries-E6031.htm",
         "locations": [
             "Tempe, AZ",
             "Phoenix, AZ"
         ],
-        "sizeDescription": "5001 to 10000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Tempe, AZ": {
@@ -3530,11 +3296,6 @@
         }
     },
     "Dropbox": {
-        "loc": [
-            "CA",
-            " NY",
-            " WA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Dropbox-EI_IE415350.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Dropbox-Salaries-E415350.htm",
         "locations": [
@@ -3544,7 +3305,6 @@
             "San Francisco, CA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -3594,15 +3354,11 @@
         }
     },
     "Duolingo": {
-        "loc": [
-            "PA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Duolingo-EI_IE629348.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Duolingo-Salaries-E629348.htm",
         "locations": [
             "Pittsburgh, PA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "Pittsburgh, PA": {
@@ -3619,12 +3375,6 @@
         }
     },
     "Ebay": {
-        "loc": [
-            "CA",
-            " NY",
-            " OR",
-            " WA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-eBay-EI_IE7853.11,15.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/eBay-Salaries-E7853.htm",
         "locations": [
@@ -3639,7 +3389,6 @@
             "Sacramento, CA",
             "Austin, TX"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
@@ -3685,9 +3434,6 @@
         }
     },
     "Epic": {
-        "loc": [
-            "WI"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Epic-EI_IE35163.11,15.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Epic-Salaries-E35163.htm",
         "locations": [
@@ -3700,7 +3446,6 @@
             "Verona, WI",
             "San Diego, CA"
         ],
-        "sizeDescription": "5001 to 10000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Green Bay, WI": {
@@ -3766,9 +3511,6 @@
         }
     },
     "Esri": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Esri-EI_IE4043.11,15.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Esri-Salaries-E4043.htm",
         "locations": [
@@ -3779,7 +3521,6 @@
             "Redlands, CA",
             "Los Angeles, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
@@ -3840,9 +3581,6 @@
         }
     },
     "Etsy": {
-        "loc": [
-            "NY"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Etsy-EI_IE42751.11,15.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Etsy-Salaries-E42751.htm",
         "locations": [
@@ -3851,7 +3589,6 @@
             "San Francisco, CA",
             "New York City, NY"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Brooklyn, NY": {
@@ -3890,9 +3627,6 @@
         }
     },
     "Evernote": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Evernote-EI_IE400095.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Evernote-Salaries-E400095.htm",
         "locations": [
@@ -3900,7 +3634,6 @@
             "San Francisco, CA",
             "Austin, TX"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "Redwood City, CA": {
@@ -3939,13 +3672,6 @@
         }
     },
     "Facebook": {
-        "loc": [
-            "CA",
-            " CO",
-            " MA",
-            " NY",
-            " WA"
-        ],
         "url": "https://www.glassdoor.com/facebook",
         "salaryUrl": "http://www.glassdoor.com/Salary/Facebook-Salaries-E40772.htm",
         "locations": [
@@ -3962,7 +3688,6 @@
             "Austin, TX",
             "San Diego, CA"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -4072,9 +3797,6 @@
         }
     },
     "Fidelity": {
-        "loc": [
-            "NC"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Fidelity-Investments-EI_IE2786.11,31.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Fidelity-Investments-Salaries-E2786.htm",
         "locations": [
@@ -4088,7 +3810,6 @@
             "Raleigh-Durham, NC",
             "Austin, TX"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Salt Lake City, UT": {
@@ -4198,14 +3919,10 @@
         }
     },
     "Figma": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Figma-EI_IE1537286.11,16.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "1 to 50 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -4222,16 +3939,12 @@
         }
     },
     "Fitbit": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Fitbit-EI_IE500145.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Fitbit-Salaries-E500145.htm",
         "locations": [
             "San Francisco, CA",
             "Boston, MA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -4259,15 +3972,11 @@
         }
     },
     "Fivestars": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Fivestars-EI_IE447133.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Fivestars-Salaries-E447133.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -4284,15 +3993,11 @@
         }
     },
     "Flatiron": {
-        "loc": [
-            "NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Flatiron-Construction-EI_IE16476.11,32.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Flatiron-Construction-Salaries-E16476.htm",
         "locations": [
             "Broomfield, CO"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Broomfield, CO": {
@@ -4309,16 +4014,12 @@
         }
     },
     "Flipboard": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Flipboard-EI_IE393688.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Flipboard-Salaries-E393688.htm",
         "locations": [
             "San Jose, CA",
             "Palo Alto, CA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -4346,9 +4047,6 @@
         }
     },
     "Foursquare": {
-        "loc": [
-            "NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Foursquare-EI_IE492487.11,21.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Foursquare-Salaries-E492487.htm",
         "locations": [
@@ -4357,7 +4055,6 @@
             "San Francisco, CA",
             "New York City, NY"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "New Orleans, LA": {
@@ -4396,15 +4093,11 @@
         }
     },
     "Frog": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Red-Frog-Events-EI_IE366780.11,26.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Red-Frog-Events-Salaries-E366780.htm",
         "locations": [
             "Chicago, IL"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
@@ -4421,16 +4114,11 @@
         }
     },
     "Galois": {
-        "loc": [
-            "OR",
-            " VA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Galois-EI_IE157069.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Galois-Salaries-E157069.htm",
         "locations": [
             "Portland, OR"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
@@ -4447,16 +4135,12 @@
         }
     },
     "Gigster": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Gigster-EI_IE1168400.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Gigster-Salaries-E1168400.htm",
         "locations": [
             "San Francisco, CA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -4473,9 +4157,6 @@
         }
     },
     "Github": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-GitHub-EI_IE671945.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/GitHub-Salaries-E671945.htm",
         "locations": [
@@ -4484,7 +4165,6 @@
             "Denver, CO",
             "San Francisco, CA"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
@@ -4502,9 +4182,6 @@
         }
     },
     "GoDaddy": {
-        "loc": [
-            "VA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-GoDaddy-EI_IE35337.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/GoDaddy-Salaries-E35337.htm",
         "locations": [
@@ -4516,7 +4193,6 @@
             "San Francisco, CA",
             "Phoenix, AZ"
         ],
-        "sizeDescription": "5001 to 10000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -4592,12 +4268,6 @@
         }
     },
     "Goldman Sachs": {
-        "loc": [
-            "NY",
-            " TX",
-            " UT",
-            " WA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Goldman-Sachs-EI_IE2800.11,24.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Goldman-Sachs-Salaries-E2800.htm",
         "locations": [
@@ -4606,7 +4276,6 @@
             "New York, NY",
             "Dallas-Fort Worth, TX"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
@@ -4655,14 +4324,6 @@
         }
     },
     "Google": {
-        "loc": [
-            "CA",
-            " CO",
-            " IL",
-            " MA",
-            " NY",
-            " WA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Google-EI_IE9079.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Google-Salaries-E9079.htm",
         "locations": [
@@ -4713,7 +4374,6 @@
             "Los Angeles, CA",
             "Atlanta, GA"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Charlotte, NC": {
@@ -5026,11 +4686,6 @@
         }
     },
     "Groupon": {
-        "loc": [
-            "CA",
-            " IL",
-            " WA"
-        ],
         "url": "http://www.glassdoor.com/groupon",
         "salaryUrl": "http://www.glassdoor.com/Salary/Groupon-Salaries-E301291.htm",
         "locations": [
@@ -5042,7 +4697,6 @@
             "Baltimore, MD",
             "Los Angeles, CA"
         ],
-        "sizeDescription": "5001 to 10000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -5076,9 +4730,6 @@
         }
     },
     "Guidewire": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Guidewire-EI_IE122537.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Guidewire-Salaries-E122537.htm",
         "locations": [
@@ -5088,7 +4739,6 @@
             "Napa, CA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Birmingham, AL": {
@@ -5114,16 +4764,12 @@
         }
     },
     "GumGum": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-GumGum-EI_IE279348.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/GumGum-Salaries-E279348.htm",
         "locations": [
             "Los Angeles, CA",
             "Santa Monica, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
@@ -5137,17 +4783,12 @@
         }
     },
     "Gusto": {
-        "loc": [
-            "CA",
-            " CO"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Gusto-EI_IE1069704.11,16.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Gusto-Salaries-E1069704.htm",
         "locations": [
             "San Francisco, CA",
             "Denver, CO"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -5161,18 +4802,12 @@
         }
     },
     "HomeAway": {
-        "loc": [
-            "CO",
-            " TX",
-            " WA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-HomeAway-EI_IE42523.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/HomeAway-Salaries-E42523.htm",
         "locations": [
             "San Jose, CA",
             "Austin, TX"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -5193,29 +4828,21 @@
         }
     },
     "Hootsuite": {
-        "loc": [
-            "NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Hootsuite-EI_IE617216.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Hootsuite-Salaries-E617216.htm",
         "locations": [
             "Vancouver, BC (Canada)"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {}
     },
     "Houzz": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Houzz-EI_IE716331.11,16.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Houzz-Salaries-E716331.htm",
         "locations": [
             "Palo Alto, CA",
             "San Jose, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
@@ -5236,9 +4863,6 @@
         }
     },
     "Hp": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Hewlett-Packard-Enterprise-HPE-EI_IE1093046.11,41.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Hewlett-Packard-Enterprise-HPE-Salaries-E1093046.htm",
         "locations": [
@@ -5275,7 +4899,6 @@
             "Los Angeles, CA",
             "Atlanta, GA"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Fort Collins, CO": {
@@ -5409,16 +5032,12 @@
         }
     },
     "Hubspot": {
-        "loc": [
-            "MA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-HubSpot-EI_IE227605.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/HubSpot-Salaries-E227605.htm",
         "locations": [
             "Cambridge, MA",
             "Boston, MA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Cambridge, MA": {
@@ -5432,10 +5051,6 @@
         }
     },
     "Hulu": {
-        "loc": [
-            "CA",
-            " WA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Hulu-EI_IE43242.11,15.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Hulu-Salaries-E43242.htm",
         "locations": [
@@ -5443,7 +5058,6 @@
             "Seattle, WA",
             "Santa Monica, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
@@ -5461,21 +5075,6 @@
         }
     },
     "IBM": {
-        "loc": [
-            "AZ",
-            " CA",
-            " CO",
-            " GA",
-            " MA",
-            " MN",
-            " NC",
-            " NY",
-            " OH",
-            " OR",
-            " PA",
-            " TX",
-            " VT"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-IBM-EI_IE354.11,14.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/IBM-Salaries-E354.htm",
         "locations": [
@@ -5546,7 +5145,6 @@
             "Los Angeles, CA",
             "Atlanta, GA"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Charlotte, NC": {
@@ -5812,18 +5410,12 @@
         }
     },
     "IMC": {
-        "loc": [
-            "CA",
-            " IL",
-            " WA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-IMC-EI_IE820687.11,14.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/IMC-Salaries-E820687.htm",
         "locations": [
             "Nottingham, England (UK)",
             "Chicago, IL"
         ],
-        "sizeDescription": "1 to 50 employees",
         "sizeUpper": 500,
         "addresses": {
             "Nottingham, England (UK)": {
@@ -5837,9 +5429,6 @@
         }
     },
     "IXL Learning": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-IXL-Learning-EI_IE326423.11,23.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/IXL-Learning-Salaries-E326423.htm",
         "locations": [
@@ -5848,7 +5437,6 @@
             "San Mateo, CA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "Raleigh-Durham, NC": {
@@ -5870,16 +5458,12 @@
         }
     },
     "Icims": {
-        "loc": [
-            "NJ"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-iCIMS-EI_IE34908.11,16.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/iCIMS-Salaries-E34908.htm",
         "locations": [
             "Holmdel, NJ",
             "New York City, NY"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Holmdel, NJ": {
@@ -5893,19 +5477,12 @@
         }
     },
     "Ideo": {
-        "loc": [
-            "CA",
-            " IL",
-            " MA",
-            " NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-IDEO-EI_IE9948.11,15.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/IDEO-Salaries-E9948.htm",
         "locations": [
             "Palo Alto, CA",
             "San Jose, CA"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
@@ -5919,15 +5496,11 @@
         }
     },
     "Industry Drive": {
-        "loc": [
-            "VA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Drive-Automotive-Industries-of-America-EI_IE294485.11,49.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Drive-Automotive-Industries-of-America-Salaries-E294485.htm",
         "locations": [
             "Piedmont, SC"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "Piedmont, SC": {
@@ -5937,16 +5510,12 @@
         }
     },
     "Infinera": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Infinera-EI_IE15060.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Infinera-Salaries-E15060.htm",
         "locations": [
             "San Jose, CA",
             "Sunnyvale, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -5960,15 +5529,11 @@
         }
     },
     "Inkling": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Inkling-EI_IE415006.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Inkling-Salaries-E415006.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -5978,13 +5543,6 @@
         }
     },
     "Intel": {
-        "loc": [
-            "AZ",
-            " CA",
-            " OH",
-            " OR",
-            " TX"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Intel-Corporation-EI_IE1519.11,28.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Intel-Corporation-Salaries-E1519.htm",
         "locations": [
@@ -6026,7 +5584,6 @@
             "Pittsburgh, PA",
             "Los Angeles, CA"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Columbus, GA": {
@@ -6176,9 +5733,6 @@
         }
     },
     "Intuit": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Intuit-EI_IE2293.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Intuit-Salaries-E2293.htm",
         "locations": [
@@ -6201,7 +5755,6 @@
             "Atlanta, GA",
             "San Diego, CA"
         ],
-        "sizeDescription": "5001 to 10000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -6275,10 +5828,6 @@
         }
     },
     "JPMorgan": {
-        "loc": [
-            "NY",
-            " OH"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-J-P-Morgan-EI_IE145.11,21.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/J-P-Morgan-Salaries-E145.htm",
         "locations": [
@@ -6297,7 +5846,6 @@
             "San Francisco, CA",
             "Los Angeles, CA"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Philadelphia, PA": {
@@ -6355,16 +5903,12 @@
         }
     },
     "Jane Street": {
-        "loc": [
-            "NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Jane-Street-EI_IE255549.11,22.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Jane-Street-Salaries-E255549.htm",
         "locations": [
             "New York, NY",
             "New York City, NY"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
@@ -6374,9 +5918,6 @@
         }
     },
     "Jawbone": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Jawbone-EI_IE472684.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Jawbone-Salaries-E472684.htm",
         "locations": [
@@ -6384,7 +5925,6 @@
             "Seattle, WA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -6402,9 +5942,6 @@
         }
     },
     "Jump Trading": {
-        "loc": [
-            "IL"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Jump-Trading-EI_IE251744.11,23.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Jump-Trading-Salaries-E251744.htm",
         "locations": [
@@ -6413,7 +5950,6 @@
             "Hartford, CT",
             "New York City, NY"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
@@ -6435,9 +5971,6 @@
         }
     },
     "Juniper": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Juniper-Networks-EI_IE7224.11,27.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Juniper-Networks-Salaries-E7224.htm",
         "locations": [
@@ -6453,7 +5986,6 @@
             "Los Angeles, CA",
             "Atlanta, GA"
         ],
-        "sizeDescription": "5001 to 10000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -6499,14 +6031,10 @@
         }
     },
     "Karat": {
-        "loc": [
-            "WA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Karat-EI_IE1286154.11,16.htm",
         "locations": [
             "Seattle, WA"
         ],
-        "sizeDescription": "1 to 50 employees",
         "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
@@ -6516,9 +6044,6 @@
         }
     },
     "Kayak": {
-        "loc": [
-            "MA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Kayak-com-EI_IE37851.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Kayak-com-Salaries-E37851.htm",
         "locations": [
@@ -6529,7 +6054,6 @@
             "San Francisco, CA",
             "Kingston, NY"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -6559,9 +6083,6 @@
         }
     },
     "Khan Academy": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Khan-Academy-EI_IE452278.11,23.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Khan-Academy-Salaries-E452278.htm",
         "locations": [
@@ -6571,7 +6092,6 @@
             "San Luis Obispo, CA",
             "Mountain View, CA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -6593,22 +6113,15 @@
         }
     },
     "Kinnek": {
-        "loc": [
-            "NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Kinnek-EI_IE1277707.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Kinnek-Salaries-E1277707.htm",
         "locations": [
             "New York, NY"
         ],
-        "sizeDescription": "1 to 50 employees",
         "sizeUpper": 500,
         "addresses": {}
     },
     "LastPass": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-LogMeIn-EI_IE43330.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/LogMeIn-Salaries-E43330.htm",
         "locations": [
@@ -6620,7 +6133,6 @@
             "Santa Barbara, CA",
             "Wichita, KS"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -6654,15 +6166,11 @@
         }
     },
     "LendUp": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-LendUp-EI_IE939161.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/LendUp-Salaries-E939161.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -6672,15 +6180,11 @@
         }
     },
     "Lever": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Lever-EI_IE816969.11,16.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Lever-Salaries-E816969.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -6690,9 +6194,6 @@
         }
     },
     "LinkedIn": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-LinkedIn-EI_IE34865.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/LinkedIn-Salaries-E34865.htm",
         "locations": [
@@ -6704,7 +6205,6 @@
             "Mountain View, CA",
             "Los Angeles, CA"
         ],
-        "sizeDescription": "5001 to 10000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -6738,16 +6238,12 @@
         }
     },
     "LiveRamp": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-LiveRamp-EI_IE633892.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/LiveRamp-Salaries-E633892.htm",
         "locations": [
             "San Francisco, CA",
             "New York City, NY"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -6761,15 +6257,11 @@
         }
     },
     "Lob": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Lob-EI_IE907973.11,14.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Lob-Salaries-E907973.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "1 to 50 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -6779,9 +6271,6 @@
         }
     },
     "Logitech": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Logitech-EI_IE3806.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Logitech-Salaries-E3806.htm",
         "locations": [
@@ -6792,7 +6281,6 @@
             "Austin, TX",
             "Lausanne (Switzerland)"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
@@ -6822,9 +6310,6 @@
         }
     },
     "Lucid": {
-        "loc": [
-            "UT"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Lucid-EI_IE257462.11,16.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Lucid-Salaries-E257462.htm",
         "locations": [
@@ -6832,7 +6317,6 @@
             "San Francisco, CA",
             "Oakland, CA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "New Orleans, LA": {
@@ -6850,10 +6334,6 @@
         }
     },
     "Lyft": {
-        "loc": [
-            "CA",
-            " WA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Lyft-EI_IE700614.11,15.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Lyft-Salaries-E700614.htm",
         "locations": [
@@ -6862,7 +6342,6 @@
             "San Francisco, CA",
             "San Antonio, TX"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -6884,16 +6363,12 @@
         }
     },
     "Lytx": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Lytx-EI_IE813859.11,15.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Lytx-Salaries-E813859.htm",
         "locations": [
             "San Diego, CA",
             "San Diego, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Diego, CA": {
@@ -6903,15 +6378,11 @@
         }
     },
     "MailChimp": {
-        "loc": [
-            "GA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Mailchimp-EI_IE453264.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Mailchimp-Salaries-E453264.htm",
         "locations": [
             "Atlanta, GA"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Atlanta, GA": {
@@ -6921,9 +6392,6 @@
         }
     },
     "MathWorks": {
-        "loc": [
-            "MA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-MathWorks-EI_IE17117.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/MathWorks-Salaries-E17117.htm",
         "locations": [
@@ -6932,7 +6400,6 @@
             "Detroit, MI",
             "Boston, MA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Buffalo, NY": {
@@ -6954,9 +6421,6 @@
         }
     },
     "Medallia": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Medallia-EI_IE268806.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Medallia-Salaries-E268806.htm",
         "locations": [
@@ -6964,7 +6428,6 @@
             "San Jose, CA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Mateo, CA": {
@@ -6982,15 +6445,11 @@
         }
     },
     "Medium": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Medium-California-EI_IE784883.11,28.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Medium-California-Salaries-E784883.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -7000,15 +6459,11 @@
         }
     },
     "Mesosphere": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Mesosphere-EI_IE941359.11,21.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Mesosphere-Salaries-E941359.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -7018,10 +6473,6 @@
         }
     },
     "Microsoft": {
-        "loc": [
-            "CA",
-            " WA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Microsoft-EI_IE1651.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Microsoft-Salaries-E1651.htm",
         "locations": [
@@ -7048,7 +6499,6 @@
             "Pittsburgh, PA",
             "Los Angeles, CA"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Charlotte, NC": {
@@ -7142,15 +6592,11 @@
         }
     },
     "Mixmax": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Mixmax-EI_IE1944231.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Mixmax-Salaries-E1944231.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -7160,9 +6606,6 @@
         }
     },
     "MongoDB": {
-        "loc": [
-            "NY"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-MongoDB-EI_IE433703.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/MongoDB-Salaries-E433703.htm",
         "locations": [
@@ -7170,7 +6613,6 @@
             "San Jose, CA",
             "New York City, NY"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -7184,9 +6626,6 @@
         }
     },
     "Mozilla": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Mozilla-EI_IE19129.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Mozilla-Salaries-E19129.htm",
         "locations": [
@@ -7197,7 +6636,6 @@
             "San Francisco, CA",
             "Vancouver, BC, Canada"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
@@ -7227,16 +6665,12 @@
         }
     },
     "MuleSoft": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-MuleSoft-EI_IE341641.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/MuleSoft-Salaries-E341641.htm",
         "locations": [
             "San Francisco, CA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -7246,15 +6680,11 @@
         }
     },
     "Narrative Science": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Narrative-Science-EI_IE796038.11,28.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Narrative-Science-Salaries-E796038.htm",
         "locations": [
             "Chicago, IL"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
@@ -7264,9 +6694,6 @@
         }
     },
     "Nest": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Nest-EI_IE670862.11,15.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Nest-Salaries-E670862.htm",
         "locations": [
@@ -7275,7 +6702,6 @@
             "San Francisco, CA",
             "New York City, NY"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
@@ -7297,16 +6723,12 @@
         }
     },
     "NextCapital": {
-        "loc": [
-            "IL"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-NextCapital-Group-EI_IE1259481.11,28.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/NextCapital-Group-Salaries-E1259481.htm",
         "locations": [
             "Chicago, IL",
             "Burlington, VT"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
@@ -7320,15 +6742,11 @@
         }
     },
     "Nextdoor": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Nextdoor-EI_IE661718.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Nextdoor-Salaries-E661718.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -7338,9 +6756,6 @@
         }
     },
     "Nvidia": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-NVIDIA-EI_IE7633.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/NVIDIA-Salaries-E7633.htm",
         "locations": [
@@ -7357,7 +6772,6 @@
             "Los Angeles, CA",
             "Austin, TX"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
@@ -7411,15 +6825,11 @@
         }
     },
     "Occipital": {
-        "loc": [
-            "CO"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-OCCIPITAL-EI_IE433274.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/OCCIPITAL-Salaries-E433274.htm",
         "locations": [
             "Boulder, CO"
         ],
-        "sizeDescription": "1 to 50 employees",
         "sizeUpper": 500,
         "addresses": {
             "Boulder, CO": {
@@ -7429,16 +6839,12 @@
         }
     },
     "Oculus": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Oculus-EI_IE41705.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Oculus-Salaries-E41705.htm",
         "locations": [
             "Petaluma, CA",
             "Boston, MA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "Petaluma, CA": {
@@ -7452,16 +6858,12 @@
         }
     },
     "OfferUp": {
-        "loc": [
-            "WA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-OfferUp-EI_IE854884.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/OfferUp-Salaries-E854884.htm",
         "locations": [
             "Bellevue, WA",
             "Seattle, WA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "Bellevue, WA": {
@@ -7475,9 +6877,6 @@
         }
     },
     "Okta": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Okta-EI_IE444756.11,15.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Okta-Salaries-E444756.htm",
         "locations": [
@@ -7486,7 +6885,6 @@
             "San Francisco, CA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
@@ -7504,15 +6902,11 @@
         }
     },
     "Optimizely": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Optimizely-EI_IE593559.11,21.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Optimizely-Salaries-E593559.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -7522,9 +6916,6 @@
         }
     },
     "Oracle": {
-        "loc": [
-            "PA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Oracle-EI_IE1737.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Oracle-Salaries-E1737.htm",
         "locations": [
@@ -7620,7 +7011,6 @@
             "Memphis, TN",
             "Atlanta, GA"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Dallas-Fort Worth, TX": {
@@ -7986,16 +7376,12 @@
         }
     },
     "Oscar": {
-        "loc": [
-            "NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Oscar-EI_IE756637.11,16.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Oscar-Salaries-E756637.htm",
         "locations": [
             "Manchester, England (UK)",
             "New York City, NY"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "Manchester, England (UK)": {
@@ -8009,10 +7395,6 @@
         }
     },
     "Palantir": {
-        "loc": [
-            "CA",
-            " NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Palantir-Technologies-EI_IE236375.11,32.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Palantir-Technologies-Salaries-E236375.htm",
         "locations": [
@@ -8023,7 +7405,6 @@
             "Washington, DC ",
             "San Francisco, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
@@ -8049,15 +7430,11 @@
         }
     },
     "Pandora": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Pandora-Jewelry-EI_IE346695.11,26.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Pandora-Jewelry-Salaries-E346695.htm",
         "locations": [
             "Copenhagen (Denmark)"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Copenhagen (Denmark)": {
@@ -8067,14 +7444,6 @@
         }
     },
     "PayPal": {
-        "loc": [
-            "AZ",
-            " CA",
-            " MA",
-            " MD",
-            " NY",
-            " TX"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-PayPal-EI_IE9848.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/PayPal-Salaries-E9848.htm",
         "locations": [
@@ -8093,7 +7462,6 @@
             "San Antonio, TX",
             "Austin, TX"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Philadelphia, PA": {
@@ -8151,17 +7519,12 @@
         }
     },
     "Percolate": {
-        "loc": [
-            "CA",
-            " NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Percolate-EI_IE695577.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Percolate-Salaries-E695577.htm",
         "locations": [
             "New York, NY",
             "New York City, NY"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
@@ -8171,16 +7534,12 @@
         }
     },
     "Phosphorus": {
-        "loc": [
-            "NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Phosphorus-EI_IE1386551.11,21.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Phosphorus-Salaries-E1386551.htm",
         "locations": [
             "New York, NY",
             "New York City, NY"
         ],
-        "sizeDescription": "1 to 50 employees",
         "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
@@ -8190,10 +7549,6 @@
         }
     },
     "Pinterest": {
-        "loc": [
-            "CA",
-            " WA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Pinterest-EI_IE503467.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Pinterest-Salaries-E503467.htm",
         "locations": [
@@ -8201,7 +7556,6 @@
             "New York City, NY",
             "San Francisco, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -8215,9 +7569,6 @@
         }
     },
     "Pivotal": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Pivotal-EI_IE687287.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Pivotal-Salaries-E687287.htm",
         "locations": [
@@ -8233,7 +7584,6 @@
             "Denver, CO",
             "Los Angeles, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
@@ -8279,10 +7629,6 @@
         }
     },
     "Playstation": {
-        "loc": [
-            "CA",
-            " WI"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-PlayStation-EI_IE117138.11,22.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/PlayStation-Salaries-E117138.htm",
         "locations": [
@@ -8294,7 +7640,6 @@
             "San Mateo, CA",
             "San Diego, CA"
         ],
-        "sizeDescription": "5001 to 10000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
@@ -8328,15 +7673,11 @@
         }
     },
     "Postmates": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Postmates-EI_IE620298.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Postmates-Salaries-E620298.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -8346,9 +7687,6 @@
         }
     },
     "Priceline": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Priceline-com-EI_IE9005.11,24.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Priceline-com-Salaries-E9005.htm",
         "locations": [
@@ -8357,7 +7695,6 @@
             "New York City, NY",
             "Bridgeport, CT"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
@@ -8379,17 +7716,12 @@
         }
     },
     "Pure Storage": {
-        "loc": [
-            "CA",
-            " WA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Pure-Storage-EI_IE364364.11,23.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Pure-Storage-Salaries-E364364.htm",
         "locations": [
             "San Jose, CA",
             "Mountain View, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -8403,11 +7735,6 @@
         }
     },
     "Qualcomm": {
-        "loc": [
-            "CA",
-            " CO",
-            " PA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Qualcomm-EI_IE640.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Qualcomm-Salaries-E640.htm",
         "locations": [
@@ -8428,7 +7755,6 @@
             "Austin, TX",
             "San Diego, CA"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
@@ -8498,10 +7824,6 @@
         }
     },
     "Qualtrics": {
-        "loc": [
-            "UT",
-            " WA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Qualtrics-EI_IE323717.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Qualtrics-Salaries-E323717.htm",
         "locations": [
@@ -8509,7 +7831,6 @@
             "Salt Lake City, UT",
             "Seattle, WA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Provo, UT": {
@@ -8527,10 +7848,6 @@
         }
     },
     "Quantcast": {
-        "loc": [
-            "CA",
-            " WA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Quantcast-EI_IE222862.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Quantcast-Salaries-E222862.htm",
         "locations": [
@@ -8538,7 +7855,6 @@
             "San Francisco, CA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
@@ -8552,15 +7868,11 @@
         }
     },
     "Quizlet": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Quizlet-EI_IE458146.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Quizlet-Salaries-E458146.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -8570,16 +7882,12 @@
         }
     },
     "Quora": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Quora-Inc-EI_IE646885.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Quora-Inc-Salaries-E646885.htm",
         "locations": [
             "San Jose, CA",
             "Mountain View, CA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -8593,16 +7901,12 @@
         }
     },
     "Rackspace": {
-        "loc": [
-            "TX"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Rackspace-EI_IE11783.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Rackspace-Salaries-E11783.htm",
         "locations": [
             "Chicago, IL",
             "San Antonio, TX"
         ],
-        "sizeDescription": "5001 to 10000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
@@ -8616,10 +7920,6 @@
         }
     },
     "RedHat": {
-        "loc": [
-            "MA",
-            " NC"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Red-Hat-EI_IE8868.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Red-Hat-Salaries-E8868.htm",
         "locations": [
@@ -8635,7 +7935,6 @@
             "Raleigh, NC",
             "Austin, TX"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -8677,16 +7976,12 @@
         }
     },
     "Redbooth": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Redbooth-EI_IE806299.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Redbooth-Salaries-E806299.htm",
         "locations": [
             "Palo Alto, CA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "1 to 50 employees",
         "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
@@ -8700,15 +7995,11 @@
         }
     },
     "Reddit": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Reddit-EI_IE796358.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Reddit-Salaries-E796358.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -8718,10 +8009,6 @@
         }
     },
     "Redfin": {
-        "loc": [
-            "CA",
-            " WA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Redfin-EI_IE150726.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Redfin-Salaries-E150726.htm",
         "locations": [
@@ -8729,7 +8016,6 @@
             "Seattle, WA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
@@ -8747,15 +8033,11 @@
         }
     },
     "RevolutionParts": {
-        "loc": [
-            "AZ"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-RevolutionParts-EI_IE1264077.11,26.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/RevolutionParts-Salaries-E1264077.htm",
         "locations": [
             "Phoenix, AZ"
         ],
-        "sizeDescription": "1 to 50 employees",
         "sizeUpper": 500,
         "addresses": {
             "Phoenix, AZ": {
@@ -8765,9 +8047,6 @@
         }
     },
     "Riot Games": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Riot-Games-EI_IE247538.11,21.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Riot-Games-Salaries-E247538.htm",
         "locations": [
@@ -8778,7 +8057,6 @@
             "Los Angeles, CA",
             "Los Angeles, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -8804,15 +8082,11 @@
         }
     },
     "Ripple": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Ripple-EI_IE798412.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Ripple-Salaries-E798412.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -8822,16 +8096,12 @@
         }
     },
     "Roblox": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Roblox-EI_IE242265.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Roblox-Salaries-E242265.htm",
         "locations": [
             "San Mateo, CA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Mateo, CA": {
@@ -8845,16 +8115,12 @@
         }
     },
     "Roku": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Roku-EI_IE26760.11,15.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Roku-Salaries-E26760.htm",
         "locations": [
             "San Jose, CA",
             "Los Gatos, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -8868,16 +8134,12 @@
         }
     },
     "Rubrik": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Rubrik-EI_IE955861.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Rubrik-Salaries-E955861.htm",
         "locations": [
             "Palo Alto, CA",
             "San Jose, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
@@ -8891,14 +8153,6 @@
         }
     },
     "Salesforce": {
-        "loc": [
-            "CA",
-            " CO",
-            " IN",
-            " MA",
-            " VA",
-            " WA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Salesforce-EI_IE11159.11,21.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Salesforce-Salaries-E11159.htm",
         "locations": [
@@ -8921,7 +8175,6 @@
             "Los Angeles, CA",
             "Atlanta, GA"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Boulder, CO": {
@@ -8999,17 +8252,12 @@
         }
     },
     "SendGrid": {
-        "loc": [
-            "CA",
-            " CO"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-SendGrid-EI_IE466121.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/SendGrid-Salaries-E466121.htm",
         "locations": [
             "Los Angeles, CA",
             "Denver, CO"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
@@ -9023,10 +8271,6 @@
         }
     },
     "Sensus": {
-        "loc": [
-            "LA",
-            " NC"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Sensus-EI_IE226154.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Sensus-Salaries-E226154.htm",
         "locations": [
@@ -9036,7 +8280,6 @@
             "Raleigh, NC",
             "Atlanta, GA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Boise, ID": {
@@ -9058,15 +8301,11 @@
         }
     },
     "ShipHawk": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-ShipHawk-EI_IE819996.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/ShipHawk-Salaries-E819996.htm",
         "locations": [
             "Santa Barbara, CA"
         ],
-        "sizeDescription": "1 to 50 employees",
         "sizeUpper": 500,
         "addresses": {
             "Santa Barbara, CA": {
@@ -9076,15 +8315,11 @@
         }
     },
     "Shogun": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Shogun-EI_IE1979949.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Shogun-Salaries-E1979949.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "1 to 50 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -9094,9 +8329,6 @@
         }
     },
     "Shopify": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Shopify-EI_IE675933.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Shopify-Salaries-E675933.htm",
         "locations": [
@@ -9107,7 +8339,6 @@
             "Ottawa, ON, Canada",
             "Ottawa, ON"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Montreal, QC, Canada": {
@@ -9133,9 +8364,6 @@
         }
     },
     "ShoreTel": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-ShoreTel-EI_IE9479.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/ShoreTel-Salaries-E9479.htm",
         "locations": [
@@ -9145,7 +8373,6 @@
             "Sunnyvale, CA",
             "Austin, TX"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Rochester, NY": {
@@ -9171,10 +8398,6 @@
         }
     },
     "Shutterfly": {
-        "loc": [
-            "AZ",
-            " CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Shutterfly-EI_IE38329.11,21.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Shutterfly-Salaries-E38329.htm",
         "locations": [
@@ -9184,7 +8407,6 @@
             "Phoenix, AZ",
             "Philadelphia, PA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -9210,16 +8432,12 @@
         }
     },
     "Sift Science": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Sift-Science-EI_IE776319.11,23.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Sift-Science-Salaries-E776319.htm",
         "locations": [
             "Seattle, WA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
@@ -9233,16 +8451,12 @@
         }
     },
     "Slack": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Slack-EI_IE950758.11,16.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Slack-Salaries-E950758.htm",
         "locations": [
             "Seattle, WA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
@@ -9256,9 +8470,6 @@
         }
     },
     "Snap": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Snap-EI_IE671946.11,15.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Snap-Salaries-E671946.htm",
         "locations": [
@@ -9269,7 +8480,6 @@
             "San Francisco, CA",
             "Los Angeles, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
@@ -9299,12 +8509,6 @@
         }
     },
     "SpaceX": {
-        "loc": [
-            "CA",
-            " FL",
-            " TX",
-            " WA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-SpaceX-EI_IE40371.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/SpaceX-Salaries-E40371.htm",
         "locations": [
@@ -9313,7 +8517,6 @@
             "Seattle, WA",
             "Merced, CA"
         ],
-        "sizeDescription": "5001 to 10000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
@@ -9335,9 +8538,6 @@
         }
     },
     "Spotify": {
-        "loc": [
-            "NY"
-        ],
         "url": "https://www.glassdoor.com/spotify",
         "salaryUrl": "http://www.glassdoor.com/Salary/Spotify-Salaries-E408251.htm",
         "locations": [
@@ -9346,7 +8546,6 @@
             "New York City, NY",
             "Boston, MA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Stockholm, Stockholm (Sweden)": {
@@ -9368,16 +8567,12 @@
         }
     },
     "Sprout Social": {
-        "loc": [
-            "IL"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Sprout-Social-EI_IE701678.11,24.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Sprout-Social-Salaries-E701678.htm",
         "locations": [
             "Chicago, IL",
             "Chicago, IL"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
@@ -9387,9 +8582,6 @@
         }
     },
     "Square": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Square-EI_IE422050.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Square-Salaries-E422050.htm",
         "locations": [
@@ -9399,7 +8591,6 @@
             "San Francisco, CA",
             "Atlanta, GA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -9425,16 +8616,12 @@
         }
     },
     "Squarespace": {
-        "loc": [
-            "NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Squarespace-EI_IE466343.11,22.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Squarespace-Salaries-E466343.htm",
         "locations": [
             "New York, NY",
             "New York City, NY"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
@@ -9444,15 +8631,11 @@
         }
     },
     "Starsky Robotics": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Starsky-Robotics-EI_IE2011265.11,27.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Starsky-Robotics-Salaries-E2011265.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "1 to 50 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -9462,12 +8645,6 @@
         }
     },
     "StateFarm": {
-        "loc": [
-            "AZ",
-            " GA",
-            " IL",
-            " TX"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-State-Farm-EI_IE2990.11,21.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/State-Farm-Salaries-E2990.htm",
         "locations": [
@@ -9479,7 +8656,6 @@
             "Atlanta, GA",
             "Bloomington, IL"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -9513,22 +8689,15 @@
         }
     },
     "StreetEasy": {
-        "loc": [
-            "NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-StreetEasy-EI_IE903140.11,21.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/StreetEasy-Salaries-E903140.htm",
         "locations": [
             "New York, NY"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {}
     },
     "Stripe": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Stripe-EI_IE671932.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Stripe-Salaries-E671932.htm",
         "locations": [
@@ -9537,7 +8706,6 @@
             "San Francisco, CA",
             "New York City, NY"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -9559,15 +8727,11 @@
         }
     },
     "StudySoup": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-StudySoup-EI_IE1073608.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/StudySoup-Salaries-E1073608.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "1 to 50 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -9577,9 +8741,6 @@
         }
     },
     "SurveyMonkey": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-SurveyMonkey-EI_IE347449.11,23.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/SurveyMonkey-Salaries-E347449.htm",
         "locations": [
@@ -9589,7 +8750,6 @@
             "Ottawa, ON, Canada",
             "San Francisco, CA"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Mateo, CA": {
@@ -9615,16 +8775,11 @@
         }
     },
     "Tableau": {
-        "loc": [
-            "CA",
-            " WA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Tableau-EI_IE2127592.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Tableau-Salaries-E2127592.htm",
         "locations": [
             "New Orleans, LA"
         ],
-        "sizeDescription": "Unknown",
         "sizeUpper": 500,
         "addresses": {
             "New Orleans, LA": {
@@ -9634,14 +8789,10 @@
         }
     },
     "Tendigi": {
-        "loc": [
-            "NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Tendigi-EI_IE1524438.11,18.htm",
         "locations": [
             "Brooklyn, NY"
         ],
-        "sizeDescription": "1 to 50 employees",
         "sizeUpper": 500,
         "addresses": {
             "Brooklyn, NY": {
@@ -9651,9 +8802,6 @@
         }
     },
     "Teradata": {
-        "loc": [
-            "WA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Teradata-EI_IE14638.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Teradata-Salaries-E14638.htm",
         "locations": [
@@ -9681,7 +8829,6 @@
             "Philadelphia, PA",
             "Atlanta, GA"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Dallas-Fort Worth, TX": {
@@ -9771,10 +8918,6 @@
         }
     },
     "Tesla": {
-        "loc": [
-            "CA",
-            " NV"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Tesla-EI_IE43129.11,16.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Tesla-Salaries-E43129.htm",
         "locations": [
@@ -9783,7 +8926,6 @@
             "San Francisco, CA",
             "Palo Alto, CA"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -9805,15 +8947,11 @@
         }
     },
     "Textio": {
-        "loc": [
-            "WA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Textio-EI_IE1554391.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Textio-Salaries-E1554391.htm",
         "locations": [
             "Seattle, WA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
@@ -9823,15 +8961,11 @@
         }
     },
     "Thanx": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Thanx-EI_IE922325.11,16.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Thanx-Salaries-E922325.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -9841,16 +8975,12 @@
         }
     },
     "ThoughtSpot": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-ThoughtSpot-EI_IE818996.11,22.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/ThoughtSpot-Salaries-E818996.htm",
         "locations": [
             "Palo Alto, CA",
             "San Jose, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
@@ -9864,15 +8994,11 @@
         }
     },
     "ThousandEyes": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-ThousandEyes-EI_IE486049.11,23.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/ThousandEyes-Salaries-E486049.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -9882,16 +9008,12 @@
         }
     },
     "Thumbtack": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Thumbtack-EI_IE414078.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Thumbtack-Salaries-E414078.htm",
         "locations": [
             "San Francisco, CA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -9901,9 +9023,6 @@
         }
     },
     "Tinder": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Tinder-EI_IE916118.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Tinder-Salaries-E916118.htm",
         "locations": [
@@ -9911,7 +9030,6 @@
             "San Jose, CA",
             "West Hollywood, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
@@ -9929,15 +9047,11 @@
         }
     },
     "Tint": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-TINT-EI_IE1254063.11,15.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/TINT-Salaries-E1254063.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "1 to 50 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -9947,22 +9061,15 @@
         }
     },
     "Trello": {
-        "loc": [
-            "NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Trello-EI_IE1359158.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Trello-Salaries-E1359158.htm",
         "locations": [
             "New York, NY"
         ],
-        "sizeDescription": "1 to 50 employees",
         "sizeUpper": 500,
         "addresses": {}
     },
     "TripAdvisor": {
-        "loc": [
-            "MA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-TripAdvisor-EI_IE15276.11,22.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/TripAdvisor-Salaries-E15276.htm",
         "locations": [
@@ -9975,7 +9082,6 @@
             "Los Angeles, CA",
             "Needham, MA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -10013,16 +9119,12 @@
         }
     },
     "Tumblr": {
-        "loc": [
-            "NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Tumblr-EI_IE458427.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Tumblr-Salaries-E458427.htm",
         "locations": [
             "New York, NY",
             "New York City, NY"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
@@ -10032,16 +9134,12 @@
         }
     },
     "Twilio": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Twilio-EI_IE410790.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Twilio-Salaries-E410790.htm",
         "locations": [
             "San Jose, CA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -10055,9 +9153,6 @@
         }
     },
     "Twitch": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Twitch-EI_IE639426.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Twitch-Salaries-E639426.htm",
         "locations": [
@@ -10069,7 +9164,6 @@
             "Los Angeles, CA",
             "Austin, TX"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
@@ -10103,9 +9197,6 @@
         }
     },
     "Twitter": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Twitter-EI_IE100569.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Twitter-Salaries-E100569.htm",
         "locations": [
@@ -10116,7 +9207,6 @@
             "San Francisco, CA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -10142,9 +9232,6 @@
         }
     },
     "Two Sigma": {
-        "loc": [
-            "TX"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Two-Sigma-EI_IE241045.11,20.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Two-Sigma-Salaries-E241045.htm",
         "locations": [
@@ -10153,7 +9240,6 @@
             "Houston, TX",
             "New York City, NY"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Jesup, GA": {
@@ -10171,9 +9257,6 @@
         }
     },
     "Uber": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Uber-EI_IE575263.11,15.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Uber-Salaries-E575263.htm",
         "locations": [
@@ -10187,7 +9270,6 @@
             "Pittsburgh, PA",
             "Boulder, CO"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -10229,9 +9311,6 @@
         }
     },
     "Ultimate Software": {
-        "loc": [
-            "FL"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Ultimate-Software-EI_IE7900.11,28.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Ultimate-Software-Salaries-E7900.htm",
         "locations": [
@@ -10243,7 +9322,6 @@
             "Weston, FL",
             "Atlanta, GA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Miami-Fort Lauderdale, FL": {
@@ -10277,15 +9355,11 @@
         }
     },
     "Unity": {
-        "loc": [
-            "WA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-UNITY-EI_IE947678.11,16.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/UNITY-Salaries-E947678.htm",
         "locations": [
             "B\u00fcren, Nordrhein-Westfalen (Germany)"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "B\u00fcren, Nordrhein-Westfalen (Germany)": {
@@ -10295,15 +9369,11 @@
         }
     },
     "Uptake": {
-        "loc": [
-            "IL"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Uptake-EI_IE978686.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Uptake-Salaries-E978686.htm",
         "locations": [
             "Chicago, IL"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
@@ -10313,9 +9383,6 @@
         }
     },
     "Upwork": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Upwork-EI_IE993959.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Upwork-Salaries-E993959.htm",
         "locations": [
@@ -10327,7 +9394,6 @@
             "San Francisco, CA",
             "Mountain View, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "Jonesboro, AR": {
@@ -10361,9 +9427,6 @@
         }
     },
     "Usaa": {
-        "loc": [
-            "TX"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-USAA-EI_IE3033.11,15.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/USAA-Salaries-E3033.htm",
         "locations": [
@@ -10371,7 +9434,6 @@
             "Dallas-Fort Worth, TX",
             "San Antonio, TX"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Phoenix, AZ": {
@@ -10389,17 +9451,11 @@
         }
     },
     "Valassis Digital": {
-        "loc": [
-            "MI",
-            " TX",
-            " WA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Valassis-Digital-EI_IE1989995.11,27.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Valassis-Digital-Salaries-E1989995.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -10409,15 +9465,11 @@
         }
     },
     "Valve": {
-        "loc": [
-            "WA"
-        ],
         "url": "https://www.glassdoor.ca/Reviews/Valve-Corporation-Reviews-E24849.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Valve-Corporation-Salaries-E24849.htm",
         "locations": [
             "Bellevue, WA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "Bellevue, WA": {
@@ -10427,9 +9479,6 @@
         }
     },
     "Venmo": {
-        "loc": [
-            "NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Venmo-EI_IE447866.11,16.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Venmo-Salaries-E447866.htm",
         "locations": [
@@ -10437,7 +9486,6 @@
             "Austin, TX",
             "New York City, NY"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "Austin, TX": {
@@ -10451,9 +9499,6 @@
         }
     },
     "Vizio": {
-        "loc": [
-            "WA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-VIZIO-EI_IE100251.11,16.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/VIZIO-Salaries-E100251.htm",
         "locations": [
@@ -10461,7 +9506,6 @@
             "Seattle, WA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "Irvine, CA": {
@@ -10479,9 +9523,6 @@
         }
     },
     "Walmart Labs": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Walmart-eCommerce-EI_IE29449.11,28.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Walmart-eCommerce-Salaries-E29449.htm",
         "locations": [
@@ -10492,7 +9533,6 @@
             "San Bruno, CA",
             "San Diego, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -10518,10 +9558,6 @@
         }
     },
     "Walt Disney": {
-        "loc": [
-            "CA",
-            " WA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Walt-Disney-Company-EI_IE717.11,30.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Walt-Disney-Company-Salaries-E717.htm",
         "locations": [
@@ -10535,7 +9571,6 @@
             "Los Angeles, CA",
             "Hartford, CT"
         ],
-        "sizeDescription": "10000+ employees",
         "sizeUpper": 500,
         "addresses": {
             "Orlando, FL": {
@@ -10577,15 +9612,11 @@
         }
     },
     "Wayfair": {
-        "loc": [
-            "MA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Wayfair-EI_IE134525.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Wayfair-Salaries-E134525.htm",
         "locations": [
             "Boston, MA"
         ],
-        "sizeDescription": "5001 to 10000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Boston, MA": {
@@ -10595,16 +9626,12 @@
         }
     },
     "WeWork": {
-        "loc": [
-            "NY"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-WeWork-EI_IE661275.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/WeWork-Salaries-E661275.htm",
         "locations": [
             "New York, NY",
             "New York City, NY"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
@@ -10614,9 +9641,6 @@
         }
     },
     "Weebly": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Weebly-EI_IE372575.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Weebly-Salaries-E372575.htm",
         "locations": [
@@ -10624,7 +9648,6 @@
             "New York City, NY",
             "San Francisco, CA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -10638,9 +9661,6 @@
         }
     },
     "WhatsApp": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-WhatsApp-EI_IE418234.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/WhatsApp-Salaries-E418234.htm",
         "locations": [
@@ -10649,7 +9669,6 @@
             "San Francisco, CA",
             "Mountain View, CA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
@@ -10671,16 +9690,12 @@
         }
     },
     "WillowTree": {
-        "loc": [
-            "VA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-WillowTree-EI_IE512911.11,21.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/WillowTree-Salaries-E512911.htm",
         "locations": [
             "Raleigh-Durham, NC",
             "Charlottesville, VA"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "Raleigh-Durham, NC": {
@@ -10694,16 +9709,12 @@
         }
     },
     "Workday": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Workday-EI_IE197851.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Workday-Salaries-E197851.htm",
         "locations": [
             "Pleasanton, CA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "5001 to 10000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Pleasanton, CA": {
@@ -10717,10 +9728,6 @@
         }
     },
     "Workiva": {
-        "loc": [
-            "AZ",
-            " IA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Workiva-EI_IE833668.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Workiva-Salaries-E833668.htm",
         "locations": [
@@ -10733,7 +9740,6 @@
             "Phoenix, AZ",
             "Boulder, CO"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Columbus, GA": {
@@ -10767,16 +9773,12 @@
         }
     },
     "Xero": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Xero-EI_IE318448.11,15.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Xero-Salaries-E318448.htm",
         "locations": [
             "San Francisco, CA",
             "Denver, CO"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -10790,9 +9792,6 @@
         }
     },
     "Yahoo": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Yahoo-EI_IE5807.11,16.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Yahoo-Salaries-E5807.htm",
         "locations": [
@@ -10818,7 +9817,6 @@
             "Los Angeles, CA",
             "Atlanta, GA"
         ],
-        "sizeDescription": "5001 to 10000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Dallas-Fort Worth, TX": {
@@ -10908,9 +9906,6 @@
         }
     },
     "Yelp": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Yelp-EI_IE43314.11,15.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Yelp-Salaries-E43314.htm",
         "locations": [
@@ -10921,7 +9916,6 @@
             "Los Angeles, CA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "5001 to 10000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
@@ -10947,9 +9941,6 @@
         }
     },
     "Yext": {
-        "loc": [
-            "VA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Yext-EI_IE312260.11,15.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Yext-Salaries-E312260.htm",
         "locations": [
@@ -10957,7 +9948,6 @@
             "Washington, DC ",
             "New York City, NY"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
@@ -10967,9 +9957,6 @@
         }
     },
     "Zappos": {
-        "loc": [
-            "NV"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-The-Zappos-Family-EI_IE19906.11,28.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/The-Zappos-Family-Salaries-E19906.htm",
         "locations": [
@@ -10978,7 +9965,6 @@
             "Las Vegas, NV",
             "Seattle, WA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Santa Fe, NM": {
@@ -11000,9 +9986,6 @@
         }
     },
     "Zendesk": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Zendesk-EI_IE360923.11,18.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Zendesk-Salaries-E360923.htm",
         "locations": [
@@ -11010,7 +9993,6 @@
             "Madison, WI",
             "Boston, MA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -11028,9 +10010,6 @@
         }
     },
     "Zenefits": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Zenefits-EI_IE820238.11,19.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Zenefits-Salaries-E820238.htm",
         "locations": [
@@ -11038,7 +10017,6 @@
             "San Francisco, CA",
             "Vancouver, BC, Canada"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
@@ -11052,9 +10030,6 @@
         }
     },
     "Zillow": {
-        "loc": [
-            "WA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Zillow-EI_IE40802.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Zillow-Salaries-E40802.htm",
         "locations": [
@@ -11062,7 +10037,6 @@
             "Seattle, WA",
             "San Francisco, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
@@ -11080,16 +10054,12 @@
         }
     },
     "Zocdoc": {
-        "loc": [
-            "NY"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-Zocdoc-EI_IE250247.11,17.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Zocdoc-Salaries-E250247.htm",
         "locations": [
             "New York, NY",
             "New York City, NY"
         ],
-        "sizeDescription": "501 to 1000 employees",
         "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
@@ -11099,15 +10069,11 @@
         }
     },
     "Zurb": {
-        "loc": [
-            "CA"
-        ],
         "url": "http://www.glassdoor.com/Overview/Working-at-ZURB-EI_IE734219.11,15.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/ZURB-Salaries-E734219.htm",
         "locations": [
             "Campbell, CA"
         ],
-        "sizeDescription": "51 to 200 employees",
         "sizeUpper": 500,
         "addresses": {
             "Campbell, CA": {
@@ -11117,9 +10083,6 @@
         }
     },
     "Zynga": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.ca/Overview/Working-at-Zynga-EI_IE243552.11,16.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/Zynga-Salaries-E243552.htm",
         "locations": [
@@ -11139,7 +10102,6 @@
             "Austin, TX",
             "San Diego, CA"
         ],
-        "sizeDescription": "1001 to 5000 employees",
         "sizeUpper": 500,
         "addresses": {
             "Orlando, FL": {
@@ -11201,16 +10163,12 @@
         }
     },
     "The Honest Company": {
-        "loc": [
-            "CA"
-        ],
         "url": "https://www.glassdoor.com/Overview/Working-at-The-Honest-Company-EI_IE745391.11,29.htm",
         "salaryUrl": "http://www.glassdoor.com/Salary/The-Honest-Company-Salaries-E745391.htm",
         "locations": [
             "Los Angeles, CA",
             "Austin, TX"
         ],
-        "sizeDescription": "201 to 500 employees",
         "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
