@@ -30,7 +30,6 @@ final class PanelCoordinator: Coordinator {
 
     navigationController.viewControllers = [panelVC]
     navigationController.setNavigationBarHidden(true, animated: false)
-    navigationController.isNavigationBarHidden = true
   }
 }
 // MARK: View Controller Instantiations
