@@ -43,6 +43,9 @@ extension PanelCoordinator {
         self?.delegate?.actionTapped()
       }
     }
+    viewModel.onBackPanned = {
+      self.navigationController.popViewController(animated: true)
+    }
     let vc = CityViewController(viewModel: viewModel)
 
     return vc

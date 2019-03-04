@@ -9,6 +9,9 @@
 import UIKit
 
 final class CityViewController: UIViewController {
+  fileprivate struct Constants {
+    static let backThreshold: CGFloat = 0.17
+  }
 
   @IBOutlet weak var panelView: PanelView!
   @IBOutlet weak var tableView: UITableView! {
@@ -69,6 +72,18 @@ final class CityViewController: UIViewController {
     tableView.separatorStyle = .none
     tableView.backgroundColor = .clear
 
+    let panGesture = UIPanGestureRecognizer(target: self, action: #selector(handlePanGesture(sender:)))
+    panelView.addGestureRecognizer(panGesture)
+
+  }
+
+  @objc func handlePanGesture(sender: UIPanGestureRecognizer) {
+    let translation = sender.translation(in: panelView)
+    if translation.x > panelView.frame.width * Constants.backThreshold && !isBeingDismissed {
+      sender.setTranslation(.zero, in: panelView)
+      panelView.removeGestureRecognizer(sender)
+      viewModel.onBackPanned?()
+    }
   }
 }
 
