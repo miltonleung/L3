@@ -30,7 +30,7 @@
                 ]
             }
         },
-        "sizeUpper": 500
+        "size": 500
     },
     "Addepar": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Addepar-EI_IE423990.11,18.htm",
@@ -40,7 +40,6 @@
             "Mountain View, CA",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [
@@ -75,7 +74,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 500
     },
     "Airbnb": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Airbnb-EI_IE391850.11,17.htm",
@@ -87,7 +87,6 @@
             "San Francisco, CA",
             "Los Angeles, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
                 "street": [
@@ -144,7 +143,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "Airware": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Airware-EI_IE698564.11,18.htm",
@@ -152,7 +152,6 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [
@@ -165,7 +164,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "Akamai": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Akamai-EI_IE9219.11,17.htm",
@@ -181,7 +181,6 @@
             "Los Angeles, CA",
             "San Diego, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Cambridge, MA": {
                 "street": [
@@ -292,7 +291,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 10000
     },
     "Akuna Capital": {
         "url": "http://www.glassdoor.com/Overview/Working-at-AKUNA-CAPITAL-EI_IE608116.11,24.htm",
@@ -300,7 +300,6 @@
         "locations": [
             "Chicago, IL"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
                 "street": [
@@ -313,7 +312,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "Alarm": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Alarm-com-EI_IE268820.11,20.htm",
@@ -325,7 +325,6 @@
             "Denver, CO",
             "Provo, UT"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "McLean, VA": {
                 "street": [
@@ -357,7 +356,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Amazon": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Amazon-EI_IE6036.11,17.htm",
@@ -392,7 +392,6 @@
             "Vancouver, BC, Canada",
             "Los Angeles, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Charlotte, NC": {
                 "street": [
@@ -678,7 +677,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 10000
     },
     "American Express": {
         "url": "http://www.glassdoor.com/Overview/Working-at-American-Express-EI_IE35.11,27.htm",
@@ -695,7 +695,6 @@
             "New York, NY",
             "Phoenix, AZ"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Salt Lake City, UT": {
                 "street": [
@@ -782,7 +781,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 10000
     },
     "Ancestry": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Ancestry-EI_IE243532.11,19.htm",
@@ -792,7 +792,6 @@
             "Provo, UT",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Lehi, UT": {
                 "street": [
@@ -827,7 +826,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "AppDynamics": {
         "url": "http://www.glassdoor.com/Overview/Working-at-AppDynamics-EI_IE319551.11,22.htm",
@@ -837,7 +837,6 @@
             "Seattle, WA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [
@@ -877,7 +876,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "AppFolio": {
         "url": "http://www.glassdoor.com/Overview/Working-at-AppFolio-EI_IE225531.11,19.htm",
@@ -888,7 +888,6 @@
             "Dallas-Fort Worth, TX",
             "San Diego, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [
@@ -934,7 +933,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 1000
     },
     "AppNexus": {
         "url": "http://www.glassdoor.com/Overview/Working-at-AppNexus-EI_IE347870.11,19.htm",
@@ -946,7 +946,6 @@
             "Denver, CO",
             "Boulder, CO"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
                 "street": [
@@ -992,7 +991,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "Appian": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Appian-EI_IE27819.11,17.htm",
@@ -1001,7 +1001,6 @@
             "Reston, VA",
             "Washington, DC "
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Reston, VA": {
                 "street": [
@@ -1014,7 +1013,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "Apple": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Apple-EI_IE1138.11,16.htm",
@@ -1040,7 +1040,6 @@
             "Atlanta, GA",
             "Austin, TX"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Charlotte, NC": {
                 "street": [],
@@ -1216,7 +1215,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 10000
     },
     "Asana": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Asana-EI_IE567443.11,16.htm",
@@ -1225,7 +1225,6 @@
             "San Francisco, CA",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [
@@ -1249,7 +1248,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 500
     },
     "Atlassian": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Atlassian-EI_IE115699.11,20.htm",
@@ -1262,7 +1262,6 @@
             "San Francisco, CA",
             "Austin, TX"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [
@@ -1323,7 +1322,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "BNY Mellon": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-BNY-Mellon-EI_IE78.11,21.htm",
@@ -1334,7 +1334,6 @@
             "New York City, NY",
             "Boston, MA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Pittsburgh, PA": {
                 "street": [
@@ -1362,7 +1361,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Bank of America": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Bank-of-America-EI_IE8874.11,26.htm",
@@ -1386,7 +1386,6 @@
             "Austin, TX",
             "San Diego, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Charlotte, NC": {
                 "street": [
@@ -1573,7 +1572,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 10000
     },
     "Betterment": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Betterment-EI_IE817462.11,21.htm",
@@ -1582,7 +1582,6 @@
             "New York, NY",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [
@@ -1595,7 +1594,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 50
     },
     "BitTitan": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-BitTitan-EI_IE630074.11,19.htm",
@@ -1604,7 +1604,6 @@
             "Kirkland, WA",
             "Seattle, WA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Kirkland, WA": {
                 "street": [
@@ -1628,7 +1627,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 500
     },
     "Blackbaud": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Blackbaud-EI_IE15863.11,20.htm",
@@ -1643,7 +1643,6 @@
             "Austin, TX",
             "San Diego, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Daniel Island, SC": {
                 "street": [
@@ -1726,7 +1725,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Blend": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Blend-EI_IE1316013.11,16.htm",
@@ -1734,13 +1734,13 @@
         "locations": [
             "Vejle (Denmark)"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Vejle (Denmark)": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "Bloomberg": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Bloomberg-L-P-EI_IE3096.11,24.htm",
@@ -1752,7 +1752,6 @@
             "New York, NY",
             "Los Angeles, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Albany, NY": {
                 "street": [],
@@ -1777,7 +1776,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Bluebeam": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Bluebeam-EI_IE642659.11,19.htm",
@@ -1787,7 +1787,6 @@
             "Los Angeles, CA",
             "Dallas-Fort Worth, TX"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Pasadena, CA": {
                 "street": [
@@ -1827,7 +1826,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 500
     },
     "Boomerang": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Boomerang-EI_IE265116.11,20.htm",
@@ -1835,7 +1835,6 @@
         "locations": [
             "East Palo Alto, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "East Palo Alto, CA": {
                 "street": [
@@ -1848,7 +1847,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 50
     },
     "Box": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Box-EI_IE254092.11,14.htm",
@@ -1858,7 +1858,6 @@
             "San Jose, CA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Redwood City, CA": {
                 "street": [
@@ -1893,7 +1892,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "Braintree": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Braintree-EI_IE424728.11,20.htm",
@@ -1903,7 +1903,6 @@
             "San Francisco, CA",
             "Austin, TX"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
                 "street": [
@@ -1938,7 +1937,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 1000
     },
     "Broadway Technology": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Broadway-Technology-EI_IE280111.11,30.htm",
@@ -1948,7 +1948,6 @@
             "Austin, TX",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Austin, TX": {
                 "street": [
@@ -1972,7 +1971,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "BuildZoom": {
         "url": "http://www.glassdoor.com/Overview/Working-at-BuildZoom-EI_IE1080962.11,20.htm",
@@ -1980,7 +1980,6 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [
@@ -1993,7 +1992,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "CBS Interactive": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-CBS-Interactive-EI_IE40687.11,26.htm",
@@ -2010,7 +2010,6 @@
             "Atlanta, GA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
                 "street": [
@@ -2090,7 +2089,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Cadre": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Cadre-Services-EI_IE428214.11,25.htm",
@@ -2098,7 +2098,6 @@
         "locations": [
             "Appleton, WI"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Appleton, WI": {
                 "street": [
@@ -2111,7 +2110,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 50
     },
     "Capital One": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Capital-One-EI_IE3736.11,22.htm",
@@ -2140,7 +2140,6 @@
             "Philadelphia, PA",
             "St. Cloud, MN"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Birmingham, AL": {
                 "street": [],
@@ -2318,7 +2317,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 10000
     },
     "Cisco": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Cisco-Systems-EI_IE1425.11,24.htm",
@@ -2360,7 +2360,6 @@
             "Los Angeles, CA",
             "Atlanta, GA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Dallas-Fort Worth, TX": {
                 "street": [
@@ -2796,7 +2795,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 10000
     },
     "Classy": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Classy-EI_IE814067.11,17.htm",
@@ -2804,7 +2804,6 @@
         "locations": [
             "San Diego, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Diego, CA": {
                 "street": [
@@ -2817,7 +2816,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 500
     },
     "ClearSlide": {
         "url": "http://www.glassdoor.com/Overview/Working-at-ClearSlide-EI_IE455829.11,21.htm",
@@ -2825,7 +2825,6 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [
@@ -2838,7 +2837,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "Cofense (PhishMe)": {
         "url": "https://www.glassdoor.com/Overview/Working-at-Cofense-EI_IE2059011.11,18.htm",
@@ -2846,13 +2846,13 @@
         "locations": [
             "Leesburg, VA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Leesburg, VA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Cogo": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Cogo-Labs-EI_IE640096.11,20.htm",
@@ -2861,7 +2861,6 @@
             "Cambridge, MA",
             "Boston, MA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Cambridge, MA": {
                 "street": [
@@ -2885,7 +2884,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "Constant Contact": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Constant-Contact-EI_IE22312.11,27.htm",
@@ -2896,7 +2896,6 @@
             "New York City, NY",
             "Boston, MA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Waltham, MA": {
                 "street": [
@@ -2935,7 +2934,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "Credit Sesame": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Credit-Sesame-EI_IE975582.11,24.htm",
@@ -2945,7 +2945,6 @@
             "San Francisco, CA",
             "Mountain View, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [
@@ -2980,7 +2979,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "Cruise": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Cruise-EI_IE977351.11,17.htm",
@@ -2988,7 +2988,6 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [
@@ -3006,7 +3005,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 1000
     },
     "Cumulus Networks": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Cumulus-Networks-EI_IE826371.11,27.htm",
@@ -3015,7 +3015,6 @@
             "San Jose, CA",
             "Mountain View, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [
@@ -3039,7 +3038,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "DE Shaw": {
         "url": "http://www.glassdoor.com/Overview/Working-at-D-E-Shaw-and-Co-Investment-Firm-EI_IE29290.11,42.htm",
@@ -3047,8 +3047,8 @@
         "locations": [
             "New York, NY"
         ],
-        "sizeUpper": 500,
-        "addresses": {}
+        "addresses": {},
+        "size": 1000
     },
     "Datadog": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Datadog-EI_IE762009.11,18.htm",
@@ -3057,7 +3057,6 @@
             "New York, NY",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [
@@ -3070,7 +3069,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 1000
     },
     "DeepMap": {
         "url": "http://www.glassdoor.com/Overview/Working-at-DeepMap-EI_IE1980571.11,18.htm",
@@ -3079,7 +3079,6 @@
             "Palo Alto, CA",
             "San Jose, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
                 "street": [
@@ -3103,7 +3102,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 50
     },
     "Delphix": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Delphix-EI_IE300100.11,18.htm",
@@ -3112,7 +3112,6 @@
             "Redwood City, CA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Redwood City, CA": {
                 "street": [
@@ -3136,7 +3135,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 500
     },
     "DigitalOcean": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-DigitalOcean-EI_IE823482.11,23.htm",
@@ -3148,7 +3148,6 @@
             "Denver, CO",
             "Los Angeles, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [
@@ -3173,7 +3172,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Docker": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Docker-EI_IE1089506.11,17.htm",
@@ -3181,7 +3181,6 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [
@@ -3194,7 +3193,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 500
     },
     "Dollar Shave Club": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Dollar-Shave-Club-EI_IE840235.11,28.htm",
@@ -3203,7 +3203,6 @@
             "Los Angeles, CA",
             "Marina del Rey, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [
@@ -3227,7 +3226,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 500
     },
     "Drive.ai": {
         "url": "http://www.glassdoor.com/Overview/Working-at-drive-ai-EI_IE1339202.11,19.htm",
@@ -3236,7 +3236,6 @@
             "San Jose, CA",
             "Mountain View, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [
@@ -3260,7 +3259,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "DriveTime": {
         "url": "http://www.glassdoor.com/Overview/Working-at-DriveTime-Automotive-Group-EI_IE6031.11,37.htm",
@@ -3269,7 +3269,6 @@
             "Tempe, AZ",
             "Phoenix, AZ"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Tempe, AZ": {
                 "street": [
@@ -3293,7 +3292,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 10000
     },
     "Dropbox": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Dropbox-EI_IE415350.11,18.htm",
@@ -3305,7 +3305,6 @@
             "San Francisco, CA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [
@@ -3351,7 +3350,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "Duolingo": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Duolingo-EI_IE629348.11,19.htm",
@@ -3359,7 +3359,6 @@
         "locations": [
             "Pittsburgh, PA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Pittsburgh, PA": {
                 "street": [
@@ -3372,7 +3371,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "Ebay": {
         "url": "http://www.glassdoor.com/Overview/Working-at-eBay-EI_IE7853.11,15.htm",
@@ -3389,7 +3389,6 @@
             "Sacramento, CA",
             "Austin, TX"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
                 "street": [],
@@ -3431,7 +3430,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Epic": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Epic-EI_IE35163.11,15.htm",
@@ -3446,7 +3446,6 @@
             "Verona, WI",
             "San Diego, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Green Bay, WI": {
                 "street": [
@@ -3508,7 +3507,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Esri": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Esri-EI_IE4043.11,15.htm",
@@ -3521,7 +3521,6 @@
             "Redlands, CA",
             "Los Angeles, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
                 "street": [
@@ -3578,7 +3577,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "Etsy": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Etsy-EI_IE42751.11,15.htm",
@@ -3589,7 +3589,6 @@
             "San Francisco, CA",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Brooklyn, NY": {
                 "street": [
@@ -3624,7 +3623,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 1000
     },
     "Evernote": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Evernote-EI_IE400095.11,19.htm",
@@ -3634,7 +3634,6 @@
             "San Francisco, CA",
             "Austin, TX"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Redwood City, CA": {
                 "street": [
@@ -3669,7 +3668,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 500
     },
     "Facebook": {
         "url": "https://www.glassdoor.com/facebook",
@@ -3688,7 +3688,6 @@
             "Austin, TX",
             "San Diego, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [
@@ -3794,7 +3793,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Fidelity": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Fidelity-Investments-EI_IE2786.11,31.htm",
@@ -3810,7 +3810,6 @@
             "Raleigh-Durham, NC",
             "Austin, TX"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Salt Lake City, UT": {
                 "street": [
@@ -3916,14 +3915,14 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 10000
     },
     "Figma": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Figma-EI_IE1537286.11,16.htm",
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [
@@ -3936,7 +3935,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 50
     },
     "Fitbit": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Fitbit-EI_IE500145.11,17.htm",
@@ -3945,7 +3945,6 @@
             "San Francisco, CA",
             "Boston, MA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [
@@ -3969,7 +3968,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "Fivestars": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Fivestars-EI_IE447133.11,20.htm",
@@ -3977,7 +3977,6 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [
@@ -3990,7 +3989,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 500
     },
     "Flatiron": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Flatiron-Construction-EI_IE16476.11,32.htm",
@@ -3998,7 +3998,6 @@
         "locations": [
             "Broomfield, CO"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Broomfield, CO": {
                 "street": [
@@ -4011,7 +4010,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "Flipboard": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Flipboard-EI_IE393688.11,20.htm",
@@ -4020,7 +4020,6 @@
             "San Jose, CA",
             "Palo Alto, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [
@@ -4044,7 +4043,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "Foursquare": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Foursquare-EI_IE492487.11,21.htm",
@@ -4055,7 +4055,6 @@
             "San Francisco, CA",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "New Orleans, LA": {
                 "street": [
@@ -4090,7 +4089,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "Frog": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Red-Frog-Events-EI_IE366780.11,26.htm",
@@ -4098,7 +4098,6 @@
         "locations": [
             "Chicago, IL"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
                 "street": [
@@ -4111,7 +4110,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "Galois": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Galois-EI_IE157069.11,17.htm",
@@ -4119,7 +4119,6 @@
         "locations": [
             "Portland, OR"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
                 "street": [
@@ -4132,7 +4131,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "Gigster": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Gigster-EI_IE1168400.11,18.htm",
@@ -4141,7 +4141,6 @@
             "San Francisco, CA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [
@@ -4154,7 +4153,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "Github": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-GitHub-EI_IE671945.11,17.htm",
@@ -4165,7 +4165,6 @@
             "Denver, CO",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [],
@@ -4179,7 +4178,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "GoDaddy": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-GoDaddy-EI_IE35337.11,18.htm",
@@ -4193,7 +4193,6 @@
             "San Francisco, CA",
             "Phoenix, AZ"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [
@@ -4265,7 +4264,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 10000
     },
     "Goldman Sachs": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Goldman-Sachs-EI_IE2800.11,24.htm",
@@ -4276,7 +4276,6 @@
             "New York, NY",
             "Dallas-Fort Worth, TX"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [
@@ -4321,7 +4320,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 10000
     },
     "Google": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Google-EI_IE9079.11,17.htm",
@@ -4374,7 +4374,6 @@
             "Los Angeles, CA",
             "Atlanta, GA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Charlotte, NC": {
                 "street": [
@@ -4683,7 +4682,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Groupon": {
         "url": "http://www.glassdoor.com/groupon",
@@ -4697,7 +4697,6 @@
             "Baltimore, MD",
             "Los Angeles, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -4727,7 +4726,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Guidewire": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Guidewire-EI_IE122537.11,20.htm",
@@ -4739,7 +4739,6 @@
             "Napa, CA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Birmingham, AL": {
                 "street": [],
@@ -4761,7 +4760,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "GumGum": {
         "url": "http://www.glassdoor.com/Overview/Working-at-GumGum-EI_IE279348.11,17.htm",
@@ -4770,7 +4770,6 @@
             "Los Angeles, CA",
             "Santa Monica, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [],
@@ -4780,7 +4779,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Gusto": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Gusto-EI_IE1069704.11,16.htm",
@@ -4789,7 +4789,6 @@
             "San Francisco, CA",
             "Denver, CO"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
@@ -4799,7 +4798,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "HomeAway": {
         "url": "http://www.glassdoor.com/Overview/Working-at-HomeAway-EI_IE42523.11,19.htm",
@@ -4808,7 +4808,6 @@
             "San Jose, CA",
             "Austin, TX"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [
@@ -4825,7 +4824,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Hootsuite": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Hootsuite-EI_IE617216.11,20.htm",
@@ -4833,8 +4833,8 @@
         "locations": [
             "Vancouver, BC (Canada)"
         ],
-        "sizeUpper": 500,
-        "addresses": {}
+        "addresses": {},
+        "size": 1000
     },
     "Houzz": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Houzz-EI_IE716331.11,16.htm",
@@ -4843,7 +4843,6 @@
             "Palo Alto, CA",
             "San Jose, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
                 "street": [
@@ -4860,7 +4859,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Hp": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Hewlett-Packard-Enterprise-HPE-EI_IE1093046.11,41.htm",
@@ -4899,7 +4899,6 @@
             "Los Angeles, CA",
             "Atlanta, GA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Fort Collins, CO": {
                 "street": [],
@@ -5029,7 +5028,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Hubspot": {
         "url": "http://www.glassdoor.com/Overview/Working-at-HubSpot-EI_IE227605.11,18.htm",
@@ -5038,7 +5038,6 @@
             "Cambridge, MA",
             "Boston, MA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Cambridge, MA": {
                 "street": [],
@@ -5048,7 +5047,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Hulu": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Hulu-EI_IE43242.11,15.htm",
@@ -5058,7 +5058,6 @@
             "Seattle, WA",
             "Santa Monica, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [],
@@ -5072,7 +5071,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "IBM": {
         "url": "http://www.glassdoor.com/Overview/Working-at-IBM-EI_IE354.11,14.htm",
@@ -5145,7 +5145,6 @@
             "Los Angeles, CA",
             "Atlanta, GA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Charlotte, NC": {
                 "street": [],
@@ -5407,7 +5406,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "IMC": {
         "url": "http://www.glassdoor.com/Overview/Working-at-IMC-EI_IE820687.11,14.htm",
@@ -5416,7 +5416,6 @@
             "Nottingham, England (UK)",
             "Chicago, IL"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Nottingham, England (UK)": {
                 "street": [],
@@ -5426,7 +5425,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "IXL Learning": {
         "url": "http://www.glassdoor.com/Overview/Working-at-IXL-Learning-EI_IE326423.11,23.htm",
@@ -5437,7 +5437,6 @@
             "San Mateo, CA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Raleigh-Durham, NC": {
                 "street": [],
@@ -5455,7 +5454,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Icims": {
         "url": "http://www.glassdoor.com/Overview/Working-at-iCIMS-EI_IE34908.11,16.htm",
@@ -5464,7 +5464,6 @@
             "Holmdel, NJ",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Holmdel, NJ": {
                 "street": [],
@@ -5474,7 +5473,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Ideo": {
         "url": "http://www.glassdoor.com/Overview/Working-at-IDEO-EI_IE9948.11,15.htm",
@@ -5483,7 +5483,6 @@
             "Palo Alto, CA",
             "San Jose, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
                 "street": [],
@@ -5493,7 +5492,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Industry Drive": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Drive-Automotive-Industries-of-America-EI_IE294485.11,49.htm",
@@ -5501,13 +5501,13 @@
         "locations": [
             "Piedmont, SC"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Piedmont, SC": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Infinera": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Infinera-EI_IE15060.11,19.htm",
@@ -5516,7 +5516,6 @@
             "San Jose, CA",
             "Sunnyvale, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -5526,7 +5525,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Inkling": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Inkling-EI_IE415006.11,18.htm",
@@ -5534,13 +5534,13 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Intel": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Intel-Corporation-EI_IE1519.11,28.htm",
@@ -5584,7 +5584,6 @@
             "Pittsburgh, PA",
             "Los Angeles, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Columbus, GA": {
                 "street": [],
@@ -5730,7 +5729,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Intuit": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Intuit-EI_IE2293.11,17.htm",
@@ -5755,7 +5755,6 @@
             "Atlanta, GA",
             "San Diego, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -5825,7 +5824,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "JPMorgan": {
         "url": "http://www.glassdoor.com/Overview/Working-at-J-P-Morgan-EI_IE145.11,21.htm",
@@ -5846,7 +5846,6 @@
             "San Francisco, CA",
             "Los Angeles, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Philadelphia, PA": {
                 "street": [],
@@ -5900,7 +5899,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Jane Street": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Jane-Street-EI_IE255549.11,22.htm",
@@ -5909,13 +5909,13 @@
             "New York, NY",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Jawbone": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Jawbone-EI_IE472684.11,18.htm",
@@ -5925,7 +5925,6 @@
             "Seattle, WA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -5939,7 +5938,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Jump Trading": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Jump-Trading-EI_IE251744.11,23.htm",
@@ -5950,7 +5950,6 @@
             "Hartford, CT",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
                 "street": [],
@@ -5968,7 +5967,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Juniper": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Juniper-Networks-EI_IE7224.11,27.htm",
@@ -5986,7 +5986,6 @@
             "Los Angeles, CA",
             "Atlanta, GA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -6028,20 +6027,21 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Karat": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Karat-EI_IE1286154.11,16.htm",
         "locations": [
             "Seattle, WA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "Kayak": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Kayak-com-EI_IE37851.11,20.htm",
@@ -6054,7 +6054,6 @@
             "San Francisco, CA",
             "Kingston, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -6080,7 +6079,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Khan Academy": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Khan-Academy-EI_IE452278.11,23.htm",
@@ -6092,7 +6092,6 @@
             "San Luis Obispo, CA",
             "Mountain View, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -6110,7 +6109,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Kinnek": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Kinnek-EI_IE1277707.11,17.htm",
@@ -6118,8 +6118,8 @@
         "locations": [
             "New York, NY"
         ],
-        "sizeUpper": 500,
-        "addresses": {}
+        "addresses": {},
+        "size": 50
     },
     "LastPass": {
         "url": "http://www.glassdoor.com/Overview/Working-at-LogMeIn-EI_IE43330.11,18.htm",
@@ -6133,7 +6133,6 @@
             "Santa Barbara, CA",
             "Wichita, KS"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -6163,7 +6162,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "LendUp": {
         "url": "http://www.glassdoor.com/Overview/Working-at-LendUp-EI_IE939161.11,17.htm",
@@ -6171,13 +6171,13 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Lever": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Lever-EI_IE816969.11,16.htm",
@@ -6185,13 +6185,13 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "LinkedIn": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-LinkedIn-EI_IE34865.11,19.htm",
@@ -6205,7 +6205,6 @@
             "Mountain View, CA",
             "Los Angeles, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -6235,7 +6234,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "LiveRamp": {
         "url": "http://www.glassdoor.com/Overview/Working-at-LiveRamp-EI_IE633892.11,19.htm",
@@ -6244,7 +6244,6 @@
             "San Francisco, CA",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
@@ -6254,7 +6253,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Lob": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Lob-EI_IE907973.11,14.htm",
@@ -6262,13 +6262,13 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "Logitech": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Logitech-EI_IE3806.11,19.htm",
@@ -6281,7 +6281,6 @@
             "Austin, TX",
             "Lausanne (Switzerland)"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
                 "street": [],
@@ -6307,7 +6306,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Lucid": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Lucid-EI_IE257462.11,16.htm",
@@ -6317,7 +6317,6 @@
             "San Francisco, CA",
             "Oakland, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "New Orleans, LA": {
                 "street": [],
@@ -6331,7 +6330,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Lyft": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Lyft-EI_IE700614.11,15.htm",
@@ -6342,7 +6342,6 @@
             "San Francisco, CA",
             "San Antonio, TX"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -6360,7 +6359,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Lytx": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Lytx-EI_IE813859.11,15.htm",
@@ -6369,13 +6369,13 @@
             "San Diego, CA",
             "San Diego, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Diego, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "MailChimp": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Mailchimp-EI_IE453264.11,20.htm",
@@ -6383,13 +6383,13 @@
         "locations": [
             "Atlanta, GA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Atlanta, GA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "MathWorks": {
         "url": "http://www.glassdoor.com/Overview/Working-at-MathWorks-EI_IE17117.11,20.htm",
@@ -6400,7 +6400,6 @@
             "Detroit, MI",
             "Boston, MA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Buffalo, NY": {
                 "street": [],
@@ -6418,7 +6417,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Medallia": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Medallia-EI_IE268806.11,19.htm",
@@ -6428,7 +6428,6 @@
             "San Jose, CA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Mateo, CA": {
                 "street": [],
@@ -6442,7 +6441,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Medium": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Medium-California-EI_IE784883.11,28.htm",
@@ -6450,13 +6450,13 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Mesosphere": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Mesosphere-EI_IE941359.11,21.htm",
@@ -6464,13 +6464,13 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Microsoft": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Microsoft-EI_IE1651.11,20.htm",
@@ -6499,7 +6499,6 @@
             "Pittsburgh, PA",
             "Los Angeles, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Charlotte, NC": {
                 "street": [],
@@ -6589,7 +6588,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Mixmax": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Mixmax-EI_IE1944231.11,17.htm",
@@ -6597,13 +6597,13 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "MongoDB": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-MongoDB-EI_IE433703.11,18.htm",
@@ -6613,7 +6613,6 @@
             "San Jose, CA",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -6623,7 +6622,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Mozilla": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Mozilla-EI_IE19129.11,18.htm",
@@ -6636,7 +6636,6 @@
             "San Francisco, CA",
             "Vancouver, BC, Canada"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
                 "street": [],
@@ -6662,7 +6661,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "MuleSoft": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-MuleSoft-EI_IE341641.11,19.htm",
@@ -6671,13 +6671,13 @@
             "San Francisco, CA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Narrative Science": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Narrative-Science-EI_IE796038.11,28.htm",
@@ -6685,13 +6685,13 @@
         "locations": [
             "Chicago, IL"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Nest": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Nest-EI_IE670862.11,15.htm",
@@ -6702,7 +6702,6 @@
             "San Francisco, CA",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
                 "street": [],
@@ -6720,7 +6719,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "NextCapital": {
         "url": "http://www.glassdoor.com/Overview/Working-at-NextCapital-Group-EI_IE1259481.11,28.htm",
@@ -6729,7 +6729,6 @@
             "Chicago, IL",
             "Burlington, VT"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
                 "street": [],
@@ -6739,7 +6738,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Nextdoor": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Nextdoor-EI_IE661718.11,19.htm",
@@ -6747,13 +6747,13 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Nvidia": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-NVIDIA-EI_IE7633.11,17.htm",
@@ -6772,7 +6772,6 @@
             "Los Angeles, CA",
             "Austin, TX"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
                 "street": [],
@@ -6822,7 +6821,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Occipital": {
         "url": "http://www.glassdoor.com/Overview/Working-at-OCCIPITAL-EI_IE433274.11,20.htm",
@@ -6830,13 +6830,13 @@
         "locations": [
             "Boulder, CO"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Boulder, CO": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "Oculus": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Oculus-EI_IE41705.11,17.htm",
@@ -6845,7 +6845,6 @@
             "Petaluma, CA",
             "Boston, MA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Petaluma, CA": {
                 "street": [],
@@ -6855,7 +6854,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "OfferUp": {
         "url": "http://www.glassdoor.com/Overview/Working-at-OfferUp-EI_IE854884.11,18.htm",
@@ -6864,7 +6864,6 @@
             "Bellevue, WA",
             "Seattle, WA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Bellevue, WA": {
                 "street": [],
@@ -6874,7 +6873,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Okta": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Okta-EI_IE444756.11,15.htm",
@@ -6885,7 +6885,6 @@
             "San Francisco, CA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
                 "street": [],
@@ -6899,7 +6898,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Optimizely": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Optimizely-EI_IE593559.11,21.htm",
@@ -6907,13 +6907,13 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Oracle": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Oracle-EI_IE1737.11,17.htm",
@@ -7011,7 +7011,6 @@
             "Memphis, TN",
             "Atlanta, GA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Dallas-Fort Worth, TX": {
                 "street": [],
@@ -7373,7 +7372,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Oscar": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Oscar-EI_IE756637.11,16.htm",
@@ -7382,7 +7382,6 @@
             "Manchester, England (UK)",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Manchester, England (UK)": {
                 "street": [],
@@ -7392,7 +7391,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Palantir": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Palantir-Technologies-EI_IE236375.11,32.htm",
@@ -7405,7 +7405,6 @@
             "Washington, DC ",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
                 "street": [],
@@ -7427,7 +7426,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Pandora": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Pandora-Jewelry-EI_IE346695.11,26.htm",
@@ -7435,13 +7435,13 @@
         "locations": [
             "Copenhagen (Denmark)"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Copenhagen (Denmark)": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "PayPal": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-PayPal-EI_IE9848.11,17.htm",
@@ -7462,7 +7462,6 @@
             "San Antonio, TX",
             "Austin, TX"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Philadelphia, PA": {
                 "street": [],
@@ -7516,7 +7515,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Percolate": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Percolate-EI_IE695577.11,20.htm",
@@ -7525,13 +7525,13 @@
             "New York, NY",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Phosphorus": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Phosphorus-EI_IE1386551.11,21.htm",
@@ -7540,13 +7540,13 @@
             "New York, NY",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "Pinterest": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Pinterest-EI_IE503467.11,20.htm",
@@ -7556,7 +7556,6 @@
             "New York City, NY",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
@@ -7566,7 +7565,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Pivotal": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Pivotal-EI_IE687287.11,18.htm",
@@ -7584,7 +7584,6 @@
             "Denver, CO",
             "Los Angeles, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
                 "street": [],
@@ -7626,7 +7625,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Playstation": {
         "url": "http://www.glassdoor.com/Overview/Working-at-PlayStation-EI_IE117138.11,22.htm",
@@ -7640,7 +7640,6 @@
             "San Mateo, CA",
             "San Diego, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
                 "street": [],
@@ -7670,7 +7669,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Postmates": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Postmates-EI_IE620298.11,20.htm",
@@ -7678,13 +7678,13 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Priceline": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Priceline-com-EI_IE9005.11,24.htm",
@@ -7695,7 +7695,6 @@
             "New York City, NY",
             "Bridgeport, CT"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [],
@@ -7713,7 +7712,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Pure Storage": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Pure-Storage-EI_IE364364.11,23.htm",
@@ -7722,7 +7722,6 @@
             "San Jose, CA",
             "Mountain View, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -7732,7 +7731,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Qualcomm": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Qualcomm-EI_IE640.11,19.htm",
@@ -7755,7 +7755,6 @@
             "Austin, TX",
             "San Diego, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
                 "street": [],
@@ -7821,7 +7820,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Qualtrics": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Qualtrics-EI_IE323717.11,20.htm",
@@ -7831,7 +7831,6 @@
             "Salt Lake City, UT",
             "Seattle, WA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Provo, UT": {
                 "street": [],
@@ -7845,7 +7844,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Quantcast": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Quantcast-EI_IE222862.11,20.htm",
@@ -7855,7 +7855,6 @@
             "San Francisco, CA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
                 "street": [],
@@ -7865,7 +7864,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Quizlet": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Quizlet-EI_IE458146.11,18.htm",
@@ -7873,13 +7873,13 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Quora": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Quora-Inc-EI_IE646885.11,20.htm",
@@ -7888,7 +7888,6 @@
             "San Jose, CA",
             "Mountain View, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -7898,7 +7897,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Rackspace": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Rackspace-EI_IE11783.11,20.htm",
@@ -7907,7 +7907,6 @@
             "Chicago, IL",
             "San Antonio, TX"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
                 "street": [],
@@ -7917,7 +7916,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "RedHat": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Red-Hat-EI_IE8868.11,18.htm",
@@ -7935,7 +7935,6 @@
             "Raleigh, NC",
             "Austin, TX"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -7973,7 +7972,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Redbooth": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Redbooth-EI_IE806299.11,19.htm",
@@ -7982,7 +7982,6 @@
             "Palo Alto, CA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
                 "street": [],
@@ -7992,7 +7991,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "Reddit": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Reddit-EI_IE796358.11,17.htm",
@@ -8000,13 +8000,13 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Redfin": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Redfin-EI_IE150726.11,17.htm",
@@ -8016,7 +8016,6 @@
             "Seattle, WA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [],
@@ -8030,7 +8029,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "RevolutionParts": {
         "url": "http://www.glassdoor.com/Overview/Working-at-RevolutionParts-EI_IE1264077.11,26.htm",
@@ -8038,13 +8038,13 @@
         "locations": [
             "Phoenix, AZ"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Phoenix, AZ": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "Riot Games": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Riot-Games-EI_IE247538.11,21.htm",
@@ -8057,7 +8057,6 @@
             "Los Angeles, CA",
             "Los Angeles, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -8079,7 +8078,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Ripple": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Ripple-EI_IE798412.11,17.htm",
@@ -8087,13 +8087,13 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Roblox": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Roblox-EI_IE242265.11,17.htm",
@@ -8102,7 +8102,6 @@
             "San Mateo, CA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Mateo, CA": {
                 "street": [],
@@ -8112,7 +8111,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Roku": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Roku-EI_IE26760.11,15.htm",
@@ -8121,7 +8121,6 @@
             "San Jose, CA",
             "Los Gatos, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -8131,7 +8130,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Rubrik": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Rubrik-EI_IE955861.11,17.htm",
@@ -8140,7 +8140,6 @@
             "Palo Alto, CA",
             "San Jose, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
                 "street": [],
@@ -8150,7 +8149,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Salesforce": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Salesforce-EI_IE11159.11,21.htm",
@@ -8175,7 +8175,6 @@
             "Los Angeles, CA",
             "Atlanta, GA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Boulder, CO": {
                 "street": [],
@@ -8249,7 +8248,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "SendGrid": {
         "url": "http://www.glassdoor.com/Overview/Working-at-SendGrid-EI_IE466121.11,19.htm",
@@ -8258,7 +8258,6 @@
             "Los Angeles, CA",
             "Denver, CO"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [],
@@ -8268,7 +8267,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Sensus": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Sensus-EI_IE226154.11,17.htm",
@@ -8280,7 +8280,6 @@
             "Raleigh, NC",
             "Atlanta, GA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Boise, ID": {
                 "street": [],
@@ -8298,7 +8297,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "ShipHawk": {
         "url": "http://www.glassdoor.com/Overview/Working-at-ShipHawk-EI_IE819996.11,19.htm",
@@ -8306,13 +8306,13 @@
         "locations": [
             "Santa Barbara, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Santa Barbara, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "Shogun": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Shogun-EI_IE1979949.11,17.htm",
@@ -8320,13 +8320,13 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "Shopify": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Shopify-EI_IE675933.11,18.htm",
@@ -8339,7 +8339,6 @@
             "Ottawa, ON, Canada",
             "Ottawa, ON"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Montreal, QC, Canada": {
                 "street": [],
@@ -8361,7 +8360,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "ShoreTel": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-ShoreTel-EI_IE9479.11,19.htm",
@@ -8373,7 +8373,6 @@
             "Sunnyvale, CA",
             "Austin, TX"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Rochester, NY": {
                 "street": [],
@@ -8395,7 +8394,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Shutterfly": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Shutterfly-EI_IE38329.11,21.htm",
@@ -8407,7 +8407,6 @@
             "Phoenix, AZ",
             "Philadelphia, PA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -8429,7 +8428,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Sift Science": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Sift-Science-EI_IE776319.11,23.htm",
@@ -8438,7 +8438,6 @@
             "Seattle, WA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
                 "street": [],
@@ -8448,7 +8447,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Slack": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Slack-EI_IE950758.11,16.htm",
@@ -8457,7 +8457,6 @@
             "Seattle, WA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
                 "street": [],
@@ -8467,7 +8466,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Snap": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Snap-EI_IE671946.11,15.htm",
@@ -8480,7 +8480,6 @@
             "San Francisco, CA",
             "Los Angeles, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
                 "street": [],
@@ -8506,7 +8505,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "SpaceX": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-SpaceX-EI_IE40371.11,17.htm",
@@ -8517,7 +8517,6 @@
             "Seattle, WA",
             "Merced, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [],
@@ -8535,7 +8534,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Spotify": {
         "url": "https://www.glassdoor.com/spotify",
@@ -8546,7 +8546,6 @@
             "New York City, NY",
             "Boston, MA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Stockholm, Stockholm (Sweden)": {
                 "street": [],
@@ -8564,7 +8563,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Sprout Social": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Sprout-Social-EI_IE701678.11,24.htm",
@@ -8573,13 +8573,13 @@
             "Chicago, IL",
             "Chicago, IL"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Square": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Square-EI_IE422050.11,17.htm",
@@ -8591,7 +8591,6 @@
             "San Francisco, CA",
             "Atlanta, GA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -8613,7 +8612,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Squarespace": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Squarespace-EI_IE466343.11,22.htm",
@@ -8622,13 +8622,13 @@
             "New York, NY",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Starsky Robotics": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Starsky-Robotics-EI_IE2011265.11,27.htm",
@@ -8636,13 +8636,13 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "StateFarm": {
         "url": "http://www.glassdoor.com/Overview/Working-at-State-Farm-EI_IE2990.11,21.htm",
@@ -8656,7 +8656,6 @@
             "Atlanta, GA",
             "Bloomington, IL"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -8686,7 +8685,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "StreetEasy": {
         "url": "http://www.glassdoor.com/Overview/Working-at-StreetEasy-EI_IE903140.11,21.htm",
@@ -8694,8 +8694,8 @@
         "locations": [
             "New York, NY"
         ],
-        "sizeUpper": 500,
-        "addresses": {}
+        "addresses": {},
+        "size": 200
     },
     "Stripe": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Stripe-EI_IE671932.11,17.htm",
@@ -8706,7 +8706,6 @@
             "San Francisco, CA",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -8724,7 +8723,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "StudySoup": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-StudySoup-EI_IE1073608.11,20.htm",
@@ -8732,13 +8732,13 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "SurveyMonkey": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-SurveyMonkey-EI_IE347449.11,23.htm",
@@ -8750,7 +8750,6 @@
             "Ottawa, ON, Canada",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Mateo, CA": {
                 "street": [],
@@ -8772,7 +8771,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Tableau": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Tableau-EI_IE2127592.11,18.htm",
@@ -8780,26 +8780,26 @@
         "locations": [
             "New Orleans, LA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "New Orleans, LA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Tendigi": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Tendigi-EI_IE1524438.11,18.htm",
         "locations": [
             "Brooklyn, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Brooklyn, NY": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "Teradata": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Teradata-EI_IE14638.11,19.htm",
@@ -8829,7 +8829,6 @@
             "Philadelphia, PA",
             "Atlanta, GA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Dallas-Fort Worth, TX": {
                 "street": [],
@@ -8915,7 +8914,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Tesla": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Tesla-EI_IE43129.11,16.htm",
@@ -8926,7 +8926,6 @@
             "San Francisco, CA",
             "Palo Alto, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -8944,7 +8943,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Textio": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Textio-EI_IE1554391.11,17.htm",
@@ -8952,13 +8952,13 @@
         "locations": [
             "Seattle, WA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Thanx": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Thanx-EI_IE922325.11,16.htm",
@@ -8966,13 +8966,13 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "ThoughtSpot": {
         "url": "http://www.glassdoor.com/Overview/Working-at-ThoughtSpot-EI_IE818996.11,22.htm",
@@ -8981,7 +8981,6 @@
             "Palo Alto, CA",
             "San Jose, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
                 "street": [],
@@ -8991,7 +8990,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "ThousandEyes": {
         "url": "http://www.glassdoor.com/Overview/Working-at-ThousandEyes-EI_IE486049.11,23.htm",
@@ -8999,13 +8999,13 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Thumbtack": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Thumbtack-EI_IE414078.11,20.htm",
@@ -9014,13 +9014,13 @@
             "San Francisco, CA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Tinder": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Tinder-EI_IE916118.11,17.htm",
@@ -9030,7 +9030,6 @@
             "San Jose, CA",
             "West Hollywood, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [],
@@ -9044,7 +9043,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Tint": {
         "url": "http://www.glassdoor.com/Overview/Working-at-TINT-EI_IE1254063.11,15.htm",
@@ -9052,13 +9052,13 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "Trello": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Trello-EI_IE1359158.11,17.htm",
@@ -9066,8 +9066,8 @@
         "locations": [
             "New York, NY"
         ],
-        "sizeUpper": 500,
-        "addresses": {}
+        "addresses": {},
+        "size": 50
     },
     "TripAdvisor": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-TripAdvisor-EI_IE15276.11,22.htm",
@@ -9082,7 +9082,6 @@
             "Los Angeles, CA",
             "Needham, MA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -9116,7 +9115,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Tumblr": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Tumblr-EI_IE458427.11,17.htm",
@@ -9125,13 +9125,13 @@
             "New York, NY",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Twilio": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Twilio-EI_IE410790.11,17.htm",
@@ -9140,7 +9140,6 @@
             "San Jose, CA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -9150,7 +9149,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Twitch": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Twitch-EI_IE639426.11,17.htm",
@@ -9164,7 +9164,6 @@
             "Los Angeles, CA",
             "Austin, TX"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
                 "street": [],
@@ -9194,7 +9193,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Twitter": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Twitter-EI_IE100569.11,18.htm",
@@ -9207,7 +9207,6 @@
             "San Francisco, CA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -9229,7 +9228,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Two Sigma": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Two-Sigma-EI_IE241045.11,20.htm",
@@ -9240,7 +9240,6 @@
             "Houston, TX",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Jesup, GA": {
                 "street": [],
@@ -9254,7 +9253,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Uber": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Uber-EI_IE575263.11,15.htm",
@@ -9270,7 +9270,6 @@
             "Pittsburgh, PA",
             "Boulder, CO"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -9308,7 +9307,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Ultimate Software": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Ultimate-Software-EI_IE7900.11,28.htm",
@@ -9322,7 +9322,6 @@
             "Weston, FL",
             "Atlanta, GA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Miami-Fort Lauderdale, FL": {
                 "street": [],
@@ -9352,7 +9351,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Unity": {
         "url": "http://www.glassdoor.com/Overview/Working-at-UNITY-EI_IE947678.11,16.htm",
@@ -9360,13 +9360,13 @@
         "locations": [
             "B\u00fcren, Nordrhein-Westfalen (Germany)"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "B\u00fcren, Nordrhein-Westfalen (Germany)": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Uptake": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Uptake-EI_IE978686.11,17.htm",
@@ -9374,13 +9374,13 @@
         "locations": [
             "Chicago, IL"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Upwork": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Upwork-EI_IE993959.11,17.htm",
@@ -9394,7 +9394,6 @@
             "San Francisco, CA",
             "Mountain View, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Jonesboro, AR": {
                 "street": [],
@@ -9424,7 +9423,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Usaa": {
         "url": "http://www.glassdoor.com/Overview/Working-at-USAA-EI_IE3033.11,15.htm",
@@ -9434,7 +9434,6 @@
             "Dallas-Fort Worth, TX",
             "San Antonio, TX"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Phoenix, AZ": {
                 "street": [],
@@ -9448,7 +9447,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Valassis Digital": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Valassis-Digital-EI_IE1989995.11,27.htm",
@@ -9456,13 +9456,13 @@
         "locations": [
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Valve": {
         "url": "https://www.glassdoor.ca/Reviews/Valve-Corporation-Reviews-E24849.htm",
@@ -9470,13 +9470,13 @@
         "locations": [
             "Bellevue, WA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Bellevue, WA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Venmo": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Venmo-EI_IE447866.11,16.htm",
@@ -9486,7 +9486,6 @@
             "Austin, TX",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Austin, TX": {
                 "street": [],
@@ -9496,7 +9495,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Vizio": {
         "url": "http://www.glassdoor.com/Overview/Working-at-VIZIO-EI_IE100251.11,16.htm",
@@ -9506,7 +9506,6 @@
             "Seattle, WA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Irvine, CA": {
                 "street": [],
@@ -9520,7 +9519,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Walmart Labs": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Walmart-eCommerce-EI_IE29449.11,28.htm",
@@ -9533,7 +9533,6 @@
             "San Bruno, CA",
             "San Diego, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -9555,7 +9554,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Walt Disney": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Walt-Disney-Company-EI_IE717.11,30.htm",
@@ -9571,7 +9571,6 @@
             "Los Angeles, CA",
             "Hartford, CT"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Orlando, FL": {
                 "street": [],
@@ -9609,7 +9608,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Wayfair": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Wayfair-EI_IE134525.11,18.htm",
@@ -9617,13 +9617,13 @@
         "locations": [
             "Boston, MA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Boston, MA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "WeWork": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-WeWork-EI_IE661275.11,17.htm",
@@ -9632,13 +9632,13 @@
             "New York, NY",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Weebly": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Weebly-EI_IE372575.11,17.htm",
@@ -9648,7 +9648,6 @@
             "New York City, NY",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
@@ -9658,7 +9657,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "WhatsApp": {
         "url": "http://www.glassdoor.com/Overview/Working-at-WhatsApp-EI_IE418234.11,19.htm",
@@ -9669,7 +9669,6 @@
             "San Francisco, CA",
             "Mountain View, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [],
@@ -9687,7 +9686,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "WillowTree": {
         "url": "http://www.glassdoor.com/Overview/Working-at-WillowTree-EI_IE512911.11,21.htm",
@@ -9696,7 +9696,6 @@
             "Raleigh-Durham, NC",
             "Charlottesville, VA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Raleigh-Durham, NC": {
                 "street": [],
@@ -9706,7 +9705,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Workday": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Workday-EI_IE197851.11,18.htm",
@@ -9715,7 +9715,6 @@
             "Pleasanton, CA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Pleasanton, CA": {
                 "street": [],
@@ -9725,7 +9724,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Workiva": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Workiva-EI_IE833668.11,18.htm",
@@ -9740,7 +9740,6 @@
             "Phoenix, AZ",
             "Boulder, CO"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Columbus, GA": {
                 "street": [],
@@ -9770,7 +9769,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Xero": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Xero-EI_IE318448.11,15.htm",
@@ -9779,7 +9779,6 @@
             "San Francisco, CA",
             "Denver, CO"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
@@ -9789,7 +9788,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Yahoo": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Yahoo-EI_IE5807.11,16.htm",
@@ -9817,7 +9817,6 @@
             "Los Angeles, CA",
             "Atlanta, GA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Dallas-Fort Worth, TX": {
                 "street": [],
@@ -9903,7 +9902,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Yelp": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Yelp-EI_IE43314.11,15.htm",
@@ -9916,7 +9916,6 @@
             "Los Angeles, CA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -9938,7 +9937,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Yext": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Yext-EI_IE312260.11,15.htm",
@@ -9948,13 +9948,13 @@
             "Washington, DC ",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Zappos": {
         "url": "http://www.glassdoor.com/Overview/Working-at-The-Zappos-Family-EI_IE19906.11,28.htm",
@@ -9965,7 +9965,6 @@
             "Las Vegas, NV",
             "Seattle, WA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Santa Fe, NM": {
                 "street": [],
@@ -9983,7 +9982,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Zendesk": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Zendesk-EI_IE360923.11,18.htm",
@@ -9993,7 +9993,6 @@
             "Madison, WI",
             "Boston, MA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
@@ -10007,7 +10006,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Zenefits": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Zenefits-EI_IE820238.11,19.htm",
@@ -10017,7 +10017,6 @@
             "San Francisco, CA",
             "Vancouver, BC, Canada"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
@@ -10027,7 +10026,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Zillow": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Zillow-EI_IE40802.11,17.htm",
@@ -10037,7 +10037,6 @@
             "Seattle, WA",
             "San Francisco, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [],
@@ -10051,7 +10050,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Zocdoc": {
         "url": "http://www.glassdoor.com/Overview/Working-at-Zocdoc-EI_IE250247.11,17.htm",
@@ -10060,13 +10060,13 @@
             "New York, NY",
             "New York City, NY"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Zurb": {
         "url": "http://www.glassdoor.com/Overview/Working-at-ZURB-EI_IE734219.11,15.htm",
@@ -10074,13 +10074,13 @@
         "locations": [
             "Campbell, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Campbell, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Zynga": {
         "url": "https://www.glassdoor.ca/Overview/Working-at-Zynga-EI_IE243552.11,16.htm",
@@ -10102,7 +10102,6 @@
             "Austin, TX",
             "San Diego, CA"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Orlando, FL": {
                 "street": [],
@@ -10160,7 +10159,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "The Honest Company": {
         "url": "https://www.glassdoor.com/Overview/Working-at-The-Honest-Company-EI_IE745391.11,29.htm",
@@ -10169,7 +10169,6 @@
             "Los Angeles, CA",
             "Austin, TX"
         ],
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [],
@@ -10179,6 +10178,7 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     }
 }

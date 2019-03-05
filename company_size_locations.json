@@ -34,7 +34,7 @@
             }
         },
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500
+        "size": 500
     },
     "Addepar": {
         "loc": [
@@ -49,7 +49,6 @@
             "New York City, NY"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [
@@ -84,7 +83,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 500
     },
     "Airbnb": {
         "loc": [
@@ -100,7 +100,6 @@
             "Los Angeles, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
                 "street": [
@@ -157,7 +156,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "Airware": {
         "loc": [
@@ -169,7 +169,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [
@@ -182,7 +181,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "Akamai": {
         "loc": [
@@ -202,7 +202,6 @@
             "San Diego, CA"
         ],
         "sizeDescription": "5001 to 10000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Cambridge, MA": {
                 "street": [
@@ -313,7 +312,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 10000
     },
     "Akuna Capital": {
         "loc": [
@@ -325,7 +325,6 @@
             "Chicago, IL"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
                 "street": [
@@ -338,7 +337,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "Alarm": {
         "loc": [
@@ -356,7 +356,6 @@
             "Provo, UT"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "McLean, VA": {
                 "street": [
@@ -388,7 +387,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Amazon": {
         "loc": [
@@ -436,7 +436,6 @@
             "Los Angeles, CA"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Charlotte, NC": {
                 "street": [
@@ -722,7 +721,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 10000
     },
     "American Express": {
         "loc": [
@@ -745,7 +745,6 @@
             "Phoenix, AZ"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Salt Lake City, UT": {
                 "street": [
@@ -832,7 +831,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 10000
     },
     "Ancestry": {
         "loc": [
@@ -846,7 +846,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Lehi, UT": {
                 "street": [
@@ -881,7 +880,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "AppDynamics": {
         "loc": [
@@ -895,7 +895,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [
@@ -935,7 +934,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "AppFolio": {
         "loc": [
@@ -950,7 +950,6 @@
             "San Diego, CA"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [
@@ -996,7 +995,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 1000
     },
     "AppNexus": {
         "loc": [
@@ -1014,7 +1014,6 @@
             "Boulder, CO"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
                 "street": [
@@ -1060,7 +1059,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "Appian": {
         "loc": [
@@ -1073,7 +1073,6 @@
             "Washington, DC "
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Reston, VA": {
                 "street": [
@@ -1086,7 +1085,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "Apple": {
         "loc": [
@@ -1116,7 +1116,6 @@
             "Austin, TX"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Charlotte, NC": {
                 "street": [],
@@ -1292,7 +1291,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 10000
     },
     "Asana": {
         "loc": [
@@ -1305,7 +1305,6 @@
             "New York City, NY"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [
@@ -1329,7 +1328,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 500
     },
     "Atlassian": {
         "loc": [
@@ -1347,7 +1347,6 @@
             "Austin, TX"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [
@@ -1408,7 +1407,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "BNY Mellon": {
         "loc": [
@@ -1426,7 +1426,6 @@
             "Boston, MA"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Pittsburgh, PA": {
                 "street": [
@@ -1454,7 +1453,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Bank of America": {
         "loc": [
@@ -1483,7 +1483,6 @@
             "San Diego, CA"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Charlotte, NC": {
                 "street": [
@@ -1670,7 +1669,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 10000
     },
     "Betterment": {
         "loc": [
@@ -1683,7 +1683,6 @@
             "New York City, NY"
         ],
         "sizeDescription": "1 to 50 employees",
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [
@@ -1696,7 +1695,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 50
     },
     "BitTitan": {
         "loc": [
@@ -1709,7 +1709,6 @@
             "Seattle, WA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Kirkland, WA": {
                 "street": [
@@ -1733,7 +1732,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 500
     },
     "Blackbaud": {
         "loc": [
@@ -1752,7 +1752,6 @@
             "San Diego, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Daniel Island, SC": {
                 "street": [
@@ -1835,7 +1834,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Blend": {
         "loc": [
@@ -1847,13 +1847,13 @@
             "Vejle (Denmark)"
         ],
         "sizeDescription": "1 to 50 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Vejle (Denmark)": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "Bloomberg": {
         "loc": [
@@ -1869,7 +1869,6 @@
             "Los Angeles, CA"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Albany, NY": {
                 "street": [],
@@ -1894,7 +1893,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Bluebeam": {
         "loc": [
@@ -1908,7 +1908,6 @@
             "Dallas-Fort Worth, TX"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Pasadena, CA": {
                 "street": [
@@ -1948,7 +1947,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 500
     },
     "Boomerang": {
         "loc": [
@@ -1960,7 +1960,6 @@
             "East Palo Alto, CA"
         ],
         "sizeDescription": "1 to 50 employees",
-        "sizeUpper": 500,
         "addresses": {
             "East Palo Alto, CA": {
                 "street": [
@@ -1973,7 +1972,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 50
     },
     "Box": {
         "loc": [
@@ -1987,7 +1987,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Redwood City, CA": {
                 "street": [
@@ -2022,7 +2021,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "Braintree": {
         "loc": [
@@ -2036,7 +2036,6 @@
             "Austin, TX"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
                 "street": [
@@ -2071,7 +2070,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 1000
     },
     "Broadway Technology": {
         "loc": [
@@ -2085,7 +2085,6 @@
             "New York City, NY"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Austin, TX": {
                 "street": [
@@ -2109,7 +2108,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "BuildZoom": {
         "loc": [
@@ -2121,7 +2121,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [
@@ -2134,7 +2133,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "CBS Interactive": {
         "loc": [
@@ -2156,7 +2156,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
                 "street": [
@@ -2236,7 +2235,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Cadre": {
         "loc": [
@@ -2247,8 +2247,7 @@
         "locations": [
             "Appleton, WI"
         ],
-        "sizeDescription": "Unknown",
-        "sizeUpper": 500,
+        "sizeDescription": "1 to 50 employees",
         "addresses": {
             "Appleton, WI": {
                 "street": [
@@ -2261,7 +2260,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 50
     },
     "Capital One": {
         "loc": [
@@ -2297,7 +2297,6 @@
             "St. Cloud, MN"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Birmingham, AL": {
                 "street": [],
@@ -2475,7 +2474,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 10000
     },
     "Cisco": {
         "loc": [
@@ -2524,7 +2524,6 @@
             "Atlanta, GA"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Dallas-Fort Worth, TX": {
                 "street": [
@@ -2960,7 +2959,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 10000
     },
     "Classy": {
         "loc": [
@@ -2972,7 +2972,6 @@
             "San Diego, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Diego, CA": {
                 "street": [
@@ -2985,7 +2984,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 500
     },
     "ClearSlide": {
         "loc": [
@@ -2997,7 +2997,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [
@@ -3010,7 +3009,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "Cofense (PhishMe)": {
         "loc": [
@@ -3022,13 +3022,13 @@
             "Leesburg, VA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Leesburg, VA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Cogo": {
         "loc": [
@@ -3041,7 +3041,6 @@
             "Boston, MA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Cambridge, MA": {
                 "street": [
@@ -3065,7 +3064,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "Constant Contact": {
         "loc": [
@@ -3079,8 +3079,7 @@
             "New York City, NY",
             "Boston, MA"
         ],
-        "sizeDescription": "Unknown",
-        "sizeUpper": 500,
+        "sizeDescription": "1001 to 5000 employees",
         "addresses": {
             "Waltham, MA": {
                 "street": [
@@ -3119,7 +3118,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "Credit Sesame": {
         "loc": [
@@ -3133,7 +3133,6 @@
             "Mountain View, CA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [
@@ -3168,7 +3167,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "Cruise": {
         "loc": [
@@ -3180,7 +3180,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [
@@ -3198,7 +3197,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 1000
     },
     "Cumulus Networks": {
         "loc": [
@@ -3211,7 +3211,6 @@
             "Mountain View, CA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [
@@ -3235,7 +3234,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "DE Shaw": {
         "loc": [
@@ -3247,8 +3247,8 @@
             "New York, NY"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
-        "addresses": {}
+        "addresses": {},
+        "size": 1000
     },
     "Datadog": {
         "loc": [
@@ -3261,7 +3261,6 @@
             "New York City, NY"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [
@@ -3274,7 +3273,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 1000
     },
     "DeepMap": {
         "loc": [
@@ -3287,7 +3287,6 @@
             "San Jose, CA"
         ],
         "sizeDescription": "1 to 50 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
                 "street": [
@@ -3311,7 +3310,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 50
     },
     "Delphix": {
         "loc": [
@@ -3325,7 +3325,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Redwood City, CA": {
                 "street": [
@@ -3349,7 +3348,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 500
     },
     "DigitalOcean": {
         "loc": [
@@ -3365,7 +3365,6 @@
             "Los Angeles, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [
@@ -3390,7 +3389,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Docker": {
         "loc": [
@@ -3403,7 +3403,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [
@@ -3416,7 +3415,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 500
     },
     "Dollar Shave Club": {
         "loc": [
@@ -3429,7 +3429,6 @@
             "Marina del Rey, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [
@@ -3453,7 +3452,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 500
     },
     "Drive.ai": {
         "loc": [
@@ -3466,7 +3466,6 @@
             "Mountain View, CA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [
@@ -3490,7 +3489,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "DriveTime": {
         "loc": [
@@ -3503,7 +3503,6 @@
             "Phoenix, AZ"
         ],
         "sizeDescription": "5001 to 10000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Tempe, AZ": {
                 "street": [
@@ -3527,7 +3526,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 10000
     },
     "Dropbox": {
         "loc": [
@@ -3545,7 +3545,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [
@@ -3591,7 +3590,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "Duolingo": {
         "loc": [
@@ -3603,7 +3603,6 @@
             "Pittsburgh, PA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Pittsburgh, PA": {
                 "street": [
@@ -3616,7 +3615,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "Ebay": {
         "loc": [
@@ -3640,7 +3640,6 @@
             "Austin, TX"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
                 "street": [],
@@ -3682,7 +3681,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Epic": {
         "loc": [
@@ -3701,7 +3701,6 @@
             "San Diego, CA"
         ],
         "sizeDescription": "5001 to 10000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Green Bay, WI": {
                 "street": [
@@ -3763,7 +3762,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Esri": {
         "loc": [
@@ -3780,7 +3780,6 @@
             "Los Angeles, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
                 "street": [
@@ -3837,7 +3836,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "Etsy": {
         "loc": [
@@ -3852,7 +3852,6 @@
             "New York City, NY"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Brooklyn, NY": {
                 "street": [
@@ -3887,7 +3886,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 1000
     },
     "Evernote": {
         "loc": [
@@ -3901,7 +3901,6 @@
             "Austin, TX"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Redwood City, CA": {
                 "street": [
@@ -3936,7 +3935,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 500
     },
     "Facebook": {
         "loc": [
@@ -3963,7 +3963,6 @@
             "San Diego, CA"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [
@@ -4069,7 +4068,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Fidelity": {
         "loc": [
@@ -4089,7 +4089,6 @@
             "Austin, TX"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Salt Lake City, UT": {
                 "street": [
@@ -4195,7 +4194,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 10000
     },
     "Figma": {
         "loc": [
@@ -4206,7 +4206,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "1 to 50 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [
@@ -4219,7 +4218,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 50
     },
     "Fitbit": {
         "loc": [
@@ -4232,7 +4232,6 @@
             "Boston, MA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [
@@ -4256,7 +4255,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "Fivestars": {
         "loc": [
@@ -4268,7 +4268,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [
@@ -4281,7 +4280,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 500
     },
     "Flatiron": {
         "loc": [
@@ -4293,7 +4293,6 @@
             "Broomfield, CO"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Broomfield, CO": {
                 "street": [
@@ -4306,7 +4305,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 5000
     },
     "Flipboard": {
         "loc": [
@@ -4319,7 +4319,6 @@
             "Palo Alto, CA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [
@@ -4343,7 +4342,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "Foursquare": {
         "loc": [
@@ -4358,7 +4358,6 @@
             "New York City, NY"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "New Orleans, LA": {
                 "street": [
@@ -4393,7 +4392,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "Frog": {
         "loc": [
@@ -4405,7 +4405,6 @@
             "Chicago, IL"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
                 "street": [
@@ -4418,7 +4417,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "Galois": {
         "loc": [
@@ -4431,7 +4431,6 @@
             "Portland, OR"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
                 "street": [
@@ -4444,7 +4443,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "Gigster": {
         "loc": [
@@ -4457,7 +4457,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [
@@ -4470,7 +4469,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 200
     },
     "Github": {
         "loc": [
@@ -4485,7 +4485,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [],
@@ -4499,7 +4498,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "GoDaddy": {
         "loc": [
@@ -4517,7 +4517,6 @@
             "Phoenix, AZ"
         ],
         "sizeDescription": "5001 to 10000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [
@@ -4589,7 +4588,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 10000
     },
     "Goldman Sachs": {
         "loc": [
@@ -4607,7 +4607,6 @@
             "Dallas-Fort Worth, TX"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [
@@ -4652,7 +4651,8 @@
                     }
                 ]
             }
-        }
+        },
+        "size": 10000
     },
     "Google": {
         "loc": [
@@ -4714,7 +4714,6 @@
             "Atlanta, GA"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Charlotte, NC": {
                 "street": [
@@ -5023,7 +5022,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Groupon": {
         "loc": [
@@ -5043,7 +5043,6 @@
             "Los Angeles, CA"
         ],
         "sizeDescription": "5001 to 10000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -5073,7 +5072,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Guidewire": {
         "loc": [
@@ -5089,7 +5089,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Birmingham, AL": {
                 "street": [],
@@ -5111,7 +5110,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "GumGum": {
         "loc": [
@@ -5124,7 +5124,6 @@
             "Santa Monica, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [],
@@ -5134,7 +5133,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Gusto": {
         "loc": [
@@ -5148,7 +5148,6 @@
             "Denver, CO"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
@@ -5158,7 +5157,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "HomeAway": {
         "loc": [
@@ -5173,7 +5173,6 @@
             "Austin, TX"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [
@@ -5190,7 +5189,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Hootsuite": {
         "loc": [
@@ -5202,8 +5202,8 @@
             "Vancouver, BC (Canada)"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
-        "addresses": {}
+        "addresses": {},
+        "size": 1000
     },
     "Houzz": {
         "loc": [
@@ -5216,7 +5216,6 @@
             "San Jose, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
                 "street": [
@@ -5233,7 +5232,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Hp": {
         "loc": [
@@ -5276,7 +5276,6 @@
             "Atlanta, GA"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Fort Collins, CO": {
                 "street": [],
@@ -5406,7 +5405,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Hubspot": {
         "loc": [
@@ -5419,7 +5419,6 @@
             "Boston, MA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Cambridge, MA": {
                 "street": [],
@@ -5429,7 +5428,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Hulu": {
         "loc": [
@@ -5444,7 +5444,6 @@
             "Santa Monica, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [],
@@ -5458,7 +5457,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "IBM": {
         "loc": [
@@ -5547,7 +5547,6 @@
             "Atlanta, GA"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Charlotte, NC": {
                 "street": [],
@@ -5809,7 +5808,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "IMC": {
         "loc": [
@@ -5824,7 +5824,6 @@
             "Chicago, IL"
         ],
         "sizeDescription": "1 to 50 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Nottingham, England (UK)": {
                 "street": [],
@@ -5834,7 +5833,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "IXL Learning": {
         "loc": [
@@ -5849,7 +5849,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Raleigh-Durham, NC": {
                 "street": [],
@@ -5867,7 +5866,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Icims": {
         "loc": [
@@ -5880,7 +5880,6 @@
             "New York City, NY"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Holmdel, NJ": {
                 "street": [],
@@ -5890,7 +5889,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Ideo": {
         "loc": [
@@ -5906,7 +5906,6 @@
             "San Jose, CA"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
                 "street": [],
@@ -5916,7 +5915,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Industry Drive": {
         "loc": [
@@ -5928,13 +5928,13 @@
             "Piedmont, SC"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Piedmont, SC": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Infinera": {
         "loc": [
@@ -5947,7 +5947,6 @@
             "Sunnyvale, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -5957,7 +5956,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Inkling": {
         "loc": [
@@ -5969,13 +5969,13 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Intel": {
         "loc": [
@@ -6027,7 +6027,6 @@
             "Los Angeles, CA"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Columbus, GA": {
                 "street": [],
@@ -6173,7 +6172,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Intuit": {
         "loc": [
@@ -6202,7 +6202,6 @@
             "San Diego, CA"
         ],
         "sizeDescription": "5001 to 10000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -6272,7 +6271,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "JPMorgan": {
         "loc": [
@@ -6298,7 +6298,6 @@
             "Los Angeles, CA"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Philadelphia, PA": {
                 "street": [],
@@ -6352,7 +6351,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Jane Street": {
         "loc": [
@@ -6365,13 +6365,13 @@
             "New York City, NY"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Jawbone": {
         "loc": [
@@ -6385,7 +6385,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -6399,7 +6398,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Jump Trading": {
         "loc": [
@@ -6414,7 +6414,6 @@
             "New York City, NY"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
                 "street": [],
@@ -6432,7 +6431,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Juniper": {
         "loc": [
@@ -6454,7 +6454,6 @@
             "Atlanta, GA"
         ],
         "sizeDescription": "5001 to 10000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -6496,7 +6495,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Karat": {
         "loc": [
@@ -6507,13 +6507,13 @@
             "Seattle, WA"
         ],
         "sizeDescription": "1 to 50 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "Kayak": {
         "loc": [
@@ -6530,7 +6530,6 @@
             "Kingston, NY"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -6556,7 +6555,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Khan Academy": {
         "loc": [
@@ -6572,7 +6572,6 @@
             "Mountain View, CA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -6590,7 +6589,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Kinnek": {
         "loc": [
@@ -6602,8 +6602,8 @@
             "New York, NY"
         ],
         "sizeDescription": "1 to 50 employees",
-        "sizeUpper": 500,
-        "addresses": {}
+        "addresses": {},
+        "size": 50
     },
     "LastPass": {
         "loc": [
@@ -6621,7 +6621,6 @@
             "Wichita, KS"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -6651,7 +6650,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "LendUp": {
         "loc": [
@@ -6663,13 +6663,13 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Lever": {
         "loc": [
@@ -6681,13 +6681,13 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "LinkedIn": {
         "loc": [
@@ -6705,7 +6705,6 @@
             "Los Angeles, CA"
         ],
         "sizeDescription": "5001 to 10000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -6735,7 +6734,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "LiveRamp": {
         "loc": [
@@ -6748,7 +6748,6 @@
             "New York City, NY"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
@@ -6758,7 +6757,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Lob": {
         "loc": [
@@ -6770,13 +6770,13 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "1 to 50 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "Logitech": {
         "loc": [
@@ -6793,7 +6793,6 @@
             "Lausanne (Switzerland)"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
                 "street": [],
@@ -6819,7 +6818,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Lucid": {
         "loc": [
@@ -6833,7 +6833,6 @@
             "Oakland, CA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "New Orleans, LA": {
                 "street": [],
@@ -6847,7 +6846,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Lyft": {
         "loc": [
@@ -6863,7 +6863,6 @@
             "San Antonio, TX"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -6881,7 +6880,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Lytx": {
         "loc": [
@@ -6894,13 +6894,13 @@
             "San Diego, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Diego, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "MailChimp": {
         "loc": [
@@ -6912,13 +6912,13 @@
             "Atlanta, GA"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Atlanta, GA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "MathWorks": {
         "loc": [
@@ -6933,7 +6933,6 @@
             "Boston, MA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Buffalo, NY": {
                 "street": [],
@@ -6951,7 +6950,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Medallia": {
         "loc": [
@@ -6965,7 +6965,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Mateo, CA": {
                 "street": [],
@@ -6979,7 +6978,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Medium": {
         "loc": [
@@ -6991,13 +6991,13 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Mesosphere": {
         "loc": [
@@ -7009,13 +7009,13 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Microsoft": {
         "loc": [
@@ -7049,7 +7049,6 @@
             "Los Angeles, CA"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Charlotte, NC": {
                 "street": [],
@@ -7139,7 +7138,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Mixmax": {
         "loc": [
@@ -7151,13 +7151,13 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "MongoDB": {
         "loc": [
@@ -7171,7 +7171,6 @@
             "New York City, NY"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -7181,7 +7180,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Mozilla": {
         "loc": [
@@ -7198,7 +7198,6 @@
             "Vancouver, BC, Canada"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
                 "street": [],
@@ -7224,7 +7223,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "MuleSoft": {
         "loc": [
@@ -7237,13 +7237,13 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Narrative Science": {
         "loc": [
@@ -7255,13 +7255,13 @@
             "Chicago, IL"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Nest": {
         "loc": [
@@ -7276,7 +7276,6 @@
             "New York City, NY"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
                 "street": [],
@@ -7294,7 +7293,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "NextCapital": {
         "loc": [
@@ -7307,7 +7307,6 @@
             "Burlington, VT"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
                 "street": [],
@@ -7317,7 +7316,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Nextdoor": {
         "loc": [
@@ -7329,13 +7329,13 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Nvidia": {
         "loc": [
@@ -7358,7 +7358,6 @@
             "Austin, TX"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
                 "street": [],
@@ -7408,7 +7407,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Occipital": {
         "loc": [
@@ -7420,13 +7420,13 @@
             "Boulder, CO"
         ],
         "sizeDescription": "1 to 50 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Boulder, CO": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "Oculus": {
         "loc": [
@@ -7439,7 +7439,6 @@
             "Boston, MA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Petaluma, CA": {
                 "street": [],
@@ -7449,7 +7448,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "OfferUp": {
         "loc": [
@@ -7462,7 +7462,6 @@
             "Seattle, WA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Bellevue, WA": {
                 "street": [],
@@ -7472,7 +7471,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Okta": {
         "loc": [
@@ -7487,7 +7487,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
                 "street": [],
@@ -7501,7 +7500,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Optimizely": {
         "loc": [
@@ -7513,13 +7513,13 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Oracle": {
         "loc": [
@@ -7621,7 +7621,6 @@
             "Atlanta, GA"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Dallas-Fort Worth, TX": {
                 "street": [],
@@ -7983,7 +7982,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Oscar": {
         "loc": [
@@ -7996,7 +7996,6 @@
             "New York City, NY"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Manchester, England (UK)": {
                 "street": [],
@@ -8006,7 +8005,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Palantir": {
         "loc": [
@@ -8024,7 +8024,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
                 "street": [],
@@ -8046,7 +8045,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Pandora": {
         "loc": [
@@ -8058,13 +8058,13 @@
             "Copenhagen (Denmark)"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Copenhagen (Denmark)": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "PayPal": {
         "loc": [
@@ -8094,7 +8094,6 @@
             "Austin, TX"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Philadelphia, PA": {
                 "street": [],
@@ -8148,7 +8147,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Percolate": {
         "loc": [
@@ -8162,13 +8162,13 @@
             "New York City, NY"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Phosphorus": {
         "loc": [
@@ -8181,13 +8181,13 @@
             "New York City, NY"
         ],
         "sizeDescription": "1 to 50 employees",
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "Pinterest": {
         "loc": [
@@ -8202,7 +8202,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
@@ -8212,7 +8211,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Pivotal": {
         "loc": [
@@ -8234,7 +8234,6 @@
             "Los Angeles, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
                 "street": [],
@@ -8276,7 +8275,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Playstation": {
         "loc": [
@@ -8295,7 +8295,6 @@
             "San Diego, CA"
         ],
         "sizeDescription": "5001 to 10000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
                 "street": [],
@@ -8325,7 +8324,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Postmates": {
         "loc": [
@@ -8337,13 +8337,13 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Priceline": {
         "loc": [
@@ -8358,7 +8358,6 @@
             "Bridgeport, CT"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [],
@@ -8376,7 +8375,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Pure Storage": {
         "loc": [
@@ -8390,7 +8390,6 @@
             "Mountain View, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -8400,7 +8399,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Qualcomm": {
         "loc": [
@@ -8429,7 +8429,6 @@
             "San Diego, CA"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Portland, OR": {
                 "street": [],
@@ -8495,7 +8494,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Qualtrics": {
         "loc": [
@@ -8510,7 +8510,6 @@
             "Seattle, WA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Provo, UT": {
                 "street": [],
@@ -8524,7 +8523,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Quantcast": {
         "loc": [
@@ -8539,7 +8539,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
                 "street": [],
@@ -8549,7 +8548,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Quizlet": {
         "loc": [
@@ -8561,13 +8561,13 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Quora": {
         "loc": [
@@ -8580,7 +8580,6 @@
             "Mountain View, CA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -8590,7 +8589,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Rackspace": {
         "loc": [
@@ -8603,7 +8603,6 @@
             "San Antonio, TX"
         ],
         "sizeDescription": "5001 to 10000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
                 "street": [],
@@ -8613,7 +8612,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "RedHat": {
         "loc": [
@@ -8636,7 +8636,6 @@
             "Austin, TX"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -8674,7 +8673,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Redbooth": {
         "loc": [
@@ -8687,7 +8687,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "1 to 50 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
                 "street": [],
@@ -8697,7 +8696,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "Reddit": {
         "loc": [
@@ -8709,13 +8709,13 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Redfin": {
         "loc": [
@@ -8730,7 +8730,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [],
@@ -8744,7 +8743,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "RevolutionParts": {
         "loc": [
@@ -8756,13 +8756,13 @@
             "Phoenix, AZ"
         ],
         "sizeDescription": "1 to 50 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Phoenix, AZ": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "Riot Games": {
         "loc": [
@@ -8779,7 +8779,6 @@
             "Los Angeles, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -8801,7 +8800,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Ripple": {
         "loc": [
@@ -8813,13 +8813,13 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Roblox": {
         "loc": [
@@ -8832,7 +8832,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Mateo, CA": {
                 "street": [],
@@ -8842,7 +8841,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Roku": {
         "loc": [
@@ -8855,7 +8855,6 @@
             "Los Gatos, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -8865,7 +8864,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Rubrik": {
         "loc": [
@@ -8878,7 +8878,6 @@
             "San Jose, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
                 "street": [],
@@ -8888,7 +8887,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Salesforce": {
         "loc": [
@@ -8922,7 +8922,6 @@
             "Atlanta, GA"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Boulder, CO": {
                 "street": [],
@@ -8996,7 +8995,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "SendGrid": {
         "loc": [
@@ -9010,7 +9010,6 @@
             "Denver, CO"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [],
@@ -9020,7 +9019,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Sensus": {
         "loc": [
@@ -9037,7 +9037,6 @@
             "Atlanta, GA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Boise, ID": {
                 "street": [],
@@ -9055,7 +9054,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "ShipHawk": {
         "loc": [
@@ -9067,13 +9067,13 @@
             "Santa Barbara, CA"
         ],
         "sizeDescription": "1 to 50 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Santa Barbara, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "Shogun": {
         "loc": [
@@ -9085,13 +9085,13 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "1 to 50 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "Shopify": {
         "loc": [
@@ -9108,7 +9108,6 @@
             "Ottawa, ON"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Montreal, QC, Canada": {
                 "street": [],
@@ -9130,7 +9129,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "ShoreTel": {
         "loc": [
@@ -9146,7 +9146,6 @@
             "Austin, TX"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Rochester, NY": {
                 "street": [],
@@ -9168,7 +9167,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Shutterfly": {
         "loc": [
@@ -9185,7 +9185,6 @@
             "Philadelphia, PA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -9207,7 +9206,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Sift Science": {
         "loc": [
@@ -9220,7 +9220,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
                 "street": [],
@@ -9230,7 +9229,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Slack": {
         "loc": [
@@ -9243,7 +9243,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
                 "street": [],
@@ -9253,7 +9252,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Snap": {
         "loc": [
@@ -9270,7 +9270,6 @@
             "Los Angeles, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
                 "street": [],
@@ -9296,7 +9295,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "SpaceX": {
         "loc": [
@@ -9314,7 +9314,6 @@
             "Merced, CA"
         ],
         "sizeDescription": "5001 to 10000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [],
@@ -9332,7 +9331,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Spotify": {
         "loc": [
@@ -9347,7 +9347,6 @@
             "Boston, MA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Stockholm, Stockholm (Sweden)": {
                 "street": [],
@@ -9365,7 +9364,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Sprout Social": {
         "loc": [
@@ -9378,13 +9378,13 @@
             "Chicago, IL"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Square": {
         "loc": [
@@ -9400,7 +9400,6 @@
             "Atlanta, GA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -9422,7 +9421,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Squarespace": {
         "loc": [
@@ -9435,13 +9435,13 @@
             "New York City, NY"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Starsky Robotics": {
         "loc": [
@@ -9453,13 +9453,13 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "1 to 50 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "StateFarm": {
         "loc": [
@@ -9480,7 +9480,6 @@
             "Bloomington, IL"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -9510,7 +9509,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "StreetEasy": {
         "loc": [
@@ -9522,8 +9522,8 @@
             "New York, NY"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
-        "addresses": {}
+        "addresses": {},
+        "size": 200
     },
     "Stripe": {
         "loc": [
@@ -9538,7 +9538,6 @@
             "New York City, NY"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -9556,7 +9555,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "StudySoup": {
         "loc": [
@@ -9568,13 +9568,13 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "1 to 50 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "SurveyMonkey": {
         "loc": [
@@ -9590,7 +9590,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Mateo, CA": {
                 "street": [],
@@ -9612,7 +9611,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Tableau": {
         "loc": [
@@ -9624,14 +9624,14 @@
         "locations": [
             "New Orleans, LA"
         ],
-        "sizeDescription": "Unknown",
-        "sizeUpper": 500,
+        "sizeDescription": "1001 to 5000 employees",
         "addresses": {
             "New Orleans, LA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Tendigi": {
         "loc": [
@@ -9642,13 +9642,13 @@
             "Brooklyn, NY"
         ],
         "sizeDescription": "1 to 50 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Brooklyn, NY": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "Teradata": {
         "loc": [
@@ -9682,7 +9682,6 @@
             "Atlanta, GA"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Dallas-Fort Worth, TX": {
                 "street": [],
@@ -9768,7 +9767,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Tesla": {
         "loc": [
@@ -9784,7 +9784,6 @@
             "Palo Alto, CA"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -9802,7 +9801,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Textio": {
         "loc": [
@@ -9814,13 +9814,13 @@
             "Seattle, WA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Thanx": {
         "loc": [
@@ -9832,13 +9832,13 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "ThoughtSpot": {
         "loc": [
@@ -9851,7 +9851,6 @@
             "San Jose, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Palo Alto, CA": {
                 "street": [],
@@ -9861,7 +9860,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "ThousandEyes": {
         "loc": [
@@ -9873,13 +9873,13 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Thumbtack": {
         "loc": [
@@ -9892,13 +9892,13 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Tinder": {
         "loc": [
@@ -9912,7 +9912,6 @@
             "West Hollywood, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [],
@@ -9926,7 +9925,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Tint": {
         "loc": [
@@ -9938,13 +9938,13 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "1 to 50 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 50
     },
     "Trello": {
         "loc": [
@@ -9956,8 +9956,8 @@
             "New York, NY"
         ],
         "sizeDescription": "1 to 50 employees",
-        "sizeUpper": 500,
-        "addresses": {}
+        "addresses": {},
+        "size": 50
     },
     "TripAdvisor": {
         "loc": [
@@ -9976,7 +9976,6 @@
             "Needham, MA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -10010,7 +10009,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Tumblr": {
         "loc": [
@@ -10023,13 +10023,13 @@
             "New York City, NY"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Twilio": {
         "loc": [
@@ -10042,7 +10042,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -10052,7 +10051,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Twitch": {
         "loc": [
@@ -10070,7 +10070,6 @@
             "Austin, TX"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Seattle, WA": {
                 "street": [],
@@ -10100,7 +10099,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Twitter": {
         "loc": [
@@ -10117,7 +10117,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -10139,7 +10138,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Two Sigma": {
         "loc": [
@@ -10154,7 +10154,6 @@
             "New York City, NY"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Jesup, GA": {
                 "street": [],
@@ -10168,7 +10167,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Uber": {
         "loc": [
@@ -10188,7 +10188,6 @@
             "Boulder, CO"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -10226,7 +10225,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Ultimate Software": {
         "loc": [
@@ -10244,7 +10244,6 @@
             "Atlanta, GA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Miami-Fort Lauderdale, FL": {
                 "street": [],
@@ -10274,7 +10273,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Unity": {
         "loc": [
@@ -10286,13 +10286,13 @@
             "B\u00fcren, Nordrhein-Westfalen (Germany)"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "B\u00fcren, Nordrhein-Westfalen (Germany)": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Uptake": {
         "loc": [
@@ -10304,13 +10304,13 @@
             "Chicago, IL"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Chicago, IL": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Upwork": {
         "loc": [
@@ -10328,7 +10328,6 @@
             "Mountain View, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Jonesboro, AR": {
                 "street": [],
@@ -10358,7 +10357,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Usaa": {
         "loc": [
@@ -10372,7 +10372,6 @@
             "San Antonio, TX"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Phoenix, AZ": {
                 "street": [],
@@ -10386,7 +10385,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Valassis Digital": {
         "loc": [
@@ -10400,13 +10400,13 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Valve": {
         "loc": [
@@ -10418,13 +10418,13 @@
             "Bellevue, WA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Bellevue, WA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Venmo": {
         "loc": [
@@ -10438,7 +10438,6 @@
             "New York City, NY"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Austin, TX": {
                 "street": [],
@@ -10448,7 +10447,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Vizio": {
         "loc": [
@@ -10462,7 +10462,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Irvine, CA": {
                 "street": [],
@@ -10476,7 +10475,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Walmart Labs": {
         "loc": [
@@ -10493,7 +10493,6 @@
             "San Diego, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -10515,7 +10514,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Walt Disney": {
         "loc": [
@@ -10536,7 +10536,6 @@
             "Hartford, CT"
         ],
         "sizeDescription": "10000+ employees",
-        "sizeUpper": 500,
         "addresses": {
             "Orlando, FL": {
                 "street": [],
@@ -10574,7 +10573,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Wayfair": {
         "loc": [
@@ -10586,13 +10586,13 @@
             "Boston, MA"
         ],
         "sizeDescription": "5001 to 10000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Boston, MA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "WeWork": {
         "loc": [
@@ -10605,13 +10605,13 @@
             "New York City, NY"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Weebly": {
         "loc": [
@@ -10625,7 +10625,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
@@ -10635,7 +10634,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "WhatsApp": {
         "loc": [
@@ -10650,7 +10650,6 @@
             "Mountain View, CA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [],
@@ -10668,7 +10667,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "WillowTree": {
         "loc": [
@@ -10681,7 +10681,6 @@
             "Charlottesville, VA"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Raleigh-Durham, NC": {
                 "street": [],
@@ -10691,7 +10690,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Workday": {
         "loc": [
@@ -10704,7 +10704,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "5001 to 10000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Pleasanton, CA": {
                 "street": [],
@@ -10714,7 +10713,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Workiva": {
         "loc": [
@@ -10734,7 +10734,6 @@
             "Boulder, CO"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Columbus, GA": {
                 "street": [],
@@ -10764,7 +10763,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Xero": {
         "loc": [
@@ -10777,7 +10777,6 @@
             "Denver, CO"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
@@ -10787,7 +10786,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     },
     "Yahoo": {
         "loc": [
@@ -10819,7 +10819,6 @@
             "Atlanta, GA"
         ],
         "sizeDescription": "5001 to 10000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Dallas-Fort Worth, TX": {
                 "street": [],
@@ -10905,7 +10904,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Yelp": {
         "loc": [
@@ -10922,7 +10922,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "5001 to 10000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Jose, CA": {
                 "street": [],
@@ -10944,7 +10943,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 10000
     },
     "Yext": {
         "loc": [
@@ -10958,13 +10958,13 @@
             "New York City, NY"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Zappos": {
         "loc": [
@@ -10979,7 +10979,6 @@
             "Seattle, WA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Santa Fe, NM": {
                 "street": [],
@@ -10997,7 +10996,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Zendesk": {
         "loc": [
@@ -11011,7 +11011,6 @@
             "Boston, MA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
@@ -11025,7 +11024,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Zenefits": {
         "loc": [
@@ -11039,7 +11039,6 @@
             "Vancouver, BC, Canada"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "San Francisco, CA": {
                 "street": [],
@@ -11049,7 +11048,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Zillow": {
         "loc": [
@@ -11063,7 +11063,6 @@
             "San Francisco, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [],
@@ -11077,7 +11076,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "Zocdoc": {
         "loc": [
@@ -11090,13 +11090,13 @@
             "New York City, NY"
         ],
         "sizeDescription": "501 to 1000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "New York City, NY": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 1000
     },
     "Zurb": {
         "loc": [
@@ -11108,13 +11108,13 @@
             "Campbell, CA"
         ],
         "sizeDescription": "51 to 200 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Campbell, CA": {
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 200
     },
     "Zynga": {
         "loc": [
@@ -11140,7 +11140,6 @@
             "San Diego, CA"
         ],
         "sizeDescription": "1001 to 5000 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Orlando, FL": {
                 "street": [],
@@ -11198,7 +11197,8 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 5000
     },
     "The Honest Company": {
         "loc": [
@@ -11211,7 +11211,6 @@
             "Austin, TX"
         ],
         "sizeDescription": "201 to 500 employees",
-        "sizeUpper": 500,
         "addresses": {
             "Los Angeles, CA": {
                 "street": [],
@@ -11221,6 +11220,7 @@
                 "street": [],
                 "coordinates": []
             }
-        }
+        },
+        "size": 500
     }
 }
