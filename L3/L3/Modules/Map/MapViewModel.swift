@@ -33,7 +33,7 @@ final class MapViewModelImpl {
   }
 
   var locationFilter: LocationFilter = .sizeIndex
-  var currentLocation: Int = 0
+  var locationStack: [Int] = []
 
   init() {
     self.panelCoordinator = PanelCoordinator(navigationController: UINavigationController())
@@ -59,7 +59,13 @@ extension MapViewModelImpl: MapViewModel {
 
   func locationTapped(location: Location) {
     guard let index = locations.firstIndex(where: { $0 == location }) else { return }
-    currentLocation = index
+
+    if
+      !locationStack.isEmpty,
+      let currentLocation = locationStack.last,
+      currentLocation == index { return }
+
+    locationStack.append(index)
     nextCity()
   }
 }
@@ -71,18 +77,27 @@ extension MapViewModelImpl: PanelCoordinatorDelegate {
   }
 
   func exploreTapped() {
-    currentLocation = 0
+    locationStack.append(0)
     nextCity()
   }
 
   func actionTapped() {
-    guard currentLocation + 1 <= locations.count else { return }
-    currentLocation += 1
+    guard
+      let currentLocation = locationStack.last,
+      currentLocation + 1 <= locations.count else { return }
+    locationStack.append(currentLocation + 1)
     nextCity()
   }
 
   private func nextCity() {
+    guard let currentLocation = locationStack.last else { return }
     panelCoordinator.showCity(location: locations[currentLocation], rank: currentLocation + 1, isLast: currentLocation == locations.count - 1)
+    onCameraChange?(locations[currentLocation])
+  }
+
+  func cityDismissed() {
+    _ = locationStack.removeLast()
+    guard let currentLocation = locationStack.last else { return }
     onCameraChange?(locations[currentLocation])
   }
 }

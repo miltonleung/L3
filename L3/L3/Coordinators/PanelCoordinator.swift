@@ -12,6 +12,7 @@ protocol PanelCoordinatorDelegate: class {
   func locationFilterChanged(filter: LocationFilter)
   func exploreTapped()
   func actionTapped()
+  func cityDismissed()
 }
 
 final class PanelCoordinator: Coordinator {
@@ -44,6 +45,7 @@ extension PanelCoordinator {
       }
     }
     viewModel.onBackPanned = {
+      self.delegate?.cityDismissed()
       self.navigationController.popViewController(animated: true)
     }
     let vc = CityViewController(viewModel: viewModel)

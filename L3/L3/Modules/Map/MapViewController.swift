@@ -203,7 +203,6 @@ extension MapViewController {
         return CLLocation(latitude: $0.coordinate.latitude, longitude: $0.coordinate.longitude).distance(from: touchLocation) < CLLocation(latitude: $1.coordinate.latitude, longitude: $1.coordinate.longitude).distance(from: touchLocation)
       })
       if let selectedAnnotations = closestAnnotations.first, let location = selectedAnnotations.location {
-        moveCamera(to: location)
         viewModel.locationTapped(location: location)
       }
     }
@@ -269,10 +268,10 @@ extension MapViewController: MGLMapViewDelegate {
   func mapView(_ mapView: MGLMapView, didSelect annotation: MGLAnnotation) {
     guard
       let radarAnnotation = annotation as? RadarPointAnnotation,
-      let markerLocation = radarAnnotation.location
+      let location = radarAnnotation.location
       else { return }
 
-    print(markerLocation)
+    viewModel.locationTapped(location: location)
   }
 
   func mapView(_ mapView: MGLMapView, regionDidChangeWith reason: MGLCameraChangeReason, animated: Bool) {
