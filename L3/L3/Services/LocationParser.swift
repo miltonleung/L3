@@ -18,7 +18,8 @@ final class LocationParser {
       let longitude = coordinates["long"] as? Double,
       let sizeIndex = json["sizeIndex"] as? Int,
       let glassdoorURLString = json["salary_page"] as? String,
-      let glassdoorURL = URL(string: glassdoorURLString)
+      let glassdoorURL = URL(string: glassdoorURLString),
+      let companiesJSON = json["companies"] as? [JSON]
       else { return nil }
 
     var imageURL: URL? = nil
@@ -51,6 +52,9 @@ final class LocationParser {
       groceriesIndex = groceriesIndexValue
     }
 
+    let cityCompaniesParser = CityCompaniesParser()
+    let companies = cityCompaniesParser.parse(from: companiesJSON)
+
 
     return Location(name: name,
                     averageDevSalary: averageDevSalary,
@@ -64,7 +68,8 @@ final class LocationParser {
                     rentIndex: rentIndex,
                     groceriesIndex: groceriesIndex,
                     numbeoURL: numbeoURL,
-                    imageURL: imageURL)
+                    imageURL: imageURL,
+                    companies: companies)
   }}
 
 final class LocationsParser {

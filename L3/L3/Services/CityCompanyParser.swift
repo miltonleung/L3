@@ -8,62 +8,35 @@
 
 import Foundation
 
-final class CityCompanyeParser {
+final class CityCompanyParser {
   func parse(from json: JSON) -> CityCompany? {
     guard
       let name = json["name"] as? String,
       let size = json["size"] as? Int,
-      let addresses = json["addresses"] as? JSON
-      let streetAddresses = addresses["street"] as? [String],
-      let coordinates = addresses["coordinates"] as? JSON
+      let addressesJSON = json["addresses"] as? JSON,
+      let streetAddresses = addressesJSON["street"] as? [String],
+      let coordinates = addressesJSON["coordinates"] as? [JSON]
       else { return nil }
 
+    var addresses: [Address] = []
 
-    var imageURL: URL? = nil
-    if let imageURLString = json["photo_url"] as? String {
-      imageURL = URL(string: imageURLString)
+    if streetAddresses.count == coordinates.count {
+      for i in 0..<streetAddresses.count {
+        guard
+          let lat = coordinates[i]["lat"] as? Double,
+          let long = coordinates[i]["long"] as? Double
+          else { continue }
+
+        addresses.append(Address(street: streetAddresses[i], lat: lat, long: long))
+      }
     }
 
-    var numbeoURL: URL? = nil
-    var averageMonthlySalary: Double? = nil
-    var averageMonthlyRent: Double? = nil
-    if
-      let numbeoURLString = json["url"] as? String,
-      let numbeoURLValue = URL(string: numbeoURLString),
-      let averageMonthlySalaryValue = json["average_salary"] as? Double,
-      let averageMonthlyRentValue = json["average_rent"] as? Double {
-      numbeoURL = numbeoURLValue
-      averageMonthlySalary = averageMonthlySalaryValue
-      averageMonthlyRent = averageMonthlyRentValue
-    }
+    return CityCompany(name: name,
+                       size: size,
+                       addresses: addresses)
 
-    var costOfLivingIndex: Double? = nil
-    var rentIndex: Double? = nil
-    var groceriesIndex: Double? = nil
-    if
-      let costOfLivingIndexValue = json["average_salary"] as? Double,
-      let rentIndexValue = json["average_rent"] as? Double,
-      let groceriesIndexValue = json["groceries_index"] as? Double {
-      costOfLivingIndex = costOfLivingIndexValue
-      rentIndex = rentIndexValue
-      groceriesIndex = groceriesIndexValue
-    }
-
-
-    return Location(name: name,
-                    averageDevSalary: averageDevSalary,
-                    latitude: latitude,
-                    longitude: longitude,
-                    sizeIndex: sizeIndex,
-                    glassdoorURL: glassdoorURL,
-                    averageMonthlyRent: averageMonthlyRent,
-                    averageMonthlySalary: averageMonthlySalary,
-                    costOfLivingIndex: costOfLivingIndex,
-                    rentIndex: rentIndex,
-                    groceriesIndex: groceriesIndex,
-                    numbeoURL: numbeoURL,
-                    imageURL: imageURL)
-  }}
+  }
+}
 
 final class CityCompaniesParser {
   func parse(from jsonArray: [JSON]) -> [CityCompany] {
