@@ -7,12 +7,15 @@
 //
 
 protocol CityViewModel {
-  var numberOfStatistics: Int { get }
   var isImageAvailable: Bool { get }
+  var numberOfStatistics: Int { get }
+  var numberOfCompanies: Int { get }
 
   var cityHeaderCellViewModel: CityHeaderCellViewModel { get }
   var cityImageCellViewModel: CityImageCellViewModel { get }
   var cityStatisticsCellViewModel: CityStatisticsCellViewModel { get }
+  var cityCompanyHeaderViewModel: CityCompanyHeaderCellViewModel { get }
+  var cityCompaniesViewModel: CityCompaniesCellViewModel { get }
   var cityActionCellViewModel: CityActionCellViewModel { get }
 
   var onBackPanned: (() -> Void)? { get }
@@ -46,6 +49,10 @@ extension CityViewModelImpl: CityViewModel {
     return location.imageURL != nil
   }
 
+  var numberOfCompanies: Int {
+    return location.notableCompanies.count
+  }
+
   var cityHeaderCellViewModel: CityHeaderCellViewModel {
     return CityHeaderCellViewModelImpl(rank: rank, cityName: location.name)
   }
@@ -56,6 +63,14 @@ extension CityViewModelImpl: CityViewModel {
 
   var cityStatisticsCellViewModel: CityStatisticsCellViewModel {
     return CityStatisticsCellViewModelImpl(statistics: location.statistics)
+  }
+
+  var cityCompanyHeaderViewModel: CityCompanyHeaderCellViewModel {
+    return CityCompanyHeaderCellViewModelImpl()
+  }
+
+  var cityCompaniesViewModel: CityCompaniesCellViewModel {
+    return CityCompaniesCellViewModelImpl(cityCompanies: location.companies)
   }
 
   var cityActionCellViewModel: CityActionCellViewModel {

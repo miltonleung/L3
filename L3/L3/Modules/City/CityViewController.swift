@@ -19,6 +19,8 @@ final class CityViewController: UIViewController {
       tableView.register(CityHeaderCell.self)
       tableView.register(CityImageCell.self)
       tableView.register(CityStatisticsCell.self)
+      tableView.register(CityCompanyHeaderCell.self)
+      tableView.register(CityCompaniesCell.self)
       tableView.register(CityActionCell.self)
     }
   }
@@ -48,7 +50,6 @@ final class CityViewController: UIViewController {
 
     panelView.layer.cornerRadius = 23
     panelView.layer.masksToBounds = true
-//    panelView.backgroundColor = #colorLiteral(red: 0.9333333333, green: 0.9333333333, blue: 0.9333333333, alpha: 0.3304291524)
     panelView.layer.shadowOffset = CGSize(width: 0, height: 2)
     panelView.layer.shadowColor = #colorLiteral(red: 0.2823529412, green: 0.2823529412, blue: 0.2823529412, alpha: 0.934369649)
     panelView.layer.shadowOpacity = 1
@@ -89,9 +90,9 @@ final class CityViewController: UIViewController {
 
 extension CityViewController: UITableViewDataSource {
   enum Section: Int {
-    case header, statistics, action, company//company, action
+    case header, statistics, company, action
 
-    static let count = 3
+    static let count = 4
   }
 
   func numberOfSections(in tableView: UITableView) -> Int {
@@ -118,7 +119,18 @@ extension CityViewController: UITableViewDataSource {
       cell.configure(viewModel: viewModel.cityStatisticsCellViewModel)
 
       return cell
-    case .company: fatalError()
+    case .company:
+      if indexPath.row == 0 {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "CityCompanyHeaderCell", for: indexPath) as? CityCompanyHeaderCell else { fatalError() }
+        cell.configure(viewModel: viewModel.cityCompanyHeaderViewModel)
+
+        return cell
+      } else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "CityCompaniesCell", for: indexPath) as? CityCompaniesCell else { fatalError() }
+        cell.configure(viewModel: viewModel.cityCompaniesViewModel)
+
+        return cell
+      }
     case .action:
       guard let cell = tableView.dequeueReusableCell(withIdentifier: "CityActionCell", for: indexPath) as? CityActionCell else { fatalError() }
       cell.configure(viewModel: viewModel.cityActionCellViewModel)
@@ -156,7 +168,12 @@ extension CityViewController: UITableViewDelegate {
       let numberOfRows = Double(viewModel.numberOfStatistics) / 2
       return CGFloat(ceil(numberOfRows)) * CityStatisticsCell.Constants.cellHeight + CityStatisticsCell.Constants.verticalPadding
     case .company:
-      return 0
+      if indexPath.row == 0 {
+        return 36
+      } else {
+        let numberOfRows = Double(viewModel.numberOfCompanies) / 2
+        return CGFloat(ceil(numberOfRows)) * CityCompaniesCell.Constants.cellHeight
+      }
     case .action:
       return 89
     }
