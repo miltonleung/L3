@@ -13,6 +13,7 @@ final class CityViewController: UIViewController {
     static let backThreshold: CGFloat = 0.17
   }
 
+  @IBOutlet weak var closeButton: UIButton!
   @IBOutlet weak var panelView: PanelView!
   @IBOutlet weak var tableView: UITableView! {
     didSet {
@@ -76,6 +77,8 @@ final class CityViewController: UIViewController {
     let panGesture = UIPanGestureRecognizer(target: self, action: #selector(handlePanGesture(sender:)))
     panelView.addGestureRecognizer(panGesture)
 
+    closeButton.setTitle(nil, for: .normal)
+    closeButton.setImage(#imageLiteral(resourceName: "lightCloseButton").withRenderingMode(.alwaysOriginal), for: .normal)
   }
 
   @objc func handlePanGesture(sender: UIPanGestureRecognizer) {
@@ -85,6 +88,13 @@ final class CityViewController: UIViewController {
       panelView.removeGestureRecognizer(sender)
       viewModel.onBackPanned?()
     }
+  }
+}
+
+// MARK: IBActions
+extension CityViewController {
+  @IBAction private func closeButtonTapped() {
+    viewModel.onCloseTapped?()
   }
 }
 

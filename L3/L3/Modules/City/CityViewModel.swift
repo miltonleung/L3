@@ -19,6 +19,7 @@ protocol CityViewModel {
   var cityActionCellViewModel: CityActionCellViewModel { get }
 
   var onBackPanned: (() -> Void)? { get }
+  var onCloseTapped: (() -> Void)? { get }
 }
 
 final class CityViewModelImpl {
@@ -35,6 +36,7 @@ final class CityViewModelImpl {
   // Coordinator Handlers
   var onActionTapped: (() -> Void)?
   var onBackPanned: (() -> Void)?
+  var onCloseTapped: (() -> Void)?
 
   // View Controller Handlers
 

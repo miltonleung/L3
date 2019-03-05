@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CityViewController" customModule="L3" customModuleProvider="target">
             <connections>
+                <outlet property="closeButton" destination="5TP-zR-yed" id="Ncy-Gn-NdN"/>
                 <outlet property="panelView" destination="MRm-zv-u6m" id="8R4-jl-KhF"/>
                 <outlet property="tableView" destination="gC9-Ys-Crq" id="1w8-EQ-gRL"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -29,12 +30,25 @@
                             <rect key="frame" x="0.0" y="0.0" width="339" height="560"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </tableView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5TP-zR-yed">
+                            <rect key="frame" x="294" y="17" width="28" height="28"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="28" id="Sdf-Wh-tyu"/>
+                                <constraint firstAttribute="height" constant="28" id="X5T-g0-E7H"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="closeButtonTapped" destination="-1" eventType="touchUpInside" id="Q6c-W3-4hQ"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstItem="gC9-Ys-Crq" firstAttribute="top" secondItem="MRm-zv-u6m" secondAttribute="top" id="Cda-yY-hJ8"/>
                         <constraint firstAttribute="bottom" secondItem="gC9-Ys-Crq" secondAttribute="bottom" id="CuT-l7-8Lc"/>
                         <constraint firstAttribute="trailing" secondItem="gC9-Ys-Crq" secondAttribute="trailing" id="bv2-E1-mEj"/>
+                        <constraint firstItem="5TP-zR-yed" firstAttribute="top" secondItem="MRm-zv-u6m" secondAttribute="top" constant="17" id="gdz-0l-Mdn"/>
+                        <constraint firstAttribute="trailing" secondItem="5TP-zR-yed" secondAttribute="trailing" constant="17" id="m2E-2v-Gc9"/>
                         <constraint firstItem="gC9-Ys-Crq" firstAttribute="leading" secondItem="MRm-zv-u6m" secondAttribute="leading" id="s7J-Ih-17T"/>
                     </constraints>
                 </view>

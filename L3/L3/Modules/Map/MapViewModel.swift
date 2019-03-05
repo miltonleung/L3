@@ -100,4 +100,8 @@ extension MapViewModelImpl: PanelCoordinatorDelegate {
     guard let currentLocation = locationStack.last else { return }
     onCameraChange?(locations[currentLocation])
   }
+
+  func allCitiesDismissed() {
+    locationStack.removeAll()
+  }
 }

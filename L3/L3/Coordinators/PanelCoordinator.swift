@@ -13,6 +13,7 @@ protocol PanelCoordinatorDelegate: class {
   func exploreTapped()
   func actionTapped()
   func cityDismissed()
+  func allCitiesDismissed()
 }
 
 final class PanelCoordinator: Coordinator {
@@ -47,6 +48,10 @@ extension PanelCoordinator {
     viewModel.onBackPanned = {
       self.delegate?.cityDismissed()
       self.navigationController.popViewController(animated: true)
+    }
+    viewModel.onCloseTapped = {
+      self.delegate?.allCitiesDismissed()
+      self.navigationController.popToRootViewController(animated: true)
     }
     let vc = CityViewController(viewModel: viewModel)
 
