@@ -54,6 +54,8 @@
 		5288B1902228C5D300B4F874 /* PanelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288B18D2228C5D300B4F874 /* PanelViewModel.swift */; };
 		5288B1912228C5D300B4F874 /* PanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5288B18E2228C5D300B4F874 /* PanelViewController.xib */; };
 		5288B1932228D07700B4F874 /* PanelCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288B1922228D07700B4F874 /* PanelCoordinator.swift */; };
+		5288B196222E1E6B00B4F874 /* CityCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288B195222E1E6A00B4F874 /* CityCompany.swift */; };
+		5288B198222E212200B4F874 /* CityCompanyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288B197222E212200B4F874 /* CityCompanyParser.swift */; };
 		7CE4E450A3C04E8E453487A5 /* Pods_L3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1BFD0EE2094DC064DE0CFCB /* Pods_L3Tests.framework */; };
 		8B69B7635AE8702018FB9391 /* Pods_L3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15578F7122411A9EB77640A /* Pods_L3UITests.framework */; };
 		E44037C5F6E5D413DDC6A349 /* Pods_L3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3A5D282D8C083F124C5DC4 /* Pods_L3.framework */; };
@@ -131,6 +133,8 @@
 		5288B18D2228C5D300B4F874 /* PanelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelViewModel.swift; sourceTree = "<group>"; };
 		5288B18E2228C5D300B4F874 /* PanelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PanelViewController.xib; sourceTree = "<group>"; };
 		5288B1922228D07700B4F874 /* PanelCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelCoordinator.swift; sourceTree = "<group>"; };
+		5288B195222E1E6A00B4F874 /* CityCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCompany.swift; sourceTree = "<group>"; };
+		5288B197222E212200B4F874 /* CityCompanyParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCompanyParser.swift; sourceTree = "<group>"; };
 		5D9748D800289A94D8A3AA9D /* Pods-L3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-L3UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-L3UITests/Pods-L3UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E5C48AC3B3BF6D4869DACEC /* Pods-L3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-L3.release.xcconfig"; path = "Pods/Target Support Files/Pods-L3/Pods-L3.release.xcconfig"; sourceTree = "<group>"; };
 		9D6FCC55E327EFA27013F2C6 /* Pods-L3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-L3UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-L3UITests/Pods-L3UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -188,6 +192,7 @@
 				523AC29622221A66007F23C0 /* DatasetLoader.swift */,
 				5277D5DE222226AF00464E64 /* DataManager.swift */,
 				5277D5E02222273400464E64 /* LocationParser.swift */,
+				5288B197222E212200B4F874 /* CityCompanyParser.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -341,6 +346,7 @@
 			isa = PBXGroup;
 			children = (
 				523AC29C22221B5B007F23C0 /* Location.swift */,
+				5288B195222E1E6A00B4F874 /* CityCompany.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -658,6 +664,7 @@
 			files = (
 				525F6659222A68BC0020FC65 /* StatisticCollectionCell.swift in Sources */,
 				5277D62C2228648B00464E64 /* MapViewController.swift in Sources */,
+				5288B198222E212200B4F874 /* CityCompanyParser.swift in Sources */,
 				5277D6222228621000464E64 /* Coordinator.swift in Sources */,
 				525F664A222A50270020FC65 /* CityImageCell.swift in Sources */,
 				525F6652222A63B90020FC65 /* CityStatisticsViewModel.swift in Sources */,
@@ -684,6 +691,7 @@
 				5277D62D2228648B00464E64 /* MapViewModel.swift in Sources */,
 				525F6639222A40A20020FC65 /* CityViewController.swift in Sources */,
 				525F6641222A44E20020FC65 /* CityHeaderViewModel.swift in Sources */,
+				5288B196222E1E6B00B4F874 /* CityCompany.swift in Sources */,
 				5288B18F2228C5D300B4F874 /* PanelViewController.swift in Sources */,
 				525F665F222A73A00020FC65 /* UICollectionView+Nib.swift in Sources */,
 				524A47BE222B4D8C00E00291 /* CityActionViewModel.swift in Sources */,

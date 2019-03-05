@@ -46,6 +46,7 @@ struct Location: Equatable {
   let groceriesIndex: Double?
   let numbeoURL: URL?
   let imageURL: URL?
+  let companies: [CityCompany]
 }
 
 extension Location {
@@ -78,4 +79,13 @@ extension Location {
 
     return statistics
   }
+
+  var notableCompanies: [CityCompany] {
+    let eligibleCompanies = companies.filter { !$0.addresses.isEmpty }
+
+    return eligibleCompanies.sorted(by: { $0.size > $1.size })
+
+  }
 }
+
+
