@@ -21,13 +21,13 @@ final class StatisticCollectionCellViewModelImpl {
     case .jobIndex(let value):
       valueText = value.withCommas()
     case .averageDevSalary(let value):
-      valueText = String(format: "$%.01f", value / 1000)
+      valueText = String(format: "$%.01fk", value / 1000)
     case .averageSalary(let value):
-      valueText = String(format: "$%.01f", value / 1000)
+      valueText = String(format: "$%.01fk", value / 1000)
     case .costOfLiving(let value):
       valueText = "\(value)"
     case .rent(let value):
-      valueText = "\(value)"
+      valueText = "$\(Int(value))"
     case .groceries(let value):
       valueText = "\(value)"
     }

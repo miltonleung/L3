@@ -26,7 +26,7 @@ enum Statistic {
     case .averageDevSalary: return "AVG DEV SALARY"
     case .averageSalary: return "AVG SALARY"
     case .costOfLiving: return "COST OF LIVING"
-    case .rent: return "RENT INDEX"
+    case .rent: return "AVERAGE RENT"
     case .groceries: return "GROCERIES INDEX"
     }
   }
@@ -42,7 +42,7 @@ struct Location: Equatable {
   let averageMonthlyRent: Double?
   let averageMonthlySalary: Double?
   let costOfLivingIndex: Double?
-  let rentIndex: Double?
+  let averageRent: Double?
   let groceriesIndex: Double?
   let numbeoURL: URL?
   let imageURL: URL?
@@ -69,8 +69,8 @@ extension Location {
       statistics.append(.costOfLiving(value: costOfLivingIndex))
     }
 
-    if let rentIndex = rentIndex {
-      statistics.append(.rent(value: rentIndex))
+    if let averageRent = averageRent {
+      statistics.append(.rent(value: averageRent))
     }
 
     if let groceriesIndex = groceriesIndex {

@@ -41,14 +41,14 @@ final class LocationParser {
     }
 
     var costOfLivingIndex: Double? = nil
-    var rentIndex: Double? = nil
+    var averageRent: Double? = nil
     var groceriesIndex: Double? = nil
     if
       let costOfLivingIndexValue = json["average_salary"] as? Double,
-      let rentIndexValue = json["average_rent"] as? Double,
+      let averageRentValue = json["average_rent"] as? Double,
       let groceriesIndexValue = json["groceries_index"] as? Double {
       costOfLivingIndex = costOfLivingIndexValue
-      rentIndex = rentIndexValue
+      averageRent = averageRentValue
       groceriesIndex = groceriesIndexValue
     }
 
@@ -65,7 +65,7 @@ final class LocationParser {
                     averageMonthlyRent: averageMonthlyRent,
                     averageMonthlySalary: averageMonthlySalary,
                     costOfLivingIndex: costOfLivingIndex,
-                    rentIndex: rentIndex,
+                    averageRent: averageRent,
                     groceriesIndex: groceriesIndex,
                     numbeoURL: numbeoURL,
                     imageURL: imageURL,
