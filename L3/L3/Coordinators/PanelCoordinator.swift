@@ -16,7 +16,7 @@ protocol PanelCoordinatorDelegate: class {
   func allCitiesDismissed()
 }
 
-final class PanelCoordinator: Coordinator {
+final class PanelCoordinator: NSObject, Coordinator {
   weak var delegate: PanelCoordinatorDelegate?
   let navigationController: UINavigationController
 
@@ -30,6 +30,7 @@ final class PanelCoordinator: Coordinator {
     viewModel.onExploreButtonTapped = delegate?.exploreTapped
     let panelVC = PanelViewController(viewModel: viewModel)
 
+    navigationController.delegate = self
     navigationController.viewControllers = [panelVC]
     navigationController.setNavigationBarHidden(true, animated: false)
   }
@@ -48,6 +49,7 @@ extension PanelCoordinator {
     viewModel.onBackPanned = {
       self.delegate?.cityDismissed()
       self.navigationController.popViewController(animated: true)
+      print(self.navigationController.viewControllers)
     }
     viewModel.onCloseTapped = {
       self.delegate?.allCitiesDismissed()
@@ -64,5 +66,11 @@ extension PanelCoordinator {
   func showCity(location: Location, rank: Int, isLast: Bool) {
     let vc = instantiateCity(location: location, rank: rank, isLast: isLast)
     navigationController.pushViewController(vc, animated: true)
+  }
+}
+
+extension PanelCoordinator: UIViewControllerTransitioningDelegate, UINavigationControllerDelegate {
+  func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationController.Operation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    return PanelAnimationController(operation: operation, duration: navigationController.transitionCoordinator?.transitionDuration)
   }
 }
