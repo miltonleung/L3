@@ -63,7 +63,7 @@ struct Colors {
     return UIColor(white: 126.0 / 255.0, alpha: 1.0)
   }
 
-  static var lightHeaderBold: UIColor {
+  static var lightTitle: UIColor {
     return UIColor(white: 48.0 / 255.0, alpha: 1.0)
   }
 
@@ -104,7 +104,7 @@ struct Colors {
   }
 
   static var darkPanelBorder: UIColor {
-    return UIColor(red: 31.0 / 255.0, green: 31.0 / 255.0, blue: 32.0 / 255.0, alpha: 0.3)
+    return UIColor(red: 31.0 / 255.0, green: 31.0 / 255.0, blue: 32.0 / 255.0, alpha: 0.1)
   }
 
   static var lightPanelShadow: UIColor {

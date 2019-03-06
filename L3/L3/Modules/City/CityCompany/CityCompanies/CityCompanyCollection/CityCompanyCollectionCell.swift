@@ -21,10 +21,26 @@ final class CityCompanyCollectionCell: UICollectionViewCell {
   override func awakeFromNib() {
     super.awakeFromNib()
     applyStyling()
+    setupTheme()
+  }
+
+  deinit {
+    stopObservingTheme()
   }
 
   func applyStyling() {
     companyLabel.font = Font.bold(size: 18)
     companyLabel.textColor = #colorLiteral(red: 0.2705882353, green: 0.2705882353, blue: 0.2705882353, alpha: 1)
+  }
+}
+
+extension CityCompanyCollectionCell: Themeable {
+  func onThemeChanged(theme: Theme) {
+    switch theme {
+    case .dark:
+      companyLabel.textColor = Colors.darkLightText
+    case .light:
+      companyLabel.textColor = Colors.lightDarkText
+    }
   }
 }

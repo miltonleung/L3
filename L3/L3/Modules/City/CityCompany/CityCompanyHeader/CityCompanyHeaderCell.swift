@@ -21,6 +21,11 @@ final class CityCompanyHeaderCell: UITableViewCell {
   override func awakeFromNib() {
     super.awakeFromNib()
     applyStyling()
+    setupTheme()
+  }
+
+  deinit {
+    stopObservingTheme()
   }
 
   func applyStyling() {
@@ -28,6 +33,16 @@ final class CityCompanyHeaderCell: UITableViewCell {
     selectionStyle = .none
 
     headerLabel.font = Font.bold(size: 18)
-    headerLabel.textColor = #colorLiteral(red: 0.4274509804, green: 0.4274509804, blue: 0.4274509804, alpha: 1)
+  }
+}
+
+extension CityCompanyHeaderCell: Themeable {
+  func onThemeChanged(theme: Theme) {
+    switch theme {
+    case .dark:
+      headerLabel.textColor = Colors.darkSectionHeader
+    case .light:
+      headerLabel.textColor = Colors.lightSectionHeader
+    }
   }
 }

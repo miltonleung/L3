@@ -35,7 +35,7 @@ final class CityStatisticsCell: UITableViewCell {
     backgroundColor = .clear
     selectionStyle = .none
 
-    dividerView.backgroundColor = #colorLiteral(red: 0.5921568627, green: 0.5921568627, blue: 0.5921568627, alpha: 1)
+    dividerView.backgroundColor = Colors.divider
 
     collectionView.dataSource = self
     collectionView.delegate = self

@@ -27,6 +27,8 @@ final class CityViewController: UIViewController {
     }
   }
 
+  var backgroundView: UIView?
+
   var viewModel: CityViewModel
 
   init(viewModel: CityViewModel) {
@@ -38,6 +40,10 @@ final class CityViewController: UIViewController {
     fatalError("init(coder:) has not been implemented")
   }
 
+  deinit {
+    stopObservingTheme()
+  }
+
   override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
     tableView.flashScrollIndicators()
@@ -46,18 +52,14 @@ final class CityViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     configure()
+    setupTheme()
   }
 
   func configure() {
     self.view.backgroundColor = .clear
 
     panelView.layer.cornerRadius = 23
-//    panelView.backgroundColor = #colorLiteral(red: 0.8156862745, green: 0.8156862745, blue: 0.8156862745, alpha: 1)
     panelView.layer.masksToBounds = true
-    panelView.layer.shadowOffset = CGSize(width: 0, height: 2)
-    panelView.layer.shadowColor = #colorLiteral(red: 0.2823529412, green: 0.2823529412, blue: 0.2823529412, alpha: 0.934369649)
-    panelView.layer.shadowOpacity = 1
-    panelView.layer.shadowRadius = 9
 
     let blurEffect = UIBlurEffect(style: UIBlurEffect.Style.dark)
     let blurEffectView = UIVisualEffectView(effect: blurEffect)
@@ -66,10 +68,9 @@ final class CityViewController: UIViewController {
     panelView.insertSubview(blurEffectView, at: 0)
 
     let backgroundView = UIView()
-    backgroundView.backgroundColor = #colorLiteral(red: 0.9333333333, green: 0.9333333333, blue: 0.9333333333, alpha: 1)
-    backgroundView.alpha = 0.8
     backgroundView.frame = panelView.bounds
     backgroundView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+    self.backgroundView = backgroundView
     panelView.insertSubview(backgroundView, aboveSubview: blurEffectView)
 
     tableView.delegate = self
@@ -82,13 +83,10 @@ final class CityViewController: UIViewController {
     panelView.addGestureRecognizer(panGesture)
 
     closeButton.setTitle(nil, for: .normal)
-    closeButton.setImage(#imageLiteral(resourceName: "lightCloseButton").withRenderingMode(.alwaysOriginal), for: .normal)
 
     actionButton.setTitle(viewModel.actionButtonTitle, for: .normal)
     actionButton.titleLabel?.font = Font.bold(size: 18)
-    actionButton.setTitleColor(#colorLiteral(red: 0.9450980392, green: 0.9450980392, blue: 0.9450980392, alpha: 1), for: .normal)
     actionButton.layer.cornerRadius = 8
-    actionButton.backgroundColor = UIColor(gradientStyle: .topToBottom, withFrame: actionButton.frame, andColors: [#colorLiteral(red: 0.831372549, green: 0.3098039216, blue: 0.5176470588, alpha: 0.85), #colorLiteral(red: 0.7764705882, green: 0.2196078431, blue: 0.4039215686, alpha: 0.85)])
   }
 
   @objc func handlePanGesture(sender: UIPanGestureRecognizer) {
@@ -97,6 +95,40 @@ final class CityViewController: UIViewController {
       sender.setTranslation(.zero, in: panelView)
       panelView.removeGestureRecognizer(sender)
       viewModel.onBackPanned?()
+    }
+  }
+}
+
+extension CityViewController: Themeable {
+  func onThemeChanged(theme: Theme) {
+    switch theme {
+    case .dark:
+      panelView.layer.shadowOffset = CGSize(width: 0, height: 8)
+      panelView.layer.shadowColor = Colors.darkPanelShadow.cgColor
+      panelView.layer.shadowOpacity = 1
+      panelView.layer.shadowRadius = 13
+      panelView.layer.borderWidth = 2
+      panelView.layer.borderColor = Colors.darkPanelBorder.cgColor
+
+      backgroundView?.backgroundColor = Colors.darkPanelBackground
+
+      actionButton.setTitleColor(Colors.darkActionText, for: .normal)
+      actionButton.backgroundColor = UIColor(gradientStyle: .topToBottom, withFrame: actionButton.frame, andColors: [Colors.darkActionTop, Colors.darkActionBottom])
+
+      closeButton.setImage(#imageLiteral(resourceName: "lightCloseButton").withRenderingMode(.alwaysOriginal), for: .normal)
+    case .light:
+      panelView.layer.shadowOffset = CGSize(width: 0, height: 2)
+      panelView.layer.shadowColor = Colors.lightPanelShadow.cgColor
+      panelView.layer.shadowOpacity = 1
+      panelView.layer.shadowRadius = 9
+      panelView.layer.borderWidth = 0
+
+      backgroundView?.backgroundColor = Colors.lightPanelBackground
+
+      actionButton.setTitleColor(Colors.lightActionText, for: .normal)
+      actionButton.backgroundColor = UIColor(gradientStyle: .topToBottom, withFrame: actionButton.frame, andColors: [Colors.lightActionTop, Colors.lightActionBottom])
+
+      closeButton.setImage(#imageLiteral(resourceName: "darkCloseButton").withRenderingMode(.alwaysOriginal), for: .normal)
     }
   }
 }

@@ -23,16 +23,32 @@ final class CityHeaderCell: UITableViewCell {
   override func awakeFromNib() {
     super.awakeFromNib()
     applyStyling()
+    setupTheme()
+  }
+
+  deinit {
+    stopObservingTheme()
   }
 
   func applyStyling() {
-    rankLabel.textColor = #colorLiteral(red: 0.4941176471, green: 0.4941176471, blue: 0.4941176471, alpha: 1)
     rankLabel.font = Font.medium(size: 19)
 
-    cityLabel.textColor = #colorLiteral(red: 0.1882352941, green: 0.1882352941, blue: 0.1882352941, alpha: 1)
     cityLabel.font = Font.bold(size: 24)
 
     backgroundColor = .clear
     selectionStyle = .none
+  }
+}
+
+extension CityHeaderCell: Themeable {
+  func onThemeChanged(theme: Theme) {
+    switch theme {
+    case .dark:
+      rankLabel.textColor = Colors.darkSubheader
+      cityLabel.textColor = Colors.darkTitle
+    case .light:
+      rankLabel.textColor = Colors.lightSubheader
+      cityLabel.textColor = Colors.lightTitle
+    }
   }
 }

@@ -23,13 +23,29 @@ final class StatisticCollectionCell: UICollectionViewCell {
   override func awakeFromNib() {
     super.awakeFromNib()
     applyStyling()
+    setupTheme()
+  }
+
+  deinit {
+    stopObservingTheme()
   }
 
   func applyStyling() {
-    categoryLabel.textColor = #colorLiteral(red: 0.4941176471, green: 0.4941176471, blue: 0.4941176471, alpha: 1)
     categoryLabel.font = Font.bold(size: 11)
 
-    valueLabel.textColor = #colorLiteral(red: 0.1529411765, green: 0.3921568627, blue: 0.8470588235, alpha: 1)
     valueLabel.font = Font.medium(size: 26)
+  }
+}
+
+extension StatisticCollectionCell: Themeable {
+  func onThemeChanged(theme: Theme) {
+    switch theme {
+    case .dark:
+      categoryLabel.textColor = Colors.darkSubheader
+      valueLabel.textColor = Colors.darkStat
+    case .light:
+      categoryLabel.textColor = Colors.lightSubheader
+      valueLabel.textColor = Colors.lightStat
+    }
   }
 }
