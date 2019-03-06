@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5233A912222F9E0E00A2F82E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5233A911222F9E0E00A2F82E /* Colors.swift */; };
 		523AC29722221A66007F23C0 /* DatasetLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523AC29622221A66007F23C0 /* DatasetLoader.swift */; };
 		523AC29D22221B5B007F23C0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523AC29C22221B5B007F23C0 /* Location.swift */; };
 		524A47CA222F02FA00E00291 /* CityCompaniesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A47C7222F02FA00E00291 /* CityCompaniesCell.swift */; };
@@ -89,6 +90,7 @@
 
 /* Begin PBXFileReference section */
 		2B581217E685FE8D31FC0D30 /* Pods-L3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-L3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-L3/Pods-L3.debug.xcconfig"; sourceTree = "<group>"; };
+		5233A911222F9E0E00A2F82E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		523AC29622221A66007F23C0 /* DatasetLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasetLoader.swift; sourceTree = "<group>"; };
 		523AC29C22221B5B007F23C0 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		524A47C7222F02FA00E00291 /* CityCompaniesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCompaniesCell.swift; sourceTree = "<group>"; };
@@ -209,7 +211,6 @@
 			children = (
 				5288B199222F578E00B4F874 /* Parsers */,
 				523AC29622221A66007F23C0 /* DatasetLoader.swift */,
-				5288B19A222F57BC00B4F874 /* ThemeManager.swift */,
 				5288B19C222F589A00B4F874 /* UserDefaultsManager.swift */,
 				5277D5DE222226AF00464E64 /* DataManager.swift */,
 			);
@@ -405,6 +406,8 @@
 			children = (
 				5277D5E4222257DE00464E64 /* PulseColors.swift */,
 				525F662C222A05CE0020FC65 /* Font.swift */,
+				5288B19A222F57BC00B4F874 /* ThemeManager.swift */,
+				5233A911222F9E0E00A2F82E /* Colors.swift */,
 			);
 			path = Styling;
 			sourceTree = "<group>";
@@ -412,8 +415,8 @@
 		5277D6232228622500464E64 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				5288B19E222F60CB00B4F874 /* Themeable.swift */,
 				5277D6212228621000464E64 /* Coordinator.swift */,
+				5288B19E222F60CB00B4F874 /* Themeable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -747,6 +750,7 @@
 				5277D5E12222273400464E64 /* LocationParser.swift in Sources */,
 				524A47D9222F054800E00291 /* CityCompanyCollectionCellViewModel.swift in Sources */,
 				525F663A222A40A20020FC65 /* CityViewModel.swift in Sources */,
+				5233A912222F9E0E00A2F82E /* Colors.swift in Sources */,
 				525F6645222A46980020FC65 /* UITableView+Nib.swift in Sources */,
 				523AC29D22221B5B007F23C0 /* Location.swift in Sources */,
 				5288B1932228D07700B4F874 /* PanelCoordinator.swift in Sources */,

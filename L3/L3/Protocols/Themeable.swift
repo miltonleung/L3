@@ -6,19 +6,28 @@
 //
 
 import Foundation
+import UIKit
 
-protocol Themeable {
+protocol Themeable: class {
   var currentTheme: Theme { get }
-  func registerForThemeChanges()
+  func setupTheme()
+  func stopObservingTheme()
   func onThemeChanged(theme: Theme)
 }
 
-extension Themeable where Self: UIViewController {
+extension Themeable {
   var currentTheme: Theme {
-    return ThemeManager.shared.getTheme()
+    return ThemeManager.shared.getCurrentTheme()
+  }
+  
+  func setupTheme() {
+    onThemeChanged(theme: ThemeManager.shared.getCurrentTheme())
+    ThemeManager.shared.subscribeForChanges(self) { [weak self] theme in
+      self?.onThemeChanged(theme: theme)
+    }
   }
 
-  func registerForThemeChanges() {
-    ThemeManager.shared.subscribeForChanges(onThemeChanged)
+  func stopObservingTheme() {
+    ThemeManager.shared.stopObserving(self)
   }
 }
