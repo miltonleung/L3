@@ -17,6 +17,8 @@ final class PanelViewController: UIViewController {
   @IBOutlet weak var monthlyRentButton: UIButton!
   @IBOutlet weak var exploreButton: UIButton!
 
+  var backgroundView: UIView?
+
   var viewModel: PanelViewModel
 
   init(viewModel: PanelViewModel) {
@@ -28,69 +30,128 @@ final class PanelViewController: UIViewController {
     fatalError("init(coder:) has not been implemented")
   }
 
+  deinit {
+    stopObservingTheme()
+  }
+
   override func viewDidLoad() {
     super.viewDidLoad()
     configure()
+    setupTheme()
   }
 
   func configure() {
     self.view.backgroundColor = .clear
 
     panelView.layer.cornerRadius = 23
-    panelView.backgroundColor = #colorLiteral(red: 0.9333333333, green: 0.9333333333, blue: 0.9333333333, alpha: 0.87)
-    panelView.layer.shadowOffset = CGSize(width: 0, height: 2)
-    panelView.layer.shadowColor = #colorLiteral(red: 0.2823529412, green: 0.2823529412, blue: 0.2823529412, alpha: 0.934369649)
-    panelView.layer.shadowOpacity = 1
-    panelView.layer.shadowRadius = 9
+    panelView.layer.masksToBounds = true
+
+    let blurEffect = UIBlurEffect(style: UIBlurEffect.Style.dark)
+    let blurEffectView = UIVisualEffectView(effect: blurEffect)
+    blurEffectView.frame = panelView.bounds
+    blurEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+    panelView.insertSubview(blurEffectView, at: 0)
+
+    let backgroundView = UIView()
+    backgroundView.frame = panelView.bounds
+    backgroundView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+    self.backgroundView = backgroundView
+    panelView.insertSubview(backgroundView, aboveSubview: blurEffectView)
 
     titleLabel.text = viewModel.title
-    titleLabel.textColor = #colorLiteral(red: 0.2549019608, green: 0.2549019608, blue: 0.2549019608, alpha: 1)
     titleLabel.font = Font.bold(size: 18)
 
     numberOfJobsButton.setTitle(viewModel.numberOfJobsButtonTitle, for: .normal)
     numberOfJobsButton.titleLabel?.font = Font.bold(size: 16)
     numberOfJobsButton.titleLabel?.textAlignment = .center
-    numberOfJobsButton.layer.borderColor = #colorLiteral(red: 0.3294117647, green: 0.5215686275, blue: 0.8823529412, alpha: 1)
     numberOfJobsButton.layer.cornerRadius = 6.8
     devSalaryButton.setTitle(viewModel.devSalaryButtonTitle, for: .normal)
     devSalaryButton.titleLabel?.font = Font.bold(size: 16)
     devSalaryButton.titleLabel?.textAlignment = .center
-    devSalaryButton.layer.borderColor = #colorLiteral(red: 0.3294117647, green: 0.5215686275, blue: 0.8823529412, alpha: 1)
     devSalaryButton.layer.cornerRadius = 6.8
 
     monthlyRentButton.setTitle(viewModel.monthlyRentButtonTitle, for: .normal)
     monthlyRentButton.titleLabel?.font = Font.bold(size: 16)
     monthlyRentButton.titleLabel?.textAlignment = .center
-    monthlyRentButton.layer.borderColor = #colorLiteral(red: 0.3294117647, green: 0.5215686275, blue: 0.8823529412, alpha: 1)
     monthlyRentButton.layer.cornerRadius = 6.8
 
     unselectAllButtons()
     selectButton(button: numberOfJobsButton)
     exploreButton.setTitle(viewModel.exploreButtonTitle, for: .normal)
     exploreButton.titleLabel?.font = Font.bold(size: 18)
-    exploreButton.setTitleColor(#colorLiteral(red: 0.9450980392, green: 0.9450980392, blue: 0.9450980392, alpha: 1), for: .normal)
     exploreButton.layer.cornerRadius = 8
-    exploreButton.backgroundColor = UIColor(gradientStyle: .topToBottom, withFrame: exploreButton.frame, andColors: [#colorLiteral(red: 0.831372549, green: 0.3098039216, blue: 0.5176470588, alpha: 0.85), #colorLiteral(red: 0.7764705882, green: 0.2196078431, blue: 0.4039215686, alpha: 0.85)])
   }
 
   fileprivate func unselectAllButtons() {
-    numberOfJobsButton.setTitleColor(#colorLiteral(red: 0.3294117647, green: 0.5215686275, blue: 0.8823529412, alpha: 1), for: .normal)
+    switch currentTheme {
+    case .dark:
+      numberOfJobsButton.setTitleColor(Colors.darkSeg, for: .normal)
+      devSalaryButton.setTitleColor(Colors.darkSeg, for: .normal)
+      monthlyRentButton.setTitleColor(Colors.darkSeg, for: .normal)
+    case .light:
+      numberOfJobsButton.setTitleColor(Colors.lightSeg, for: .normal)
+      devSalaryButton.setTitleColor(Colors.lightSeg, for: .normal)
+      monthlyRentButton.setTitleColor(Colors.lightSeg, for: .normal)
+    }
+
     numberOfJobsButton.layer.borderWidth = 1.8
     numberOfJobsButton.backgroundColor = UIColor.clear
 
-    devSalaryButton.setTitleColor(#colorLiteral(red: 0.3294117647, green: 0.5215686275, blue: 0.8823529412, alpha: 1), for: .normal)
     devSalaryButton.layer.borderWidth = 1.8
     devSalaryButton.backgroundColor = UIColor.clear
 
-    monthlyRentButton.setTitleColor(#colorLiteral(red: 0.3294117647, green: 0.5215686275, blue: 0.8823529412, alpha: 1), for: .normal)
     monthlyRentButton.layer.borderWidth = 1.8
     monthlyRentButton.backgroundColor = UIColor.clear
   }
 
   fileprivate func selectButton(button: UIButton) {
-    button.setTitleColor(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1), for: .normal)
+    switch currentTheme {
+    case .dark:
+      button.backgroundColor = Colors.darkSeg.withAlphaComponent(0.72)
+    case .light:
+      button.backgroundColor = Colors.lightSeg.withAlphaComponent(0.72)
+    }
+
+    button.setTitleColor(Colors.whiteText, for: .normal)
     button.layer.borderWidth = 0
-    button.backgroundColor = #colorLiteral(red: 0.3294117647, green: 0.5215686275, blue: 0.8823529412, alpha: 1)
+  }
+}
+
+extension PanelViewController: Themeable {
+  func onThemeChanged(theme: Theme) {
+    switch theme {
+    case .dark:
+      panelView.layer.shadowOffset = CGSize(width: 0, height: 8)
+      panelView.layer.shadowColor = Colors.darkPanelShadow.cgColor
+      panelView.layer.shadowOpacity = 1
+      panelView.layer.shadowRadius = 13
+      panelView.layer.borderWidth = 2
+      panelView.layer.borderColor = Colors.darkPanelBorder.cgColor
+
+      backgroundView?.backgroundColor = Colors.darkPanelBackground
+
+      titleLabel.textColor = Colors.darkHeader
+      numberOfJobsButton.layer.borderColor = Colors.darkSeg.cgColor
+      devSalaryButton.layer.borderColor = Colors.darkSeg.cgColor
+      monthlyRentButton.layer.borderColor = Colors.darkSeg.cgColor
+      exploreButton.setTitleColor(Colors.darkActionText, for: .normal)
+      exploreButton.backgroundColor = UIColor(gradientStyle: .topToBottom, withFrame: exploreButton.frame, andColors: [Colors.darkActionTop, Colors.darkActionBottom])
+    case .light:
+      panelView.layer.shadowOffset = CGSize(width: 0, height: 2)
+      panelView.layer.shadowColor = Colors.lightPanelShadow.cgColor
+      panelView.layer.shadowOpacity = 1
+      panelView.layer.shadowRadius = 9
+      panelView.layer.borderWidth = 0
+
+      backgroundView?.backgroundColor = Colors.lightPanelBackground
+
+      titleLabel.textColor = Colors.lightHeader
+      numberOfJobsButton.layer.borderColor = Colors.lightSeg.cgColor
+      devSalaryButton.layer.borderColor = Colors.lightSeg.cgColor
+      monthlyRentButton.layer.borderColor = Colors.lightSeg.cgColor
+      exploreButton.setTitleColor(Colors.lightActionText, for: .normal)
+      exploreButton.backgroundColor = UIColor(gradientStyle: .topToBottom, withFrame: exploreButton.frame, andColors: [Colors.lightActionTop, Colors.lightActionBottom])
+    }
   }
 }
 
