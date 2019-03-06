@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CityViewController" customModule="L3" customModuleProvider="target">
             <connections>
+                <outlet property="actionButton" destination="lm3-yy-OBz" id="Yoc-kq-FxZ"/>
                 <outlet property="closeButton" destination="5TP-zR-yed" id="Ncy-Gn-NdN"/>
                 <outlet property="panelView" destination="MRm-zv-u6m" id="8R4-jl-KhF"/>
                 <outlet property="tableView" destination="gC9-Ys-Crq" id="1w8-EQ-gRL"/>
@@ -27,7 +28,7 @@
                     <rect key="frame" x="18" y="54" width="339" height="560"/>
                     <subviews>
                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gC9-Ys-Crq">
-                            <rect key="frame" x="0.0" y="0.0" width="339" height="560"/>
+                            <rect key="frame" x="0.0" y="0.0" width="339" height="471"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </tableView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5TP-zR-yed">
@@ -41,15 +42,28 @@
                                 <action selector="closeButtonTapped" destination="-1" eventType="touchUpInside" id="Q6c-W3-4hQ"/>
                             </connections>
                         </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lm3-yy-OBz">
+                            <rect key="frame" x="22" y="481" width="295" height="56"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="56" id="GXF-bG-mMK"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="actionButtonTapped" destination="-1" eventType="touchUpInside" id="5Sr-bm-YDK"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
+                        <constraint firstItem="lm3-yy-OBz" firstAttribute="top" secondItem="gC9-Ys-Crq" secondAttribute="bottom" constant="10" id="BRn-qr-LMx"/>
                         <constraint firstItem="gC9-Ys-Crq" firstAttribute="top" secondItem="MRm-zv-u6m" secondAttribute="top" id="Cda-yY-hJ8"/>
-                        <constraint firstAttribute="bottom" secondItem="gC9-Ys-Crq" secondAttribute="bottom" id="CuT-l7-8Lc"/>
+                        <constraint firstAttribute="trailing" secondItem="lm3-yy-OBz" secondAttribute="trailing" constant="22" id="Ir8-Eo-IR7"/>
+                        <constraint firstItem="lm3-yy-OBz" firstAttribute="leading" secondItem="MRm-zv-u6m" secondAttribute="leading" constant="22" id="QZw-go-Pkm"/>
                         <constraint firstAttribute="trailing" secondItem="gC9-Ys-Crq" secondAttribute="trailing" id="bv2-E1-mEj"/>
                         <constraint firstItem="5TP-zR-yed" firstAttribute="top" secondItem="MRm-zv-u6m" secondAttribute="top" constant="17" id="gdz-0l-Mdn"/>
                         <constraint firstAttribute="trailing" secondItem="5TP-zR-yed" secondAttribute="trailing" constant="17" id="m2E-2v-Gc9"/>
                         <constraint firstItem="gC9-Ys-Crq" firstAttribute="leading" secondItem="MRm-zv-u6m" secondAttribute="leading" id="s7J-Ih-17T"/>
+                        <constraint firstAttribute="bottom" secondItem="lm3-yy-OBz" secondAttribute="bottom" constant="23" id="yeG-cT-bfj"/>
                     </constraints>
                 </view>
             </subviews>
@@ -61,6 +75,7 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="MRm-zv-u6m" secondAttribute="bottom" constant="53" id="ZGr-SN-Wl2"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="140" y="48.125937031484263"/>
         </view>
     </objects>
 </document>

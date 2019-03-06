@@ -10,14 +10,15 @@ protocol CityViewModel {
   var isImageAvailable: Bool { get }
   var numberOfStatistics: Int { get }
   var numberOfCompanies: Int { get }
+  var actionButtonTitle: String { get }
 
   var cityHeaderCellViewModel: CityHeaderCellViewModel { get }
   var cityImageCellViewModel: CityImageCellViewModel { get }
   var cityStatisticsCellViewModel: CityStatisticsCellViewModel { get }
   var cityCompanyHeaderViewModel: CityCompanyHeaderCellViewModel { get }
   var cityCompaniesViewModel: CityCompaniesCellViewModel { get }
-  var cityActionCellViewModel: CityActionCellViewModel { get }
 
+  var onActionTapped: (() -> Void)? { get }
   var onBackPanned: (() -> Void)? { get }
   var onCloseTapped: (() -> Void)? { get }
 }
@@ -55,6 +56,10 @@ extension CityViewModelImpl: CityViewModel {
     return location.notableCompanies.count
   }
 
+  var actionButtonTitle: String {
+    return isLast ? "Done" : "Next City"
+  }
+
   var cityHeaderCellViewModel: CityHeaderCellViewModel {
     return CityHeaderCellViewModelImpl(rank: rank, cityName: location.name)
   }
@@ -73,11 +78,5 @@ extension CityViewModelImpl: CityViewModel {
 
   var cityCompaniesViewModel: CityCompaniesCellViewModel {
     return CityCompaniesCellViewModelImpl(cityCompanies: location.companies)
-  }
-
-  var cityActionCellViewModel: CityActionCellViewModel {
-    let viewModel = CityActionCellViewModelImpl(isLast: isLast)
-    viewModel.onActionButtonTapped = onActionTapped
-    return viewModel
   }
 }

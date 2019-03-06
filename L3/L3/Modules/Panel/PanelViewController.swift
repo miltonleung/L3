@@ -70,7 +70,7 @@ final class PanelViewController: UIViewController {
     exploreButton.titleLabel?.font = Font.bold(size: 18)
     exploreButton.setTitleColor(#colorLiteral(red: 0.9450980392, green: 0.9450980392, blue: 0.9450980392, alpha: 1), for: .normal)
     exploreButton.layer.cornerRadius = 8
-    exploreButton.backgroundColor = UIColor(gradientStyle: .topToBottom, withFrame: exploreButton.frame, andColors: [#colorLiteral(red: 0.7490196078, green: 0.3058823529, blue: 0.4823529412, alpha: 0.85), #colorLiteral(red: 0.7529411765, green: 0.2980392157, blue: 0.4470588235, alpha: 0.85)])
+    exploreButton.backgroundColor = UIColor(gradientStyle: .topToBottom, withFrame: exploreButton.frame, andColors: [#colorLiteral(red: 0.831372549, green: 0.3098039216, blue: 0.5176470588, alpha: 0.85), #colorLiteral(red: 0.7764705882, green: 0.2196078431, blue: 0.4039215686, alpha: 0.85)])
   }
 
   fileprivate func unselectAllButtons() {

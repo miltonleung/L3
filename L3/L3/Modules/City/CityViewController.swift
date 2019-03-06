@@ -11,9 +11,11 @@ import UIKit
 final class CityViewController: UIViewController {
   fileprivate struct Constants {
     static let backThreshold: CGFloat = 0.17
+    static let scrollTopInset: CGFloat = 20
   }
 
   @IBOutlet weak var closeButton: UIButton!
+  @IBOutlet weak var actionButton: UIButton!
   @IBOutlet weak var panelView: PanelView!
   @IBOutlet weak var tableView: UITableView! {
     didSet {
@@ -22,7 +24,6 @@ final class CityViewController: UIViewController {
       tableView.register(CityStatisticsCell.self)
       tableView.register(CityCompanyHeaderCell.self)
       tableView.register(CityCompaniesCell.self)
-      tableView.register(CityActionCell.self)
     }
   }
 
@@ -37,8 +38,9 @@ final class CityViewController: UIViewController {
     fatalError("init(coder:) has not been implemented")
   }
 
-  override func viewWillAppear(_ animated: Bool) {
-    super.viewWillAppear(animated)
+  override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
+    tableView.flashScrollIndicators()
   }
 
   override func viewDidLoad() {
@@ -50,6 +52,7 @@ final class CityViewController: UIViewController {
     self.view.backgroundColor = .clear
 
     panelView.layer.cornerRadius = 23
+//    panelView.backgroundColor = #colorLiteral(red: 0.8156862745, green: 0.8156862745, blue: 0.8156862745, alpha: 1)
     panelView.layer.masksToBounds = true
     panelView.layer.shadowOffset = CGSize(width: 0, height: 2)
     panelView.layer.shadowColor = #colorLiteral(red: 0.2823529412, green: 0.2823529412, blue: 0.2823529412, alpha: 0.934369649)
@@ -68,17 +71,24 @@ final class CityViewController: UIViewController {
     backgroundView.frame = panelView.bounds
     backgroundView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
     panelView.insertSubview(backgroundView, aboveSubview: blurEffectView)
-    
+
     tableView.delegate = self
     tableView.dataSource = self
     tableView.separatorStyle = .none
     tableView.backgroundColor = .clear
+    tableView.scrollIndicatorInsets = UIEdgeInsets(top: Constants.scrollTopInset, left: 0, bottom: 0, right: 0)
 
     let panGesture = UIPanGestureRecognizer(target: self, action: #selector(handlePanGesture(sender:)))
     panelView.addGestureRecognizer(panGesture)
 
     closeButton.setTitle(nil, for: .normal)
     closeButton.setImage(#imageLiteral(resourceName: "lightCloseButton").withRenderingMode(.alwaysOriginal), for: .normal)
+
+    actionButton.setTitle(viewModel.actionButtonTitle, for: .normal)
+    actionButton.titleLabel?.font = Font.bold(size: 18)
+    actionButton.setTitleColor(#colorLiteral(red: 0.9450980392, green: 0.9450980392, blue: 0.9450980392, alpha: 1), for: .normal)
+    actionButton.layer.cornerRadius = 8
+    actionButton.backgroundColor = UIColor(gradientStyle: .topToBottom, withFrame: actionButton.frame, andColors: [#colorLiteral(red: 0.831372549, green: 0.3098039216, blue: 0.5176470588, alpha: 0.85), #colorLiteral(red: 0.7764705882, green: 0.2196078431, blue: 0.4039215686, alpha: 0.85)])
   }
 
   @objc func handlePanGesture(sender: UIPanGestureRecognizer) {
@@ -96,13 +106,17 @@ extension CityViewController {
   @IBAction private func closeButtonTapped() {
     viewModel.onCloseTapped?()
   }
+
+  @IBAction private func actionButtonTapped() {
+    viewModel.onActionTapped?()
+  }
 }
 
 extension CityViewController: UITableViewDataSource {
   enum Section: Int {
-    case header, statistics, company, action
+    case header, statistics, company
 
-    static let count = 4
+    static let count = 3
   }
 
   func numberOfSections(in tableView: UITableView) -> Int {
@@ -141,11 +155,6 @@ extension CityViewController: UITableViewDataSource {
 
         return cell
       }
-    case .action:
-      guard let cell = tableView.dequeueReusableCell(withIdentifier: "CityActionCell", for: indexPath) as? CityActionCell else { fatalError() }
-      cell.configure(viewModel: viewModel.cityActionCellViewModel)
-
-      return cell
     }
   }
 
@@ -158,8 +167,6 @@ extension CityViewController: UITableViewDataSource {
       return 1
     case .company:
       return 2
-    case .action:
-      return 1
     }
   }
 }
@@ -184,8 +191,6 @@ extension CityViewController: UITableViewDelegate {
         let numberOfRows = Double(viewModel.numberOfCompanies) / 2
         return CGFloat(ceil(numberOfRows)) * CityCompaniesCell.Constants.cellHeight
       }
-    case .action:
-      return 89
     }
   }
 
@@ -197,7 +202,6 @@ extension CityViewController: UITableViewDelegate {
     case .header: return
     case .statistics: return
     case .company: return
-    case .action: return
     }
   }
 }
