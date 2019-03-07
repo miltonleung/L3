@@ -10,8 +10,8 @@ import Foundation
 
 struct Address: Equatable {
   let street: String
-  let lat: Double
-  let long: Double
+  let latitude: Double
+  let longitude: Double
 }
 
 struct CityCompany: Equatable {

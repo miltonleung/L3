@@ -27,7 +27,7 @@ final class CityCompanyParser {
           let long = coordinates[i]["long"] as? Double
           else { continue }
 
-        addresses.append(Address(street: streetAddresses[i], lat: lat, long: long))
+        addresses.append(Address(street: streetAddresses[i], latitude: lat, longitude: long))
       }
     }
 

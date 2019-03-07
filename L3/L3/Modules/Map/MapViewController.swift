@@ -13,6 +13,10 @@ class RadarPointAnnotation: MGLPointAnnotation {
   var location: Location? = nil
 }
 
+class CompanyPointAnnotation: MGLPointAnnotation {
+  var company: CityCompany? = nil
+}
+
 final class MapViewController: UIViewController {
   fileprivate struct Constants {
     static let startingCoordinate: (lat: Double, long: Double) = (48.166666, -100.166666)
@@ -32,6 +36,8 @@ final class MapViewController: UIViewController {
   var mapView: MGLMapView?
   fileprivate var maxValue: Double = 0
   fileprivate var attributionButtonFrame: CGRect = .zero
+  fileprivate var selectedAnnotation: RadarPointAnnotation?
+  fileprivate var selectedCities: [MGLAnnotationView] = []
 
   var viewModel: MapViewModel
 
@@ -62,6 +68,7 @@ final class MapViewController: UIViewController {
     mapView.setCamera(camera, withDuration: 0, animationTimingFunction: nil, edgePadding: UIEdgeInsets(top: 0, left: 0, bottom: 0, right: -Constants.rightContentInset))
 
     mapView.allowsTilting = false
+    mapView.allowsRotating = false
     mapView.maximumZoomLevel = Constants.maximumZoomLevel
     mapView.minimumZoomLevel = Constants.minimumZoomLevel
 
@@ -108,37 +115,41 @@ final class MapViewController: UIViewController {
     mapView.addAnnotations(annotations)
   }
 
-  func createMarkerViews(color: PulseColor, isSmall: Bool = false) -> (UIView, UIView, UIView) {
-
-    // Dot view
-    let dot = isSmall
-      ? UIView(frame: CGRect(x: 0, y: 0, width: 8, height: 8))
-      : UIView(frame: CGRect(x: 0, y: 0, width: 10, height: 10))
-    dot.layer.cornerRadius = isSmall ? 4 : 5
-    dot.layer.borderWidth = 1
-    dot.layer.borderColor = color.dotBorder
-    dot.layer.backgroundColor = color.dotBackground
-    dot.layer.shouldRasterize = true
-    dot.layer.rasterizationScale = UIScreen.main.scale
-
-    func createPulse() -> UIView {
-      let pulse = UIView(frame: CGRect(x: 0, y: 0, width: 10, height: 10))
-      pulse.layer.cornerRadius = pulse.frame.height / 2
-      pulse.layer.borderWidth = 1
-      pulse.layer.borderColor = color.pulseBorder
-      pulse.layer.backgroundColor = color.pulseBackground
-      pulse.layer.shouldRasterize = true
-      pulse.layer.rasterizationScale = UIScreen.main.scale * 12
-
-      return pulse
-    }
-
-    return (dot, createPulse(), createPulse())
-  }
-
   func moveCamera(to location: Location) {
     let camera = MGLMapCamera(lookingAtCenter: CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude), acrossDistance: Constants.cityViewingDistance, pitch: 0, heading: 0)
-    mapView?.fly(to: camera, completionHandler: nil)
+    mapView?.fly(to: camera, completionHandler: {
+      self.showCityCompanies(location: location)
+    })
+  }
+
+  func showCityCompanies(location: Location) {
+    // Resetting state of last selected location
+    if let selectedAnnotation = selectedAnnotation {
+      mapView?.removeAnnotation(selectedAnnotation)
+    } else {
+      if let selectedAnnotation = mapView?.annotations?.first(where: { annotation in
+        if let selectedAnnotation = annotation as? RadarPointAnnotation,
+          let selectedLocation = selectedAnnotation.location {
+          return selectedLocation == location
+        }
+        return false
+      }) {
+        mapView?.removeAnnotation(selectedAnnotation)
+      }
+    }
+
+    mapView?.removeAnnotations(selectedCities.compactMap { $0.annotation as? CompanyPointAnnotation })
+
+    let annotations = location.companies.map { company -> [MGLPointAnnotation] in
+      return company.addresses.map { address -> MGLPointAnnotation in
+        let annotation = CompanyPointAnnotation()
+        annotation.coordinate = CLLocationCoordinate2D(latitude: address.latitude, longitude: address.longitude)
+        annotation.company = company
+        return annotation
+      }
+    }.flatMap { $0 }
+
+    mapView?.addAnnotations(annotations)
   }
 }
 
@@ -202,18 +213,62 @@ extension MapViewController {
       let closestAnnotations = possibleAnnotations.sorted(by: {
         return CLLocation(latitude: $0.coordinate.latitude, longitude: $0.coordinate.longitude).distance(from: touchLocation) < CLLocation(latitude: $1.coordinate.latitude, longitude: $1.coordinate.longitude).distance(from: touchLocation)
       })
-      if let selectedAnnotations = closestAnnotations.first, let location = selectedAnnotations.location {
+      if let closestAnnotation = closestAnnotations.first, let location = closestAnnotation.location {
+        if let selectedAnnotation = selectedAnnotation {
+          mapView.addAnnotation(selectedAnnotation)
+        }
+        selectedAnnotation = closestAnnotation
         viewModel.locationTapped(location: location)
       }
     }
   }
 }
 
+// MARK: Marker Factory
+extension MapViewController {
+  func createLocationMarkerViews(color: PulseColor, isSmall: Bool = false) -> (UIView, UIView, UIView) {
+
+    // Dot view
+    let dot = isSmall
+      ? UIView(frame: CGRect(x: 0, y: 0, width: 8, height: 8))
+      : UIView(frame: CGRect(x: 0, y: 0, width: 10, height: 10))
+    dot.layer.cornerRadius = isSmall ? 4 : 5
+    dot.layer.borderWidth = 1
+    dot.layer.borderColor = color.dotBorder
+    dot.layer.backgroundColor = color.dotBackground
+    dot.layer.shouldRasterize = true
+    dot.layer.rasterizationScale = UIScreen.main.scale
+
+    func createPulse() -> UIView {
+      let pulse = UIView(frame: CGRect(x: 0, y: 0, width: 10, height: 10))
+      pulse.layer.cornerRadius = pulse.frame.height / 2
+      pulse.layer.borderWidth = 1
+      pulse.layer.borderColor = color.pulseBorder
+      pulse.layer.backgroundColor = color.pulseBackground
+      pulse.layer.shouldRasterize = true
+      pulse.layer.rasterizationScale = UIScreen.main.scale * 12
+
+      return pulse
+    }
+
+    return (dot, createPulse(), createPulse())
+  }
+
+  func createCityMarkerViews(color: PulseColor) -> UIView {
+    let pulse = UIView(frame: CGRect(x: 0, y: 0, width: 12, height: 12))
+    pulse.layer.cornerRadius = pulse.frame.height / 2
+    pulse.layer.borderWidth = 2
+    pulse.layer.borderColor = color.pulseBorder
+    pulse.layer.backgroundColor = color.pulseBackground.copy(alpha: 0.9)
+    pulse.layer.shouldRasterize = true
+    pulse.layer.rasterizationScale = UIScreen.main.scale
+    return pulse
+  }
+}
+
 extension MapViewController: MGLMapViewDelegate {
-  func mapView(_ mapView: MGLMapView, viewFor annotation: MGLAnnotation) -> MGLAnnotationView? {
-    guard
-      let radarAnnotation = annotation as? RadarPointAnnotation,
-      let markerLocation = radarAnnotation.location
+  private func createAnnotationView(_ mapView: MGLMapView, for annotation: RadarPointAnnotation) -> MGLAnnotationView? {
+    guard let markerLocation = annotation.location
       else { return nil }
 
     let (identifier, nextColor) = pulseColors.getNextColor()
@@ -225,7 +280,7 @@ extension MapViewController: MGLMapViewDelegate {
         let annotationView = MGLAnnotationView(reuseIdentifier: identifier)
         annotationView.frame = CGRect(x: 0, y: 0, width: 10, height: 10)
 
-        let (dot, _, _) = createMarkerViews(color: nextColor, isSmall: true)
+        let (dot, _, _) = createLocationMarkerViews(color: nextColor, isSmall: true)
         annotationView.addSubview(dot)
 
         return annotationView
@@ -233,7 +288,7 @@ extension MapViewController: MGLMapViewDelegate {
     } else {
       let annotationView = MGLAnnotationView()
       annotationView.frame = CGRect(x: 0, y: 0, width: 10, height: 10)
-      let (dot, pulse1, pulse2) = createMarkerViews(color: nextColor)
+      let (dot, pulse1, pulse2) = createLocationMarkerViews(color: nextColor)
       annotationView.addSubview(pulse1)
       annotationView.addSubview(pulse2)
       annotationView.addSubview(dot)
@@ -261,6 +316,40 @@ extension MapViewController: MGLMapViewDelegate {
     }
   }
 
+  private func createAnnotationView(_ mapView: MGLMapView, for annotation: CompanyPointAnnotation) -> MGLAnnotationView? {
+    guard let company = annotation.company else { return nil }
+
+    var (identifier, nextColor) = pulseColors.getNextColor()
+    identifier = "city" + identifier
+
+    if let annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) {
+
+      selectedCities.append(annotationView)
+
+      return annotationView
+    } else {
+      let annotationView = MGLAnnotationView(reuseIdentifier: identifier)
+      annotationView.frame = CGRect(x: 0, y: 0, width: 8, height: 8)
+
+      let dot = createCityMarkerViews(color: nextColor)
+      annotationView.addSubview(dot)
+
+      selectedCities.append(annotationView)
+
+      return annotationView
+    }
+  }
+
+  func mapView(_ mapView: MGLMapView, viewFor annotation: MGLAnnotation) -> MGLAnnotationView? {
+    if let radarAnnotation = annotation as? RadarPointAnnotation {
+      return createAnnotationView(mapView, for: radarAnnotation)
+    } else if let companyAnnotation = annotation as? CompanyPointAnnotation {
+      return createAnnotationView(mapView, for: companyAnnotation)
+    } else {
+      return nil
+    }
+  }
+
   func mapView(_ mapView: MGLMapView, imageFor annotation: MGLAnnotation) -> MGLAnnotationImage? {
     return nil
   }
@@ -270,6 +359,11 @@ extension MapViewController: MGLMapViewDelegate {
       let radarAnnotation = annotation as? RadarPointAnnotation,
       let location = radarAnnotation.location
       else { return }
+
+    if let selectedAnnotation = selectedAnnotation {
+      mapView.addAnnotation(selectedAnnotation)
+    }
+    selectedAnnotation = radarAnnotation
 
     viewModel.locationTapped(location: location)
   }
