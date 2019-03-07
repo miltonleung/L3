@@ -12,6 +12,7 @@ protocol CityCompaniesCellViewModel {
   var numberOfCompanies: Int { get }
 
   func itemViewModel(at indexPath: IndexPath) -> CityCompanyCollectionCellViewModel
+  func didSelectItem(at indexPath: IndexPath)
 }
 
 final class CityCompaniesCellViewModelImpl {
@@ -22,7 +23,7 @@ final class CityCompaniesCellViewModelImpl {
   }
 
   // Coordinator Handlers
-
+  var onCityCompanySelected: ((CityCompany) -> Void)?
 
   // View Controller Handlers
 
@@ -35,5 +36,9 @@ extension CityCompaniesCellViewModelImpl: CityCompaniesCellViewModel {
 
   func itemViewModel(at indexPath: IndexPath) -> CityCompanyCollectionCellViewModel {
     return CityCompanyCollectionCellViewModelImpl(companyName: cityCompanies[indexPath.item].name)
+  }
+
+  func didSelectItem(at indexPath: IndexPath) {
+    onCityCompanySelected?(cityCompanies[indexPath.item])
   }
 }

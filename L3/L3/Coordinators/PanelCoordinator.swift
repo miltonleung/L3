@@ -14,6 +14,7 @@ protocol PanelCoordinatorDelegate: class {
   func actionTapped()
   func cityDismissed()
   func allCitiesDismissed()
+  func cityCompanySelected(company: CityCompany)
 }
 
 final class PanelCoordinator: NSObject, Coordinator {
@@ -54,6 +55,9 @@ extension PanelCoordinator {
     viewModel.onCloseTapped = {
       self.delegate?.allCitiesDismissed()
       self.navigationController.popToRootViewController(animated: true)
+    }
+    viewModel.onCityCompanySelected = { cityCompany in
+      self.delegate?.cityCompanySelected(company: cityCompany)
     }
     let vc = CityViewController(viewModel: viewModel)
 

@@ -82,8 +82,7 @@ extension Location {
 
   var notableCompanies: [CityCompany] {
     let eligibleCompanies = companies.filter { !$0.addresses.isEmpty }
-
-    return Array(eligibleCompanies.prefix(10))
+    return eligibleCompanies
   }
 }
 

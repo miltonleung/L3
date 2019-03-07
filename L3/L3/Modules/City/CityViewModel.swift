@@ -38,6 +38,7 @@ final class CityViewModelImpl {
   var onActionTapped: (() -> Void)?
   var onBackPanned: (() -> Void)?
   var onCloseTapped: (() -> Void)?
+  var onCityCompanySelected: ((CityCompany) -> Void)?
 
   // View Controller Handlers
 
@@ -77,6 +78,8 @@ extension CityViewModelImpl: CityViewModel {
   }
 
   var cityCompaniesViewModel: CityCompaniesCellViewModel {
-    return CityCompaniesCellViewModelImpl(cityCompanies: location.companies)
+    let viewModel = CityCompaniesCellViewModelImpl(cityCompanies: location.notableCompanies)
+    viewModel.onCityCompanySelected = onCityCompanySelected
+    return viewModel
   }
 }

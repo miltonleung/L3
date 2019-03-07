@@ -20,6 +20,7 @@ protocol MapViewModel {
   var onLocationsUpdated: (() -> Void)? { get set }
   var onCameraChange: ((Location) -> Void)? { get set }
   var onEmptyCities: (() -> Void)? { get set }
+  var onCityCompanySelected: ((CityCompany) -> Void)? { get set }
 }
 
 final class MapViewModelImpl {
@@ -52,6 +53,7 @@ final class MapViewModelImpl {
   var onLocationsUpdated: (() -> Void)?
   var onCameraChange: ((Location) -> Void)?
   var onEmptyCities: (() -> Void)?
+  var onCityCompanySelected: ((CityCompany) -> Void)?
 }
 
 extension MapViewModelImpl: MapViewModel {
@@ -61,7 +63,6 @@ extension MapViewModelImpl: MapViewModel {
 
   func fetchLocations() {
     self.locations = datasetLoader.sortedLocations(by: locationFilter)
-      //    print(locations.filter { $0.averageDevSalary/maxValue >= 0.85 }
   }
 
   func locationTapped(location: Location) {
@@ -110,5 +111,9 @@ extension MapViewModelImpl: PanelCoordinatorDelegate {
 
   func allCitiesDismissed() {
     locationStack.removeAll()
+  }
+
+  func cityCompanySelected(company: CityCompany) {
+    onCityCompanySelected?(company)
   }
 }

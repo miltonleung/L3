@@ -38,7 +38,7 @@ final class MapViewController: UIViewController {
   fileprivate var attributionButtonFrame: CGRect = .zero
   fileprivate var previousAnnotation: RadarPointAnnotation?
   fileprivate var currentAnnotation: RadarPointAnnotation?
-  fileprivate var selectedCities: [MGLAnnotationView] = []
+  fileprivate var selectedCompanies: [MGLAnnotationView] = []
 
   var viewModel: MapViewModel
 
@@ -99,6 +99,7 @@ final class MapViewController: UIViewController {
     viewModel.onLocationsUpdated = updateMapCoordinates
     viewModel.onCameraChange = moveCamera(to:)
     viewModel.onEmptyCities = resetCompanies
+    viewModel.onCityCompanySelected = flashSelectedCompany
   }
 
   private func updateMapCoordinates() {
@@ -145,6 +146,18 @@ extension MapViewController {
     }
   }
 
+  private func getAnnotation(for cityCompany: CityCompany) -> MGLAnnotationView? {
+    for companyView in selectedCompanies {
+      guard let companyAnnotation = companyView.annotation as? CompanyPointAnnotation,
+        let company = companyAnnotation.company
+        else { continue }
+      if company == cityCompany {
+        return companyView
+      }
+    }
+    return nil
+  }
+
   func showCityCompanies(location: Location) {
     if let selectedAnnotation = getAnnotation(for: location) {
       previousAnnotation = currentAnnotation
@@ -156,7 +169,7 @@ extension MapViewController {
       }
     }
 
-    let annotations = location.companies.map { company -> [MGLPointAnnotation] in
+    let annotations = location.notableCompanies.map { company -> [MGLPointAnnotation] in
       return company.addresses.map { address -> MGLPointAnnotation in
         let annotation = CompanyPointAnnotation()
         annotation.coordinate = CLLocationCoordinate2D(latitude: address.latitude, longitude: address.longitude)
@@ -169,7 +182,7 @@ extension MapViewController {
   }
 
   func removeCompanyAnnotations() {
-    let companyAnnotations = selectedCities
+    let companyAnnotations = selectedCompanies
       .filter { $0.annotation is CompanyPointAnnotation }
 
     UIView.animate(withDuration: 0.3, animations: {
@@ -177,8 +190,8 @@ extension MapViewController {
         annotation.alpha = 0
       }
     }, completion: { _ in
-      self.mapView?.removeAnnotations(self.selectedCities.compactMap { $0.annotation as? CompanyPointAnnotation })
-      self.selectedCities.removeAll()
+      self.mapView?.removeAnnotations(self.selectedCompanies.compactMap { $0.annotation as? CompanyPointAnnotation })
+      self.selectedCompanies.removeAll()
     })
   }
 
@@ -190,6 +203,24 @@ extension MapViewController {
     previousAnnotation = nil
     currentAnnotation = nil
     removeCompanyAnnotations()
+  }
+
+  func flashSelectedCompany(cityCompany: CityCompany) {
+    guard let selectedCompany = getAnnotation(for: cityCompany),
+      let companySuperview = selectedCompany.superview
+      else { return }
+    companySuperview.bringSubviewToFront(selectedCompany)
+
+    guard let dot = selectedCompany.subviews.last else { return }
+
+    let scaleAnimation = CABasicAnimation(keyPath: "transform.scale")
+    scaleAnimation.autoreverses = true
+    scaleAnimation.duration = 0.5
+    scaleAnimation.repeatCount = 2
+    scaleAnimation.fromValue = 1
+    scaleAnimation.toValue = 3
+    scaleAnimation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
+    dot.layer.add(scaleAnimation, forKey: nil)
   }
 }
 
@@ -209,7 +240,7 @@ extension MapViewController {
   func sizeIsDot(location: Location) -> Bool {
     switch viewModel.locationFilter {
     case .sizeIndex:
-      return Double(location.sizeIndex) / maxValue < 0.10
+      return Double(location.sizeIndex) / maxValue < 0.25
     case .averageDevSalary:
       return location.averageDevSalary / maxValue < 0.85
     case .averageMonthlyRent:
@@ -291,13 +322,13 @@ extension MapViewController {
   }
 
   func createCityMarkerViews(color: PulseColor) -> UIView {
-    let dot = UIView(frame: CGRect(x: 0, y: 0, width: 8, height: 8))
+    let dot = UIView(frame: CGRect(x: 0, y: 0, width: 12, height: 12))
     dot.layer.cornerRadius = dot.frame.height / 2
     dot.layer.borderWidth = 1.2
     dot.layer.borderColor = color.pulseBorder
     dot.layer.backgroundColor = color.pulseBackground.copy(alpha: 0.9)
     dot.layer.shouldRasterize = true
-    dot.layer.rasterizationScale = UIScreen.main.scale * 2
+    dot.layer.rasterizationScale = UIScreen.main.scale * 4
     return dot
   }
 }
@@ -358,7 +389,7 @@ extension MapViewController: MGLMapViewDelegate {
 
     if let annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) {
 
-      selectedCities.append(annotationView)
+      selectedCompanies.append(annotationView)
 
       return annotationView
     } else {
@@ -369,7 +400,7 @@ extension MapViewController: MGLMapViewDelegate {
       let dot = createCityMarkerViews(color: nextColor)
       annotationView.addSubview(dot)
 
-      selectedCities.append(annotationView)
+      selectedCompanies.append(annotationView)
 
       return annotationView
     }
@@ -386,12 +417,13 @@ extension MapViewController: MGLMapViewDelegate {
   }
 
   func mapView(_ mapView: MGLMapView, didAdd annotationViews: [MGLAnnotationView]) {
-    selectedCities
+    selectedCompanies
       .filter { $0.annotation is CompanyPointAnnotation }
       .forEach { annotation in
         guard let dot = annotation.subviews.last else { return }
+        dot.transform = CGAffineTransform(scaleX: 0.8, y: 0.8)
         UIView.animate(withDuration: 1, delay: 0, usingSpringWithDamping: 0.8, initialSpringVelocity: 10, options: .curveEaseOut, animations: {
-          dot.transform = CGAffineTransform(scaleX: 1.5, y: 1.5)
+          dot.transform = .identity
           annotation.alpha = 1
         }, completion: nil)
     }
