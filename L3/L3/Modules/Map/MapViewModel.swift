@@ -19,7 +19,7 @@ protocol MapViewModel {
 
   var onLocationsUpdated: (() -> Void)? { get set }
   var onCameraChange: ((Location) -> Void)? { get set }
-
+  var onEmptyCities: (() -> Void)? { get set }
 }
 
 final class MapViewModelImpl {
@@ -33,7 +33,13 @@ final class MapViewModelImpl {
   }
 
   var locationFilter: LocationFilter = .sizeIndex
-  var locationStack: [Int] = []
+  var locationStack: [Int] = [] {
+    didSet {
+      if locationStack.isEmpty {
+        onEmptyCities?()
+      }
+    }
+  }
 
   init() {
     self.panelCoordinator = PanelCoordinator(navigationController: UINavigationController())
@@ -45,6 +51,7 @@ final class MapViewModelImpl {
   // View Controller Handlers
   var onLocationsUpdated: (() -> Void)?
   var onCameraChange: ((Location) -> Void)?
+  var onEmptyCities: (() -> Void)?
 }
 
 extension MapViewModelImpl: MapViewModel {

@@ -36,7 +36,8 @@ final class MapViewController: UIViewController {
   var mapView: MGLMapView?
   fileprivate var maxValue: Double = 0
   fileprivate var attributionButtonFrame: CGRect = .zero
-  fileprivate var selectedAnnotation: RadarPointAnnotation?
+  fileprivate var previousAnnotation: RadarPointAnnotation?
+  fileprivate var currentAnnotation: RadarPointAnnotation?
   fileprivate var selectedCities: [MGLAnnotationView] = []
 
   var viewModel: MapViewModel
@@ -97,6 +98,7 @@ final class MapViewController: UIViewController {
 
     viewModel.onLocationsUpdated = updateMapCoordinates
     viewModel.onCameraChange = moveCamera(to:)
+    viewModel.onEmptyCities = resetCompanies
   }
 
   private func updateMapCoordinates() {
@@ -116,29 +118,43 @@ final class MapViewController: UIViewController {
   }
 
   func moveCamera(to location: Location) {
+    if let lastSelectedAnnotation = previousAnnotation {
+      mapView?.addAnnotation(lastSelectedAnnotation)
+    }
+    removeCompanyAnnotations()
     let camera = MGLMapCamera(lookingAtCenter: CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude), acrossDistance: Constants.cityViewingDistance, pitch: 0, heading: 0)
     mapView?.fly(to: camera, completionHandler: {
       self.showCityCompanies(location: location)
     })
   }
+}
+
+// MARK: City Companies
+extension MapViewController {
+  private func getAnnotation(for location: Location) -> RadarPointAnnotation? {
+    if let selectedLocationAnnotation = mapView?.annotations?.first(where: { annotation in
+      if let selectedAnnotation = annotation as? RadarPointAnnotation,
+        let selectedLocation = selectedAnnotation.location {
+        return selectedLocation == location
+      }
+      return false
+    }), let selectedRadarAnnotation = selectedLocationAnnotation as? RadarPointAnnotation {
+      return selectedRadarAnnotation
+    } else {
+       return nil
+    }
+  }
 
   func showCityCompanies(location: Location) {
-    // Resetting state of last selected location
-    if let selectedAnnotation = selectedAnnotation {
+    if let selectedAnnotation = getAnnotation(for: location) {
+      previousAnnotation = currentAnnotation
+      currentAnnotation = selectedAnnotation
       mapView?.removeAnnotation(selectedAnnotation)
-    } else {
-      if let selectedAnnotation = mapView?.annotations?.first(where: { annotation in
-        if let selectedAnnotation = annotation as? RadarPointAnnotation,
-          let selectedLocation = selectedAnnotation.location {
-          return selectedLocation == location
-        }
-        return false
-      }) {
-        mapView?.removeAnnotation(selectedAnnotation)
+
+      if let previousAnnotation = previousAnnotation {
+        mapView?.addAnnotation(previousAnnotation)
       }
     }
-
-    mapView?.removeAnnotations(selectedCities.compactMap { $0.annotation as? CompanyPointAnnotation })
 
     let annotations = location.companies.map { company -> [MGLPointAnnotation] in
       return company.addresses.map { address -> MGLPointAnnotation in
@@ -150,6 +166,30 @@ final class MapViewController: UIViewController {
     }.flatMap { $0 }
 
     mapView?.addAnnotations(annotations)
+  }
+
+  func removeCompanyAnnotations() {
+    let companyAnnotations = selectedCities
+      .filter { $0.annotation is CompanyPointAnnotation }
+
+    UIView.animate(withDuration: 0.3, animations: {
+      companyAnnotations.forEach { annotation in
+        annotation.alpha = 0
+      }
+    }, completion: { _ in
+      self.mapView?.removeAnnotations(self.selectedCities.compactMap { $0.annotation as? CompanyPointAnnotation })
+      self.selectedCities.removeAll()
+    })
+  }
+
+  func resetCompanies() {
+    if let currentAnnotation = currentAnnotation {
+      mapView?.addAnnotation(currentAnnotation)
+    }
+
+    previousAnnotation = nil
+    currentAnnotation = nil
+    removeCompanyAnnotations()
   }
 }
 
@@ -214,10 +254,6 @@ extension MapViewController {
         return CLLocation(latitude: $0.coordinate.latitude, longitude: $0.coordinate.longitude).distance(from: touchLocation) < CLLocation(latitude: $1.coordinate.latitude, longitude: $1.coordinate.longitude).distance(from: touchLocation)
       })
       if let closestAnnotation = closestAnnotations.first, let location = closestAnnotation.location {
-        if let selectedAnnotation = selectedAnnotation {
-          mapView.addAnnotation(selectedAnnotation)
-        }
-        selectedAnnotation = closestAnnotation
         viewModel.locationTapped(location: location)
       }
     }
@@ -255,14 +291,14 @@ extension MapViewController {
   }
 
   func createCityMarkerViews(color: PulseColor) -> UIView {
-    let pulse = UIView(frame: CGRect(x: 0, y: 0, width: 12, height: 12))
-    pulse.layer.cornerRadius = pulse.frame.height / 2
-    pulse.layer.borderWidth = 2
-    pulse.layer.borderColor = color.pulseBorder
-    pulse.layer.backgroundColor = color.pulseBackground.copy(alpha: 0.9)
-    pulse.layer.shouldRasterize = true
-    pulse.layer.rasterizationScale = UIScreen.main.scale
-    return pulse
+    let dot = UIView(frame: CGRect(x: 0, y: 0, width: 8, height: 8))
+    dot.layer.cornerRadius = dot.frame.height / 2
+    dot.layer.borderWidth = 1.2
+    dot.layer.borderColor = color.pulseBorder
+    dot.layer.backgroundColor = color.pulseBackground.copy(alpha: 0.9)
+    dot.layer.shouldRasterize = true
+    dot.layer.rasterizationScale = UIScreen.main.scale * 2
+    return dot
   }
 }
 
@@ -317,8 +353,6 @@ extension MapViewController: MGLMapViewDelegate {
   }
 
   private func createAnnotationView(_ mapView: MGLMapView, for annotation: CompanyPointAnnotation) -> MGLAnnotationView? {
-    guard let company = annotation.company else { return nil }
-
     var (identifier, nextColor) = pulseColors.getNextColor()
     identifier = "city" + identifier
 
@@ -329,7 +363,8 @@ extension MapViewController: MGLMapViewDelegate {
       return annotationView
     } else {
       let annotationView = MGLAnnotationView(reuseIdentifier: identifier)
-      annotationView.frame = CGRect(x: 0, y: 0, width: 8, height: 8)
+      annotationView.frame = CGRect(x: 0, y: 0, width: 12, height: 12)
+      annotationView.alpha = 0
 
       let dot = createCityMarkerViews(color: nextColor)
       annotationView.addSubview(dot)
@@ -350,6 +385,18 @@ extension MapViewController: MGLMapViewDelegate {
     }
   }
 
+  func mapView(_ mapView: MGLMapView, didAdd annotationViews: [MGLAnnotationView]) {
+    selectedCities
+      .filter { $0.annotation is CompanyPointAnnotation }
+      .forEach { annotation in
+        guard let dot = annotation.subviews.last else { return }
+        UIView.animate(withDuration: 1, delay: 0, usingSpringWithDamping: 0.8, initialSpringVelocity: 10, options: .curveEaseOut, animations: {
+          dot.transform = CGAffineTransform(scaleX: 1.5, y: 1.5)
+          annotation.alpha = 1
+        }, completion: nil)
+    }
+  }
+
   func mapView(_ mapView: MGLMapView, imageFor annotation: MGLAnnotation) -> MGLAnnotationImage? {
     return nil
   }
@@ -359,11 +406,6 @@ extension MapViewController: MGLMapViewDelegate {
       let radarAnnotation = annotation as? RadarPointAnnotation,
       let location = radarAnnotation.location
       else { return }
-
-    if let selectedAnnotation = selectedAnnotation {
-      mapView.addAnnotation(selectedAnnotation)
-    }
-    selectedAnnotation = radarAnnotation
 
     viewModel.locationTapped(location: location)
   }
