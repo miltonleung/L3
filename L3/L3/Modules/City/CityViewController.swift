@@ -107,7 +107,7 @@ extension CityViewController: Themeable {
       panelView.layer.shadowColor = Colors.darkPanelShadow.cgColor
       panelView.layer.shadowOpacity = 1
       panelView.layer.shadowRadius = 13
-      panelView.layer.borderWidth = 2
+      panelView.layer.borderWidth = 3
       panelView.layer.borderColor = Colors.darkPanelBorder.cgColor
 
       backgroundView?.backgroundColor = Colors.darkPanelBackground

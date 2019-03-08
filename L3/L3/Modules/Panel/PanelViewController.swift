@@ -17,6 +17,8 @@ final class PanelViewController: UIViewController {
   @IBOutlet weak var monthlyRentButton: UIButton!
   @IBOutlet weak var exploreButton: UIButton!
 
+  @IBOutlet weak var panelViewCompactHeight: NSLayoutConstraint!
+
   var backgroundView: UIView?
 
   var viewModel: PanelViewModel
@@ -40,10 +42,22 @@ final class PanelViewController: UIViewController {
     setupTheme()
   }
 
+  override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+    super.traitCollectionDidChange(previousTraitCollection)
+    if previousTraitCollection?.horizontalSizeClass != traitCollection.horizontalSizeClass {
+      switch traitCollection.horizontalSizeClass {
+      case .compact:
+        setupForCompactEnvironment()
+      case .unspecified: fallthrough
+      case .regular:
+        setupForRegularEnvironment()
+      }
+    }
+  }
+
   func configure() {
     self.view.backgroundColor = .clear
 
-    panelView.layer.cornerRadius = 23
     panelView.layer.masksToBounds = true
 
     let blurEffect = UIBlurEffect(style: UIBlurEffect.Style.dark)
@@ -120,6 +134,18 @@ final class PanelViewController: UIViewController {
     unselectAllButtons()
     selectButton(button: button)
   }
+
+  func setupForCompactEnvironment() {
+    panelView.layer.cornerRadius = 15
+    panelView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+
+    panelViewCompactHeight.constant += view.safeAreaInsets.bottom
+  }
+
+  func setupForRegularEnvironment() {
+    panelView.layer.cornerRadius = 23
+    panelView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner, .layerMinXMaxYCorner, .layerMaxXMaxYCorner]
+  }
 }
 
 extension PanelViewController: Themeable {
@@ -130,7 +156,7 @@ extension PanelViewController: Themeable {
       panelView.layer.shadowColor = Colors.darkPanelShadow.cgColor
       panelView.layer.shadowOpacity = 1
       panelView.layer.shadowRadius = 13
-      panelView.layer.borderWidth = 2
+      panelView.layer.borderWidth = 3
       panelView.layer.borderColor = Colors.darkPanelBorder.cgColor
 
       backgroundView?.backgroundColor = Colors.darkPanelBackground

@@ -104,7 +104,7 @@ struct Colors {
   }
 
   static var darkPanelBorder: UIColor {
-    return UIColor(red: 31.0 / 255.0, green: 31.0 / 255.0, blue: 32.0 / 255.0, alpha: 0.1)
+    return UIColor(white: 49.0 / 255.0, alpha: 0.38)
   }
 
   static var lightPanelShadow: UIColor {
