@@ -30,7 +30,8 @@ final class MapViewController: UIViewController {
   }
 
   @IBOutlet weak var panelModelView: PassthroughContainerView!
-
+  @IBOutlet weak var quickActionView: UIView!
+  
   let pulseColors = PulseColors()
   
   var mapView: MGLMapView?
@@ -55,6 +56,7 @@ final class MapViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     configure()
+    setupTheme()
     setupMap()
     setupPanel()
     viewModel.fetchLocations()
@@ -95,6 +97,9 @@ final class MapViewController: UIViewController {
 
   func configure() {
     attributionButtonFrame = CGRect(x: view.frame.width - 30, y: view.frame.height - 30, width: 22, height: 22)
+
+    quickActionView.layer.cornerRadius = 7
+    quickActionView.layer.masksToBounds = true
 
     viewModel.onLocationsUpdated = updateMapCoordinates
     viewModel.onCameraChange = moveCamera(to:)
@@ -258,6 +263,22 @@ extension MapViewController {
     case .averageMonthlyRent:
       guard let monthlyRent = location.averageMonthlyRent else { return 0 }
       return sqrt(monthlyRent) / sqrt(maxValue)
+    }
+  }
+}
+
+extension MapViewController: Themeable {
+  func onThemeChanged(theme: Theme) {
+    switch theme {
+    case .dark:
+      quickActionView.backgroundColor = Colors.darkPanelBackground
+      quickActionView.layer.borderWidth = 1
+      quickActionView.layer.borderColor = Colors.darkPanelBorder.cgColor
+
+    case .light:
+      quickActionView.backgroundColor = Colors.lightPanelBackground
+      quickActionView.layer.borderWidth = 0
+
     }
   }
 }

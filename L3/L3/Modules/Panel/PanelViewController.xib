@@ -27,7 +27,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OwK-vg-Bqq" customClass="PanelView" customModule="L3" customModuleProvider="target">
-                    <rect key="frame" x="18" y="54" width="339" height="241"/>
+                    <rect key="frame" x="18" y="33" width="339" height="241"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XUV-t4-xYt">
                             <rect key="frame" x="22" y="32" width="42" height="21"/>
@@ -99,7 +99,7 @@
             <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="OwK-vg-Bqq" secondAttribute="trailing" constant="18" id="TPM-1D-Ynb"/>
-                <constraint firstItem="OwK-vg-Bqq" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="34" id="n0N-iy-4vU"/>
+                <constraint firstItem="OwK-vg-Bqq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="33" id="n0N-iy-4vU"/>
                 <constraint firstItem="OwK-vg-Bqq" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="18" id="tfO-Mc-MMk"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
