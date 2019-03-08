@@ -11,6 +11,7 @@ protocol PanelViewModel {
   var numberOfJobsButtonTitle: String { get }
   var devSalaryButtonTitle: String { get }
   var monthlyRentButtonTitle: String { get }
+  var selectedButton: LocationFilter { get }
   var exploreButtonTitle: String { get }
 
   func locationFilterTapped(filter: LocationFilter)
@@ -38,6 +39,16 @@ final class PanelViewModelImpl {
 }
 
 extension PanelViewModelImpl: PanelViewModel {
+  var selectedButton: LocationFilter {
+    if isNumberOfJobsSelected {
+      return .sizeIndex
+    } else if isDevSalarySelected {
+      return .averageDevSalary
+    } else {
+      return .averageMonthlyRent
+    }
+  }
+
   func locationFilterTapped(filter: LocationFilter) {
     switch filter {
     case .sizeIndex:

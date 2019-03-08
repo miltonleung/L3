@@ -114,4 +114,12 @@ struct Colors {
   static var darkPanelShadow: UIColor {
     return UIColor(white: 0.0, alpha: 0.32)
   }
+
+  static var darkQuickActionButtonColor: UIColor {
+    return UIColor(white: 217.0 / 255.0, alpha: 1.0)
+  }
+
+  static var lightQuickActionButtonColor: UIColor {
+    return UIColor(white: 86.0 / 255.0, alpha: 1.0)
+  }
 }

@@ -30,8 +30,12 @@ final class MapViewController: UIViewController {
   }
 
   @IBOutlet weak var panelModelView: PassthroughContainerView!
+
   @IBOutlet weak var quickActionView: UIView!
-  
+  @IBOutlet weak var quickNightButton: UIButton!
+  @IBOutlet weak var quickInfoButton: UIButton!
+  @IBOutlet weak var quickAboutButton: UIButton!
+
   let pulseColors = PulseColors()
   
   var mapView: MGLMapView?
@@ -53,9 +57,14 @@ final class MapViewController: UIViewController {
     fatalError("init(coder:) has not been implemented")
   }
 
+  deinit {
+    stopObservingTheme()
+  }
+
   override func viewDidLoad() {
     super.viewDidLoad()
     configure()
+    setupQuickAction()
     setupTheme()
     setupMap()
     setupPanel()
@@ -95,11 +104,19 @@ final class MapViewController: UIViewController {
     navigationController.didMove(toParent: self)
   }
 
-  func configure() {
-    attributionButtonFrame = CGRect(x: view.frame.width - 30, y: view.frame.height - 30, width: 22, height: 22)
-
+  func setupQuickAction() {
     quickActionView.layer.cornerRadius = 7
     quickActionView.layer.masksToBounds = true
+
+    quickNightButton.setTitle(nil, for: .normal)
+    quickInfoButton.setTitle(nil, for: .normal)
+    quickInfoButton.setImage(#imageLiteral(resourceName: "quickActionInfo").withRenderingMode(.alwaysTemplate), for: .normal)
+    quickAboutButton.setTitle(nil, for: .normal)
+    quickAboutButton.setImage(#imageLiteral(resourceName: "quickActionAbout").withRenderingMode(.alwaysTemplate), for: .normal)
+  }
+
+  func configure() {
+    attributionButtonFrame = CGRect(x: view.frame.width - 30, y: view.frame.height - 30, width: 22, height: 22)
 
     viewModel.onLocationsUpdated = updateMapCoordinates
     viewModel.onCameraChange = moveCamera(to:)
@@ -274,17 +291,47 @@ extension MapViewController: Themeable {
       quickActionView.backgroundColor = Colors.darkPanelBackground
       quickActionView.layer.borderWidth = 1
       quickActionView.layer.borderColor = Colors.darkPanelBorder.cgColor
+      quickActionView.layer.shadowOffset = CGSize(width: 0, height: 8)
+      quickActionView.layer.shadowColor = Colors.darkPanelShadow.cgColor
+      quickActionView.layer.shadowOpacity = 1
+      quickActionView.layer.shadowRadius = 13
+
+      quickNightButton.setImage(#imageLiteral(resourceName: "quickActionDay").withRenderingMode(.alwaysTemplate), for: .normal)
+      quickNightButton.imageView?.tintColor = Colors.darkQuickActionButtonColor
+      quickInfoButton.imageView?.tintColor = Colors.darkQuickActionButtonColor
+      quickAboutButton.imageView?.tintColor = Colors.darkQuickActionButtonColor
 
     case .light:
       quickActionView.backgroundColor = Colors.lightPanelBackground
       quickActionView.layer.borderWidth = 0
+      quickActionView.layer.shadowOffset = CGSize(width: 0, height: 2)
+      quickActionView.layer.shadowColor = Colors.lightPanelShadow.cgColor
+      quickActionView.layer.shadowOpacity = 1
+      quickActionView.layer.shadowRadius = 9
 
+      quickNightButton.setImage(#imageLiteral(resourceName: "quickActionNight").withRenderingMode(.alwaysTemplate), for: .normal)
+      quickNightButton.imageView?.tintColor = Colors.lightQuickActionButtonColor
+      quickInfoButton.imageView?.tintColor = Colors.lightQuickActionButtonColor
+      quickAboutButton.imageView?.tintColor = Colors.lightQuickActionButtonColor
     }
   }
 }
 
 // MARK: IBActions
 extension MapViewController {
+  @IBAction private func quickNightButtonTapped() {
+    ThemeManager.shared.switchTheme()
+  }
+
+  @IBAction private func quickInfoButtonTapped() {
+
+  }
+
+  @IBAction private func quickAboutButtonTapped() {
+
+  }
+
+
   @objc func mapViewTapped(sender: UIGestureRecognizer) {
     if sender.state == .ended {
 

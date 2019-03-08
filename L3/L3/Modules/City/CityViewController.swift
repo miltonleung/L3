@@ -115,7 +115,7 @@ extension CityViewController: Themeable {
       actionButton.setTitleColor(Colors.darkActionText, for: .normal)
       actionButton.backgroundColor = UIColor(gradientStyle: .topToBottom, withFrame: actionButton.frame, andColors: [Colors.darkActionTop, Colors.darkActionBottom])
 
-      closeButton.setImage(#imageLiteral(resourceName: "lightCloseButton").withRenderingMode(.alwaysOriginal), for: .normal)
+      closeButton.setImage(#imageLiteral(resourceName: "darkCloseButton").withRenderingMode(.alwaysOriginal), for: .normal)
     case .light:
       panelView.layer.shadowOffset = CGSize(width: 0, height: 2)
       panelView.layer.shadowColor = Colors.lightPanelShadow.cgColor
@@ -128,7 +128,7 @@ extension CityViewController: Themeable {
       actionButton.setTitleColor(Colors.lightActionText, for: .normal)
       actionButton.backgroundColor = UIColor(gradientStyle: .topToBottom, withFrame: actionButton.frame, andColors: [Colors.lightActionTop, Colors.lightActionBottom])
 
-      closeButton.setImage(#imageLiteral(resourceName: "darkCloseButton").withRenderingMode(.alwaysOriginal), for: .normal)
+      closeButton.setImage(#imageLiteral(resourceName: "lightCloseButton").withRenderingMode(.alwaysOriginal), for: .normal)
     }
   }
 }

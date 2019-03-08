@@ -115,6 +115,11 @@ final class PanelViewController: UIViewController {
     button.setTitleColor(Colors.whiteText, for: .normal)
     button.layer.borderWidth = 0
   }
+
+  func setButtonState(button: UIButton) {
+    unselectAllButtons()
+    selectButton(button: button)
+  }
 }
 
 extension PanelViewController: Themeable {
@@ -152,6 +157,14 @@ extension PanelViewController: Themeable {
       exploreButton.setTitleColor(Colors.lightActionText, for: .normal)
       exploreButton.backgroundColor = UIColor(gradientStyle: .topToBottom, withFrame: exploreButton.frame, andColors: [Colors.lightActionTop, Colors.lightActionBottom])
     }
+    switch viewModel.selectedButton {
+    case .sizeIndex:
+      setButtonState(button: numberOfJobsButton)
+    case .averageDevSalary:
+      setButtonState(button: devSalaryButton)
+    case .averageMonthlyRent:
+      setButtonState(button: monthlyRentButton)
+    }
   }
 }
 
@@ -159,20 +172,17 @@ extension PanelViewController: Themeable {
 extension PanelViewController {
   @IBAction private func numberOfJobsButtonTapped() {
     viewModel.locationFilterTapped(filter: .sizeIndex)
-    unselectAllButtons()
-    selectButton(button: numberOfJobsButton)
+    setButtonState(button: numberOfJobsButton)
   }
 
   @IBAction private func devSalaryButtonTapped() {
     viewModel.locationFilterTapped(filter: .averageDevSalary)
-    unselectAllButtons()
-    selectButton(button: devSalaryButton)
+    setButtonState(button: devSalaryButton)
   }
 
   @IBAction private func monthlyRentButtonTapped() {
     viewModel.locationFilterTapped(filter: .averageMonthlyRent)
-    unselectAllButtons()
-    selectButton(button: monthlyRentButton)
+    setButtonState(button: monthlyRentButton)
   }
 
   @IBAction private func exploreButtonTapped() {
