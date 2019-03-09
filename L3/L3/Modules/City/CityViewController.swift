@@ -36,12 +36,13 @@ final class CityViewController: UIViewController {
   @IBOutlet weak var panelViewCompactTopConstraint: NSLayoutConstraint!
   @IBOutlet weak var panelViewCompactHeightConstraint: NSLayoutConstraint!
 
-  var panelTopPosition: CGFloat?
-  var panelMiddlePosition: CGFloat?
-  var panelBottomPosition: CGFloat?
+  var panelTopPosition: CGFloat!
+  var panelMiddlePosition: CGFloat!
+  var panelBottomPosition: CGFloat!
   var currentPosition: PanelPosition = .top
 
   var backPanGesture: UIPanGestureRecognizer?
+  var panGesture: UIPanGestureRecognizer?
 
   var backgroundView: UIView?
 
@@ -67,30 +68,22 @@ final class CityViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+    updatePanelPositions()
     configure()
     setupTheme()
   }
 
   override func viewDidLayoutSubviews() {
     super.viewDidLayoutSubviews()
-    let safeArea = view.safeAreaLayoutGuide.layoutFrame
+    updatePanelPositions()
 
-    panelTopPosition = safeArea.origin.y + 20
-    panelMiddlePosition = safeArea.origin.y + safeArea.height - 230
-    panelBottomPosition = safeArea.origin.y + safeArea.height - 100
-
-    panelViewCompactTopConstraint.isActive = false
-
-    switch currentPosition {
-    case .top:
-      panelView.frame = CGRect(x: 0, y: panelTopPosition!, width: panelView.frame.width, height: safeArea.height + view.safeAreaInsets.bottom -  panelTopPosition!)
-    case .middle:
-      panelView.frame = CGRect(x: 0, y: panelMiddlePosition!, width: panelView.frame.width, height: safeArea.height + view.safeAreaInsets.bottom -  panelMiddlePosition!)
-    case .bottom:
-      panelView.frame = CGRect(x: 0, y: panelBottomPosition!, width: panelView.frame.width, height: safeArea.height + view.safeAreaInsets.bottom -  panelBottomPosition!)
+    switch traitCollection.horizontalSizeClass {
+    case .compact:
+      setupForCompactEnvironment()
+    case .unspecified: fallthrough
+    case .regular:
+      setupForRegularEnvironment()
     }
-
-    self.tableView.isScrollEnabled = self.panelView.frame.origin.y == panelTopPosition
   }
 
   override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
@@ -104,6 +97,14 @@ final class CityViewController: UIViewController {
         setupForRegularEnvironment()
       }
     }
+  }
+
+  fileprivate func updatePanelPositions() {
+    let safeArea = view.safeAreaLayoutGuide.layoutFrame
+
+    panelTopPosition = safeArea.origin.y + 20
+    panelMiddlePosition = safeArea.origin.y + safeArea.height - 230
+    panelBottomPosition = safeArea.origin.y + safeArea.height - 100
   }
 
   func configure() {
@@ -134,6 +135,11 @@ final class CityViewController: UIViewController {
     panelView.addGestureRecognizer(backPanGesture)
     self.backPanGesture = backPanGesture
 
+    let panGesture = UIPanGestureRecognizer(target: self, action: #selector(handlePanGesture(sender:)))
+    panGesture.delegate = self
+    tableView.addGestureRecognizer(panGesture)
+    self.panGesture = panGesture
+
     closeButton.setTitle(nil, for: .normal)
 
     dragIndicator.layer.cornerRadius = 3.5
@@ -155,19 +161,37 @@ final class CityViewController: UIViewController {
   }
 
   func setupForCompactEnvironment() {
+    let safeArea = view.safeAreaLayoutGuide.layoutFrame
+
     panelView.layer.cornerRadius = 15
     panelView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
 
     actionButtonCompactBottomConstraint.constant += view.safeAreaInsets.bottom
 
-    let panGesture = UIPanGestureRecognizer(target: self, action: #selector(handlePanGesture(sender:)))
-    panGesture.delegate = self
-    tableView.addGestureRecognizer(panGesture)
+    panGesture?.isEnabled = true
+
+    panelViewCompactTopConstraint.isActive = false
+
+    switch currentPosition {
+    case .top:
+      panelView.frame = CGRect(x: 0, y: panelTopPosition, width: panelView.frame.width, height: safeArea.height + view.safeAreaInsets.bottom -  panelTopPosition)
+      panelViewCompactTopConstraint.constant = panelTopPosition
+    case .middle:
+      panelView.frame = CGRect(x: 0, y: panelMiddlePosition, width: panelView.frame.width, height: safeArea.height + view.safeAreaInsets.bottom -  panelTopPosition)
+      panelViewCompactTopConstraint.constant = panelMiddlePosition
+    case .bottom:
+      panelView.frame = CGRect(x: 0, y: panelBottomPosition, width: panelView.frame.width, height: safeArea.height + view.safeAreaInsets.bottom -  panelTopPosition)
+      panelViewCompactTopConstraint.constant = panelBottomPosition
+    }
+
+    self.tableView.isScrollEnabled = self.panelView.frame.origin.y == panelTopPosition
   }
 
   func setupForRegularEnvironment() {
     panelView.layer.cornerRadius = 23
     panelView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner, .layerMinXMaxYCorner, .layerMaxXMaxYCorner]
+
+    panGesture?.isEnabled = false
   }
 }
 
