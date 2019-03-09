@@ -130,7 +130,7 @@
                     <variation key="heightClass=regular-widthClass=regular">
                         <mask key="constraints">
                             <include reference="3cJ-9d-rQd"/>
-                            <include reference="L71-Ro-w8w"/>
+                            <exclude reference="L71-Ro-w8w"/>
                         </mask>
                     </variation>
                 </view>
@@ -188,12 +188,12 @@
                     <include reference="aMP-bI-OMd"/>
                 </mask>
                 <mask key="constraints">
-                    <include reference="Dcr-9B-eam"/>
+                    <exclude reference="Dcr-9B-eam"/>
                     <include reference="Eie-kj-xgt"/>
-                    <include reference="VGh-w1-YXM"/>
+                    <exclude reference="VGh-w1-YXM"/>
                     <include reference="VdP-CG-xZe"/>
                     <include reference="WQB-l9-cjv"/>
-                    <include reference="ep7-sB-uNM"/>
+                    <exclude reference="ep7-sB-uNM"/>
                 </mask>
             </variation>
             <point key="canvasLocation" x="53.768844221105525" y="48.201438848920866"/>

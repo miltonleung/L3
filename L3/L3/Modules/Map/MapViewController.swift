@@ -77,7 +77,12 @@ final class MapViewController: UIViewController {
     mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
 
     let camera = MGLMapCamera(lookingAtCenter: CLLocationCoordinate2D(latitude: Constants.startingCoordinate.lat, longitude: Constants.startingCoordinate.long), acrossDistance: Constants.startingViewingDistance, pitch: 0, heading: 0)
-    mapView.setCamera(camera, withDuration: 0, animationTimingFunction: nil, edgePadding: UIEdgeInsets(top: 0, left: 0, bottom: 0, right: -Constants.rightContentInset))
+    mapView.setCamera(camera,
+                      withDuration: 0,
+                      animationTimingFunction: nil,
+                      edgePadding: traitCollection.horizontalSizeClass == .regular
+                        ? UIEdgeInsets(top: 0, left: 0, bottom: 0, right: -Constants.rightContentInset)
+                        : .zero)
 
     mapView.allowsTilting = false
     mapView.allowsRotating = false
@@ -512,7 +517,9 @@ extension MapViewController: MGLMapViewDelegate {
 
   func mapView(_ mapView: MGLMapView, regionDidChangeWith reason: MGLCameraChangeReason, animated: Bool) {
     if reason == .programmatic {
-      mapView.setContentInset(UIEdgeInsets(top: 0, left: 0, bottom: 0, right: panelModelView.frame.width - 20), animated: animated)
+      if traitCollection.horizontalSizeClass == .regular {
+        mapView.setContentInset(UIEdgeInsets(top: 0, left: 0, bottom: 0, right: panelModelView.frame.width - 20), animated: animated)
+      }
       if mapView.attributionButton.frame != attributionButtonFrame {
         mapView.attributionButton.frame = attributionButtonFrame
       }
