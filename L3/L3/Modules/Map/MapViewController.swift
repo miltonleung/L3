@@ -65,6 +65,7 @@ final class MapViewController: UIViewController {
 
   deinit {
     stopObservingTheme()
+    NotificationCenter.default.removeObserver(self)
   }
 
   override func viewDidLoad() {
@@ -187,10 +188,22 @@ final class MapViewController: UIViewController {
     view.insertSubview(backgroundView, belowSubview: textView)
     self.textViewBackground = backgroundView
 
+    NotificationCenter.default.addObserver(self, selector: #selector(applicationEnterBackground), name: UIApplication.didEnterBackgroundNotification, object: nil)
+    NotificationCenter.default.addObserver(self, selector: #selector(applicationEnterForeground), name: UIApplication.willEnterForegroundNotification, object: nil)
+
     viewModel.onLocationsUpdated = updateMapCoordinates
     viewModel.onCameraChange = moveCamera(to:)
     viewModel.onEmptyCities = resetCompanies
     viewModel.onCityCompanySelected = flashSelectedCompany
+  }
+
+  @objc func applicationEnterBackground() {
+    guard let mapView = mapView else { return }
+    mapView.removeAnnotations(mapView.annotations ?? [])
+  }
+
+  @objc func applicationEnterForeground() {
+    updateMapCoordinates()
   }
 
   func setupForCompactEnvironment() {
