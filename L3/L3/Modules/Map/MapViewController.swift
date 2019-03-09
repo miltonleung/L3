@@ -38,6 +38,9 @@ final class MapViewController: UIViewController {
   @IBOutlet weak var quickNightButton: UIButton!
   @IBOutlet weak var quickInfoButton: UIButton!
   @IBOutlet weak var quickAboutButton: UIButton!
+  @IBOutlet weak var quickNightView: UIView!
+  @IBOutlet weak var quickInfoView: UIView!
+  @IBOutlet weak var quickAboutView: UIView!
 
   let pulseColors = PulseColors()
   
@@ -129,6 +132,8 @@ final class MapViewController: UIViewController {
     quickActionView.layer.cornerRadius = 7
     quickActionView.layer.masksToBounds = true
 
+    // TODO: Should change to UIImageView since we are using the embed
+    // view to enlarge hitbox
     quickNightButton.setTitle(nil, for: .normal)
     quickInfoButton.setTitle(nil, for: .normal)
     quickInfoButton.setImage(#imageLiteral(resourceName: "quickActionInfo").withRenderingMode(.alwaysTemplate), for: .normal)
@@ -136,6 +141,25 @@ final class MapViewController: UIViewController {
     quickAboutButton.setTitle(nil, for: .normal)
     quickAboutButton.setImage(#imageLiteral(resourceName: "quickActionAbout").withRenderingMode(.alwaysTemplate), for: .normal)
     quickAboutButton.setImage(#imageLiteral(resourceName: "quickActionAbout").withRenderingMode(.alwaysTemplate), for: .selected)
+    quickNightButton.isUserInteractionEnabled = false
+    quickInfoButton.isUserInteractionEnabled = false
+    quickAboutButton.isUserInteractionEnabled = false
+
+    quickNightView.backgroundColor = .clear
+    quickInfoView.backgroundColor = .clear
+    quickAboutView.backgroundColor = .clear
+
+    let quickNightTap = UITapGestureRecognizer(target: self, action: #selector(quickNightButtonTapped))
+    quickNightTap.numberOfTapsRequired = 1
+    quickNightView.addGestureRecognizer(quickNightTap)
+
+    let quickInfoTap = UITapGestureRecognizer(target: self, action: #selector(quickInfoButtonTapped))
+    quickInfoTap.numberOfTapsRequired = 1
+    quickInfoView.addGestureRecognizer(quickInfoTap)
+
+    let quickAboutTap = UITapGestureRecognizer(target: self, action: #selector(quickAboutButtonTapped))
+    quickAboutTap.numberOfTapsRequired = 1
+    quickAboutView.addGestureRecognizer(quickAboutTap)
   }
 
   func configure() {
@@ -387,21 +411,21 @@ extension MapViewController: Themeable {
 
 // MARK: QuickActionPanel
 extension MapViewController {
-  @IBAction private func quickNightButtonTapped() {
+  @objc func quickNightButtonTapped() {
     ThemeManager.shared.switchTheme()
   }
 
-  @IBAction private func quickInfoButtonTapped() {
+  @objc func quickInfoButtonTapped() {
     textView.attributedText = viewModel.infoText
     showTextView()
   }
 
-  @IBAction private func quickAboutButtonTapped() {
+  @objc func quickAboutButtonTapped() {
     textView.attributedText = viewModel.aboutText
     showTextView()
   }
 
-  func showTextView() {
+  private func showTextView() {
     guard let backgroundView = textViewBackground else { return }
     textView.isHidden = false
     backgroundView.isHidden = false

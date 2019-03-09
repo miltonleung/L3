@@ -59,6 +59,8 @@ final class TextLoader {
 
   \u{2022} Groceries Index is estimation of grocery prices relative to NYC, so NYC is 100.0.
 
+
+
   """
 
   var infoAttributed: NSAttributedString {

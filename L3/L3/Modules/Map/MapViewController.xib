@@ -14,9 +14,12 @@
             <connections>
                 <outlet property="panelModelView" destination="aMP-bI-OMd" id="thK-8G-97A"/>
                 <outlet property="quickAboutButton" destination="rFF-pm-KiY" id="aZi-K8-sGg"/>
+                <outlet property="quickAboutView" destination="4nS-DU-gHn" id="WQ0-tn-Tmj"/>
                 <outlet property="quickActionView" destination="xu2-Gs-scG" id="fFq-Ge-0pb"/>
                 <outlet property="quickInfoButton" destination="Upe-nV-eDj" id="j3C-OM-khj"/>
+                <outlet property="quickInfoView" destination="lj8-kv-QzV" id="T5T-qb-fjq"/>
                 <outlet property="quickNightButton" destination="7Ea-Gz-wF5" id="uTv-wo-3T4"/>
+                <outlet property="quickNightView" destination="XJL-XS-Vc4" id="1tS-L3-3cU"/>
                 <outlet property="textView" destination="jRA-gN-wU6" id="vO2-Bu-Ra7"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -42,9 +45,6 @@
                                                 <constraint firstAttribute="width" constant="22" id="rrB-Tc-HlL"/>
                                             </constraints>
                                             <state key="normal" title="Button"/>
-                                            <connections>
-                                                <action selector="quickNightButtonTapped" destination="-1" eventType="touchUpInside" id="30Z-bC-VNm"/>
-                                            </connections>
                                         </button>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -63,9 +63,6 @@
                                                 <constraint firstAttribute="width" constant="22" id="Ycz-Qi-W5A"/>
                                             </constraints>
                                             <state key="normal" title="Button"/>
-                                            <connections>
-                                                <action selector="quickInfoButtonTapped" destination="-1" eventType="touchUpInside" id="0Y6-2v-UUh"/>
-                                            </connections>
                                         </button>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -84,9 +81,6 @@
                                                 <constraint firstAttribute="height" constant="16" id="loI-vi-ZBJ"/>
                                             </constraints>
                                             <state key="normal" title="Button"/>
-                                            <connections>
-                                                <action selector="quickAboutButtonTapped" destination="-1" eventType="touchUpInside" id="jGI-sn-tIB"/>
-                                            </connections>
                                         </button>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
