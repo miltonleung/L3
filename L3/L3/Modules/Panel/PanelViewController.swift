@@ -44,7 +44,7 @@ final class PanelViewController: UIViewController {
 
   override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
     super.traitCollectionDidChange(previousTraitCollection)
-    if previousTraitCollection?.horizontalSizeClass != traitCollection.horizontalSizeClass {
+    if previousTraitCollection?.horizontalSizeClass != traitCollection.horizontalSizeClass || previousTraitCollection?.verticalSizeClass != traitCollection.verticalSizeClass {
       switch traitCollection.horizontalSizeClass {
       case .compact:
         setupForCompactEnvironment()
@@ -137,7 +137,14 @@ final class PanelViewController: UIViewController {
 
   func setupForCompactEnvironment() {
     panelView.layer.cornerRadius = 15
-    panelView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+
+    switch traitCollection.verticalSizeClass {
+    case .compact:
+      panelView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner, .layerMinXMaxYCorner, .layerMaxXMaxYCorner]
+    case .unspecified: fallthrough
+    case .regular:
+      panelView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+    }
 
     panelViewCompactHeight.constant += view.safeAreaInsets.bottom
   }
