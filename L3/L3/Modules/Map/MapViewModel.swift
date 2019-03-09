@@ -12,6 +12,8 @@ protocol MapViewModel {
   var locations: [Location] { get }
   var locationFilter: LocationFilter { get }
   var panelCoordinator: PanelCoordinator { get }
+  var aboutText: NSAttributedString { get }
+  var infoText: NSAttributedString { get }
 
   func setCoordinatorDelegate()
   func fetchLocations()
@@ -25,6 +27,7 @@ protocol MapViewModel {
 
 final class MapViewModelImpl {
   let datasetLoader = DatasetLoader()
+  let textLoader = TextLoader()
   let panelCoordinator: PanelCoordinator
 
   var locations: [Location] = [] {
@@ -75,6 +78,14 @@ extension MapViewModelImpl: MapViewModel {
 
     locationStack.append(index)
     nextCity()
+  }
+
+  var aboutText: NSAttributedString {
+    return textLoader.aboutAttributed
+  }
+
+  var infoText: NSAttributedString {
+    return textLoader.infoAttributed
   }
 }
 

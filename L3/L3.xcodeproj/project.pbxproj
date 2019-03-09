@@ -67,6 +67,7 @@
 		5288B19D222F589A00B4F874 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288B19C222F589A00B4F874 /* UserDefaultsManager.swift */; };
 		5288B19F222F60CB00B4F874 /* Themeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288B19E222F60CB00B4F874 /* Themeable.swift */; };
 		5288B1A12230419E00B4F874 /* PanelAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288B1A02230419E00B4F874 /* PanelAnimationController.swift */; };
+		52D4165C223459B60080E8E0 /* TextLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4165B223459B60080E8E0 /* TextLoader.swift */; };
 		7CE4E450A3C04E8E453487A5 /* Pods_L3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1BFD0EE2094DC064DE0CFCB /* Pods_L3Tests.framework */; };
 		8B69B7635AE8702018FB9391 /* Pods_L3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15578F7122411A9EB77640A /* Pods_L3UITests.framework */; };
 		E44037C5F6E5D413DDC6A349 /* Pods_L3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3A5D282D8C083F124C5DC4 /* Pods_L3.framework */; };
@@ -157,6 +158,7 @@
 		5288B19C222F589A00B4F874 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		5288B19E222F60CB00B4F874 /* Themeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Themeable.swift; path = /Users/Milton/Developer/L3/L3/L3/Protocols/Themeable.swift; sourceTree = "<absolute>"; };
 		5288B1A02230419E00B4F874 /* PanelAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelAnimationController.swift; sourceTree = "<group>"; };
+		52D4165B223459B60080E8E0 /* TextLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLoader.swift; sourceTree = "<group>"; };
 		5D9748D800289A94D8A3AA9D /* Pods-L3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-L3UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-L3UITests/Pods-L3UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E5C48AC3B3BF6D4869DACEC /* Pods-L3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-L3.release.xcconfig"; path = "Pods/Target Support Files/Pods-L3/Pods-L3.release.xcconfig"; sourceTree = "<group>"; };
 		9D6FCC55E327EFA27013F2C6 /* Pods-L3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-L3UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-L3UITests/Pods-L3UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 			children = (
 				5288B199222F578E00B4F874 /* Parsers */,
 				523AC29622221A66007F23C0 /* DatasetLoader.swift */,
+				52D4165B223459B60080E8E0 /* TextLoader.swift */,
 				5288B19C222F589A00B4F874 /* UserDefaultsManager.swift */,
 				5277D5DE222226AF00464E64 /* DataManager.swift */,
 			);
@@ -762,6 +765,7 @@
 				5277D5E5222257DE00464E64 /* PulseColors.swift in Sources */,
 				5288B1A12230419E00B4F874 /* PanelAnimationController.swift in Sources */,
 				5288B19D222F589A00B4F874 /* UserDefaultsManager.swift in Sources */,
+				52D4165C223459B60080E8E0 /* TextLoader.swift in Sources */,
 				525F6635222A21B80020FC65 /* PassthroughNavigationController.swift in Sources */,
 				5288B1902228C5D300B4F874 /* PanelViewModel.swift in Sources */,
 				5277D62D2228648B00464E64 /* MapViewModel.swift in Sources */,

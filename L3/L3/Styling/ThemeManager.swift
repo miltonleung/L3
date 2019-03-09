@@ -31,7 +31,7 @@ final class ThemeManager {
   private var observers: [ObjectIdentifier: ThemeObserver] = [:]
 
   init() {
-    currentTheme = .dark//userDefaultsManager.getTheme()
+    currentTheme = userDefaultsManager.getTheme()
   }
 
   func getCurrentTheme() -> Theme {

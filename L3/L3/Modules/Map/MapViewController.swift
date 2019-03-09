@@ -30,6 +30,9 @@ final class MapViewController: UIViewController {
   }
 
   @IBOutlet weak var panelModelView: PassthroughContainerView!
+  @IBOutlet weak var textView: UITextView!
+
+  var textViewBackground: UIView?
 
   @IBOutlet weak var quickActionView: UIView!
   @IBOutlet weak var quickNightButton: UIButton!
@@ -80,6 +83,7 @@ final class MapViewController: UIViewController {
     case .regular:
       setupForRegularEnvironment()
     }
+    textViewBackground?.frame = view.frame
   }
 
   fileprivate func setupMap() {
@@ -128,12 +132,36 @@ final class MapViewController: UIViewController {
     quickNightButton.setTitle(nil, for: .normal)
     quickInfoButton.setTitle(nil, for: .normal)
     quickInfoButton.setImage(#imageLiteral(resourceName: "quickActionInfo").withRenderingMode(.alwaysTemplate), for: .normal)
+    quickInfoButton.setImage(#imageLiteral(resourceName: "quickActionInfo").withRenderingMode(.alwaysTemplate), for: .selected)
     quickAboutButton.setTitle(nil, for: .normal)
     quickAboutButton.setImage(#imageLiteral(resourceName: "quickActionAbout").withRenderingMode(.alwaysTemplate), for: .normal)
+    quickAboutButton.setImage(#imageLiteral(resourceName: "quickActionAbout").withRenderingMode(.alwaysTemplate), for: .selected)
   }
 
   func configure() {
     view.backgroundColor = Colors.backgroundColor
+
+    textView.isHidden = true
+    textView.alpha = 0
+    textView.backgroundColor = .clear
+    textView.isEditable = false
+    textView.alwaysBounceVertical = true
+
+    let textViewTapGesture = UITapGestureRecognizer(target: self, action: #selector(textBackgroundTapped))
+    textViewTapGesture.numberOfTapsRequired = 1
+    textView.addGestureRecognizer(textViewTapGesture)
+
+    let backgroundView = UIView(frame: view.frame)
+    backgroundView.backgroundColor = Colors.textViewBackground
+    backgroundView.alpha = 0
+    backgroundView.isHidden = true
+
+    let backgroundViewTapGesture = UITapGestureRecognizer(target: self, action: #selector(textBackgroundTapped))
+    backgroundViewTapGesture.numberOfTapsRequired = 1
+    backgroundView.addGestureRecognizer(backgroundViewTapGesture)
+
+    view.insertSubview(backgroundView, belowSubview: textView)
+    self.textViewBackground = backgroundView
 
     viewModel.onLocationsUpdated = updateMapCoordinates
     viewModel.onCameraChange = moveCamera(to:)
@@ -357,21 +385,55 @@ extension MapViewController: Themeable {
   }
 }
 
-// MARK: IBActions
+// MARK: QuickActionPanel
 extension MapViewController {
   @IBAction private func quickNightButtonTapped() {
     ThemeManager.shared.switchTheme()
   }
 
   @IBAction private func quickInfoButtonTapped() {
-
+    textView.attributedText = viewModel.infoText
+    showTextView()
   }
 
   @IBAction private func quickAboutButtonTapped() {
-
+    textView.attributedText = viewModel.aboutText
+    showTextView()
   }
 
+  func showTextView() {
+    guard let backgroundView = textViewBackground else { return }
+    textView.isHidden = false
+    backgroundView.isHidden = false
 
+    UIView.animate(withDuration: 0.2, delay: 0, options: .curveEaseInOut, animations: {
+      if self.traitCollection.horizontalSizeClass == .compact {
+        backgroundView.alpha = 0.9
+        self.panelModelView.alpha = 0
+      } else {
+        backgroundView.alpha = 0.46
+      }
+      self.textView.alpha = 1
+    }, completion: nil)
+  }
+
+  @objc func textBackgroundTapped() {
+    guard let backgroundView = textViewBackground else { return }
+    UIView.animate(withDuration: 0.2, delay: 0, options: .curveEaseInOut, animations: {
+      backgroundView.alpha = 0
+      self.textView.alpha = 0
+      self.panelModelView.alpha = 1
+    }, completion: { _ in
+      self.textView.isHidden = true
+      backgroundView.isHidden = true
+      self.textView.setContentOffset(.zero, animated: false)
+    })
+  }
+}
+
+
+// MARK: IBActions
+extension MapViewController {
   @objc func mapViewTapped(sender: UIGestureRecognizer) {
     if sender.state == .ended {
 
