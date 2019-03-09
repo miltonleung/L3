@@ -171,6 +171,7 @@ final class MapViewController: UIViewController {
     textView.backgroundColor = .clear
     textView.isEditable = false
     textView.alwaysBounceVertical = true
+    textView.showsVerticalScrollIndicator = false
 
     let textViewTapGesture = UITapGestureRecognizer(target: self, action: #selector(textBackgroundTapped))
     textViewTapGesture.numberOfTapsRequired = 1
