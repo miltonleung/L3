@@ -122,4 +122,12 @@ struct Colors {
   static var lightQuickActionButtonColor: UIColor {
     return UIColor(white: 86.0 / 255.0, alpha: 1.0)
   }
+
+  static var lightDragIndicator: UIColor {
+    return UIColor(white: 84.0 / 255.0, alpha: 1.0)
+  }
+
+  static var darkDragIndicator: UIColor {
+    return UIColor(white: 159.0 / 255.0, alpha: 1.0)
+  }
 }

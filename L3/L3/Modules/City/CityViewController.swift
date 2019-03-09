@@ -8,12 +8,18 @@
 
 import UIKit
 
+enum PanelPosition {
+  case top, middle, bottom
+}
+
 final class CityViewController: UIViewController {
   fileprivate struct Constants {
     static let backThreshold: CGFloat = 0.17
     static let scrollTopInset: CGFloat = 20
+    static let panelBottomPositionHeight: CGFloat = 100
   }
 
+  @IBOutlet weak var dragIndicator: UIView!
   @IBOutlet weak var closeButton: UIButton!
   @IBOutlet weak var actionButton: UIButton!
   @IBOutlet weak var panelView: PanelView!
@@ -26,6 +32,16 @@ final class CityViewController: UIViewController {
       tableView.register(CityCompaniesCell.self)
     }
   }
+  @IBOutlet weak var actionButtonCompactBottomConstraint: NSLayoutConstraint!
+  @IBOutlet weak var panelViewCompactTopConstraint: NSLayoutConstraint!
+  @IBOutlet weak var panelViewCompactHeightConstraint: NSLayoutConstraint!
+
+  var panelTopPosition: CGFloat?
+  var panelMiddlePosition: CGFloat?
+  var panelBottomPosition: CGFloat?
+  var currentPosition: PanelPosition = .top
+
+  var backPanGesture: UIPanGestureRecognizer?
 
   var backgroundView: UIView?
 
@@ -55,6 +71,41 @@ final class CityViewController: UIViewController {
     setupTheme()
   }
 
+  override func viewDidLayoutSubviews() {
+    super.viewDidLayoutSubviews()
+    let safeArea = view.safeAreaLayoutGuide.layoutFrame
+
+    panelTopPosition = safeArea.origin.y + 20
+    panelMiddlePosition = safeArea.origin.y + safeArea.height - 230
+    panelBottomPosition = safeArea.origin.y + safeArea.height - 100
+
+    panelViewCompactTopConstraint.isActive = false
+
+    switch currentPosition {
+    case .top:
+      panelView.frame = CGRect(x: 0, y: panelTopPosition!, width: panelView.frame.width, height: safeArea.height + view.safeAreaInsets.bottom -  panelTopPosition!)
+    case .middle:
+      panelView.frame = CGRect(x: 0, y: panelMiddlePosition!, width: panelView.frame.width, height: safeArea.height + view.safeAreaInsets.bottom -  panelMiddlePosition!)
+    case .bottom:
+      panelView.frame = CGRect(x: 0, y: panelBottomPosition!, width: panelView.frame.width, height: safeArea.height + view.safeAreaInsets.bottom -  panelBottomPosition!)
+    }
+
+    self.tableView.isScrollEnabled = self.panelView.frame.origin.y == panelTopPosition
+  }
+
+  override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+    super.traitCollectionDidChange(previousTraitCollection)
+    if previousTraitCollection?.horizontalSizeClass != traitCollection.horizontalSizeClass {
+      switch traitCollection.horizontalSizeClass {
+      case .compact:
+        setupForCompactEnvironment()
+      case .unspecified: fallthrough
+      case .regular:
+        setupForRegularEnvironment()
+      }
+    }
+  }
+
   func configure() {
     self.view.backgroundColor = .clear
 
@@ -79,22 +130,119 @@ final class CityViewController: UIViewController {
     tableView.backgroundColor = .clear
     tableView.scrollIndicatorInsets = UIEdgeInsets(top: Constants.scrollTopInset, left: 0, bottom: 0, right: 0)
 
-    let panGesture = UIPanGestureRecognizer(target: self, action: #selector(handlePanGesture(sender:)))
-    panelView.addGestureRecognizer(panGesture)
+    let backPanGesture = UIPanGestureRecognizer(target: self, action: #selector(handleBackPanGesture(sender:)))
+    panelView.addGestureRecognizer(backPanGesture)
+    self.backPanGesture = backPanGesture
 
     closeButton.setTitle(nil, for: .normal)
+
+    dragIndicator.layer.cornerRadius = 3.5
+    dragIndicator.layer.masksToBounds = true
+    dragIndicator.isUserInteractionEnabled = false
 
     actionButton.setTitle(viewModel.actionButtonTitle, for: .normal)
     actionButton.titleLabel?.font = Font.bold(size: 18)
     actionButton.layer.cornerRadius = 8
   }
 
-  @objc func handlePanGesture(sender: UIPanGestureRecognizer) {
+  @objc func handleBackPanGesture(sender: UIPanGestureRecognizer) {
     let translation = sender.translation(in: panelView)
     if translation.x > panelView.frame.width * Constants.backThreshold && !isBeingDismissed {
       sender.setTranslation(.zero, in: panelView)
       panelView.removeGestureRecognizer(sender)
       viewModel.onBackPanned?()
+    }
+  }
+
+  func setupForCompactEnvironment() {
+    panelView.layer.cornerRadius = 15
+    panelView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+
+    actionButtonCompactBottomConstraint.constant += view.safeAreaInsets.bottom
+
+    let panGesture = UIPanGestureRecognizer(target: self, action: #selector(handlePanGesture(sender:)))
+    panGesture.delegate = self
+    tableView.addGestureRecognizer(panGesture)
+  }
+
+  func setupForRegularEnvironment() {
+    panelView.layer.cornerRadius = 23
+    panelView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner, .layerMinXMaxYCorner, .layerMaxXMaxYCorner]
+  }
+}
+
+extension CityViewController {
+  private func project(initialVelocity: CGFloat, decelerationRate: CGFloat) -> CGFloat {
+    return (initialVelocity / 1000.0) * decelerationRate / (1.0 - decelerationRate)
+  }
+
+  private func nearestPosition(positionY: CGFloat) -> (PanelPosition, CGFloat)? {
+    guard let topPosition = panelTopPosition,
+      let middlePosition = panelMiddlePosition,
+      let bottomPosition = panelBottomPosition
+      else { return nil }
+
+    if abs(positionY - topPosition) < abs(positionY - bottomPosition)
+      && abs(positionY - topPosition) < abs(positionY - middlePosition) {
+      return (.top, topPosition)
+    } else if abs(positionY - middlePosition) < abs(positionY - bottomPosition)
+      && abs(positionY - middlePosition) < abs(positionY - topPosition) {
+      return (.middle, middlePosition)
+    } else {
+      return (.bottom, bottomPosition)
+    }
+  }
+
+  private func calculateDuration(origin: CGFloat, velocity: CGFloat, destination: CGFloat) -> TimeInterval {
+    return TimeInterval(abs(destination - origin) / velocity)
+  }
+
+  @objc func handlePanGesture(sender: UIPanGestureRecognizer) {
+    guard let panelTopPosition = panelTopPosition,
+      let panelBottomPosition = panelBottomPosition,
+      let panelMiddlePosition = panelMiddlePosition,
+      let backPanGesture = backPanGesture
+      else { return }
+
+    switch sender.state {
+    case .began, .changed:
+
+      if tableView.contentOffset.y <= 0 {
+        tableView.isScrollEnabled = false
+        backPanGesture.isEnabled = true
+        let translation = sender.translation(in: panelView).y
+
+
+        let newPosition = max(panelTopPosition, min(panelView.frame.origin.y + translation, panelBottomPosition))
+
+        panelView.frame.origin.y = newPosition
+
+        sender.setTranslation(.zero, in: panelView)
+      }
+    case .ended:
+      guard tableView.contentOffset.y <= 0 else { return }
+      let decelerationRate = UIScrollView.DecelerationRate.normal
+      let velocity = sender.velocity(in: panelView).y
+
+      let projectedPosition = panelView.frame.origin.y + project(initialVelocity: velocity, decelerationRate: decelerationRate.rawValue)
+
+      guard let (newPosition, newOrigin) = nearestPosition(positionY: projectedPosition) else { return }
+      let duration = calculateDuration(origin: panelView.frame.origin.y,
+                                       velocity: velocity,
+                                       destination: newOrigin)
+
+      self.view.layoutIfNeeded()
+      UIView.animate(withDuration: min(0.3, duration), delay: 0, options: .curveEaseOut, animations: {
+        self.panelView.frame.origin.y = newOrigin
+        self.view.layoutIfNeeded()
+      }, completion: { _ in
+        self.tableView.isScrollEnabled = self.panelView.frame.origin.y == panelTopPosition
+        backPanGesture.isEnabled = true
+        self.currentPosition = newPosition
+      })
+
+    default:
+      return
     }
   }
 }
@@ -116,6 +264,8 @@ extension CityViewController: Themeable {
       actionButton.backgroundColor = UIColor(gradientStyle: .topToBottom, withFrame: actionButton.frame, andColors: [Colors.darkActionTop, Colors.darkActionBottom])
 
       closeButton.setImage(#imageLiteral(resourceName: "darkCloseButton").withRenderingMode(.alwaysOriginal), for: .normal)
+
+      dragIndicator.backgroundColor = Colors.darkDragIndicator
     case .light:
       panelView.layer.shadowOffset = CGSize(width: 0, height: 2)
       panelView.layer.shadowColor = Colors.lightPanelShadow.cgColor
@@ -129,6 +279,8 @@ extension CityViewController: Themeable {
       actionButton.backgroundColor = UIColor(gradientStyle: .topToBottom, withFrame: actionButton.frame, andColors: [Colors.lightActionTop, Colors.lightActionBottom])
 
       closeButton.setImage(#imageLiteral(resourceName: "lightCloseButton").withRenderingMode(.alwaysOriginal), for: .normal)
+
+      dragIndicator.backgroundColor = Colors.lightDragIndicator
     }
   }
 }
@@ -238,3 +390,8 @@ extension CityViewController: UITableViewDelegate {
   }
 }
 
+extension CityViewController: UIGestureRecognizerDelegate {
+  func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+    return true
+  }
+}
