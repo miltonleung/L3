@@ -245,7 +245,7 @@ extension CityViewController {
       }
     case .ended:
       guard tableView.contentOffset.y <= 0 else { return }
-      let decelerationRate = UIScrollView.DecelerationRate.fast
+      let decelerationRate = UIScrollView.DecelerationRate.normal
       let velocity = sender.velocity(in: panelView).y
 
       let projectedPosition = panelView.frame.origin.y + project(initialVelocity: velocity, decelerationRate: decelerationRate.rawValue)
