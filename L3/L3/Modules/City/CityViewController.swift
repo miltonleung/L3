@@ -169,22 +169,24 @@ final class CityViewController: UIViewController {
     actionButtonCompactBottomConstraint.constant += view.safeAreaInsets.bottom
 
     panGesture?.isEnabled = true
-
+    panelView.translatesAutoresizingMaskIntoConstraints = true
     panelViewCompactTopConstraint.isActive = false
 
     switch currentPosition {
     case .top:
-      panelView.frame = CGRect(x: 0, y: panelTopPosition, width: panelView.frame.width, height: safeArea.height + view.safeAreaInsets.bottom -  panelTopPosition)
-      panelViewCompactTopConstraint.constant = panelTopPosition
+      panelView.frame = CGRect(x: 0, y: panelTopPosition, width: safeArea.width, height: safeArea.height + view.safeAreaInsets.bottom -  panelTopPosition)
     case .middle:
-      panelView.frame = CGRect(x: 0, y: panelMiddlePosition, width: panelView.frame.width, height: safeArea.height + view.safeAreaInsets.bottom -  panelTopPosition)
-      panelViewCompactTopConstraint.constant = panelMiddlePosition
+      panelView.frame = CGRect(x: 0, y: panelMiddlePosition, width: safeArea.width, height: safeArea.height + view.safeAreaInsets.bottom -  panelTopPosition)
     case .bottom:
-      panelView.frame = CGRect(x: 0, y: panelBottomPosition, width: panelView.frame.width, height: safeArea.height + view.safeAreaInsets.bottom -  panelTopPosition)
-      panelViewCompactTopConstraint.constant = panelBottomPosition
+      panelView.frame = CGRect(x: 0, y: panelBottomPosition, width: safeArea.width, height: safeArea.height + view.safeAreaInsets.bottom -  panelTopPosition)
     }
 
-    self.tableView.isScrollEnabled = self.panelView.frame.origin.y == panelTopPosition
+    tableView.isScrollEnabled = self.currentPosition == .top
+
+//    tableViewCompactHeightConstraint.constant = panelView.frame.height - actionButton.frame.height - actionButtonCompactBottomConstraint.constant
+//    tableView.setNeedsUpdateConstraints()
+
+//    view.layoutIfNeeded()
   }
 
   func setupForRegularEnvironment() {
@@ -192,6 +194,8 @@ final class CityViewController: UIViewController {
     panelView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner, .layerMinXMaxYCorner, .layerMaxXMaxYCorner]
 
     panGesture?.isEnabled = false
+
+    panelView.translatesAutoresizingMaskIntoConstraints = false
   }
 }
 
@@ -233,7 +237,7 @@ extension CityViewController {
 
       if tableView.contentOffset.y <= 0 {
         tableView.isScrollEnabled = false
-        backPanGesture.isEnabled = true
+        backPanGesture.isEnabled = false
         let translation = sender.translation(in: panelView).y
 
 
@@ -260,9 +264,9 @@ extension CityViewController {
         self.panelView.frame.origin.y = newOrigin
         self.view.layoutIfNeeded()
       }, completion: { _ in
-        self.tableView.isScrollEnabled = self.panelView.frame.origin.y == panelTopPosition
         backPanGesture.isEnabled = true
         self.currentPosition = newPosition
+        self.tableView.isScrollEnabled = self.currentPosition == .top
       })
 
     default:

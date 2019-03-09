@@ -26,6 +26,11 @@ final class CityStatisticsCell: UITableViewCell {
     self.viewModel = viewModel
   }
 
+  override func layoutSubviews() {
+    super.layoutSubviews()
+    collectionView.collectionViewLayout.invalidateLayout()
+  }
+
   override func awakeFromNib() {
     super.awakeFromNib()
     applyStyling()

@@ -30,6 +30,11 @@ final class CityCompaniesCell: UITableViewCell {
     applyStyling()
   }
 
+  override func layoutSubviews() {
+    super.layoutSubviews()
+    collectionView.collectionViewLayout.invalidateLayout()
+  }
+
   func applyStyling() {
     backgroundColor = .clear
     selectionStyle = .none
