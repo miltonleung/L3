@@ -71,6 +71,17 @@ final class MapViewController: UIViewController {
     viewModel.fetchLocations()
   }
 
+  override func viewDidLayoutSubviews() {
+    super.viewDidLayoutSubviews()
+    switch traitCollection.horizontalSizeClass {
+    case .compact:
+      setupForCompactEnvironment()
+    case .unspecified: fallthrough
+    case .regular:
+      setupForRegularEnvironment()
+    }
+  }
+
   fileprivate func setupMap() {
     let url = URL(string: "mapbox://styles/miltonleung/cjse5srx71w1w1fpjejnfabhd")
     let mapView = MGLMapView(frame: view.bounds, styleURL: url)
@@ -83,6 +94,7 @@ final class MapViewController: UIViewController {
                       edgePadding: traitCollection.horizontalSizeClass == .regular
                         ? UIEdgeInsets(top: 0, left: 0, bottom: 0, right: -Constants.rightContentInset)
                         : .zero)
+
 
     mapView.allowsTilting = false
     mapView.allowsRotating = false
@@ -121,12 +133,33 @@ final class MapViewController: UIViewController {
   }
 
   func configure() {
-    attributionButtonFrame = CGRect(x: view.frame.width - 30, y: view.frame.height - 30, width: 22, height: 22)
-
     viewModel.onLocationsUpdated = updateMapCoordinates
     viewModel.onCameraChange = moveCamera(to:)
     viewModel.onEmptyCities = resetCompanies
     viewModel.onCityCompanySelected = flashSelectedCompany
+  }
+
+  func setupForCompactEnvironment() {
+    guard let mapView = mapView else { return }
+
+    mapView.setCamera(mapView.camera,
+                      withDuration: 0,
+                      animationTimingFunction: nil,
+                      edgePadding: .zero)
+  }
+
+  func setupForRegularEnvironment() {
+    guard let mapView = mapView else { return }
+    mapView.setCamera(mapView.camera,
+                      withDuration: 0,
+                      animationTimingFunction: nil,
+                      edgePadding: UIEdgeInsets(top: 0, left: 0, bottom: 0, right: -Constants.rightContentInset))
+
+    attributionButtonFrame = CGRect(x: view.frame.width - 30, y: view.frame.height - 30, width: 22, height: 22)
+
+    if mapView.attributionButton.frame != attributionButtonFrame {
+      mapView.attributionButton.frame = attributionButtonFrame
+    }
   }
 
   private func updateMapCoordinates() {
@@ -519,9 +552,12 @@ extension MapViewController: MGLMapViewDelegate {
     if reason == .programmatic {
       if traitCollection.horizontalSizeClass == .regular {
         mapView.setContentInset(UIEdgeInsets(top: 0, left: 0, bottom: 0, right: panelModelView.frame.width - 20), animated: animated)
-      }
-      if mapView.attributionButton.frame != attributionButtonFrame {
-        mapView.attributionButton.frame = attributionButtonFrame
+
+        if mapView.attributionButton.frame != attributionButtonFrame {
+          mapView.attributionButton.frame = attributionButtonFrame
+        }
+      } else {
+        mapView.setContentInset(.zero, animated: animated)
       }
     }
   }
