@@ -130,4 +130,8 @@ struct Colors {
   static var darkDragIndicator: UIColor {
     return UIColor(white: 159.0 / 255.0, alpha: 1.0)
   }
+
+  static var backgroundColor: UIColor {
+    return UIColor(red: 39.0 / 255.0, green: 39.0 / 255.0, blue: 47.0 / 255.0, alpha: 1.0)
+  }
 }

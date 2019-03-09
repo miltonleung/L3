@@ -133,6 +133,8 @@ final class MapViewController: UIViewController {
   }
 
   func configure() {
+    view.backgroundColor = Colors.backgroundColor
+
     viewModel.onLocationsUpdated = updateMapCoordinates
     viewModel.onCameraChange = moveCamera(to:)
     viewModel.onEmptyCities = resetCompanies
