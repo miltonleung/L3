@@ -27,7 +27,7 @@ final class PanelViewModelImpl {
   let monthlyRentButtonTitle = "Monthly Rent"
   let exploreButtonTitle = "Explore"
 
-  fileprivate var isNumberOfJobsSelected = false
+  fileprivate var isNumberOfJobsSelected = true
   fileprivate var isDevSalarySelected = false
   fileprivate var isMonthlyRentSelected = false
 

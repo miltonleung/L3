@@ -12,7 +12,7 @@ enum Theme: String {
   case light, dark
 
   static func instantiate(string: String) -> Theme {
-    return Theme(rawValue: string) ?? .light
+    return Theme(rawValue: string) ?? .dark
   }
 }
 
