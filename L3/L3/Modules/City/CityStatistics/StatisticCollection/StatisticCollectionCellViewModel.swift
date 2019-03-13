@@ -30,6 +30,8 @@ final class StatisticCollectionCellViewModelImpl {
       valueText = "$\(Int(value))"
     case .groceries(let value):
       valueText = "\(value)"
+    case .averageAdjustedDevSalary(let value):
+      valueText = String(format: "$%.01fk", value / 1000)
     }
   }
 

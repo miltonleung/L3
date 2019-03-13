@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PanelViewController" customModule="L3" customModuleProvider="target">
             <connections>
+                <outlet property="adjustedDevSalaryButton" destination="gVO-zg-heS" id="F1q-3f-4hQ"/>
                 <outlet property="devSalaryButton" destination="gkQ-8M-cjq" id="eMM-sq-hPN"/>
                 <outlet property="exploreButton" destination="mFp-RP-Lw6" id="Mei-v3-7t6"/>
                 <outlet property="monthlyRentButton" destination="OGI-s5-8di" id="8g3-6U-wKy"/>
@@ -58,9 +59,9 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OGI-s5-8di">
-                            <rect key="frame" x="22" y="107.5" width="125" height="32"/>
+                            <rect key="frame" x="22" y="107.5" width="63" height="32"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="125" id="4Oy-lb-mCS"/>
+                                <constraint firstAttribute="width" constant="63" id="4Oy-lb-mCS"/>
                                 <constraint firstAttribute="height" constant="32" id="gkY-RW-h3c"/>
                             </constraints>
                             <state key="normal" title="Button"/>
@@ -79,6 +80,17 @@
                                 <action selector="numberOfJobsButtonTapped" destination="-1" eventType="touchUpInside" id="z2L-Dt-kBi"/>
                             </connections>
                         </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gVO-zg-heS">
+                            <rect key="frame" x="100" y="107.5" width="175" height="32"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="175" id="OeM-Ji-Iln"/>
+                                <constraint firstAttribute="height" constant="32" id="oKR-lg-yXD"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="adjustedDevSalaryButtonTapped" destination="-1" eventType="touchUpInside" id="EX5-dG-Wzv"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
@@ -87,8 +99,10 @@
                             <variation key="heightClass=regular-widthClass=compact" constant="25"/>
                         </constraint>
                         <constraint firstItem="OGI-s5-8di" firstAttribute="top" secondItem="Bwr-wa-xnh" secondAttribute="bottom" constant="10" id="8fe-m4-gXG"/>
+                        <constraint firstItem="gVO-zg-heS" firstAttribute="centerY" secondItem="OGI-s5-8di" secondAttribute="centerY" id="D41-vD-UC2"/>
                         <constraint firstItem="XUV-t4-xYt" firstAttribute="leading" secondItem="OwK-vg-Bqq" secondAttribute="leading" constant="22" id="HLq-C3-0eX"/>
                         <constraint firstItem="Bwr-wa-xnh" firstAttribute="leading" secondItem="XUV-t4-xYt" secondAttribute="leading" id="JwV-cY-wQc"/>
+                        <constraint firstItem="gVO-zg-heS" firstAttribute="leading" secondItem="OGI-s5-8di" secondAttribute="trailing" constant="15" id="RCW-co-xOC"/>
                         <constraint firstItem="OGI-s5-8di" firstAttribute="leading" secondItem="Bwr-wa-xnh" secondAttribute="leading" id="Tbx-95-mi2"/>
                         <constraint firstItem="Bwr-wa-xnh" firstAttribute="top" secondItem="XUV-t4-xYt" secondAttribute="bottom" constant="13" id="eFE-mL-6lk"/>
                         <constraint firstItem="XUV-t4-xYt" firstAttribute="top" secondItem="OwK-vg-Bqq" secondAttribute="top" constant="32" id="eHP-Uo-zM9"/>

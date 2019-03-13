@@ -45,6 +45,24 @@ final class DatasetLoader {
     return sortedLocations + unavailable
   }()
 
+  private lazy var sortedLocationsAdjustedDevSalary: [Location] = {
+    var unavailable: [Location] = []
+
+    var sortedLocations = locations
+      .filter { location in
+        if location.averageAdjustedDevSalary != nil {
+          return true
+        }
+        unavailable.append(location)
+        return false
+      }.sorted(by: { lhs, rhs in
+        guard let lhsSalary = lhs.averageAdjustedDevSalary, let rhsSalary = rhs.averageAdjustedDevSalary else { return true }
+        return lhsSalary > rhsSalary
+      })
+
+    return sortedLocations + unavailable
+  }()
+
   func sortedLocations(by sortType: LocationFilter = .sizeIndex) -> [Location] {
     switch sortType {
     case .sizeIndex:
@@ -53,6 +71,8 @@ final class DatasetLoader {
       return sortedLocationsDevSalary
     case .averageMonthlyRent:
       return sortedLocationsRent
+    case .averageAdjustedDevSalary:
+      return sortedLocationsAdjustedDevSalary
     }
   }
 }

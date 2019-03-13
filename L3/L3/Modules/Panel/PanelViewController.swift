@@ -15,6 +15,7 @@ final class PanelViewController: UIViewController {
   @IBOutlet weak var numberOfJobsButton: UIButton!
   @IBOutlet weak var devSalaryButton: UIButton!
   @IBOutlet weak var monthlyRentButton: UIButton!
+  @IBOutlet weak var adjustedDevSalaryButton: UIButton!
   @IBOutlet weak var exploreButton: UIButton!
 
   @IBOutlet weak var panelViewCompactHeight: NSLayoutConstraint!
@@ -83,11 +84,14 @@ final class PanelViewController: UIViewController {
     devSalaryButton.titleLabel?.font = Font.bold(size: 16)
     devSalaryButton.titleLabel?.textAlignment = .center
     devSalaryButton.layer.cornerRadius = 6.8
-
     monthlyRentButton.setTitle(viewModel.monthlyRentButtonTitle, for: .normal)
     monthlyRentButton.titleLabel?.font = Font.bold(size: 16)
     monthlyRentButton.titleLabel?.textAlignment = .center
     monthlyRentButton.layer.cornerRadius = 6.8
+    adjustedDevSalaryButton.setTitle(viewModel.adjustedDevSalaryButtonTitle, for: .normal)
+    adjustedDevSalaryButton.titleLabel?.font = Font.bold(size: 16)
+    adjustedDevSalaryButton.titleLabel?.textAlignment = .center
+    adjustedDevSalaryButton.layer.cornerRadius = 6.8
 
     unselectAllButtons()
     selectButton(button: numberOfJobsButton)
@@ -102,10 +106,12 @@ final class PanelViewController: UIViewController {
       numberOfJobsButton.setTitleColor(Colors.darkSeg, for: .normal)
       devSalaryButton.setTitleColor(Colors.darkSeg, for: .normal)
       monthlyRentButton.setTitleColor(Colors.darkSeg, for: .normal)
+      adjustedDevSalaryButton.setTitleColor(Colors.darkSeg, for: .normal)
     case .light:
       numberOfJobsButton.setTitleColor(Colors.lightSeg, for: .normal)
       devSalaryButton.setTitleColor(Colors.lightSeg, for: .normal)
       monthlyRentButton.setTitleColor(Colors.lightSeg, for: .normal)
+      adjustedDevSalaryButton.setTitleColor(Colors.lightSeg, for: .normal)
     }
 
     numberOfJobsButton.layer.borderWidth = 1.8
@@ -116,6 +122,9 @@ final class PanelViewController: UIViewController {
 
     monthlyRentButton.layer.borderWidth = 1.8
     monthlyRentButton.backgroundColor = UIColor.clear
+
+    adjustedDevSalaryButton.layer.borderWidth = 1.8
+    adjustedDevSalaryButton.backgroundColor = UIColor.clear
   }
 
   fileprivate func selectButton(button: UIButton) {
@@ -172,6 +181,7 @@ extension PanelViewController: Themeable {
       numberOfJobsButton.layer.borderColor = Colors.darkSeg.cgColor
       devSalaryButton.layer.borderColor = Colors.darkSeg.cgColor
       monthlyRentButton.layer.borderColor = Colors.darkSeg.cgColor
+      adjustedDevSalaryButton.layer.borderColor = Colors.darkSeg.cgColor
       exploreButton.setTitleColor(Colors.darkActionText, for: .normal)
       exploreButton.backgroundColor = UIColor(gradientStyle: .topToBottom, withFrame: exploreButton.frame, andColors: [Colors.darkActionTop, Colors.darkActionBottom])
     case .light:
@@ -187,6 +197,7 @@ extension PanelViewController: Themeable {
       numberOfJobsButton.layer.borderColor = Colors.lightSeg.cgColor
       devSalaryButton.layer.borderColor = Colors.lightSeg.cgColor
       monthlyRentButton.layer.borderColor = Colors.lightSeg.cgColor
+      adjustedDevSalaryButton.layer.borderColor = Colors.lightSeg.cgColor
       exploreButton.setTitleColor(Colors.lightActionText, for: .normal)
       exploreButton.backgroundColor = UIColor(gradientStyle: .topToBottom, withFrame: exploreButton.frame, andColors: [Colors.lightActionTop, Colors.lightActionBottom])
     }
@@ -197,6 +208,8 @@ extension PanelViewController: Themeable {
       setButtonState(button: devSalaryButton)
     case .averageMonthlyRent:
       setButtonState(button: monthlyRentButton)
+    case .averageAdjustedDevSalary:
+      setButtonState(button: adjustedDevSalaryButton)
     }
   }
 }
@@ -216,6 +229,11 @@ extension PanelViewController {
   @IBAction private func monthlyRentButtonTapped() {
     viewModel.locationFilterTapped(filter: .averageMonthlyRent)
     setButtonState(button: monthlyRentButton)
+  }
+
+  @IBAction private func adjustedDevSalaryButtonTapped() {
+    viewModel.locationFilterTapped(filter: .averageAdjustedDevSalary)
+    setButtonState(button: adjustedDevSalaryButton)
   }
 
   @IBAction private func exploreButtonTapped() {

@@ -52,9 +52,13 @@ final class LocationParser {
       groceriesIndex = groceriesIndexValue
     }
 
+    var averageAdjustedDevSalary: Double? = nil
+    if let averageAdjustedDevSalaryValue = json["swe_salary_after_tax_rent"] as? Double {
+      averageAdjustedDevSalary = averageAdjustedDevSalaryValue
+    }
+
     let cityCompaniesParser = CityCompaniesParser()
     let companies = cityCompaniesParser.parse(from: companiesJSON)
-
 
     return Location(name: name,
                     averageDevSalary: averageDevSalary,
@@ -69,7 +73,8 @@ final class LocationParser {
                     groceriesIndex: groceriesIndex,
                     numbeoURL: numbeoURL,
                     imageURL: imageURL,
-                    companies: companies)
+                    companies: companies,
+                    averageAdjustedDevSalary: averageAdjustedDevSalary)
   }}
 
 final class LocationsParser {

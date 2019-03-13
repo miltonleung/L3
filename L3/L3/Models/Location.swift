@@ -9,7 +9,7 @@
 import Foundation
 
 enum LocationFilter {
-  case sizeIndex, averageDevSalary, averageMonthlyRent
+  case sizeIndex, averageDevSalary, averageMonthlyRent, averageAdjustedDevSalary
 }
 
 enum Statistic {
@@ -19,6 +19,7 @@ enum Statistic {
   case costOfLiving(value: Double)
   case rent(value: Double)
   case groceries(value: Double)
+  case averageAdjustedDevSalary(value: Double)
 
   var category: String {
     switch self {
@@ -28,6 +29,8 @@ enum Statistic {
     case .costOfLiving: return "COST OF LIVING"
     case .rent: return "AVERAGE RENT"
     case .groceries: return "GROCERIES INDEX"
+    case .averageAdjustedDevSalary:
+      return "ADJUSTED DEV SALARY"
     }
   }
 }
@@ -47,6 +50,7 @@ struct Location: Equatable {
   let numbeoURL: URL?
   let imageURL: URL?
   let companies: [CityCompany]
+  let averageAdjustedDevSalary: Double?
 }
 
 extension Location {
@@ -73,8 +77,12 @@ extension Location {
       statistics.append(.rent(value: averageRent))
     }
 
-    if let groceriesIndex = groceriesIndex {
-      statistics.append(.groceries(value: groceriesIndex))
+//    if let groceriesIndex = groceriesIndex {
+//      statistics.append(.groceries(value: groceriesIndex))
+//    }
+
+    if let averageAdjustedDevSalary = averageAdjustedDevSalary {
+      statistics.append(.averageAdjustedDevSalary(value: averageAdjustedDevSalary))
     }
 
     return statistics

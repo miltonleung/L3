@@ -362,6 +362,8 @@ extension MapViewController {
       return location?.averageDevSalary ?? 0
     case .averageMonthlyRent:
       return location?.averageMonthlyRent ?? 0
+    case .averageAdjustedDevSalary:
+      return location?.averageAdjustedDevSalary ?? 0
     }
   }
 
@@ -374,6 +376,9 @@ extension MapViewController {
     case .averageMonthlyRent:
       guard let monthlyRent = location.averageMonthlyRent else { return true }
       return monthlyRent / maxValue  < 0.60
+    case .averageAdjustedDevSalary:
+      guard let adjustedSalary = location.averageAdjustedDevSalary else { return true }
+      return adjustedSalary / maxValue  < 0.85
     }
   }
 
@@ -386,6 +391,9 @@ extension MapViewController {
     case .averageMonthlyRent:
       guard let monthlyRent = location.averageMonthlyRent else { return 0 }
       return sqrt(monthlyRent) / sqrt(maxValue)
+    case .averageAdjustedDevSalary:
+      guard let adjustedSalary = location.averageAdjustedDevSalary else { return 0 }
+      return adjustedSalary / maxValue
     }
   }
 }

@@ -11,6 +11,7 @@ protocol PanelViewModel {
   var numberOfJobsButtonTitle: String { get }
   var devSalaryButtonTitle: String { get }
   var monthlyRentButtonTitle: String { get }
+  var adjustedDevSalaryButtonTitle: String { get }
   var selectedButton: LocationFilter { get }
   var exploreButtonTitle: String { get }
 
@@ -24,12 +25,14 @@ final class PanelViewModelImpl {
   let title = "Explore based on"
   let numberOfJobsButtonTitle = "Number Of Jobs"
   let devSalaryButtonTitle = "Dev Salary"
-  let monthlyRentButtonTitle = "Monthly Rent"
+  let monthlyRentButtonTitle = "Rent"
+  let adjustedDevSalaryButtonTitle = "Adjusted Dev Salary"
   let exploreButtonTitle = "Explore"
 
   fileprivate var isNumberOfJobsSelected = true
   fileprivate var isDevSalarySelected = false
   fileprivate var isMonthlyRentSelected = false
+  fileprivate var isAdjustedDevSalarySelected = false
 
   // Coordinator Handlers
   var onLocationFilterTapped: ((LocationFilter) -> Void)?
@@ -44,8 +47,10 @@ extension PanelViewModelImpl: PanelViewModel {
       return .sizeIndex
     } else if isDevSalarySelected {
       return .averageDevSalary
-    } else {
+    } else if isMonthlyRentSelected{
       return .averageMonthlyRent
+    } else {
+      return .averageAdjustedDevSalary
     }
   }
 
@@ -56,18 +61,25 @@ extension PanelViewModelImpl: PanelViewModel {
       isNumberOfJobsSelected = true
       isDevSalarySelected = false
       isMonthlyRentSelected = false
-
+      isAdjustedDevSalarySelected = false
     case .averageDevSalary:
       guard isDevSalarySelected == false else { return }
       isNumberOfJobsSelected = false
       isDevSalarySelected = true
       isMonthlyRentSelected = false
-
+      isAdjustedDevSalarySelected = false
     case .averageMonthlyRent:
       guard isMonthlyRentSelected == false else { return }
       isNumberOfJobsSelected = false
       isDevSalarySelected = false
       isMonthlyRentSelected = true
+      isAdjustedDevSalarySelected = false
+    case .averageAdjustedDevSalary:
+      guard isAdjustedDevSalarySelected == false else { return }
+      isNumberOfJobsSelected = false
+      isDevSalarySelected = false
+      isMonthlyRentSelected = false
+      isAdjustedDevSalarySelected = true
     }
     onLocationFilterTapped?(filter)
   }
