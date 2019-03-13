@@ -1264,7 +1264,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 86291,
+        "swe_salary_after_tax_rent": 45911.0
     },
     {
         "name": "New York City, NY",
@@ -2129,7 +2131,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 75723,
+        "swe_salary_after_tax_rent": 38370.0
     },
     {
         "name": "San Jose, CA",
@@ -2910,7 +2914,9 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 85583,
+        "swe_salary_after_tax_rent": 55815.56
     },
     {
         "name": "Los Angeles, CA",
@@ -3417,7 +3423,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 71154,
+        "swe_salary_after_tax_rent": 45888.24
     },
     {
         "name": "Seattle, WA",
@@ -3923,7 +3931,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 88214,
+        "swe_salary_after_tax_rent": 64476.92
     },
     {
         "name": "Boston, MA",
@@ -4368,7 +4378,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 71318,
+        "swe_salary_after_tax_rent": 42258.8
     },
     {
         "name": "Toronto, ON, Canada",
@@ -4671,7 +4683,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 56050,
+        "swe_salary_after_tax_rent": 38357.56
     },
     {
         "name": "Chicago, IL",
@@ -5036,7 +5050,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 65547,
+        "swe_salary_after_tax_rent": 45120.84
     },
     {
         "name": "Austin, TX",
@@ -5396,7 +5412,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 69770,
+        "swe_salary_after_tax_rent": 49665.68
     },
     {
         "name": "San Diego, CA",
@@ -5641,7 +5659,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 71569,
+        "swe_salary_after_tax_rent": 48693.4
     },
     {
         "name": "Dallas-Fort Worth, TX",
@@ -5882,7 +5902,9 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 68622,
+        "swe_salary_after_tax_rent": 52715.16
     },
     {
         "name": "Atlanta, GA",
@@ -6075,7 +6097,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 62799,
+        "swe_salary_after_tax_rent": 44927.16
     },
     {
         "name": "Portland, OR",
@@ -6311,7 +6335,9 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 66308,
+        "swe_salary_after_tax_rent": 47672.6
     },
     {
         "name": "Raleigh-Durham, NC",
@@ -6480,7 +6506,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 64029,
+        "swe_salary_after_tax_rent": 49302.36
     },
     {
         "name": "Phoenix, AZ",
@@ -6663,7 +6691,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 65737,
+        "swe_salary_after_tax_rent": 51484.6
     },
     {
         "name": "Pittsburgh, PA",
@@ -6815,7 +6845,9 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 65441,
+        "swe_salary_after_tax_rent": 51587.84
     },
     {
         "name": "Vancouver, BC, Canada",
@@ -6975,7 +7007,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 55024,
+        "swe_salary_after_tax_rent": 38157.04
     },
     {
         "name": "Houston, TX",
@@ -7109,7 +7143,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 67974,
+        "swe_salary_after_tax_rent": 51694.44
     },
     {
         "name": "Denver, CO",
@@ -7292,7 +7328,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 66144,
+        "swe_salary_after_tax_rent": 46563.36
     },
     {
         "name": "Philadelphia, PA",
@@ -7421,7 +7459,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 66665,
+        "swe_salary_after_tax_rent": 48343.28
     },
     {
         "name": "Miami-Fort Lauderdale, FL",
@@ -7563,7 +7603,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 66334,
+        "swe_salary_after_tax_rent": 44047.24
     },
     {
         "name": "Boulder, CO",
@@ -7688,7 +7730,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 71053,
+        "swe_salary_after_tax_rent": 52710.16
     },
     {
         "name": "Salt Lake City, UT",
@@ -7801,7 +7845,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 54473,
+        "swe_salary_after_tax_rent": 40386.2
     },
     {
         "name": "Baltimore, MD",
@@ -7892,7 +7938,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 69313,
+        "swe_salary_after_tax_rent": 53279.56
     },
     {
         "name": "Detroit, MI",
@@ -7988,7 +8036,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 60648,
+        "swe_salary_after_tax_rent": 47216.520000000004
     },
     {
         "name": "Montreal, QC, Canada",
@@ -8079,7 +8129,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 46526,
+        "swe_salary_after_tax_rent": 37454.24
     },
     {
         "name": "Columbus, OH",
@@ -8169,7 +8221,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 61102,
+        "swe_salary_after_tax_rent": 47260.479999999996
     },
     {
         "name": "Charlotte, NC",
@@ -8266,7 +8320,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 60643,
+        "swe_salary_after_tax_rent": 44020.84
     },
     {
         "name": "San Antonio, TX",
@@ -8350,7 +8406,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 66414,
+        "swe_salary_after_tax_rent": 54045.96
     },
     {
         "name": "Minneapolis-St. Paul, MN",
@@ -8433,7 +8491,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 55676,
+        "swe_salary_after_tax_rent": 38625.56
     },
     {
         "name": "Tampa, FL",
@@ -8508,7 +8568,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 63305,
+        "swe_salary_after_tax_rent": 47391.8
     },
     {
         "name": "Orlando, FL",
@@ -8576,7 +8638,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 62793,
+        "swe_salary_after_tax_rent": 47148.36
     },
     {
         "name": "Las Vegas, NV",
@@ -8651,7 +8715,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 65330,
+        "swe_salary_after_tax_rent": 54199.28
     },
     {
         "name": "Napa, CA",
@@ -8741,7 +8807,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 73149
     },
     {
         "name": "Ottawa, ON, Canada",
@@ -8824,7 +8891,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 55377,
+        "swe_salary_after_tax_rent": 44004.119999999995
     },
     {
         "name": "Champaign, IL",
@@ -8888,7 +8957,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 64905,
+        "swe_salary_after_tax_rent": 55704.96
     },
     {
         "name": "Kitchener, ON, Canada",
@@ -9021,7 +9092,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 68324,
+        "swe_salary_after_tax_rent": 50616.56
     },
     {
         "name": "Albany, NY",
@@ -9087,7 +9160,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 55594,
+        "swe_salary_after_tax_rent": 44078.56
     },
     {
         "name": "Santa Barbara, CA",
@@ -9174,7 +9249,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 72357,
+        "swe_salary_after_tax_rent": 50721.72
     },
     {
         "name": "Trenton, NJ",
@@ -9237,7 +9314,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 66472,
+        "swe_salary_after_tax_rent": 59272.0
     },
     {
         "name": "Boise, ID",
@@ -9303,7 +9382,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 59438,
+        "swe_salary_after_tax_rent": 47882.0
     },
     {
         "name": "Mountain View, CA",
@@ -9458,7 +9539,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 85583,
+        "swe_salary_after_tax_rent": 47582.96
     },
     {
         "name": "Omaha, NE",
@@ -9507,7 +9590,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 59001,
+        "swe_salary_after_tax_rent": 47844.24
     },
     {
         "name": "Kansas City, MO",
@@ -9566,7 +9651,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 58031,
+        "swe_salary_after_tax_rent": 45892.520000000004
     },
     {
         "name": "Springfield, MA",
@@ -9621,7 +9708,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 60470,
+        "swe_salary_after_tax_rent": 53022.56
     },
     {
         "name": "Worcester, MA",
@@ -9676,7 +9765,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 66075,
+        "swe_salary_after_tax_rent": 54160.68
     },
     {
         "name": "Madison, WI",
@@ -9741,7 +9832,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 66886,
+        "swe_salary_after_tax_rent": 52926.64
     },
     {
         "name": "Milwaukee, WI",
@@ -9793,7 +9886,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 57623,
+        "swe_salary_after_tax_rent": 44772.44
     },
     {
         "name": "Indianapolis, IN",
@@ -9852,7 +9947,9 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 60793,
+        "swe_salary_after_tax_rent": 46927.6
     },
     {
         "name": "Palo Alto, CA",
@@ -9993,7 +10090,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 85583,
+        "swe_salary_after_tax_rent": 50463.8
     },
     {
         "name": "Provo, UT",
@@ -10065,7 +10164,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 63666
     },
     {
         "name": "Hartford, CT",
@@ -10113,7 +10213,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 60163,
+        "swe_salary_after_tax_rent": 45838.0
     },
     {
         "name": "Coos Bay, OR",
@@ -10166,7 +10268,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 56122
     },
     {
         "name": "New Orleans, LA",
@@ -10245,7 +10348,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 59074,
+        "swe_salary_after_tax_rent": 42337.479999999996
     },
     {
         "name": "Sunnyvale, CA",
@@ -10293,7 +10398,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 85583,
+        "swe_salary_after_tax_rent": 52526.479999999996
     },
     {
         "name": "St. Louis, MO",
@@ -10346,7 +10453,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 62777
     },
     {
         "name": "Louisville, KY",
@@ -10405,7 +10513,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 56180,
+        "swe_salary_after_tax_rent": 46456.16
     },
     {
         "name": "Tucson, AZ",
@@ -10449,7 +10559,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 60336,
+        "swe_salary_after_tax_rent": 52017.119999999995
     },
     {
         "name": "Fort Collins, CO",
@@ -10490,7 +10602,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 64964,
+        "swe_salary_after_tax_rent": 50286.56
     },
     {
         "name": "Ann Arbor, MI",
@@ -10537,7 +10651,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 61189,
+        "swe_salary_after_tax_rent": 44279.92
     },
     {
         "name": "Manchester, NH",
@@ -10584,7 +10700,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 58306,
+        "swe_salary_after_tax_rent": 46989.64
     },
     {
         "name": "Memphis, TN",
@@ -10640,7 +10758,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 60686,
+        "swe_salary_after_tax_rent": 49856.0
     },
     {
         "name": "Dayton, OH",
@@ -10681,7 +10801,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 57917,
+        "swe_salary_after_tax_rent": 48409.76
     },
     {
         "name": "Calgary, AB, Canada",
@@ -10744,7 +10866,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 57331,
+        "swe_salary_after_tax_rent": 46118.08
     },
     {
         "name": "Santa Cruz, CA",
@@ -10799,7 +10923,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 72630,
+        "swe_salary_after_tax_rent": 45630.0
     },
     {
         "name": "Rochester, NY",
@@ -10843,7 +10969,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 58141,
+        "swe_salary_after_tax_rent": 47572.0
     },
     {
         "name": "Oklahoma City, OK",
@@ -10884,7 +11012,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 57383,
+        "swe_salary_after_tax_rent": 47098.28
     },
     {
         "name": "Buffalo, NY",
@@ -10927,7 +11057,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 53974,
+        "swe_salary_after_tax_rent": 42127.36
     },
     {
         "name": "Jacksonville, FL",
@@ -10977,7 +11109,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 63714,
+        "swe_salary_after_tax_rent": 51515.04
     },
     {
         "name": "Redwood City, CA",
@@ -11051,7 +11185,8 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 86291
     },
     {
         "name": "Burlington, VT",
@@ -11091,7 +11226,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 58237,
+        "swe_salary_after_tax_rent": 43429.84
     },
     {
         "name": "Tallahassee, FL",
@@ -11123,7 +11260,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 58062,
+        "swe_salary_after_tax_rent": 48804.84
     },
     {
         "name": "Bridgeport, CT",
@@ -11152,7 +11291,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 72695
     },
     {
         "name": "Merced, CA",
@@ -11181,7 +11321,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 68418
     },
     {
         "name": "Albuquerque, NM",
@@ -11217,7 +11358,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 59159,
+        "swe_salary_after_tax_rent": 49121.36
     },
     {
         "name": "Santa Clara, CA",
@@ -11246,7 +11389,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 85583
     },
     {
         "name": "Halifax, NS, Canada",
@@ -11314,7 +11458,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 56649,
+        "swe_salary_after_tax_rent": 45651.0
     },
     {
         "name": "Hawaiian Islands",
@@ -11344,7 +11490,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 50345
     },
     {
         "name": "Fayetteville, AR",
@@ -11376,7 +11523,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 54046,
+        "swe_salary_after_tax_rent": 45226.0
     },
     {
         "name": "Des Moines, IA",
@@ -11408,7 +11557,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 59662,
+        "swe_salary_after_tax_rent": 47962.0
     },
     {
         "name": "Colorado Springs, CO",
@@ -11440,7 +11591,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 65691,
+        "swe_salary_after_tax_rent": 53200.32
     },
     {
         "name": "El Paso, TX",
@@ -11472,7 +11625,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 45650,
+        "swe_salary_after_tax_rent": 37868.479999999996
     },
     {
         "name": "Puerto Rico",
@@ -11533,7 +11688,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 73155,
+        "swe_salary_after_tax_rent": 49882.68
     },
     {
         "name": "Providence, RI",
@@ -11572,7 +11729,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 63282,
+        "swe_salary_after_tax_rent": 46098.72
     },
     {
         "name": "Knoxville, TN",
@@ -11614,7 +11773,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 64017,
+        "swe_salary_after_tax_rent": 52998.84
     },
     {
         "name": "Allentown, PA",
@@ -11646,7 +11807,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 67853,
+        "swe_salary_after_tax_rent": 59573.0
     },
     {
         "name": "Richmond, VA",
@@ -11688,7 +11851,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 65832,
+        "swe_salary_after_tax_rent": 51663.6
     },
     {
         "name": "Scranton, PA",
@@ -11720,7 +11885,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 54995,
+        "swe_salary_after_tax_rent": 47435.0
     },
     {
         "name": "Norfolk, VA",
@@ -11759,7 +11926,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 52224,
+        "swe_salary_after_tax_rent": 37285.44
     },
     {
         "name": "Victoria, BC, Canada",
@@ -11831,7 +12000,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 64983,
+        "swe_salary_after_tax_rent": 49396.44
     },
     {
         "name": "San Mateo, CA",
@@ -11887,7 +12058,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 86291,
+        "swe_salary_after_tax_rent": 53291.0
     },
     {
         "name": "Cambridge, MA",
@@ -11941,7 +12114,9 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 71318,
+        "swe_salary_after_tax_rent": 55731.44
     },
     {
         "name": "Santa Fe, NM",
@@ -11973,7 +12148,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 65789,
+        "swe_salary_after_tax_rent": 51839.0
     },
     {
         "name": "Wichita, KS",
@@ -12005,7 +12182,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 58922,
+        "swe_salary_after_tax_rent": 50122.04
     },
     {
         "name": "Columbus, GA",
@@ -12040,7 +12219,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 62667,
+        "swe_salary_after_tax_rent": 48825.479999999996
     },
     {
         "name": "Jesup, GA",
@@ -12069,7 +12250,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 62519
     },
     {
         "name": "Riverside, CA",
@@ -12108,7 +12290,9 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 66758,
+        "swe_salary_after_tax_rent": 50333.0
     },
     {
         "name": "Birmingham, AL",
@@ -12140,7 +12324,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 56016,
+        "swe_salary_after_tax_rent": 44600.64
     },
     {
         "name": "Charleston, SC",
@@ -12179,7 +12365,9 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 59418,
+        "swe_salary_after_tax_rent": 42337.08
     },
     {
         "name": "Kingston, NY",
@@ -12211,7 +12399,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 59618,
+        "swe_salary_after_tax_rent": 48148.76
     },
     {
         "name": "Concord, NH",
@@ -12250,7 +12440,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 64436,
+        "swe_salary_after_tax_rent": 53336.0
     },
     {
         "name": "Bellevue, WA",
@@ -12290,7 +12482,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 88214,
+        "swe_salary_after_tax_rent": 64377.68
     },
     {
         "name": "Santa Monica, CA",
@@ -12331,7 +12525,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 71154,
+        "swe_salary_after_tax_rent": 40925.159999999996
     },
     {
         "name": "Sarasota, FL",
@@ -12370,7 +12566,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 63799,
+        "swe_salary_after_tax_rent": 45526.24
     },
     {
         "name": "San Luis Obispo, CA",
@@ -12414,7 +12612,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 58692,
+        "swe_salary_after_tax_rent": 39612.0
     },
     {
         "name": "Yakima, WA",
@@ -12438,7 +12638,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 69753,
+        "swe_salary_after_tax_rent": 60453.0
     },
     {
         "name": "Pleasanton, CA",
@@ -12462,7 +12664,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 86291,
+        "swe_salary_after_tax_rent": 57851.0
     },
     {
         "name": "Miami, OK",
@@ -12489,7 +12693,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 61819,
+        "swe_salary_after_tax_rent": 39532.24
     },
     {
         "name": "Burbank, CA",
@@ -12510,7 +12716,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 71154
     },
     {
         "name": "Daytona Beach, FL",
@@ -12534,7 +12741,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 59208,
+        "swe_salary_after_tax_rent": 49076.520000000004
     },
     {
         "name": "Fort Wayne, IN",
@@ -12558,7 +12767,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 58980,
+        "swe_salary_after_tax_rent": 50730.0
     },
     {
         "name": "Bloomington, IL",
@@ -12582,7 +12793,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 58349,
+        "swe_salary_after_tax_rent": 46726.4
     },
     {
         "name": "Hawthorne, CA",
@@ -12603,7 +12816,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 71154
     },
     {
         "name": "Norwalk, CT",
@@ -12627,7 +12841,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 72695,
+        "swe_salary_after_tax_rent": 50135.0
     },
     {
         "name": "Fort Smith, AR",
@@ -12648,7 +12864,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 58190
     },
     {
         "name": "Copenhagen (Denmark)",
@@ -12691,7 +12908,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 59150,
+        "swe_salary_after_tax_rent": 45749.96
     },
     {
         "name": "Grand Rapids, MI",
@@ -12715,7 +12934,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 57951,
+        "swe_salary_after_tax_rent": 43611.0
     },
     {
         "name": "Huntsville, AL",
@@ -12739,7 +12960,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 61952,
+        "swe_salary_after_tax_rent": 52089.2
     },
     {
         "name": "Iowa City, IA",
@@ -12763,7 +12986,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 57205,
+        "swe_salary_after_tax_rent": 47078.32
     },
     {
         "name": "Harrisburg, PA",
@@ -12787,7 +13012,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 63418,
+        "swe_salary_after_tax_rent": 54418.0
     },
     {
         "name": "Cincinnati, OH",
@@ -12814,7 +13041,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 60328,
+        "swe_salary_after_tax_rent": 48352.6
     },
     {
         "name": "Naples, FL",
@@ -12838,7 +13067,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 62966,
+        "swe_salary_after_tax_rent": 55885.4
     },
     {
         "name": "Nashville, TN",
@@ -12865,7 +13096,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 64223,
+        "swe_salary_after_tax_rent": 45835.4
     },
     {
         "name": "Lexington, KY",
@@ -12889,7 +13122,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 57126,
+        "swe_salary_after_tax_rent": 46783.2
     },
     {
         "name": "Syracuse, NY",
@@ -12913,7 +13148,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 59361,
+        "swe_salary_after_tax_rent": 46027.68
     },
     {
         "name": "Barre, VT",
@@ -12934,7 +13171,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 69216
     },
     {
         "name": "La Crosse, WI",
@@ -12955,7 +13193,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 50363
     },
     {
         "name": "Eureka, CA",
@@ -12979,7 +13218,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 64144,
+        "swe_salary_after_tax_rent": 54144.04
     },
     {
         "name": "Lakeland, FL",
@@ -13003,7 +13244,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 54751,
+        "swe_salary_after_tax_rent": 44553.04
     },
     {
         "name": "Medford, OR",
@@ -13027,7 +13270,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 53361,
+        "swe_salary_after_tax_rent": 43677.0
     },
     {
         "name": "Tulsa, OK",
@@ -13054,7 +13299,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 52955,
+        "swe_salary_after_tax_rent": 42995.0
     },
     {
         "name": "Greensboro, NC",
@@ -13078,7 +13325,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 63579,
+        "swe_salary_after_tax_rent": 53879.04
     },
     {
         "name": "Fargo, ND",
@@ -13102,7 +13351,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 59917,
+        "swe_salary_after_tax_rent": 52004.44
     },
     {
         "name": "Redmond, WA",
@@ -13126,7 +13377,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 88214,
+        "swe_salary_after_tax_rent": 65729.95999999999
     },
     {
         "name": "Bend, OR",
@@ -13150,7 +13403,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 58723,
+        "swe_salary_after_tax_rent": 45073.0
     },
     {
         "name": "Salinas, CA",
@@ -13171,7 +13426,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 70997
     },
     {
         "name": "Reno, NV",
@@ -13198,7 +13454,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 61422,
+        "swe_salary_after_tax_rent": 47822.04
     },
     {
         "name": "Edmonton, AB, Canada",
@@ -13247,7 +13505,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 57672,
+        "swe_salary_after_tax_rent": 47043.0
     },
     {
         "name": "Lancaster, PA",
@@ -13271,7 +13531,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 55854,
+        "swe_salary_after_tax_rent": 47754.6
     },
     {
         "name": "Idaho Falls, ID",
@@ -13295,7 +13557,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 53933,
+        "swe_salary_after_tax_rent": 46733.0
     },
     {
         "name": "Binghamton, NY",
@@ -13319,7 +13583,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 57632,
+        "swe_salary_after_tax_rent": 48872.0
     },
     {
         "name": "Canton, OH",
@@ -13343,7 +13609,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 56946,
+        "swe_salary_after_tax_rent": 44946.0
     },
     {
         "name": "Fredericton, NB, Canada",
@@ -13386,7 +13654,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 75723
     },
     {
         "name": "Lawrence, KS",
@@ -13410,7 +13679,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 60313,
+        "swe_salary_after_tax_rent": 51013.0
     },
     {
         "name": "Baton Rouge, LA",
@@ -13434,7 +13705,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 61986,
+        "swe_salary_after_tax_rent": 51101.04
     },
     {
         "name": "Rochester, MN",
@@ -13461,7 +13734,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 59008,
+        "swe_salary_after_tax_rent": 48439.0
     },
     {
         "name": "Lansing, MI",
@@ -13485,7 +13760,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 58875,
+        "swe_salary_after_tax_rent": 49875.0
     },
     {
         "name": "Lincoln, NE",
@@ -13509,7 +13786,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 50871,
+        "swe_salary_after_tax_rent": 41833.56
     },
     {
         "name": "Portland, ME",
@@ -13536,7 +13815,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 67571,
+        "swe_salary_after_tax_rent": 48935.6
     },
     {
         "name": "Monroe, LA",
@@ -13557,7 +13838,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 57899
     },
     {
         "name": "Duluth, MN",
@@ -13581,7 +13863,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 62837,
+        "swe_salary_after_tax_rent": 52681.04
     },
     {
         "name": "Little Rock, AR",
@@ -13608,7 +13892,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 47591,
+        "swe_salary_after_tax_rent": 38015.96
     },
     {
         "name": "Bakersfield, CA",
@@ -13632,7 +13918,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 58692,
+        "swe_salary_after_tax_rent": 47772.0
     },
     {
         "name": "Bloomington, IN",
@@ -13656,7 +13944,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 55033,
+        "swe_salary_after_tax_rent": 43410.4
     },
     {
         "name": "St. George, UT",
@@ -13699,7 +13989,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 64885,
+        "swe_salary_after_tax_rent": 56822.44
     },
     {
         "name": "Kingsport, TN",
@@ -13720,7 +14012,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 60784
     },
     {
         "name": "Scottsdale, AZ",
@@ -13751,7 +14044,9 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 65737,
+        "swe_salary_after_tax_rent": 50789.68
     },
     {
         "name": "Menlo Park, CA",
@@ -13779,7 +14074,8 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 86291
     },
     {
         "name": "Verona, WI",
@@ -13810,7 +14106,9 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 66886,
+        "swe_salary_after_tax_rent": 57317.56
     },
     {
         "name": "Winona, MN",
@@ -13831,7 +14129,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 60683
     },
     {
         "name": "Green Bay, WI",
@@ -13862,7 +14161,9 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 51529,
+        "swe_salary_after_tax_rent": 41854.0
     },
     {
         "name": "Tempe, AZ",
@@ -13893,7 +14194,9 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 65737,
+        "swe_salary_after_tax_rent": 54121.0
     },
     {
         "name": "Akron, OH",
@@ -13924,7 +14227,9 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 59069,
+        "swe_salary_after_tax_rent": 51041.0
     },
     {
         "name": "York-Hanover, PA",
@@ -13958,7 +14263,9 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 63833,
+        "swe_salary_after_tax_rent": 26480.0
     },
     {
         "name": "St. Cloud, MN",
@@ -13986,7 +14293,8 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 51702
     },
     {
         "name": "Beaumont, TX",
@@ -14014,7 +14322,8 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 67669
     },
     {
         "name": "Macon, GA",
@@ -14035,7 +14344,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 60762
     },
     {
         "name": "Amsterdam, NY",
@@ -14059,7 +14369,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 64888,
+        "swe_salary_after_tax_rent": 43976.32
     },
     {
         "name": "Cupertino, CA",
@@ -14087,7 +14399,8 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 85583
     },
     {
         "name": "Summerville, GA",
@@ -14115,7 +14428,8 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 64421
     },
     {
         "name": "Ames, IA",
@@ -14139,7 +14453,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 56229,
+        "swe_salary_after_tax_rent": 47014.68
     },
     {
         "name": "Ukiah, CA",
@@ -14160,7 +14476,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 66775
     },
     {
         "name": "Eugene, OR",
@@ -14184,7 +14501,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 55232,
+        "swe_salary_after_tax_rent": 44544.56
     },
     {
         "name": "Bozeman, MT",
@@ -14208,7 +14527,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 57253,
+        "swe_salary_after_tax_rent": 45253.0
     },
     {
         "name": "San Bruno, CA",
@@ -14229,7 +14550,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 86291
     },
     {
         "name": "Weston, FL",
@@ -14250,7 +14572,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 66334
     },
     {
         "name": "Needham, MA",
@@ -14271,7 +14594,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 71318
     },
     {
         "name": "Stockholm, Stockholm (Sweden)",
@@ -14314,7 +14638,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 85583
     },
     {
         "name": "Natick, MA",
@@ -14335,7 +14660,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 71318
     },
     {
         "name": "Lausanne (Switzerland)",
@@ -14375,7 +14701,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 86291
     },
     {
         "name": "Broomfield, CO",
@@ -14403,7 +14730,8 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 66144
     },
     {
         "name": "Redlands, CA",
@@ -14431,7 +14759,8 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 66758
     },
     {
         "name": "Waltham, MA",
@@ -14459,7 +14788,8 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 71318
     },
     {
         "name": "Daniel Island, SC",
@@ -14487,7 +14817,8 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 59418
     },
     {
         "name": "Sydney (Australia)",
@@ -14546,7 +14877,9 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 71105,
+        "swe_salary_after_tax_rent": 45833.0
     },
     {
         "name": "Lehi, UT",
@@ -14574,7 +14907,8 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 63666
     },
     {
         "name": "Brooklyn, NY",
@@ -14617,7 +14951,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 75723,
+        "swe_salary_after_tax_rent": 45122.64
     },
     {
         "name": "Stamford, CT",
@@ -14641,7 +14977,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 72695,
+        "swe_salary_after_tax_rent": 48263.0
     },
     {
         "name": "Holmdel, NJ",
@@ -14662,7 +15000,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 77221
     },
     {
         "name": "McLean, VA",
@@ -14690,7 +15029,8 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 71105
     },
     {
         "name": "Charlottesville, VA",
@@ -14714,7 +15054,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 55574,
+        "swe_salary_after_tax_rent": 40474.04
     },
     {
         "name": "Irvine, CA",
@@ -14738,7 +15080,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 71154,
+        "swe_salary_after_tax_rent": 47045.16
     },
     {
         "name": "Jonesboro, AR",
@@ -14762,7 +15106,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 59523,
+        "swe_salary_after_tax_rent": 51222.96
     },
     {
         "name": "B\u00fcren, Nordrhein-Westfalen (Germany)",
@@ -14802,7 +15148,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 71154
     },
     {
         "name": "Piedmont, SC",
@@ -14823,7 +15170,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 55081
     },
     {
         "name": "Marina del Rey, CA",
@@ -14851,7 +15199,8 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 71154
     },
     {
         "name": "Leesburg, VA",
@@ -14872,7 +15221,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 71105
     },
     {
         "name": "Pasadena, CA",
@@ -14903,7 +15253,9 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 71154,
+        "swe_salary_after_tax_rent": 48011.16
     },
     {
         "name": "Kirkland, WA",
@@ -14931,7 +15283,8 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 88214
     },
     {
         "name": "Campbell, CA",
@@ -14952,7 +15305,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 85583
     },
     {
         "name": "Manchester, England (UK)",
@@ -14995,7 +15349,8 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 73149
     },
     {
         "name": "Oakland, CA",
@@ -15022,7 +15377,9 @@
                     "coordinates": []
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 86291,
+        "swe_salary_after_tax_rent": 56903.0
     },
     {
         "name": "Nottingham, England (UK)",
@@ -15075,7 +15432,9 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 61035,
+        "swe_salary_after_tax_rent": 54635.04
     },
     {
         "name": "East Palo Alto, CA",
@@ -15103,7 +15462,8 @@
                     ]
                 }
             }
-        ]
+        ],
+        "swe_salary_after_tax": 85583
     },
     {
         "name": "Vejle (Denmark)",
@@ -15141,6 +15501,8 @@
         "sizeIndex": 0,
         "avg_swe_salary_usd": 98900.0,
         "photo_url": "https://images.unsplash.com/photo-1545690546-8bb3627a906c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjU4NDExfQ",
-        "companies": []
+        "companies": [],
+        "swe_salary_after_tax": 69295,
+        "swe_salary_after_tax_rent": 42402.76
     }
 ]
