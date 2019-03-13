@@ -57,7 +57,7 @@ final class TextLoader {
 
   \u{2022} Average Rent is the average rent of a 1 bedroom apartment in the city center.
 
-  \u{2022} Groceries Index is estimation of grocery prices relative to NYC, so NYC is 100.0.
+  \u{2022} Adjusted Dev Salary is the average salary minus income tax and rent for the entire year.
 
 
 
