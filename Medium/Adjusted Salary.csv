@@ -1,0 +1,158 @@
+Rank,Name,Adjusted Salary
+1,"Redmond, WA",$65729.96
+2,"Seattle, WA",$64476.92
+3,"Bellevue, WA",$64377.68
+4,"Yakima, WA",$60453.00
+5,"Allentown, PA",$59573.00
+6,"Trenton, NJ",$59272.00
+7,"Pleasanton, CA",$57851.00
+8,"Verona, WI",$57317.56
+9,"Oakland, CA",$56903.00
+10,"Lubbock, TX",$56822.44
+11,"Naples, FL",$55885.40
+12,"San Jose, CA",$55815.56
+13,"Cambridge, MA",$55731.44
+14,"Champaign, IL",$55704.96
+15,"Appleton, WI",$54635.04
+16,"Harrisburg, PA",$54418.00
+17,"Las Vegas, NV",$54199.28
+18,"Worcester, MA",$54160.68
+19,"Eureka, CA",$54144.04
+20,"Tempe, AZ",$54121.00
+21,"San Antonio, TX",$54045.96
+22,"Greensboro, NC",$53879.04
+23,"Concord, NH",$53336.00
+24,"San Mateo, CA",$53291.00
+25,"Baltimore, MD",$53279.56
+26,"Colorado Springs, CO",$53200.32
+27,"Springfield, MA",$53022.56
+28,"Knoxville, TN",$52998.84
+29,"Madison, WI",$52926.64
+30,"Dallas-Fort Worth, TX",$52715.16
+31,"Boulder, CO",$52710.16
+32,"Duluth, MN",$52681.04
+33,"Sunnyvale, CA",$52526.48
+34,"Huntsville, AL",$52089.20
+35,"Tucson, AZ",$52017.12
+36,"Fargo, ND",$52004.44
+37,"Santa Fe, NM",$51839.00
+38,"Houston, TX",$51694.44
+39,"Richmond, VA",$51663.60
+40,"Pittsburgh, PA",$51587.84
+41,"Jacksonville, FL",$51515.04
+42,"Phoenix, AZ",$51484.60
+43,"Jonesboro, AR",$51222.96
+44,"Baton Rouge, LA",$51101.04
+45,"Akron, OH",$51041.00
+46,"Lawrence, KS",$51013.00
+47,"Scottsdale, AZ",$50789.68
+48,"Fort Wayne, IN",$50730.00
+49,"Santa Barbara, CA",$50721.72
+50,"Sacramento, CA",$50616.56
+51,"Palo Alto, CA",$50463.80
+52,"Riverside, CA",$50333.00
+53,"Fort Collins, CO",$50286.56
+54,"Norwalk, CT",$50135.00
+55,"Wichita, KS",$50122.04
+56,"New Haven, CT",$49882.68
+57,"Lansing, MI",$49875.00
+58,"Memphis, TN",$49856.00
+59,"Austin, TX",$49665.68
+60,"Cambridge, MD",$49396.44
+61,"Raleigh-Durham, NC",$49302.36
+62,"Albuquerque, NM",$49121.36
+63,"Daytona Beach, FL",$49076.52
+64,"Portland, ME",$48935.60
+65,"Binghamton, NY",$48872.00
+66,"Columbus, GA",$48825.48
+67,"Tallahassee, FL",$48804.84
+68,"San Diego, CA",$48693.40
+69,"Rochester, MN",$48439.00
+70,"Dayton, OH",$48409.76
+71,"Cincinnati, OH",$48352.60
+72,"Philadelphia, PA",$48343.28
+73,"Stamford, CT",$48263.00
+74,"Kingston, NY",$48148.76
+75,"Pasadena, CA",$48011.16
+76,"Des Moines, IA",$47962.00
+77,"Boise, ID",$47882.00
+78,"Omaha, NE",$47844.24
+79,"Reno, NV",$47822.04
+80,"Bakersfield, CA",$47772.00
+81,"Lancaster, PA",$47754.60
+82,"Portland, OR",$47672.60
+83,"Mountain View, CA",$47582.96
+84,"Rochester, NY",$47572.00
+85,"Scranton, PA",$47435.00
+86,"Tampa, FL",$47391.80
+87,"Columbus, OH",$47260.48
+88,"Detroit, MI",$47216.52
+89,"Orlando, FL",$47148.36
+90,"Oklahoma City, OK",$47098.28
+91,"Iowa City, IA",$47078.32
+92,"Irvine, CA",$47045.16
+93,"Columbia, SC",$47043.00
+94,"Ames, IA",$47014.68
+95,"Manchester, NH",$46989.64
+96,"Indianapolis, IN",$46927.60
+97,"Lexington, KY",$46783.20
+98,"Idaho Falls, ID",$46733.00
+99,"Bloomington, IL",$46726.40
+100,"Denver, CO",$46563.36
+101,"Louisville, KY",$46456.16
+102,"Calgary, AB, Canada",$46118.08
+103,"Providence, RI",$46098.72
+104,"Syracuse, NY",$46027.68
+105,"San Francisco, CA",$45911.00
+106,"Kansas City, MO",$45892.52
+107,"Los Angeles, CA",$45888.24
+108,"Hartford, CT",$45838.00
+109,"Nashville, TN",$45835.40
+110,"Reston, VA",$45833.00
+111,"Montgomery, AL",$45749.96
+112,"Cleveland, OH",$45651.00
+113,"Santa Cruz, CA",$45630.00
+114,"Sarasota, FL",$45526.24
+115,"Bozeman, MT",$45253.00
+116,"Fayetteville, AR",$45226.00
+117,"Brooklyn, NY",$45122.64
+118,"Chicago, IL",$45120.84
+119,"Bend, OR",$45073.00
+120,"Canton, OH",$44946.00
+121,"Atlanta, GA",$44927.16
+122,"Milwaukee, WI",$44772.44
+123,"Birmingham, AL",$44600.64
+124,"Lakeland, FL",$44553.04
+125,"Eugene, OR",$44544.56
+126,"Ann Arbor, MI",$44279.92
+127,"Albany, NY",$44078.56
+128,"Miami-Fort Lauderdale, FL",$44047.24
+129,"Charlotte, NC",$44020.84
+130,"Ottawa, ON, Canada",$44004.12
+131,"Amsterdam, NY",$43976.32
+132,"Medford, OR",$43677.00
+133,"Grand Rapids, MI",$43611.00
+134,"Burlington, VT",$43429.84
+135,"Bloomington, IN",$43410.40
+136,"Tulsa, OK",$42995.00
+137,"Washington, DC",$42402.76
+138,"New Orleans, LA",$42337.48
+139,"Charleston, SC",$42337.08
+140,"Boston, MA",$42258.80
+141,"Buffalo, NY",$42127.36
+142,"Green Bay, WI",$41854.00
+143,"Lincoln, NE",$41833.56
+144,"Santa Monica, CA",$40925.16
+145,"Charlottesville, VA",$40474.04
+146,"Salt Lake City, UT",$40386.20
+147,"San Luis Obispo, CA",$39612.00
+148,"Miami, OK",$39532.24
+149,"Minneapolis-St. Paul, MN",$38625.56
+150,"New York City, NY",$38370.00
+151,"Toronto, ON, Canada",$38357.56
+152,"Vancouver, BC, Canada",$38157.04
+153,"Little Rock, AR",$38015.96
+154,"El Paso, TX",$37868.48
+155,"Montreal, QC, Canada",$37454.24
+156,"Norfolk, VA",$37285.44
+157,"York-Hanover, PA",$26480.00

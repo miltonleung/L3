@@ -1,0 +1,787 @@
+[
+    {
+        "rank": 1,
+        "name": "Redmond, WA",
+        "adjusted_salary": 65729.95999999999
+    },
+    {
+        "rank": 2,
+        "name": "Seattle, WA",
+        "adjusted_salary": 64476.92
+    },
+    {
+        "rank": 3,
+        "name": "Bellevue, WA",
+        "adjusted_salary": 64377.68
+    },
+    {
+        "rank": 4,
+        "name": "Yakima, WA",
+        "adjusted_salary": 60453.0
+    },
+    {
+        "rank": 5,
+        "name": "Allentown, PA",
+        "adjusted_salary": 59573.0
+    },
+    {
+        "rank": 6,
+        "name": "Trenton, NJ",
+        "adjusted_salary": 59272.0
+    },
+    {
+        "rank": 7,
+        "name": "Pleasanton, CA",
+        "adjusted_salary": 57851.0
+    },
+    {
+        "rank": 8,
+        "name": "Verona, WI",
+        "adjusted_salary": 57317.56
+    },
+    {
+        "rank": 9,
+        "name": "Oakland, CA",
+        "adjusted_salary": 56903.0
+    },
+    {
+        "rank": 10,
+        "name": "Lubbock, TX",
+        "adjusted_salary": 56822.44
+    },
+    {
+        "rank": 11,
+        "name": "Naples, FL",
+        "adjusted_salary": 55885.4
+    },
+    {
+        "rank": 12,
+        "name": "San Jose, CA",
+        "adjusted_salary": 55815.56
+    },
+    {
+        "rank": 13,
+        "name": "Cambridge, MA",
+        "adjusted_salary": 55731.44
+    },
+    {
+        "rank": 14,
+        "name": "Champaign, IL",
+        "adjusted_salary": 55704.96
+    },
+    {
+        "rank": 15,
+        "name": "Appleton, WI",
+        "adjusted_salary": 54635.04
+    },
+    {
+        "rank": 16,
+        "name": "Harrisburg, PA",
+        "adjusted_salary": 54418.0
+    },
+    {
+        "rank": 17,
+        "name": "Las Vegas, NV",
+        "adjusted_salary": 54199.28
+    },
+    {
+        "rank": 18,
+        "name": "Worcester, MA",
+        "adjusted_salary": 54160.68
+    },
+    {
+        "rank": 19,
+        "name": "Eureka, CA",
+        "adjusted_salary": 54144.04
+    },
+    {
+        "rank": 20,
+        "name": "Tempe, AZ",
+        "adjusted_salary": 54121.0
+    },
+    {
+        "rank": 21,
+        "name": "San Antonio, TX",
+        "adjusted_salary": 54045.96
+    },
+    {
+        "rank": 22,
+        "name": "Greensboro, NC",
+        "adjusted_salary": 53879.04
+    },
+    {
+        "rank": 23,
+        "name": "Concord, NH",
+        "adjusted_salary": 53336.0
+    },
+    {
+        "rank": 24,
+        "name": "San Mateo, CA",
+        "adjusted_salary": 53291.0
+    },
+    {
+        "rank": 25,
+        "name": "Baltimore, MD",
+        "adjusted_salary": 53279.56
+    },
+    {
+        "rank": 26,
+        "name": "Colorado Springs, CO",
+        "adjusted_salary": 53200.32
+    },
+    {
+        "rank": 27,
+        "name": "Springfield, MA",
+        "adjusted_salary": 53022.56
+    },
+    {
+        "rank": 28,
+        "name": "Knoxville, TN",
+        "adjusted_salary": 52998.84
+    },
+    {
+        "rank": 29,
+        "name": "Madison, WI",
+        "adjusted_salary": 52926.64
+    },
+    {
+        "rank": 30,
+        "name": "Dallas-Fort Worth, TX",
+        "adjusted_salary": 52715.16
+    },
+    {
+        "rank": 31,
+        "name": "Boulder, CO",
+        "adjusted_salary": 52710.16
+    },
+    {
+        "rank": 32,
+        "name": "Duluth, MN",
+        "adjusted_salary": 52681.04
+    },
+    {
+        "rank": 33,
+        "name": "Sunnyvale, CA",
+        "adjusted_salary": 52526.479999999996
+    },
+    {
+        "rank": 34,
+        "name": "Huntsville, AL",
+        "adjusted_salary": 52089.2
+    },
+    {
+        "rank": 35,
+        "name": "Tucson, AZ",
+        "adjusted_salary": 52017.119999999995
+    },
+    {
+        "rank": 36,
+        "name": "Fargo, ND",
+        "adjusted_salary": 52004.44
+    },
+    {
+        "rank": 37,
+        "name": "Santa Fe, NM",
+        "adjusted_salary": 51839.0
+    },
+    {
+        "rank": 38,
+        "name": "Houston, TX",
+        "adjusted_salary": 51694.44
+    },
+    {
+        "rank": 39,
+        "name": "Richmond, VA",
+        "adjusted_salary": 51663.6
+    },
+    {
+        "rank": 40,
+        "name": "Pittsburgh, PA",
+        "adjusted_salary": 51587.84
+    },
+    {
+        "rank": 41,
+        "name": "Jacksonville, FL",
+        "adjusted_salary": 51515.04
+    },
+    {
+        "rank": 42,
+        "name": "Phoenix, AZ",
+        "adjusted_salary": 51484.6
+    },
+    {
+        "rank": 43,
+        "name": "Jonesboro, AR",
+        "adjusted_salary": 51222.96
+    },
+    {
+        "rank": 44,
+        "name": "Baton Rouge, LA",
+        "adjusted_salary": 51101.04
+    },
+    {
+        "rank": 45,
+        "name": "Akron, OH",
+        "adjusted_salary": 51041.0
+    },
+    {
+        "rank": 46,
+        "name": "Lawrence, KS",
+        "adjusted_salary": 51013.0
+    },
+    {
+        "rank": 47,
+        "name": "Scottsdale, AZ",
+        "adjusted_salary": 50789.68
+    },
+    {
+        "rank": 48,
+        "name": "Fort Wayne, IN",
+        "adjusted_salary": 50730.0
+    },
+    {
+        "rank": 49,
+        "name": "Santa Barbara, CA",
+        "adjusted_salary": 50721.72
+    },
+    {
+        "rank": 50,
+        "name": "Sacramento, CA",
+        "adjusted_salary": 50616.56
+    },
+    {
+        "rank": 51,
+        "name": "Palo Alto, CA",
+        "adjusted_salary": 50463.8
+    },
+    {
+        "rank": 52,
+        "name": "Riverside, CA",
+        "adjusted_salary": 50333.0
+    },
+    {
+        "rank": 53,
+        "name": "Fort Collins, CO",
+        "adjusted_salary": 50286.56
+    },
+    {
+        "rank": 54,
+        "name": "Norwalk, CT",
+        "adjusted_salary": 50135.0
+    },
+    {
+        "rank": 55,
+        "name": "Wichita, KS",
+        "adjusted_salary": 50122.04
+    },
+    {
+        "rank": 56,
+        "name": "New Haven, CT",
+        "adjusted_salary": 49882.68
+    },
+    {
+        "rank": 57,
+        "name": "Lansing, MI",
+        "adjusted_salary": 49875.0
+    },
+    {
+        "rank": 58,
+        "name": "Memphis, TN",
+        "adjusted_salary": 49856.0
+    },
+    {
+        "rank": 59,
+        "name": "Austin, TX",
+        "adjusted_salary": 49665.68
+    },
+    {
+        "rank": 60,
+        "name": "Cambridge, MD",
+        "adjusted_salary": 49396.44
+    },
+    {
+        "rank": 61,
+        "name": "Raleigh-Durham, NC",
+        "adjusted_salary": 49302.36
+    },
+    {
+        "rank": 62,
+        "name": "Albuquerque, NM",
+        "adjusted_salary": 49121.36
+    },
+    {
+        "rank": 63,
+        "name": "Daytona Beach, FL",
+        "adjusted_salary": 49076.520000000004
+    },
+    {
+        "rank": 64,
+        "name": "Portland, ME",
+        "adjusted_salary": 48935.6
+    },
+    {
+        "rank": 65,
+        "name": "Binghamton, NY",
+        "adjusted_salary": 48872.0
+    },
+    {
+        "rank": 66,
+        "name": "Columbus, GA",
+        "adjusted_salary": 48825.479999999996
+    },
+    {
+        "rank": 67,
+        "name": "Tallahassee, FL",
+        "adjusted_salary": 48804.84
+    },
+    {
+        "rank": 68,
+        "name": "San Diego, CA",
+        "adjusted_salary": 48693.4
+    },
+    {
+        "rank": 69,
+        "name": "Rochester, MN",
+        "adjusted_salary": 48439.0
+    },
+    {
+        "rank": 70,
+        "name": "Dayton, OH",
+        "adjusted_salary": 48409.76
+    },
+    {
+        "rank": 71,
+        "name": "Cincinnati, OH",
+        "adjusted_salary": 48352.6
+    },
+    {
+        "rank": 72,
+        "name": "Philadelphia, PA",
+        "adjusted_salary": 48343.28
+    },
+    {
+        "rank": 73,
+        "name": "Stamford, CT",
+        "adjusted_salary": 48263.0
+    },
+    {
+        "rank": 74,
+        "name": "Kingston, NY",
+        "adjusted_salary": 48148.76
+    },
+    {
+        "rank": 75,
+        "name": "Pasadena, CA",
+        "adjusted_salary": 48011.16
+    },
+    {
+        "rank": 76,
+        "name": "Des Moines, IA",
+        "adjusted_salary": 47962.0
+    },
+    {
+        "rank": 77,
+        "name": "Boise, ID",
+        "adjusted_salary": 47882.0
+    },
+    {
+        "rank": 78,
+        "name": "Omaha, NE",
+        "adjusted_salary": 47844.24
+    },
+    {
+        "rank": 79,
+        "name": "Reno, NV",
+        "adjusted_salary": 47822.04
+    },
+    {
+        "rank": 80,
+        "name": "Bakersfield, CA",
+        "adjusted_salary": 47772.0
+    },
+    {
+        "rank": 81,
+        "name": "Lancaster, PA",
+        "adjusted_salary": 47754.6
+    },
+    {
+        "rank": 82,
+        "name": "Portland, OR",
+        "adjusted_salary": 47672.6
+    },
+    {
+        "rank": 83,
+        "name": "Mountain View, CA",
+        "adjusted_salary": 47582.96
+    },
+    {
+        "rank": 84,
+        "name": "Rochester, NY",
+        "adjusted_salary": 47572.0
+    },
+    {
+        "rank": 85,
+        "name": "Scranton, PA",
+        "adjusted_salary": 47435.0
+    },
+    {
+        "rank": 86,
+        "name": "Tampa, FL",
+        "adjusted_salary": 47391.8
+    },
+    {
+        "rank": 87,
+        "name": "Columbus, OH",
+        "adjusted_salary": 47260.479999999996
+    },
+    {
+        "rank": 88,
+        "name": "Detroit, MI",
+        "adjusted_salary": 47216.520000000004
+    },
+    {
+        "rank": 89,
+        "name": "Orlando, FL",
+        "adjusted_salary": 47148.36
+    },
+    {
+        "rank": 90,
+        "name": "Oklahoma City, OK",
+        "adjusted_salary": 47098.28
+    },
+    {
+        "rank": 91,
+        "name": "Iowa City, IA",
+        "adjusted_salary": 47078.32
+    },
+    {
+        "rank": 92,
+        "name": "Irvine, CA",
+        "adjusted_salary": 47045.16
+    },
+    {
+        "rank": 93,
+        "name": "Columbia, SC",
+        "adjusted_salary": 47043.0
+    },
+    {
+        "rank": 94,
+        "name": "Ames, IA",
+        "adjusted_salary": 47014.68
+    },
+    {
+        "rank": 95,
+        "name": "Manchester, NH",
+        "adjusted_salary": 46989.64
+    },
+    {
+        "rank": 96,
+        "name": "Indianapolis, IN",
+        "adjusted_salary": 46927.6
+    },
+    {
+        "rank": 97,
+        "name": "Lexington, KY",
+        "adjusted_salary": 46783.2
+    },
+    {
+        "rank": 98,
+        "name": "Idaho Falls, ID",
+        "adjusted_salary": 46733.0
+    },
+    {
+        "rank": 99,
+        "name": "Bloomington, IL",
+        "adjusted_salary": 46726.4
+    },
+    {
+        "rank": 100,
+        "name": "Denver, CO",
+        "adjusted_salary": 46563.36
+    },
+    {
+        "rank": 101,
+        "name": "Louisville, KY",
+        "adjusted_salary": 46456.16
+    },
+    {
+        "rank": 102,
+        "name": "Calgary, AB, Canada",
+        "adjusted_salary": 46118.08
+    },
+    {
+        "rank": 103,
+        "name": "Providence, RI",
+        "adjusted_salary": 46098.72
+    },
+    {
+        "rank": 104,
+        "name": "Syracuse, NY",
+        "adjusted_salary": 46027.68
+    },
+    {
+        "rank": 105,
+        "name": "San Francisco, CA",
+        "adjusted_salary": 45911.0
+    },
+    {
+        "rank": 106,
+        "name": "Kansas City, MO",
+        "adjusted_salary": 45892.520000000004
+    },
+    {
+        "rank": 107,
+        "name": "Los Angeles, CA",
+        "adjusted_salary": 45888.24
+    },
+    {
+        "rank": 108,
+        "name": "Hartford, CT",
+        "adjusted_salary": 45838.0
+    },
+    {
+        "rank": 109,
+        "name": "Nashville, TN",
+        "adjusted_salary": 45835.4
+    },
+    {
+        "rank": 110,
+        "name": "Reston, VA",
+        "adjusted_salary": 45833.0
+    },
+    {
+        "rank": 111,
+        "name": "Montgomery, AL",
+        "adjusted_salary": 45749.96
+    },
+    {
+        "rank": 112,
+        "name": "Cleveland, OH",
+        "adjusted_salary": 45651.0
+    },
+    {
+        "rank": 113,
+        "name": "Santa Cruz, CA",
+        "adjusted_salary": 45630.0
+    },
+    {
+        "rank": 114,
+        "name": "Sarasota, FL",
+        "adjusted_salary": 45526.24
+    },
+    {
+        "rank": 115,
+        "name": "Bozeman, MT",
+        "adjusted_salary": 45253.0
+    },
+    {
+        "rank": 116,
+        "name": "Fayetteville, AR",
+        "adjusted_salary": 45226.0
+    },
+    {
+        "rank": 117,
+        "name": "Brooklyn, NY",
+        "adjusted_salary": 45122.64
+    },
+    {
+        "rank": 118,
+        "name": "Chicago, IL",
+        "adjusted_salary": 45120.84
+    },
+    {
+        "rank": 119,
+        "name": "Bend, OR",
+        "adjusted_salary": 45073.0
+    },
+    {
+        "rank": 120,
+        "name": "Canton, OH",
+        "adjusted_salary": 44946.0
+    },
+    {
+        "rank": 121,
+        "name": "Atlanta, GA",
+        "adjusted_salary": 44927.16
+    },
+    {
+        "rank": 122,
+        "name": "Milwaukee, WI",
+        "adjusted_salary": 44772.44
+    },
+    {
+        "rank": 123,
+        "name": "Birmingham, AL",
+        "adjusted_salary": 44600.64
+    },
+    {
+        "rank": 124,
+        "name": "Lakeland, FL",
+        "adjusted_salary": 44553.04
+    },
+    {
+        "rank": 125,
+        "name": "Eugene, OR",
+        "adjusted_salary": 44544.56
+    },
+    {
+        "rank": 126,
+        "name": "Ann Arbor, MI",
+        "adjusted_salary": 44279.92
+    },
+    {
+        "rank": 127,
+        "name": "Albany, NY",
+        "adjusted_salary": 44078.56
+    },
+    {
+        "rank": 128,
+        "name": "Miami-Fort Lauderdale, FL",
+        "adjusted_salary": 44047.24
+    },
+    {
+        "rank": 129,
+        "name": "Charlotte, NC",
+        "adjusted_salary": 44020.84
+    },
+    {
+        "rank": 130,
+        "name": "Ottawa, ON, Canada",
+        "adjusted_salary": 44004.119999999995
+    },
+    {
+        "rank": 131,
+        "name": "Amsterdam, NY",
+        "adjusted_salary": 43976.32
+    },
+    {
+        "rank": 132,
+        "name": "Medford, OR",
+        "adjusted_salary": 43677.0
+    },
+    {
+        "rank": 133,
+        "name": "Grand Rapids, MI",
+        "adjusted_salary": 43611.0
+    },
+    {
+        "rank": 134,
+        "name": "Burlington, VT",
+        "adjusted_salary": 43429.84
+    },
+    {
+        "rank": 135,
+        "name": "Bloomington, IN",
+        "adjusted_salary": 43410.4
+    },
+    {
+        "rank": 136,
+        "name": "Tulsa, OK",
+        "adjusted_salary": 42995.0
+    },
+    {
+        "rank": 137,
+        "name": "Washington, DC",
+        "adjusted_salary": 42402.76
+    },
+    {
+        "rank": 138,
+        "name": "New Orleans, LA",
+        "adjusted_salary": 42337.479999999996
+    },
+    {
+        "rank": 139,
+        "name": "Charleston, SC",
+        "adjusted_salary": 42337.08
+    },
+    {
+        "rank": 140,
+        "name": "Boston, MA",
+        "adjusted_salary": 42258.8
+    },
+    {
+        "rank": 141,
+        "name": "Buffalo, NY",
+        "adjusted_salary": 42127.36
+    },
+    {
+        "rank": 142,
+        "name": "Green Bay, WI",
+        "adjusted_salary": 41854.0
+    },
+    {
+        "rank": 143,
+        "name": "Lincoln, NE",
+        "adjusted_salary": 41833.56
+    },
+    {
+        "rank": 144,
+        "name": "Santa Monica, CA",
+        "adjusted_salary": 40925.159999999996
+    },
+    {
+        "rank": 145,
+        "name": "Charlottesville, VA",
+        "adjusted_salary": 40474.04
+    },
+    {
+        "rank": 146,
+        "name": "Salt Lake City, UT",
+        "adjusted_salary": 40386.2
+    },
+    {
+        "rank": 147,
+        "name": "San Luis Obispo, CA",
+        "adjusted_salary": 39612.0
+    },
+    {
+        "rank": 148,
+        "name": "Miami, OK",
+        "adjusted_salary": 39532.24
+    },
+    {
+        "rank": 149,
+        "name": "Minneapolis-St. Paul, MN",
+        "adjusted_salary": 38625.56
+    },
+    {
+        "rank": 150,
+        "name": "New York City, NY",
+        "adjusted_salary": 38370.0
+    },
+    {
+        "rank": 151,
+        "name": "Toronto, ON, Canada",
+        "adjusted_salary": 38357.56
+    },
+    {
+        "rank": 152,
+        "name": "Vancouver, BC, Canada",
+        "adjusted_salary": 38157.04
+    },
+    {
+        "rank": 153,
+        "name": "Little Rock, AR",
+        "adjusted_salary": 38015.96
+    },
+    {
+        "rank": 154,
+        "name": "El Paso, TX",
+        "adjusted_salary": 37868.479999999996
+    },
+    {
+        "rank": 155,
+        "name": "Montreal, QC, Canada",
+        "adjusted_salary": 37454.24
+    },
+    {
+        "rank": 156,
+        "name": "Norfolk, VA",
+        "adjusted_salary": 37285.44
+    },
+    {
+        "rank": 157,
+        "name": "York-Hanover, PA",
+        "adjusted_salary": 26480.0
+    }
+]

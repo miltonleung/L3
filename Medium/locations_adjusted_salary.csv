@@ -1,0 +1,158 @@
+adjusted_salary,name,rank
+65729.95999999999,"Redmond, WA",1
+64476.92,"Seattle, WA",2
+64377.68,"Bellevue, WA",3
+60453.0,"Yakima, WA",4
+59573.0,"Allentown, PA",5
+59272.0,"Trenton, NJ",6
+57851.0,"Pleasanton, CA",7
+57317.56,"Verona, WI",8
+56903.0,"Oakland, CA",9
+56822.44,"Lubbock, TX",10
+55885.4,"Naples, FL",11
+55815.56,"San Jose, CA",12
+55731.44,"Cambridge, MA",13
+55704.96,"Champaign, IL",14
+54635.04,"Appleton, WI",15
+54418.0,"Harrisburg, PA",16
+54199.28,"Las Vegas, NV",17
+54160.68,"Worcester, MA",18
+54144.04,"Eureka, CA",19
+54121.0,"Tempe, AZ",20
+54045.96,"San Antonio, TX",21
+53879.04,"Greensboro, NC",22
+53336.0,"Concord, NH",23
+53291.0,"San Mateo, CA",24
+53279.56,"Baltimore, MD",25
+53200.32,"Colorado Springs, CO",26
+53022.56,"Springfield, MA",27
+52998.84,"Knoxville, TN",28
+52926.64,"Madison, WI",29
+52715.16,"Dallas-Fort Worth, TX",30
+52710.16,"Boulder, CO",31
+52681.04,"Duluth, MN",32
+52526.479999999996,"Sunnyvale, CA",33
+52089.2,"Huntsville, AL",34
+52017.119999999995,"Tucson, AZ",35
+52004.44,"Fargo, ND",36
+51839.0,"Santa Fe, NM",37
+51694.44,"Houston, TX",38
+51663.6,"Richmond, VA",39
+51587.84,"Pittsburgh, PA",40
+51515.04,"Jacksonville, FL",41
+51484.6,"Phoenix, AZ",42
+51222.96,"Jonesboro, AR",43
+51101.04,"Baton Rouge, LA",44
+51041.0,"Akron, OH",45
+51013.0,"Lawrence, KS",46
+50789.68,"Scottsdale, AZ",47
+50730.0,"Fort Wayne, IN",48
+50721.72,"Santa Barbara, CA",49
+50616.56,"Sacramento, CA",50
+50463.8,"Palo Alto, CA",51
+50333.0,"Riverside, CA",52
+50286.56,"Fort Collins, CO",53
+50135.0,"Norwalk, CT",54
+50122.04,"Wichita, KS",55
+49882.68,"New Haven, CT",56
+49875.0,"Lansing, MI",57
+49856.0,"Memphis, TN",58
+49665.68,"Austin, TX",59
+49396.44,"Cambridge, MD",60
+49302.36,"Raleigh-Durham, NC",61
+49121.36,"Albuquerque, NM",62
+49076.520000000004,"Daytona Beach, FL",63
+48935.6,"Portland, ME",64
+48872.0,"Binghamton, NY",65
+48825.479999999996,"Columbus, GA",66
+48804.84,"Tallahassee, FL",67
+48693.4,"San Diego, CA",68
+48439.0,"Rochester, MN",69
+48409.76,"Dayton, OH",70
+48352.6,"Cincinnati, OH",71
+48343.28,"Philadelphia, PA",72
+48263.0,"Stamford, CT",73
+48148.76,"Kingston, NY",74
+48011.16,"Pasadena, CA",75
+47962.0,"Des Moines, IA",76
+47882.0,"Boise, ID",77
+47844.24,"Omaha, NE",78
+47822.04,"Reno, NV",79
+47772.0,"Bakersfield, CA",80
+47754.6,"Lancaster, PA",81
+47672.6,"Portland, OR",82
+47582.96,"Mountain View, CA",83
+47572.0,"Rochester, NY",84
+47435.0,"Scranton, PA",85
+47391.8,"Tampa, FL",86
+47260.479999999996,"Columbus, OH",87
+47216.520000000004,"Detroit, MI",88
+47148.36,"Orlando, FL",89
+47098.28,"Oklahoma City, OK",90
+47078.32,"Iowa City, IA",91
+47045.16,"Irvine, CA",92
+47043.0,"Columbia, SC",93
+47014.68,"Ames, IA",94
+46989.64,"Manchester, NH",95
+46927.6,"Indianapolis, IN",96
+46783.2,"Lexington, KY",97
+46733.0,"Idaho Falls, ID",98
+46726.4,"Bloomington, IL",99
+46563.36,"Denver, CO",100
+46456.16,"Louisville, KY",101
+46118.08,"Calgary, AB, Canada",102
+46098.72,"Providence, RI",103
+46027.68,"Syracuse, NY",104
+45911.0,"San Francisco, CA",105
+45892.520000000004,"Kansas City, MO",106
+45888.24,"Los Angeles, CA",107
+45838.0,"Hartford, CT",108
+45835.4,"Nashville, TN",109
+45833.0,"Reston, VA",110
+45749.96,"Montgomery, AL",111
+45651.0,"Cleveland, OH",112
+45630.0,"Santa Cruz, CA",113
+45526.24,"Sarasota, FL",114
+45253.0,"Bozeman, MT",115
+45226.0,"Fayetteville, AR",116
+45122.64,"Brooklyn, NY",117
+45120.84,"Chicago, IL",118
+45073.0,"Bend, OR",119
+44946.0,"Canton, OH",120
+44927.16,"Atlanta, GA",121
+44772.44,"Milwaukee, WI",122
+44600.64,"Birmingham, AL",123
+44553.04,"Lakeland, FL",124
+44544.56,"Eugene, OR",125
+44279.92,"Ann Arbor, MI",126
+44078.56,"Albany, NY",127
+44047.24,"Miami-Fort Lauderdale, FL",128
+44020.84,"Charlotte, NC",129
+44004.119999999995,"Ottawa, ON, Canada",130
+43976.32,"Amsterdam, NY",131
+43677.0,"Medford, OR",132
+43611.0,"Grand Rapids, MI",133
+43429.84,"Burlington, VT",134
+43410.4,"Bloomington, IN",135
+42995.0,"Tulsa, OK",136
+42402.76,"Washington, DC",137
+42337.479999999996,"New Orleans, LA",138
+42337.08,"Charleston, SC",139
+42258.8,"Boston, MA",140
+42127.36,"Buffalo, NY",141
+41854.0,"Green Bay, WI",142
+41833.56,"Lincoln, NE",143
+40925.159999999996,"Santa Monica, CA",144
+40474.04,"Charlottesville, VA",145
+40386.2,"Salt Lake City, UT",146
+39612.0,"San Luis Obispo, CA",147
+39532.24,"Miami, OK",148
+38625.56,"Minneapolis-St. Paul, MN",149
+38370.0,"New York City, NY",150
+38357.56,"Toronto, ON, Canada",151
+38157.04,"Vancouver, BC, Canada",152
+38015.96,"Little Rock, AR",153
+37868.479999999996,"El Paso, TX",154
+37454.24,"Montreal, QC, Canada",155
+37285.44,"Norfolk, VA",156
+26480.0,"York-Hanover, PA",157
