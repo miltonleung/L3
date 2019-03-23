@@ -20,8 +20,6 @@
 	<string>2</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>MGLMapboxAccessToken</key>
-	<string>pk.eyJ1IjoibWlsdG9ubGV1bmciLCJhIjoiY2pzZHYwbzloMGI3YzQ5bnMwNmc4dHBldSJ9.ss707n8CooB01aynkk4nkQ</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>CircularStd-Bold.otf</string>
